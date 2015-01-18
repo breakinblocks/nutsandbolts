@@ -27,7 +27,6 @@ recipes.remove(<ExtraUtilities:angelRing:2>);
 recipes.remove(<ExtraUtilities:angelRing:1>);
 recipes.remove(<ExtraUtilities:angelRing>);
 recipes.remove(<atum:item.scarab>);
-recipes.remove(<JotatosPracticalities:blockMover>);
 recipes.remove(<technom:manaFabricator>);
 recipes.remove(<minecraft:bedrock>);
 recipes.remove(<TConstruct:ToolForgeBlock:1>);
@@ -111,7 +110,6 @@ recipes.addShaped(<atum:item.scarab>, [[null, <ore:ingotGold>, null], [<ore:ingo
 recipes.addShaped(<ExtraUtilities:magnumTorch>, [[<ExtraUtilities:peaceful_table_top>, <ExtraUtilities:chandelier>, <ExtraUtilities:peaceful_table_top>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>]]);
 
 recipes.addShaped(<technom:manaFabricator>, [[<BloodArsenal:BloodArsenalblood_stone:4>, <ore:blockNetherStar>, <StevesCarts:BlockMetalStorage:2>], [<minecraft:bedrock>, <minecraft:red_flower>, <ThaumicTinkerer:kamiResource:2>], [<witchery:ingredient:64>, <Botania:storage:1>, <ore:blockEnderium>]]);
-recipes.addShaped(<JotatosPracticalities:blockMover>, [[null, <minecraft:ender_pearl>, null], [null, <EnderTech:endertech.exchanger:2>, <minecraft:ender_pearl>], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<minecraft:bedrock>, [[<ore:RotaryCraft:dustBedrock>, <ore:RotaryCraft:dustBedrock>, <ore:RotaryCraft:dustBedrock>], [<ore:RotaryCraft:dustBedrock>, <ExtraUtilities:block_bedrockium>, <RotaryCraft:rotarycraft_item_powders:4>], [<RotaryCraft:rotarycraft_item_powders:4>, <ore:RotaryCraft:dustBedrock>, <RotaryCraft:rotarycraft_item_powders:4>]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<AWWayofTime:imbuedSlate>, <TConstruct:ToolStationBlock>, <AWWayofTime:imbuedSlate>], [<AWWayofTime:imbuedSlate>, null, <AWWayofTime:imbuedSlate>]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<atum:tile.stone>, <TConstruct:ToolStationBlock>, <atum:tile.stone>], [<atum:tile.stone>, null, <atum:tile.stone>]]);
