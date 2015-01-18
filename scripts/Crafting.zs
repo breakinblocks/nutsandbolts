@@ -64,8 +64,6 @@ recipes.remove(<JABBA:moverDiamond>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-recipes.removeShaped(<ExtraUtilities:magnumTorch>, [[<ExtraUtilities:peaceful_table_top>, <ExtraUtilities:chandelier>, <ExtraUtilities:peaceful_table_top>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>]]);
-recipes.removeShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[null, <minecraft:diamond_pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>]]);
 
 // ================================================================================
 //#MARKER ADD
