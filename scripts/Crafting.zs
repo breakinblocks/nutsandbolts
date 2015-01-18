@@ -123,3 +123,7 @@ recipes.addShaped(<ThermalFoundation:material:512> * 3, [[<ore:dustCoal>, <ore:d
 recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>], [<ore:ingotIron>, <BuildCraft|Factory:tankBlock>, <ore:ingotIron>]]);
 recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:thermalexpansion:machineIron>, <ore:ingotIron>], [<ore:ingotIron>, <EnderIO:item.darkSteel_pickaxe>, <ore:ingotIron>]]);
 
+recipes.addShaped(<GalacticraftCore:item.meteoricIronRaw>, [[<ore:blockIron>, <GalacticraftCore:tile.moonBlock:5>, <minecraft:iron_block>], [<GalacticraftCore:tile.moonBlock:5>, <ore:ingotIron>, <GalacticraftCore:tile.moonBlock:5>], [<ore:blockIron>, <GalacticraftCore:tile.moonBlock:5>, <ore:blockIron>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[null, <minecraft:diamond_pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ore:venusRodDust>, <ore:venusRodDust>, <ore:venusRodDust>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<minecraft:diamond_pickaxe>, <minecraft:diamond_pickaxe>, <minecraft:diamond_pickaxe>], [<ExtraUtilities:nodeUpgrade:3>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade:3>], [<SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>]]);
+
