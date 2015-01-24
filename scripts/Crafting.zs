@@ -58,12 +58,14 @@ recipes.remove(<BuildCraft|Factory:miningWellBlock>);
 recipes.remove(<TConstruct:CraftedSoil:1>);
 recipes.remove(<TConstruct:ToolForgeBlock>);
 recipes.remove(<JABBA:moverDiamond>);
+recipes.remove(<Botany:trowelIron>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<ExtraUtilities:magnumTorch>, [[<ExtraUtilities:peaceful_table_top>, <ExtraUtilities:chandelier>, <ExtraUtilities:peaceful_table_top>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -102,7 +104,7 @@ recipes.addShaped(<Forestry:beehives:3> * 2, [[<TwilightForest:tile.TFLog>, <min
 recipes.addShaped(<Forestry:beehives:2> * 2, [[<minecraft:log:2>, <minecraft:hay_block>, <minecraft:log:2>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<minecraft:log:2>, <minecraft:hay_block>, <minecraft:log:2>]]);
 recipes.addShaped(<Forestry:beehives:1> * 2, [[<minecraft:log>, <minecraft:hay_block>, <minecraft:log>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<minecraft:log>, <minecraft:hay_block>, <minecraft:log>]]);
 recipes.addShaped(<BetterChests:Upgrade:4>, [[<ore:plankWood>, <minecraft:iron_ingot>, <ore:plankWood>], [<minecraft:iron_ingot>, <ore:stickWood>, <ore:ingotIron>], [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>]]);
-recipes.addShaped(<ExtraUtilities:angelRing>, [[<ore:blockGlassColorless>, <Sanguimancy:BlockIllusion:1>, <ore:blockGlassColorless>], [<Sanguimancy:BlockIllusion:1>, <ore:itemNetherStar>, <Sanguimancy:BlockIllusion:1>], [<ore:ingotUnstable>, <Sanguimancy:BlockIllusion:1>, <ore:ingotUnstable>]]);
+recipes.addShaped(<ExtraUtilities:angelRing>, [[<ore:blockGlassColorless>, <minecraft:diamond_block>, <ore:blockGlassColorless>], [<minecraft:diamond_block>, <ore:itemNetherStar>, <minecraft:diamond_block>], [<ore:ingotUnstable>, <minecraft:diamond_block>, <ore:ingotUnstable>]]);
 recipes.addShaped(<atum:item.scarab>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <EnderIO:itemMaterial:6>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<atum:item.scarab>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotTerrasteel>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<ExtraUtilities:magnumTorch>, [[<ExtraUtilities:peaceful_table_top>, <ExtraUtilities:chandelier>, <ExtraUtilities:peaceful_table_top>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>]]);
@@ -119,7 +121,9 @@ recipes.addShaped(<ThermalFoundation:material:512> * 3, [[<ore:dustCoal>, <ore:d
 recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>], [<ore:ingotIron>, <BuildCraft|Factory:tankBlock>, <ore:ingotIron>]]);
 recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:thermalexpansion:machineIron>, <ore:ingotIron>], [<ore:ingotIron>, <EnderIO:item.darkSteel_pickaxe>, <ore:ingotIron>]]);
 
+
+recipes.addShaped(<BetterChests:Upgrade:4>, [[<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>], [<ore:ingotIron>, <ore:woodStick>, <ore:ingotIron>], [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>]]);
 recipes.addShaped(<GalacticraftCore:item.meteoricIronRaw>, [[<ore:blockIron>, <GalacticraftCore:tile.moonBlock:5>, <minecraft:iron_block>], [<GalacticraftCore:tile.moonBlock:5>, <ore:ingotIron>, <GalacticraftCore:tile.moonBlock:5>], [<ore:blockIron>, <GalacticraftCore:tile.moonBlock:5>, <ore:blockIron>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[null, <minecraft:diamond_pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ore:venusRodDust>, <ore:venusRodDust>, <ore:venusRodDust>]]);
-recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<minecraft:diamond_pickaxe>, <minecraft:diamond_pickaxe>, <minecraft:diamond_pickaxe>], [<ExtraUtilities:nodeUpgrade:3>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade:3>], [<SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>]]);
 
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<minecraft:diamond_pickaxe>, <minecraft:diamond_pickaxe>, <minecraft:diamond_pickaxe>], [<ExtraUtilities:nodeUpgrade:3>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade:3>], [<SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>, <SpaceEuropa:europa_water_bucket>]]);
