@@ -96,15 +96,18 @@ Found creative tab: tabForestryExtrasUtilities
 Found creative tab: GalacticraftItems
 Found creative tab: GalacticraftBlocks
 Found creative tab: Genetics
+Found creative tab: tabGrowthCraft
+Found creative tab: tabGrCCellar
+Found creative tab: tabHardcoreEnderExpansion
 Found creative tab: jabba
-Found creative tab: tabPracticalities
+Found creative tab: Logistics_Pipes
+Found creative tab: redstone
 Found creative tab: MFFS
 Found creative tab: magicBees
 Found creative tab: food
 Found creative tab: MineFactory Reloaded
 Found creative tab: natura.plants
 Found creative tab: transportation
-Found creative tab: redstone
 Found creative tab: natura.nether
 Found creative tab: natura.trees
 Found creative tab: tabOpenBlocks
@@ -139,8 +142,8 @@ Found creative tab: SC2Items
 Found creative tab: steves_production
 Found creative tab: TConstructWeaponry
 Found creative tab: TConstructParts
-Found creative tab: TConstructMaterials
 Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
 Found creative tab: TConstructEquipables
 Found creative tab: TMechworks
 Found creative tab: TSteelworks
@@ -165,8 +168,12 @@ Found creative tab: BuildcraftAdditions
 Found creative tab: Eureka
 Found creative tab: CandyCraft
 Found creative tab: tabFurniture
-Found creative tab: tabChiselBlocks
+Found creative tab: tabWoodChiselBlocks
+Found creative tab: tabModdedChiselBlocks
+Found creative tab: tabStoneChiselBlocks
+Found creative tab: tabOtherChiselBlocks
 Found creative tab: tabChisel
+Found creative tab: tabMetalChiselBlocks
 Found creative tab: erebus.block
 Found creative tab: erebus.special
 Found creative tab: erebus.gear
@@ -222,17 +229,17 @@ override called. Params: ThermalExpansion, florb
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: tile.Darkleaves0
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Darkleaves0
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_10
 Loading: ExtraUtilities.js
 override called. Params: drum, 0,1
 override called. Params: ExtraUtilities, drum
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_10
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_10
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 2505
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1902
+getFacadesSize called. Returned: 2554
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 923
 Loading: Bibliocraft.js
 override called. Params: *, 0
 override called. Params: BiblioCraft, *
@@ -355,9 +362,9 @@ Cannot find ItemStack BiblioCraft:*
 Loading: AppliedEnergistics2.js
 getFacadeItem called.
 getSubTypes called.
-getNumberOfTypes called. Returned: 2720
+getNumberOfTypes called. Returned: 2841
 The function override_item is deprecated. Please use override instead! This function will be removed in a future version!
-override called. Params: item.ItemFacade, 618
+override called. Params: item.ItemFacade, 2222
 override called. Params: appliedenergistics2, item.ItemFacade
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
