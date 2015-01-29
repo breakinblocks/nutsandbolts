@@ -121,6 +121,7 @@ mods/Ztones-1.7.10-2.2.1.jar
 mods/ae2stuff-mc1710-0.1.1.5.jar
 mods/appliedenergistics2-rv2-beta-7.jar
 mods/bdlib-mc1710-1.5.1.32.jar
+mods/betterrecords-1.7.10-1.1.9.jar
 mods/binnie-mods-2.0-pre5.jar
 mods/buildcraft-6.2.6.jar
 mods/carpentersblocks
