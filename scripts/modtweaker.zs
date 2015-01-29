@@ -40,10 +40,6 @@ mods.botania.Orechid.addOre("ore:orePlatinum", 1000);
 mods.botania.Orechid.addOre("ore:oreSilicon", 4000);
 mods.botania.Orechid.addOre("ore:oreZinc", 4250);
 
-//nerf Eldritch Blood Orb
-mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:DivineOrb>);
-recipes.addShaped(<ForbiddenMagic:DivineOrb>, [[<AWWayofTime:blockCrystal>, <ForbiddenMagic:FMResource:3>, <AWWayofTime:blockCrystal>], [<ForbiddenMagic:FMResource:3>, <AWWayofTime:transcendentBloodOrb>, <ForbiddenMagic:FMResource:3>], [<AWWayofTime:blockCrystal>, <ForbiddenMagic:FMResource:3>, <AWWayofTime:blockCrystal>]]);
-
 //green hearts are craftable
 recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>, <AWWayofTime:bloodMagicBaseItems:29>]);
 recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>, <ore:blockNetherStar>]);
