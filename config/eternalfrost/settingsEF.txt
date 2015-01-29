@@ -1,0 +1,4 @@
+hypothermiaGuiX:0
+hypothermiaGuiY:0
+coldProtectionGuiX:0
+coldProtectionGuiY:0
