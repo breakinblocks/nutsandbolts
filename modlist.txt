@@ -31,6 +31,7 @@ mods/CoFHCore-[1.7.10]3.0.0B9-40.jar
 mods/CoFHLib-[1.7.10]1.0.0B8-34.jar
 mods/CodeChickenCore-1.7.10-1.0.4.29-universal.jar
 mods/ComputerCraft1.65.jar
+mods/CookieCore-1.7.10-1.3.1-5.jar
 mods/CosmeticArmor-1.7.10-1.0.5.B8-universal.jar
 mods/CraftHeraldry\ 1.1.3.jar
 mods/Decocraft-v1.11_1.7.10.jar
@@ -103,7 +104,7 @@ mods/StevesFactoryManagerA93.jar
 mods/StevesWorkshop-0.5.1.jar
 mods/TConstruct-1.7.10-1.8.2a.jar
 mods/TMechworks-1.7.10-0.2.10.jar
-mods/TSteelworks-1.7.10-1.0.6.jar
+mods/TSteelworks-1.7.10-1.1.0-5.jar
 mods/Thaumcarpentry-0.0.1.5-1.7.10.jar
 mods/Thaumcraft-1.7.10-4.2.3.4.jar
 mods/ThaumcraftGates-1.4.0.jar
@@ -115,7 +116,7 @@ mods/ThermalExpansion-[1.7.10]4.0.0B8-23.jar
 mods/ThermalFoundation-[1.7.10]1.0.0RC1-13.jar
 mods/TiCTooltips-mc1.7.10-1.2.3.jar
 mods/Translocator-1.7.10-1.1.1.14-universal.jar
-mods/WAILAPlugins-MC1.7.10-0.0.1-10.jar
+mods/WAILAPlugins-MC1.7.10-0.0.1-13.jar
 mods/Waila-1.5.7a_1.7.10.jar
 mods/WaslieCore-1.1.jar
 mods/Ztones-1.7.10-2.2.1.jar
@@ -128,7 +129,6 @@ mods/buildcraft-6.2.6.jar
 mods/carpentersblocks
 mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 mods/compactmachines-1.7.10-1.17.jar
-mods/cookiecore-1.3.0.jar
 mods/denseores-1.5.jar
 mods/dimensional-anchor-59.0.2.jar
 mods/eternalfrost-2.0b5.jar
@@ -156,7 +156,7 @@ mods/natura-1.7.10-2.2.0.1.jar
 mods/neiaddons-mc1710-1.12.3.11.jar
 mods/railcraft
 mods/railcraft/emblems
-mods/resonant-engine-3.3.0.388-core.jar
+mods/resonant-engine-3.3.0.395-core.jar
 mods/statues-1.7.10-2.1.4.jar
 mods/thaumcraftneiplugin-1.7.10-1.6a.jar
 mods/thaumicenergistics-0.8.8.4b-rv2.jar
