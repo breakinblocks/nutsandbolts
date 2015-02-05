@@ -4,7 +4,7 @@ mods/1.7.10/Baubles-1.7.10-1.0.1.10.jar
 mods/1.7.10/CodeChickenLib-1.7.10-1.1.1.110-universal.jar
 mods/1.7.10/Eureka-1.7.10-2.2.jar
 mods/1.7.10/ForgeMultipart-1.7.10-1.1.1.320-universal.jar
-mods/1.7.10/MrTJPCore-1.7.10-1.0.3.5-universal.jar
+mods/1.7.10/MrTJPCore-1.7.10-1.0.5.11-universal.jar
 mods/1.7.10/commons-codec-1.9.jar
 mods/1.7.10/commons-compress-1.8.1.jar
 mods/1.7.10\ Technomancy\ 0.8.1.jar
@@ -21,12 +21,12 @@ mods/BigReactors-0.4.1A2.jar
 mods/BiomesOPlenty-1.7.10-2.1.0.1057-universal.jar
 mods/BloodArsenal-1.7.10-1.1.3.jar
 mods/BloodMagic-1.7.10-1.3.0b-3.jar
-mods/Botania\ r1.3-153.jar
+mods/Botania\ r1.4-156.jar
 mods/BuildcraftAdditions-1.7.10-1.8.3.jar
 mods/CallowCraft-1.0.0.jar
 mods/CandyCraft-1.3.jar
 mods/Carpenter's\ Blocks\ v3.3.4\ -\ MC\ 1.7.10.jar
-mods/Chisel2-2.3.3.28.jar
+mods/Chisel2-2.3.5.31.jar
 mods/CoFHCore-[1.7.10]3.0.0B9-40.jar
 mods/CoFHLib-[1.7.10]1.0.0B8-34.jar
 mods/CodeChickenCore-1.7.10-1.0.4.29-universal.jar
@@ -36,8 +36,8 @@ mods/CraftHeraldry\ 1.1.3.jar
 mods/Decocraft-v1.11_1.7.10.jar
 mods/DragonAPI\ 1.7.10\ V3d.jar
 mods/ElectriCraft\ 1.7.10\ V3d.jar
-mods/ElectricalAge_BETA-1.9_r43.jar
-mods/EnderIO-1.7.10-2.2.7.325.jar
+mods/ElectricalAge_BETA-1.9_r45_multiplayerUntested.jar
+mods/EnderIO-1.7.10-2.2.8.343.jar
 mods/EnderStorage-1.7.10-1.4.5.27-universal.jar
 mods/EnderTech-1.7.10-0.3.0.364.jar
 mods/ExpandedRedstone\ 1.7.10\ V3b.jar
@@ -45,16 +45,16 @@ mods/ExtraCells-1.7.10-2.2.46b72.jar
 mods/FLORA-1.0.5.jar
 mods/FZAddons-1.7-1.0.0.jar
 mods/Factorization-1.7.10-0.8.88.7.jar
-mods/Flaxbeard'sSteamPower-1.7.10-0.27.3.jar
+mods/Flaxbeard'sSteamPower-1.7.10-0.27.4.jar
 mods/FloodLights-1.7.10-0.3.7-51.jar
 mods/Forbidden\ Magic-1.7.10-0.552.jar
 mods/ForestryExtras-2-3.1_B28.jar
 mods/Galacticraft-Planets-1.7-3.0.8.257.jar
 mods/GalacticraftCore-1.7-3.0.8.257.jar
-mods/HardcoreEnderExpansion\ \ MC-1.7.10\ \ v1.6.7.jar
+mods/HardcoreEnderExpansion\ \ MC-1.7.10\ \ v1.7.jar
 mods/HatStand-4.0.0.jar
 mods/Hats-4.0.1.jar
-mods/INpureCore-[1.7.10]1.0.0B7-19.jar
+mods/INpureCore-[1.7.10]1.0.0B8-49.jar
 mods/InfiniBows-1.7.10-universal-coremod-1.3.0.20.jar
 mods/InventoryTweaks-1.59-dev-152.jar
 mods/Jabba-1.2.0a_1.7.10.jar
@@ -74,18 +74,19 @@ mods/NEIIntegration-MC1.7.10-1.0.5.jar
 mods/NaturalAbsorption-1.7.10-1.2.1.jar
 mods/NotEnoughItems-1.7.10-1.0.3.78-universal.jar
 mods/NotEnoughKeys-1.7.10-1.0.0b29.jar
-mods/NotEnoughResources-1.7.10-0.1.0.26.jar
+mods/NotEnoughResources-1.7.10-0.1.0.93.jar
 mods/OpenBlocks-1.7.10-1.3.jar
 mods/OpenModsLib-1.7.10-0.6.jar
 mods/OpenPeripheral-1.7.10-AIO-1.jar
 mods/Opis-1.2.3_1.7.10.jar
 mods/Pam's\ HarvestCraft\ 1.7.10f.jar
 mods/ProjectBlue-1.1.4-mc1.7.10.jar
-mods/ProjectRed-1.7.10-4.5.8.59-Base.jar
-mods/ProjectRed-1.7.10-4.5.8.59-Compat.jar
-mods/ProjectRed-1.7.10-4.5.8.59-Integration.jar
-mods/ProjectRed-1.7.10-4.5.8.59-Lighting.jar
-mods/ProjectRed-1.7.10-4.5.8.59-Mechanical_beta.jar
+mods/ProjectRed-1.7.10-4.5.10.61-Base.jar
+mods/ProjectRed-1.7.10-4.5.10.61-Compat.jar
+mods/ProjectRed-1.7.10-4.5.10.61-Integration.jar
+mods/ProjectRed-1.7.10-4.5.10.61-Lighting.jar
+mods/ProjectRed-1.7.10-4.5.10.61-Mechanical_beta.jar
+mods/ProjectRed-1.7.10-4.5.10.61-World.jar
 mods/Railcraft_1.7.10-9.4.0.0.jar
 mods/RandomThings-2.2.4.jar
 mods/RedstoneArsenal-[1.7.10]1.1.0RC1-19.jar
@@ -104,9 +105,9 @@ mods/TConstruct-1.7.10-1.8.2a.jar
 mods/TMechworks-1.7.10-0.2.10.jar
 mods/TSteelworks-1.7.10-1.0.6.jar
 mods/Thaumcarpentry-0.0.1.5-1.7.10.jar
-mods/Thaumcraft-1.7.10-4.2.3.3.jar
+mods/Thaumcraft-1.7.10-4.2.3.4.jar
 mods/ThaumcraftGates-1.4.0.jar
-mods/ThaumicExploration-1.7.10-1.1-36.jar
+mods/ThaumicExploration-1.7.10-1.1-37.jar
 mods/ThaumicInfusion-1.7.10-3.83.jar
 mods/ThaumicTinkerer-2.5-1.7.10-440.jar
 mods/TheErebus-0.2pre11c.jar
@@ -126,13 +127,13 @@ mods/binnie-mods-2.0-pre5.jar
 mods/buildcraft-6.2.6.jar
 mods/carpentersblocks
 mods/carpentersblocks/CarpentersBlocksCachedResources.zip
-mods/compactmachines-1.7.10-1.15.jar
+mods/compactmachines-1.7.10-1.17.jar
 mods/cookiecore-1.3.0.jar
 mods/denseores-1.5.jar
 mods/dimensional-anchor-59.0.2.jar
 mods/eternalfrost-2.0b5.jar
 mods/extrautilities-1.2.1.jar
-mods/forestry_1.7.10-3.3.0.6.jar
+mods/forestry_1.7.10-3.4.0.7.jar
 mods/funky-locomotion-1.7.10-beta-4.jar
 mods/generators-mc1710-0.9.6.27.jar
 mods/growthcraft-apples-1.7.10-2.1.0.jar
@@ -160,6 +161,6 @@ mods/statues-1.7.10-2.1.4.jar
 mods/thaumcraftneiplugin-1.7.10-1.6a.jar
 mods/thaumicenergistics-0.8.8.4b-rv2.jar
 mods/tradebooth.1.7.10.1.jar
-mods/ttCore-MC1.7.10-0.1.0-53.jar
+mods/ttCore-MC1.7.10-0.1.0-61.jar
 mods/twilightforest-1.7.10-2.3.2.jar
 mods/witchery-1.7.10-0.22.0.jar
