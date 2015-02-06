@@ -132,7 +132,7 @@ mods/compactmachines-1.7.10-1.17.jar
 mods/denseores-1.5.jar
 mods/dimensional-anchor-59.0.2.jar
 mods/eternalfrost-2.0b5.jar
-mods/extrautilities-1.2.1.jar
+mods/extrautilities-1.2.1-nutsandbolts.jar
 mods/forestry_1.7.10-3.4.0.7.jar
 mods/funky-locomotion-1.7.10-beta-4.jar
 mods/generators-mc1710-0.9.6.27.jar
