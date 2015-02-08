@@ -13,7 +13,7 @@ mods/AOBD-2.4.0.jar
 mods/Aroma1997Core-1.7.10-1.0.2.13.jar
 mods/AsieLib-1.7.10-0.3.8.jar
 mods/Atum-1.7.10-0.6.34.jar
-mods/Automagy-1.7.10-0.19.jar
+mods/Automagy-1.7.10-0.19.1.jar
 mods/BackTools-4.0.0.jar
 mods/BetterChests-1.7.10-1.1.1.8.jar
 mods/BiblioCraft[v1.9.2][MC1.7.10].jar
