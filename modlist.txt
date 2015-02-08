@@ -110,7 +110,7 @@ mods/Thaumcraft-1.7.10-4.2.3.4.jar
 mods/ThaumcraftGates-1.4.0.jar
 mods/ThaumicExploration-1.7.10-1.1-37.jar
 mods/ThaumicInfusion-1.7.10-3.83.jar
-mods/ThaumicTinkerer-2.5-1.7.10-440.jar
+mods/ThaumicTinkerer-2.5-1.7.10-466.jar
 mods/TheErebus-0.2pre11c.jar
 mods/ThermalExpansion-[1.7.10]4.0.0B8-23.jar
 mods/ThermalFoundation-[1.7.10]1.0.0RC1-13.jar
