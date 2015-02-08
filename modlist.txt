@@ -39,7 +39,7 @@ mods/Decocraft-v1.11_1.7.10.jar
 mods/DragonAPI\ 1.7.10\ V3d.jar
 mods/ElectriCraft\ 1.7.10\ V3d.jar
 mods/ElectricalAge_BETA-1.9_r45_multiplayerUntested.jar
-mods/EnderIO-1.7.10-2.2.8.343.jar
+mods/EnderIO-1.7.10-2.2.8.344.jar
 mods/EnderStorage-1.7.10-1.4.5.27-universal.jar
 mods/EnderTech-1.7.10-0.3.0.364.jar
 mods/ExpandedRedstone\ 1.7.10\ V3b.jar
