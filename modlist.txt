@@ -21,7 +21,7 @@ mods/BigReactors-0.4.1A2.jar
 mods/BiomesOPlenty-1.7.10-2.1.0.1057-universal.jar
 mods/BloodArsenal-1.7.10-1.1.3.jar
 mods/BloodMagic-1.7.10-1.3.0b-3.jar
-mods/Botania\ r1.4-157.jar
+mods/Botania\ r1.4-158.jar
 mods/BuildcraftAdditions-1.7.10-1.8.3.jar
 mods/CallowCraft-1.0.0.jar
 mods/CandyCraft-1.3.jar
