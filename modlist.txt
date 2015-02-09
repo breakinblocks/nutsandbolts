@@ -135,7 +135,7 @@ mods/eternalfrost-2.0b5.jar
 mods/extrautilities-1.2.1-nutsandbolts.jar
 mods/forestry_1.7.10-3.4.0.7.jar
 mods/funky-locomotion-1.7.10-beta-4.jar
-mods/generators-mc1710-0.9.6.27.jar
+mods/generators-mc1710-0.9.7.35.jar
 mods/growthcraft-apples-1.7.10-2.1.0.jar
 mods/growthcraft-bamboo-1.7.10-2.1.0.jar
 mods/growthcraft-bees-1.7.10-2.1.0.jar
