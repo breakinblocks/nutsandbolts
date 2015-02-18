@@ -136,7 +136,7 @@ mods/compactmachines-1.7.10-1.17.jar
 mods/denseores-1.5.jar
 mods/dimensional-anchor-59.0.2.jar
 mods/eternalfrost-2.0b5.jar
-mods/extrautilities-1.2.1.jar
+mods/extrautilities-1.2.1-nutsandbolts.jar
 mods/forestry_1.7.10-3.4.0.7.jar
 mods/funky-locomotion-1.7.10-beta-4.jar
 mods/gendustry-mc1710-1.4.5.56.jar
@@ -163,7 +163,7 @@ mods/railcraft
 mods/railcraft/emblems
 mods/resonant-engine-3.3.0.395-core-stripped.jar
 mods/statues-1.7.10-2.1.4.jar
-mods/thaumcraftneiplugin-1.7.10-1.7.jar
+mods/thaumcraftneiplugin-1.7.jar
 mods/thaumicenergistics-0.8.9.0b-rv2-nab.jar
 mods/tradebooth.1.7.10.1.jar
 mods/ttCore-MC1.7.10-0.1.0-66.jar
