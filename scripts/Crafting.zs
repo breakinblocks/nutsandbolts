@@ -58,7 +58,6 @@ recipes.remove(<BuildCraft|Factory:miningWellBlock>);
 recipes.remove(<TConstruct:CraftedSoil:1>);
 recipes.remove(<TConstruct:ToolForgeBlock>);
 recipes.remove(<JABBA:moverDiamond>);
-recipes.remove(<Botany:trowelIron>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -88,10 +87,6 @@ recipes.addShaped(<TSteelworks:HighOven>, [[<TSteelworks:Materials>, <TSteelwork
 recipes.addShaped(<MagicBees:hive:2> * 2, [[<Thaumcraft:blockWoodenDevice:7>, <minecraft:hay_block>, <Thaumcraft:blockWoodenDevice:7>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<Thaumcraft:blockWoodenDevice:7>, <minecraft:hay_block>, <Thaumcraft:blockWoodenDevice:7>]]);
 recipes.addShaped(<MagicBees:hive:1> * 2, [[<Thaumcraft:blockWoodenDevice:6>, <minecraft:hay_block>, <Thaumcraft:blockWoodenDevice:6>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<Thaumcraft:blockWoodenDevice:6>, <minecraft:hay_block>, <Thaumcraft:blockWoodenDevice:6>]]);
 recipes.addShaped(<MagicBees:hive> * 2, [[<minecraft:book>, <minecraft:hay_block>, <minecraft:book>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<minecraft:book>, <minecraft:hay_block>, <minecraft:book>]]);
-recipes.addShaped(<ExtraBees:hive:3> * 2, [[<chisel:marble>, <minecraft:hay_block>, <chisel:marble>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<chisel:marble>, <minecraft:hay_block>, <chisel:marble>]]);
-recipes.addShaped(<ExtraBees:hive:2> * 2, [[<minecraft:nether_brick>, <minecraft:hay_block>, <minecraft:nether_brick>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<minecraft:nether_brick>, <minecraft:hay_block>, <minecraft:nether_brick>]]);
-recipes.addShaped(<ExtraBees:hive:1> * 2, [[<ore:stone>, <minecraft:hay_block>, <ore:stone>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<minecraft:stone>, <minecraft:hay_block>, <ore:stone>]]);
-recipes.addShaped(<ExtraBees:hive> * 2, [[<ore:listAllwater>, <minecraft:hay_block>, <ore:listAllwater>], [<minecraft:hay_block>, <Forestry:beePrincessGE>, <minecraft:hay_block>], [<ore:listAllwater>, <minecraft:hay_block>, <ore:listAllwater>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:13>, [[<appliedenergistics2:item.ItemMultiMaterial>], [<minecraft:iron_block>], [<appliedenergistics2:item.ItemMultiMaterial>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:14>, [[<minecraft:diamond>], [<minecraft:iron_block>], [<minecraft:diamond>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:21>, [[<minecraft:sign>], [<minecraft:iron_block>], [<minecraft:sign>]]);
@@ -109,7 +104,8 @@ recipes.addShaped(<atum:item.scarab>, [[null, <ore:ingotGold>, null], [<ore:ingo
 recipes.addShaped(<atum:item.scarab>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotTerrasteel>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<ExtraUtilities:magnumTorch>, [[<ExtraUtilities:peaceful_table_top>, <ExtraUtilities:chandelier>, <ExtraUtilities:peaceful_table_top>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ore:logWood>, <ExtraUtilities:chandelier>]]);
 
-recipes.addShaped(<technom:manaFabricator>, [[<BloodArsenal:BloodArsenalblood_stone:4>, <ore:blockNetherStar>, <StevesCarts:BlockMetalStorage:2>], [<minecraft:bedrock>, <minecraft:red_flower>, <ThaumicTinkerer:kamiResource:2>], [<witchery:ingredient:64>, <Botania:storage:1>, <ore:blockEnderium>]]);
+//TODO: EXAMINE
+//recipes.addShaped(<technom:manaFabricator>, [[<BloodArsenal:BloodArsenalblood_stone:4>, <ore:blockNetherStar>, <StevesCarts:BlockMetalStorage:2>], [<minecraft:bedrock>, <minecraft:red_flower>, <ThaumicTinkerer:kamiResource:2>], [<witchery:ingredient:64>, <Botania:storage:1>, <ore:blockEnderium>]]);
 recipes.addShaped(<minecraft:bedrock>, [[<ore:RotaryCraft:dustBedrock>, <ore:RotaryCraft:dustBedrock>, <ore:RotaryCraft:dustBedrock>], [<ore:RotaryCraft:dustBedrock>, <ExtraUtilities:block_bedrockium>, <RotaryCraft:rotarycraft_item_powders:4>], [<RotaryCraft:rotarycraft_item_powders:4>, <ore:RotaryCraft:dustBedrock>, <RotaryCraft:rotarycraft_item_powders:4>]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<AWWayofTime:imbuedSlate>, <TConstruct:ToolStationBlock>, <AWWayofTime:imbuedSlate>], [<AWWayofTime:imbuedSlate>, null, <AWWayofTime:imbuedSlate>]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<atum:tile.stone>, <TConstruct:ToolStationBlock>, <atum:tile.stone>], [<atum:tile.stone>, null, <atum:tile.stone>]]);

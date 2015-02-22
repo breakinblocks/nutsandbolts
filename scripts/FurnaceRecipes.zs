@@ -1,1 +1,0 @@
-furnace.addRecipe(<minecraft:glass>, <eternalfrost:frozen_sand>, 0.5);
