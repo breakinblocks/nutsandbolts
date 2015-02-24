@@ -7,7 +7,7 @@ mods/1.7.10/ForgeMultipart-1.7.10-1.1.1.321-universal.jar
 mods/1.7.10/MrTJPCore-1.7.10-1.0.5.11-universal.jar
 mods/1.7.10/commons-codec-1.9.jar
 mods/1.7.10/commons-compress-1.8.1.jar
-mods/1.7.10\ Technomancy\ 0.9.0.jar
+mods/1.7.10\ Technomancy\ 0.10.a.jar
 mods/4Space-1.7-4.1.1.jar
 mods/AOBD-2.4.0.jar
 mods/Aroma1997Core-1.7.10-1.0.2.13.jar
@@ -21,8 +21,8 @@ mods/BiblioCraft[v1.9.2][MC1.7.10].jar
 mods/BigReactors-0.4.1A2.jar
 mods/BiomesOPlenty-1.7.10-2.1.0.1067-universal.jar
 mods/BloodMagic-1.7.10-1.3.0b-3.jar
-mods/Botania\ r1.5-162.jar
-mods/BuildcraftAdditions-1.7.10-2.0.jar
+mods/Botania\ r1.5-164.jar
+mods/BuildcraftAdditions-1.7.10-2.0.1.jar
 mods/CandyCraft-1.3.jar
 mods/Carpenter's\ Blocks\ v3.3.5\ -\ MC\ 1.7.10.jar
 mods/Chisel2-2.3.7.34.jar
@@ -103,7 +103,7 @@ mods/TConstruct-1.7.10-1.8.2a.jar
 mods/TMechworks-1.7.10-0.2.10.jar
 mods/TSteelworks-1.7.10-1.1.0-6.jar
 mods/Thaumcarpentry-0.0.1.5-1.7.10.jar
-mods/Thaumcraft-1.7.10-4.2.3.4.jar
+mods/Thaumcraft-1.7.10-4.2.3.5.jar
 mods/ThaumcraftGates-1.4.0.jar
 mods/ThaumicExploration-1.7.10-1.1-37.jar
 mods/ThaumicTinkerer-2.5-1.7.10-466.jar
@@ -120,7 +120,7 @@ mods/ae2stuff-mc1710-0.1.3.9.jar
 mods/appliedenergistics2-rv2-beta-8.jar
 mods/bdlib-mc1710-1.6.2.41.jar
 mods/betterrecords-1.7.10-1.1.9.jar
-mods/buildcraft-6.3.6.jar
+mods/buildcraft-6.3.7.jar
 mods/buildcraft-compat-6.3.1.jar
 mods/carpentersblocks
 mods/carpentersblocks/CarpentersBlocksCachedResources.zip
