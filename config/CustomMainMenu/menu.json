@@ -1,0 +1,128 @@
+{
+    "buttons": {
+        "mods": {
+            "action": {
+                "gui": "mods",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -145,
+            "posY": 40,
+            "text": "fml.menu.mods",
+            "width": 90
+        },
+        "multiplayer": {
+            "action": {
+                "gui": "multiplayer",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -145,
+            "posY": 15,
+            "text": "menu.multiplayer",
+            "width": 90
+        },
+        "options": {
+            "alignment": "bottom_right",
+            "height": 14,
+            "imageHeight": 64,
+            "imageWidth": 64,
+            "posX": -32,
+            "posY": -35,
+            "text": "",
+            "texture": "nutsandbolts:textures/options-button.png",
+            "width": 14,
+            "action": {
+                "gui": "options",
+                "type": "openGui"
+            }
+        },
+        "refresh": {
+            "alignment": "bottom_right",
+            "height": 14,
+            "imageHeight": 20,
+            "imageWidth": 20,
+            "posX": -32,
+            "posY": -54,
+            "text": "",
+            "texture": "custommainmenu:textures/gui/buttons.png",
+            "width": 14,
+            "action": {
+                "type": "refresh"
+            }
+        },
+        "singleplayer": {
+            "action": {
+                "gui": "singleplayer",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -145,
+            "posY": -10,
+            "text": "menu.singleplayer",
+            "width": 90
+        },
+        "play": {
+            "action": {
+                "ip": "macadamia.herdofsquirrels.com",
+                "type": "connectToServer"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -145,
+            "posY": -60,
+            "text": "Join Server",
+            "width": 90
+        }
+    },
+    "images": {
+        "black": {
+            "alignment": "top_right",
+            "height": 2000,
+            "image": "nutsandbolts:textures/transpBlack50.png",
+            "posX": -150,
+            "posY": 0,
+            "width": 100
+        },
+        "title": {
+            "alignment": "right_center",
+            "height": 200,
+            "image": "nutsandbolts:menu/nab-logo-512sq2.png",
+            "posX": -370,
+            "posY": -100,
+            "width": 200
+        }
+    },
+    "other": {
+        "background": {
+            "image": "nutsandbolts:menu/background-acorns.png",
+            "mode": "fill"
+        },
+        "splash-text":
+        {
+            "posX" : -320,
+            "posY" : -65,
+            "color" : -256,
+            "alignment" : "right_center"
+        }
+    },
+    "texts": {
+        "mojang": {
+            "alignment": "bottom_left",
+            "color": -1,
+            "posX": 2,
+            "posY": -10,
+            "text": ""
+        },
+        "nab": {
+            "alignment": "bottom_right",
+            "color": -1,
+            "posX": -130,
+            "posY": -10,
+            "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0-b1 "
+        }
+    }
+}

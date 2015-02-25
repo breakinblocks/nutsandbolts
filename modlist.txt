@@ -32,6 +32,7 @@ mods/ComputerCraft1.65.jar
 mods/CookieCore-1.7.10-1.3.1-5.jar
 mods/CosmeticArmor-1.7.10-1.0.5.B8-universal.jar
 mods/CraftHeraldry\ 1.1.3.jar
+mods/CustomMainMenu-MC1.7.10-1.1.jar
 mods/CustomNPCs_1.7.10c.jar
 mods/Decocraft-v1.11_1.7.10.jar
 mods/DragonAPI\ 1.7.10\ V4c.jar
@@ -88,6 +89,7 @@ mods/RandomThings-2.2.4.jar
 mods/ReactorCraft\ 1.7.10\ V4c.jar
 mods/RedstoneArsenal-[1.7.10]1.1.0RC1-19.jar
 mods/RefinedRelocation-1.7.10-1.0.7f.jar
+mods/ResourceLoader-1.0.jar
 mods/RotaryCraft\ 1.7.10\ V4c.jar
 mods/RouterReborn-1.7.10-1.1.14-universal.jar
 mods/Sanguimancy-1.7.10-1.1.8-4.jar
