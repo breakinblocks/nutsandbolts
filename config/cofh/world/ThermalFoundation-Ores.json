@@ -52,7 +52,7 @@
             }
         ],
         "clusterSize": 9,
-        "numClusters": 5,
+        "numClusters": 6,
         "meanHeight": 24,
         "maxVariance": 6,
         "retrogen": "true",
