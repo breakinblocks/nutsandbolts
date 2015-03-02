@@ -1,14 +1,14 @@
 {
-    "naquadah": {
+    "osmium": {
         "template": "normal",
         "block": {
-            "name": "StargateTech2:block.naquadah",
+            "name": "Mekanism:OreBlock",
             "metadata": 0
         },
-        "clusterSize": 2,
-        "numClusters": 1,
-        "meanHeight": 4,
-        "maxVariance": 4,
+        "clusterSize": 8,
+        "numClusters": 8,
+        "meanHeight": 16,
+        "maxVariance": 14,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
