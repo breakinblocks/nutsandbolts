@@ -3,7 +3,7 @@
     "Dark Iron": {
         "template": "uniform",
         "block": {
-            "name": "Factorization:DarkIronOre",
+            "name": "factorization:DarkIronOre",
             "metadata": 0
         },
         "clusterSize": 2,
