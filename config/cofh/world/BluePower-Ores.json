@@ -2,7 +2,7 @@
     "ruby": {
         "template": "uniform",
         "block": {
-            "name": "bluepower:ruby_ore",
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
             "metadata": 0
         },
         "clusterSize": 4,
@@ -21,8 +21,8 @@
     "sapphire": {
         "template": "uniform",
         "block": {
-            "name": "bluepower:sapphire_ore",
-            "metadata": 0
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 1
         },
         "clusterSize": 4,
         "numClusters": 3,
@@ -37,61 +37,5 @@
             1
         ]
     },
-    "amethyst": {
-        "template": "uniform",
-        "block": {
-            "name": "bluepower:amethyst_ore",
-            "metadata": 0
-        },
-        "clusterSize": 3,
-        "numClusters": 2,
-        "minHeight": 16,
-        "maxHeight": 64,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "zinc": {
-        "template": "uniform",
-        "block": {
-            "name": "bluepower:zinc_ore",
-            "metadata": 0
-        },
-        "clusterSize": 8,
-        "numClusters": 6,
-        "minHeight": 32,
-        "maxHeight": 45,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "teslatite": {
-        "template": "normal",
-        "block": {
-            "name": "bluepower:teslatite_ore",
-            "metadata": 0
-        },
-        "clusterSize": 4,
-        "numClusters": 2,
-        "meanHeight": 13,
-        "maxVariance": 6,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    }
+    
 }
