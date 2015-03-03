@@ -30,6 +30,7 @@ recipes.removeShaped(<customnpcs:npcBronzeBullet>, [[null, <ore:nuggetBronze>, n
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<BigReactors:BRIngot:5>, [[<ore:dustNaquadah>, <ore:dustYellorium>, <StargateTech2:naquadah:1>]]);
 recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<ore:thermalexpansion:machinePlatinum>, <Mekanism:EnergyCube:100>, <ore:thermalexpansion:machinePlatinum>], [<Mekanism:ControlCircuit:2>, <ore:alloyUltimate>, <ore:circuitElite>], [<ore:ingotRefinedObsidian>, <Mekanism:Ingot>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<minecraft:slime_ball>, [[<ore:listAllmilk>, null, <ore:dyeLime>], [null, <ore:itemRawRubber>, null]]);
 recipes.addShaped(<JABBA:moverDiamond>, [[<ore:gemDiamond>, <JABBA:mover>, <ore:gemDiamond>], [<ExtraUtilities:bedrockiumIngot>, <ore:gemDiamond>, <ExtraUtilities:bedrockiumIngot>]]);
