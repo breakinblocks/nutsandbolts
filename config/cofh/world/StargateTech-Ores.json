@@ -6,7 +6,7 @@
             "metadata": 0
         },
         "clusterSize": 2,
-        "numClusters": 1,
+        "numClusters": 2,
         "meanHeight": 4,
         "maxVariance": 4,
         "retrogen": "true",
