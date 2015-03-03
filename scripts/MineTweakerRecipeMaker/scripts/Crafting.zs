@@ -13,9 +13,6 @@
 // ================================================================================
 //#MARKER REMOVE
 recipes.remove(<Mekanism:AtomicDisassembler:100>);
-recipes.remove(<customnpcs:npcBronzeBullet>);
-recipes.remove(<customnpcs:npcBronzeBullet>);
-recipes.remove(<ExtraUtilities:angelRing>);
 recipes.remove(<ExtraUtilities:angelRing>);
 
 // ================================================================================
@@ -30,7 +27,6 @@ recipes.removeShaped(<customnpcs:npcBronzeBullet>, [[null, <ore:nuggetBronze>, n
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<ExtraUtilities:angelRing>, [<minecraft:feather>, <ExtraUtilities:divisionSigil>, <minecraft:feather>, <Natura:Cloud>, <ThaumicExploration:discountRing>, <Natura:Cloud>, <Natura:Cloud>, <ore:blockDiamond>, <Natura:Cloud>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -46,13 +42,11 @@ recipes.addShaped(<customnpcs:npcBronzeBullet> * 8, [[null, <TConstruct:material
 recipes.addShaped(<customnpcs:npcBronzeBullet>, [[null, <ore:nuggetBronze>, null], [<ore:nuggetBronze>, null, <ore:nuggetBronze>], [null, <ore:nuggetBronze>, null]]);
 recipes.addShaped(<minecraft:soul_sand>, [[null, <minecraft:nether_wart>, null], [<minecraft:nether_wart>, <ore:blockSand>, <minecraft:nether_wart>], [null, <ore:dustNetherrack>, null]]);
 recipes.addShaped(<ExtraUtilities:angelRing>, [[<minecraft:feather>, <ExtraUtilities:divisionSigil>.withTag({stable: 1 as byte}), <minecraft:feather>], [<Natura:Cloud>, <ThaumicExploration:discountRing>, <Natura:Cloud>], [<Natura:Cloud>, <ore:blockDiamond>, <Natura:Cloud>]]);
-recipes.addShaped(<ExtraUtilities:angelRing>, [[<minecraft:feather>, <ExtraUtilities:divisionSigil>, <minecraft:feather>], [<Natura:Cloud>, <ThaumicExploration:discountRing>, <Natura:Cloud>], [<Natura:Cloud>, <ore:blockDiamond>, <Natura:Cloud>]]);
-recipes.addShaped(<customnpcs:npcDiamondBullet> * 8, [[null, <ore:diamondNugget>, null], [<Translocator:diamondNugget>, null, <ore:diamondNugget>], [null, <ore:diamondNugget>, null]]);
 recipes.addShaped(<customnpcs:npcDiamondBullet> * 8, [[null, <ore:diamondNugget>, null], [<Translocator:diamondNugget>, null, <ore:diamondNugget>], [null, <ore:diamondNugget>, null]]);
 recipes.addShaped(<customnpcs:npcGoldenBullet> * 8, [[null, <ore:nuggetGold>, null], [<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <ore:nuggetGold>, null]]);
 recipes.addShaped(<customnpcs:npcIronBullet> * 8, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, null, <Thaumcraft:ItemNugget>], [null, <ore:nuggetIron>, null]]);
-recipes.addShaped(<customnpcs:npcGoldenBullet> * 10, [[null, <ore:nuggetGold>, null], [<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <ore:nuggetGold>, null]]);
-recipes.addShaped(<customnpcs:npcIronBullet> * 10, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, null, <Thaumcraft:ItemNugget>], [null, <ore:nuggetIron>, null]]);
+recipes.addShaped(<customnpcs:npcGoldenBullet> * 8, [[null, <ore:nuggetGold>, null], [<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <ore:nuggetGold>, null]]);
+recipes.addShaped(<customnpcs:npcIronBullet> * 8, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, null, <Thaumcraft:ItemNugget>], [null, <ore:nuggetIron>, null]]);
 recipes.addShaped(<customnpcs:npcStoneBullet> * 8, [[<minecraft:stone_button>]]);
 recipes.addShaped(<customnpcs:npcWoodenBullet> * 8, [[<minecraft:wooden_button>]]);
 
