@@ -11,17 +11,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -28,
-            -29,
-            -30,
-            -50,
-            -54,,
-            -56,
-            -58,
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -54, -56, -58, -1, 1]
     },
     "gravel": {
         "template": "uniform",
@@ -35,18 +25,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -28,
-            -29,
-            -30,
-            -50,
-            -52,
-            -54,,
-            -56,
-            -58,
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -54, -56, -58, -1, 1]
     },
     "coal": {
         "template": "uniform",
@@ -182,16 +161,6 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -28,
-            -29,
-            -30,
-            -50,
-            -54,,
-            -56,
-            -58,
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -54, -56, -58, -1, 1]
     }
 }
