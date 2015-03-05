@@ -1,8 +1,8 @@
 {
-    "holeGravel": {
+    "moonGravel": {
         "template": "uniform",
         "block": "gravel",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 32,
         "numClusters": 10,
         "minHeight": 20,
@@ -11,12 +11,12 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
-    "holeCoal": {
+    "moonCoal": {
         "template": "uniform",
         "block": "coal_ore",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 18,
         "numClusters": 20,
         "minHeight": 0,
@@ -25,12 +25,12 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
-    "holeIron": {
+    "moonIron": {
         "template": "normal",
         "block": "iron_ore",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 14,
         "numClusters": 8,
         "meanHeight": 48,
@@ -39,12 +39,12 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
-    "holeGold": {
+    "moonGold": {
         "template": "normal",
         "block": "gold_ore",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 3,
         "meanHeight": 18,
@@ -53,12 +53,12 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
     "holdRedstone": {
         "template": "normal",
         "block": "redstone_ore",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 4,
         "numClusters": 16,
         "meanHeight": 13,
@@ -67,12 +67,12 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
-    "holeDiamond": {
+    "moonDiamond": {
         "template": "uniform",
         "block": "diamond_ore",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 6,
         "numClusters": 2,
         "minHeight": 1,
@@ -81,12 +81,12 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
-    "holeLapis": {
+    "moonLapis": {
         "template": "normal",
         "block": "lapis_ore",
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 5,
         "numClusters": 2,
         "meanHeight": 15,
@@ -95,15 +95,15 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     },
-    "holeClay": {
+    "clay": {
         "template": "uniform",
         "block": {
             "name": "minecraft:clay",
             "metadata": 0
         },
-        "material": "SpaceHole:hole_basic",
+        "material": "minecraft:stone",
         "clusterSize": 13,
         "numClusters": 5,
         "minHeight": 40,
@@ -112,6 +112,6 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-52]
+        "dimensions": [-28]
     }
 }
