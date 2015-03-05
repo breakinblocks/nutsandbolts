@@ -39,10 +39,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [ -1, 1 ]
     },
     "iron": {
         "template": "normal",
@@ -56,10 +53,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [ -1, 1 ]
     },
     "gold": {
         "template": "normal",
@@ -73,10 +67,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [ -1, 1 ]
     },
     "redstone": {
         "template": "normal",
@@ -90,10 +81,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [ -1, 1 ]
     },
     "diamond": {
         "template": "uniform",
@@ -107,10 +95,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [ -1, 1 ]
     },
     "lapis": {
         "template": "normal",
@@ -124,10 +109,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [ -1, 1 ]
     },
     "quartz": {
         "template": "uniform",
@@ -140,12 +122,10 @@
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-            "hell"
+            {"type": "dictionary", "entry": "NETHER"}
         ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -1
-        ]
+        "dimensionRestriction": "none",
+        "dimensions": []
     },
     "clay": {
         "template": "uniform",
