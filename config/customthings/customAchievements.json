@@ -1,5 +1,30 @@
 {"data":
-	[
-		
-	]
+  [
+    {
+      "name": "happyNuts",
+      "page": "Squirrel-chievements",
+      "source": "ITEM_PICKUP",
+      "required": "customthings:item;0",
+      "displayItem": "customthings:item;0"
+    },
+    {
+      "name": "sadNuts",
+      "page": "Squirrel-chievements",
+      "parent": "happyNuts",
+      "source": "ENTITY_KILL",
+      "required": "Squirrel",
+      "displayItem": "MineFactoryReloaded:fertilizer;0",
+      "x": 2
+    },
+    {
+      "name": "breakNuts",
+      "page": "Squirrel-chievements",
+      "parent": "happyNuts",
+      "source": "BLOCK_BREAK",
+      "required": "customthings:block0;0",
+      "displayItem": "customthings:block0;0",
+      "x": 2,
+      "y": 2
+    }
+  ]
 }
