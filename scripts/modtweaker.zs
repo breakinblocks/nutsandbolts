@@ -43,3 +43,4 @@ recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>
 recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>, <Botania:manaResource:5>]);
 recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>, <ore:blockNetherStar>]);
 
+mods.thermalexpansion.Crucible.addRecipe(500000, <SpacePluto:null>, <ThermalFoundation:FluidCryotheum> * 8000);
