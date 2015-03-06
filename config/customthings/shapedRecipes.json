@@ -1,0 +1,10 @@
+{"data":
+  [
+    {
+      "input": [["itemAcorn", "itemAcorn", "itemAcorn"],
+                ["itemAcorn", "itemAcorn", "itemAcorn"],
+                ["itemAcorn", "itemAcorn", "itemAcorn"]],
+      "output": "diamond"
+    }
+  ]
+}
