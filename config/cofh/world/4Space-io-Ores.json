@@ -1,0 +1,225 @@
+{
+    "ioCoal": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 18,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ioIron": {
+        "template": "normal",
+        "block": "iron_ore",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 32,
+        "numClusters": 8,
+        "meanHeight": 48,
+        "maxVariance": 40,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ioGold": {
+        "template": "normal",
+        "block": "gold_ore",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "meanHeight": 30,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ioRedstone": {
+        "template": "normal",
+        "block": "redstone_ore",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "meanHeight": 13,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ioDiamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "iocertusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 92
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 8
+            }
+        ],
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+	"ioyellorite": {
+        "template": "uniform",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 10,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ionickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 4
+        },
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 6,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ionetherquartz": {
+        "template": "uniform",
+        "block": "minecraft:quartz_ore",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ioglowstone": {
+        "template": "uniform",
+        "block": "minecraft:glowstone",
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 26,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+    "ioardite": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 2
+        },
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 3,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+	"iofirestone": {
+        "template": "uniform",
+        "block": {
+            "name": "Railcraft:ore",
+            "metadata": 5
+        },
+        "material": "SpaceIO:io_basic",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 50,
+        "maxHeight": 85,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+	"iolava": {
+	    "generator": "lake",
+        "template": "surface",
+        "block": "minecraft:flowing_lava",
+        "material": "SpaceIo:io_basic",
+		"useMaterial": "true",
+        "clusterSize": 16,		
+        "numClusters": 24,
+        "minHeight": 50,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    },
+	"iophosphorus": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minechem:fluid.P.name",
+		"useMaterial": "true",
+        "material": "SpaceIo:io_basic",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 50,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-54]
+    }
+}

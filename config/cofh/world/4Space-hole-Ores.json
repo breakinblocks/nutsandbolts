@@ -6,7 +6,7 @@
         "clusterSize": 32,
         "numClusters": 10,
         "minHeight": 20,
-        "maxHeight": 128,
+        "maxHeight": 64,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -20,7 +20,7 @@
         "clusterSize": 18,
         "numClusters": 20,
         "minHeight": 0,
-        "maxHeight": 128,
+        "maxHeight": 64,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -55,7 +55,7 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-52]
     },
-    "holdRedstone": {
+    "holeRedstone": {
         "template": "normal",
         "block": "redstone_ore",
         "material": "SpaceHole:hole_basic",
@@ -97,17 +97,287 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-52]
     },
-    "holeClay": {
+    "holecertusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 92
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 8
+            }
+        ],
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+	"holeyellorite": {
         "template": "uniform",
         "block": {
-            "name": "minecraft:clay",
+            "name": "BigReactors:YelloriteOre",
             "metadata": 0
         },
         "material": "SpaceHole:hole_basic",
-        "clusterSize": 13,
+        "clusterSize": 10,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+	"holeshiny": {
+        "template": "normal",
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 5
+        },
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "meanHeight": 12,
+        "maxVariance": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holeosmium": {
+        "template": "normal",
+        "block": {
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        },
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 8,
         "numClusters": 5,
-        "minHeight": 40,
-        "maxHeight": 128,
+        "meanHeight": 16,
+        "maxVariance": 14,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holenaquadah": {
+        "template": "normal",
+        "block": {
+            "name": "StargateTech2:block.naquadah",
+            "metadata": 0
+        },
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 2,
+        "numClusters": 2,
+        "meanHeight": 4,
+        "maxVariance": 4,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holesilver": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 0
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 0
+            }
+        ],
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 10,
+        "numClusters": 5,
+        "meanHeight": 28,
+        "maxVariance": 6,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holelead": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            }
+        ],
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 10,
+        "numClusters": 5,
+        "meanHeight": 28,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holenickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 4
+        },
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 6,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holenetherquartz": {
+        "template": "uniform",
+        "block": "minecraft:quartz_ore",
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holeglowstone": {
+        "template": "uniform",
+        "block": "minecraft:glowstone",
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holecobalt": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 1
+        },
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 3,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+    "holeardite": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 2
+        },
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 3,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+	"holelava": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minecraft:flowing_water",
+		"useMaterial": "false",
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 50,
+        "maxHeight": 85,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+	"holemilk": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minecraft:flowing_water",
+		"useMaterial": "true",
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 5,		
+        "numClusters": 1,
+        "minHeight": 50,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+	"holehoney": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minecraft:flowing_water",
+		"useMaterial": "true",
+        "material": "SpaceHole:hole_basic",
+        "clusterSize": 5,		
+        "numClusters": 1,
+        "minHeight": 50,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-52]
+    },
+	
+	"holefluid": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minechem:fluid.dimethyltryptamine.name",
+		"useMaterial": "true",
+        "material": "SpaceIo:io_basic",
+        "clusterSize": 12,		
+        "numClusters": 2,
+        "minHeight": 50,
+        "maxHeight": 70,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

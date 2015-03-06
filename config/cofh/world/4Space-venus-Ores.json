@@ -1,0 +1,207 @@
+{
+    "VenusGold": {
+        "template": "normal",
+        "block": "gold_ore",
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "meanHeight": 30,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "VenusRedstone": {
+        "template": "normal",
+        "block": "redstone_ore",
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "meanHeight": 13,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+
+    "VenusDiamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+	"Venusyellorite": {
+        "template": "uniform",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 10,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "Venusnickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 4
+        },
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 6,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "Venusnetherquartz": {
+        "template": "uniform",
+        "block": "minecraft:quartz_ore",
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "venusammonium": {
+        "template": "uniform",
+		"block": {
+            "name": "ReactorCraft:reactorcreaft_block_ore",
+            "metadata": 6
+        },
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "venusfluorite": {
+        "template": "uniform",
+		"block": {
+            "name": "ReactorCraft:reactorcreaft_fluoriteore",
+            "metadata": 0
+        },
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 12,
+        "numClusters": 4,
+        "minHeight": 12,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "venuspitchblend": {
+        "template": "uniform",
+		"block": {
+            "name": "ReactorCraft:reactorcreaft_block_ore",
+            "metadata": 1
+        },
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 40,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "Venusnetherquartz": {
+        "template": "uniform",
+        "block": "minechem:tile.oreUranium",
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+    "Venusardite": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 2
+        },
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 3,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+	"Venuslava": {
+	    "generator": "lake",
+        "template": "surface",
+        "block": "minecraft:flowing_lava",
+        "material": "SpaceVenus:venus_basic",
+		"useMaterial": "true",
+        "clusterSize": 8,		
+        "numClusters": 4,
+        "minHeight": 50,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    },
+	"venusacid": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minechem:fluid.sulfuricAcid.name",
+		"useMaterial": "true",
+        "material": "SpaceVenus:venus_basic",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 50,
+        "maxHeight": 70,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-60]
+    }
+}

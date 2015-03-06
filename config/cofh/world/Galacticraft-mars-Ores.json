@@ -1,50 +1,22 @@
 {
-    "moonGravel": {
-        "template": "uniform",
-        "block": "gravel",
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 32,
-        "numClusters": 10,
-        "minHeight": 20,
-        "maxHeight": 54,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
-    "moonCoal": {
-        "template": "uniform",
-        "block": "coal_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 18,
-        "numClusters": 20,
-        "minHeight": 0,
-        "maxHeight": 54,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
-    "moonIron": {
+    "marsIron": {
         "template": "normal",
         "block": "iron_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 14,
-        "numClusters": 12,
+        "numClusters": 8,
         "meanHeight": 48,
         "maxVariance": 13,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonGold": {
+    "marsGold": {
         "template": "normal",
         "block": "gold_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 8,
         "numClusters": 3,
         "meanHeight": 18,
@@ -53,27 +25,27 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonRedstone": {
+    "marsRedstone": {
         "template": "normal",
         "block": "redstone_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 2,
-        "numClusters": 8,
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 16,
+        "numClusters": 20,
         "meanHeight": 13,
         "maxVariance": 6,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonDiamond": {
+    "marsDiamond": {
         "template": "uniform",
         "block": "diamond_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 3,
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 6,
         "numClusters": 2,
         "minHeight": 1,
         "maxHeight": 16,
@@ -81,23 +53,9 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonLapis": {
-        "template": "normal",
-        "block": "lapis_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 5,
-        "numClusters": 2,
-        "meanHeight": 15,
-        "maxVariance": 14,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
-    "mooncertusquartz": {
+    "marscertusquartz": {
         "template": "uniform",
         "block": [
             {
@@ -111,7 +69,7 @@
                 "weight": 8
             }
         ],
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 8,
         "numClusters": 4,
         "minHeight": 36,
@@ -120,33 +78,33 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-	"moonyellorite": {
+	"marsyellorite": {
         "template": "uniform",
         "block": {
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
         },
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 10,
-        "numClusters": 2,
+        "numClusters": 4,
         "minHeight": 1,
         "maxHeight": 20,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-	"moonshiny": {
+	"marsshiny": {
         "template": "normal",
         "block": {
             "name": "ElectriCraft:electricraft_block_ore",
             "metadata": 5
         },
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 1,
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 4,
         "numClusters": 2,
         "meanHeight": 12,
         "maxVariance": 1,
@@ -154,15 +112,15 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonosmium": {
+    "marsosmium": {
         "template": "normal",
         "block": {
             "name": "Mekanism:OreBlock",
             "metadata": 0
         },
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 8,
         "numClusters": 5,
         "meanHeight": 16,
@@ -171,15 +129,15 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonnaquadah": {
+    "marsnaquadah": {
         "template": "normal",
         "block": {
             "name": "StargateTech2:block.naquadah",
             "metadata": 0
         },
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 2,
         "numClusters": 2,
         "meanHeight": 4,
@@ -188,9 +146,9 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonsilver": {
+    "marssilver": {
         "template": "normal",
         "block": [
             {
@@ -204,7 +162,7 @@
                 "weight": 0
             }
         ],
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 10,
         "numClusters": 5,
         "meanHeight": 28,
@@ -213,9 +171,9 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonlead": {
+    "marslead": {
         "template": "normal",
         "block": [
             {
@@ -229,7 +187,7 @@
                 "weight": 10
             }
         ],
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 10,
         "numClusters": 5,
         "meanHeight": 28,
@@ -238,15 +196,15 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonnickel": {
+    "marsnickel": {
         "template": "uniform",
         "block": {
             "name": "ThermalFoundation:Ore",
             "metadata": 4
         },
-        "material": "GalacticraftCore:tile.moonBlock",
+        "material": "GalacticraftMars:tile.mars",
         "clusterSize": 6,
         "numClusters": 3,
         "minHeight": 6,
@@ -255,20 +213,85 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
     },
-    "moonnetherquartz": {
+    "marsnetherquartz": {
         "template": "uniform",
         "block": "minecraft:quartz_ore",
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 2,
-        "numClusters": 2,
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 8,
+        "numClusters": 4,
         "minHeight": 26,
         "maxHeight": 54,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
+        "dimensions": [-29]
+    },
+    "marsglowstone": {
+        "template": "uniform",
+        "block": "minecraft:glowstone",
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-29]
+    },
+    "marsardite": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 2
+        },
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 3,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-29]
+    },
+    "marsardite": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 2
+        },
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 3,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-29]
+    },
+	"marslake": {
+	    "generator": "lake",
+        "template": "surface",
+        "block": "ThermalFoundation:FluidRedstone",
+		"useMaterial": "true",
+		"outlineBlock": "GalacticraftMars:tile.mars:7",
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 24,		
+        "numClusters": 2,
+        "minHeight": 50,
+        "maxHeight": 85,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-29]
     }
 }
