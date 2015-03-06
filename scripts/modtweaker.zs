@@ -18,6 +18,7 @@ cheese.add(<GalacticraftCore:item.cheeseCurd>);
 
 //manasteel can be made from mana infused ingots
 mods.botania.ManaInfusion.addAlchemy(<Botania:manaResource> * 3, <ore:ingotMithril>, 2000);
+mods.botania.ManaInfusion.addInfusion(<ThermalFoundation:material:70>, <ThermalFoundation:material:69>, 1000);
 
 //using Blazing Pyrotheum gives double Incendium
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium> * 3, [<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:netherrack>, <AWWayofTime:simpleCatalyst>, <ThermalFoundation:bucket:3>], 4, 0);
@@ -43,4 +44,6 @@ recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>
 recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>, <Botania:manaResource:5>]);
 recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>, <ore:blockNetherStar>]);
 
-mods.thermalexpansion.Crucible.addRecipe(500000, <SpacePluto:null>, <ThermalFoundation:FluidCryotheum> * 8000);
+
+// thermal expansion!
+mods.thermalexpansion.Crucible.addRecipe(500000, <SpacePluto:null>, <liquid:cryotheum> * 8000);
