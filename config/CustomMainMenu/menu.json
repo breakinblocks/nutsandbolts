@@ -2,7 +2,7 @@
     "buttons": {
         "play": {
             "action": {
-                "ip": "walnut.herdofsquirrels.com",
+                "ip": "macadamia.herdofsquirrels.com",
                 "type": "connectToServer"
             },
             "alignment": "right_center",
@@ -124,9 +124,9 @@
         "nab": {
             "alignment": "bottom_right",
             "color": -1,
-            "posX": -150,
+            "posX": -145,
             "posY": -10,
-            "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0-alpha-1a"
+            "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0"
         }
     }
 }
