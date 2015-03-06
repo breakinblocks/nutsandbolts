@@ -8,7 +8,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": -60,
+            "posY": -75,
             "text": "Join Server",
             "width": 90
         },
@@ -20,7 +20,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 15,
+            "posY": 0,
             "text": "menu.multiplayer",
             "width": 90
         },
@@ -32,7 +32,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": -10,
+            "posY": -25,
             "text": "menu.singleplayer",
             "width": 90
         },
@@ -44,8 +44,19 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 40,
+            "posY": 25,
             "text": "fml.menu.mods",
+            "width": 90
+        },
+        "quit": {
+            "action": {
+                "type": "quit"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": 75,
+            "text": "menu.quit",
             "width": 90
         },
         "options": {
@@ -61,20 +72,6 @@
             "posY": -35,
             "text": "",
             "texture": "nutsandbolts:menu/options-button.png",
-            "width": 14
-        },
-        "refresh": {
-            "action": {
-                "type": "refresh"
-            },
-            "alignment": "bottom_right",
-            "height": 14,
-            "imageHeight": 20,
-            "imageWidth": 20,
-            "posX": -32,
-            "posY": -54,
-            "text": "",
-            "texture": "custommainmenu:textures/gui/buttons.png",
             "width": 14
         }
     },
@@ -129,7 +126,7 @@
             "color": -1,
             "posX": -150,
             "posY": -10,
-            "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0-alpha-1 "
+            "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0-alpha-1a"
         }
     }
 }
