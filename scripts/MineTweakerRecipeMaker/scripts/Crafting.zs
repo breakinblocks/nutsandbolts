@@ -38,15 +38,12 @@ recipes.remove(<ComputerCraft:CC-Computer:16384>);
 recipes.remove(<ComputerCraft:CC-Turtle>);
 recipes.remove(<ComputerCraft:CC-Computer>);
 recipes.remove(<BuildCraft|Factory:machineBlock>);
-recipes.remove(<Mekanism:AtomicDisassembler:100>);
-recipes.remove(<ExtraUtilities:angelRing>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-recipes.removeShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<ore:ingotEnergeticAlloy>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -65,7 +62,6 @@ recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:alloyBasic>, <ore:compresse
 recipes.addShaped(<Botania:travelBelt>, [[<ore:itemLeather>, <ore:runeAirB>, <ore:itemLeather>], [null, <candycraftmod:B12>, null], [<ore:itemLeather>, <Botania:rune:2>, <minecraft:leather>]]);
 recipes.addShaped(<Botania:travelBelt>, [[<ore:itemLeather>, <ore:runeAirB>, <ore:itemLeather>], [null, <ore:runeManaB>, null], [<ore:itemLeather>, <Botania:rune:2>, <minecraft:leather>]]);
 recipes.addShaped(<Botania:manaTablet:1000>, [[<Botania:livingrock>, <candycraftmod:B103>, <Botania:livingrock>], [<ore:livingrock>, <Botania:manaResource:2>, <Botania:livingrock>], [<Botania:livingrock>, <ore:livingrock>, <Botania:livingrock>]]);
-recipes.addShaped(<Botania:manaTablet:1000>, [[<Botania:livingrock>, <candycraftmod:B103>, <Botania:livingrock>], [<ore:livingrock>, <Botania:manaResource:1>, <Botania:livingrock>], [<Botania:livingrock>, <ore:livingrock>, <Botania:livingrock>]]);
 recipes.addShaped(<Botania:manaTablet:1000>, [[<ore:ingotMithril>, <ore:livingrock>, <ore:ingotMithril>], [<ore:livingrock>, <Botania:manaResource:2>, <Botania:livingrock>], [<ore:ingotMithril>, <ore:livingrock>, <ore:ingotMithril>]]);
 recipes.addShaped(<Botania:manaTablet:1000>, [[<ore:ingotMithril>, <ore:livingrock>, <ore:ingotMithril>], [<ore:livingrock>, <ore:manaPearl>, <Botania:livingrock>], [<ore:ingotMithril>, <ore:livingrock>, <ore:ingotMithril>]]);
 recipes.addShaped(<AWWayofTime:Altar>, [[<atum:tile.carvedBrick>, null, <atum:tile.carvedBrick>], [<atum:tile.carvedBrick>, <atum:tile.furnaceIdle>, <atum:tile.carvedBrick>], [<atum:tile.goldOre>, <ore:gemDiamond>, <atum:tile.goldOre>]]);
@@ -83,13 +79,7 @@ recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <ExtraUtilities
 recipes.addShaped(<ComputerCraft:CC-Computer>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:paneGlassColorless>, null], [<ore:stone>, <minecraft:comparator>, <ore:stone>]]);
 recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearGold>, <ore:plateMeteoricIron>, <ore:gearGold>], [<atum:tile.sand>, <ore:gearDiamond>, <atum:tile.sand>], [<atum:tile.sand>, <appliedenergistics2:item.ToolNetherQuartzPickaxe>, <atum:tile.sand>]]);
 recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearDiamond>, <ore:bucketRedstone>, <ore:gearDiamond>], [<StevesCarts:CartModule:8>, <ore:gearDiamond>, <StevesCarts:CartModule:8>], [<Railcraft:machine.beta:13>, <RotaryCraft:rotarycraft_item_shaftcraft:14>, <Railcraft:machine.beta:13>]]);
-recipes.addShaped(<BigReactors:BRIngot:5>, [[<ore:dustNaquadah>, <ore:dustYellorium>, <StargateTech2:naquadah:1>]]);
-recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<ore:thermalexpansion:machinePlatinum>, <Mekanism:EnergyCube:100>, <ore:thermalexpansion:machinePlatinum>], [<Mekanism:ControlCircuit:2>, <ore:alloyUltimate>, <ore:circuitElite>], [<ore:ingotRefinedObsidian>, <Mekanism:Ingot>, <ore:ingotRefinedObsidian>]]);
-recipes.addShaped(<minecraft:slime_ball>, [[<ore:listAllmilk>, null, <ore:dyeLime>], [null, <ore:itemRawRubber>, null]]);
-recipes.addShaped(<JABBA:moverDiamond>, [[<ore:gemDiamond>, <JABBA:mover>, <ore:gemDiamond>], [<ExtraUtilities:bedrockiumIngot>, <ore:gemDiamond>, <ExtraUtilities:bedrockiumIngot>]]);
-recipes.addShaped(<JABBA:moverDiamond>, [[<ore:gemDiamond>, <JABBA:mover>, <ore:gemDiamond>], [<GalacticraftMars:item.null:2>, <ore:gemDiamond>, <GalacticraftMars:item.null:2>]]);
 recipes.addShaped(<bcadditions:stickEmerald>, [[null, <ForbiddenMagic:FMResource>, null], [<ore:nuggetEmerald>, <ore:stickWood>, <ore:nuggetEmerald>], [null, <ForbiddenMagic:FMResource>, null]]);
-recipes.addShaped(<ExtraUtilities:angelRing>, [[<minecraft:feather>, <ExtraUtilities:divisionSigil>.withTag({stable: 1 as byte}), <minecraft:feather>], [<Natura:Cloud>, <ThaumicExploration:discountRing>, <Natura:Cloud>], [<Natura:Cloud>, <ore:blockDiamond>, <Natura:Cloud>]]);
 recipes.addShaped(<customnpcs:npcGunChainsaw>, [[null, <RedstoneArsenal:material:192>, null], [<ore:sheetPlastic>, <customnpcs:npcDiamondGun>, <ore:sheetPlastic>], [null, <MineFactoryReloaded:plastic.sheet>, null]]);
 recipes.addShaped(<customnpcs:npcBlackBullet> * 8, [[null, <Mekanism:DirtyDust:6>, null], [<Mekanism:DirtyDust:6>, null, <Mekanism:DirtyDust:6>], [null, <Mekanism:DirtyDust:6>, null]]);
 recipes.addShaped(<customnpcs:npcEmeraldBullet> * 8, [[null, <ForbiddenMagic:FMResource>, null], [<ForbiddenMagic:FMResource>, null, <ForbiddenMagic:FMResource>], [null, <ForbiddenMagic:FMResource>, null]]);
