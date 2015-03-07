@@ -1,0 +1,22 @@
+
+{
+    "Dark Iron": {
+        "template": "uniform",
+        "block": {
+            "name": "factorization:DarkIronOre",
+            "metadata": 0
+        },
+        "clusterSize": 2,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 9,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

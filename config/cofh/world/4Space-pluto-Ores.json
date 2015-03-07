@@ -1,0 +1,143 @@
+{
+	"plutoyellorite": {
+        "template": "uniform",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 10,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+    "PlutoDiamonds": {
+        "template": "uniform",
+        "block": {
+            "name": "denseores:block0",
+            "metadata": 3
+        },
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 8,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+     "PlutoDesh": {
+        "template": "uniform",
+		"block": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 2
+        },
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },   
+	"Plutonaq": {
+        "template": "uniform",
+        "block": "StargateTech2:block.naquadah",
+        "material": "SpacePluto:pluto_block",
+		"useMaterial": "true",
+        "clusterSize": 4,		
+        "numClusters": 4,
+        "minHeight": 5,
+        "maxHeight": 50,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+	"PlutoU": {
+        "template": "uniform",
+        "block": "minechem:tile.oreUranium",
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 4,		
+        "numClusters": 4,
+        "minHeight": 5,
+        "maxHeight": 50,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+	"plutberyllium": {
+	    "generator": "lake",
+        "template": "surface",
+        "block": "minechem:fluid.Be.name",
+		"useMaterial": "true",
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 40,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+	"plutohelium": {
+        "template": "uniform",
+        "block": "minechem:fluid.He.name",
+		"useMaterial": "true",
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 12,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+	"plutonitrogen": {
+	    "generator": "lake",
+        "template": "uniform",
+        "block": "minechem:fluid.N.name",
+		"useMaterial": "true",
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 8,		
+        "numClusters": 16,
+        "minHeight": 8,
+        "maxHeight": 18,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    },
+	"PUtonium": {
+        "template": "uniform",
+        "block": "minechem:fluid.Pu.name",
+        "material": "SpacePluto:pluto_block",
+        "clusterSize": 4,		
+        "numClusters": 9,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-58]
+    }
+}

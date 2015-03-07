@@ -1,11 +1,11 @@
 {
-	    "shiny": {
+	"shiny": {
         "template": "normal",
         "block": {
-            "name": "ElectriCraft:electriccraft_block_ore",
+            "name": "ElectriCraft:electricraft_block_ore",
             "metadata": 5
         },
-        "clusterSize": 4,
+        "clusterSize": 2,
         "numClusters": 1,
         "meanHeight": 12,
         "maxVariance": 1,
@@ -17,5 +17,5 @@
             -1,
             1
         ]
-    },
+    }
 }

@@ -1,0 +1,7 @@
+if term.isColor() then 
+  term.setTextColor(colors.yellow)
+end
+term.setCursorPos(1,1)
+term.clear()
+term.write('SquirrelOS 1.7')
+term.setCursorPos(1,2)

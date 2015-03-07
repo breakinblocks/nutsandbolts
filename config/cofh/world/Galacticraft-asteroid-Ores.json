@@ -1,0 +1,218 @@
+{
+    "asteroidIron": {
+        "template": "normal",
+        "block": "iron_ore",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 14,
+        "numClusters": 8,
+        "meanHeight": 64,
+        "maxVariance": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidGold": {
+        "template": "normal",
+        "block": "gold_ore",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "meanHeight": 64,
+        "maxVariance": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidDiamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidcertusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 92
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 8
+            }
+        ],
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+	"asteroidyellorite": {
+        "template": "uniform",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 10,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+	"asteroidshiny": {
+        "template": "normal",
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 5
+        },
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "meanHeight": 64,
+        "maxVariance": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidnaquadah": {
+        "template": "normal",
+        "block": {
+            "name": "StargateTech2:block.naquadah",
+            "metadata": 0
+        },
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 5,
+        "numClusters": 2,
+        "meanHeight": 64,
+        "maxVariance": 40,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidlead": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            }
+        ],
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 10,
+        "numClusters": 5,
+        "meanHeight": 64,
+        "maxVariance": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidnickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 4
+        },
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidnetherquartz": {
+        "template": "uniform",
+        "block": "minecraft:quartz_ore",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidglowstone": {
+        "template": "uniform",
+        "block": "minecraft:glowstone",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidglowstone": {
+        "template": "uniform",
+        "block": "minecraft:soul_sand",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+    "asteroidice": {
+        "template": "uniform",
+        "block": "minecraft:packed_ice",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 16,
+        "numClusters": 8,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    }
+}

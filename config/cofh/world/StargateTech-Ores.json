@@ -5,8 +5,8 @@
             "name": "StargateTech2:block.naquadah",
             "metadata": 0
         },
-        "clusterSize": 16,
-        "numClusters": 1,
+        "clusterSize": 2,
+        "numClusters": 2,
         "meanHeight": 4,
         "maxVariance": 4,
         "retrogen": "true",

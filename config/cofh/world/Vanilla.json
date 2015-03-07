@@ -11,10 +11,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "gravel": {
         "template": "uniform",
@@ -28,10 +25,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "coal": {
         "template": "uniform",
@@ -45,16 +39,13 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "iron": {
         "template": "normal",
         "block": "iron_ore",
         "material": "minecraft:stone",
-        "clusterSize": 13,
+        "clusterSize": 14,
         "numClusters": 8,
         "meanHeight": 48,
         "maxVariance": 13,
@@ -62,10 +53,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "gold": {
         "template": "normal",
@@ -79,10 +67,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "redstone": {
         "template": "normal",
@@ -96,16 +81,13 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "diamond": {
         "template": "uniform",
         "block": "diamond_ore",
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 6,
         "numClusters": 2,
         "minHeight": 1,
         "maxHeight": 16,
@@ -113,10 +95,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "lapis": {
         "template": "normal",
@@ -130,10 +109,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     },
     "quartz": {
         "template": "uniform",
@@ -146,11 +122,25 @@
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-            "Hell"
+            {"type": "dictionary", "entry": "NETHER"}
         ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -1
-        ]
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "clay": {
+        "template": "uniform",
+        "block": {
+            "name": "minecraft:clay",
+            "metadata": 0
+        },
+        "clusterSize": 13,
+        "numClusters": 5,
+        "minHeight": 40,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-28, -29, -30, -50, -52, -54, -56, -58, -1, 1]
     }
 }

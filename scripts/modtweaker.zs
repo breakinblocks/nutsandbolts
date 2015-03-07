@@ -18,12 +18,10 @@ cheese.add(<GalacticraftCore:item.cheeseCurd>);
 
 //manasteel can be made from mana infused ingots
 mods.botania.ManaInfusion.addAlchemy(<Botania:manaResource> * 3, <ore:ingotMithril>, 2000);
+mods.botania.ManaInfusion.addInfusion(<ThermalFoundation:material:70>, <ThermalFoundation:material:69>, 1000);
 
 //using Blazing Pyrotheum gives double Incendium
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium> * 3, [<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:netherrack>, <AWWayofTime:simpleCatalyst>, <ThermalFoundation:bucket:3>], 4, 0);
-
-//tome of knowledge sharing infusion recipe
-mods.thaumcraft.Infusion.addRecipe("INFUSION", <Thaumcraft:ItemThaumonomicon>, [<Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource:9>], "vitium 8, cognitio 16, praecantatio 16", <ThaumicTinkerer:shareBook>, 30);
 
 //nether star infusion recipe
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>], "superbia 4, lux 16, alienis 4", <minecraft:nether_star>, 1);
@@ -33,13 +31,25 @@ mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<
 
 //add ores to the orechid
 
-//mods.botania.Orechid.addOre("ore:oreArcane", 2000);
-mods.botania.Orechid.addOre("ore:oreNaquadah", 1500);
+//mods.botania.Orechid.addOre("ore:oreNaquadah", 1500);
 mods.botania.Orechid.addOre("ore:oreMithril", 4000);
 mods.botania.Orechid.addOre("ore:orePlatinum", 1000);
 mods.botania.Orechid.addOre("ore:oreSilicon", 4000);
-mods.botania.Orechid.addOre("ore:oreZinc", 4250);
+mods.botania.Orechid.addOre("Mekanism:OreBlock:1", 4000);
+
 
 //green hearts are craftable
 recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>, <AWWayofTime:bloodMagicBaseItems:29>]);
+recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>, <EnderTech:healthPad:2>]);
+recipes.addShapeless(<TConstruct:heartCanister:5>, [<TConstruct:heartCanister:3>, <Botania:manaResource:5>]);
 recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>, <ore:blockNetherStar>]);
+
+
+// thermal expansion Magma Crucible!
+mods.thermalexpansion.Crucible.addRecipe(500000, <SpacePluto:null>, <liquid:cryotheum> * 8000); //Liquid Cryotheum from Pluto blue gem
+mods.thermalexpansion.Crucible.addRecipe(250000, <SpaceVenus:null:2>, <liquid:redstone> * 8000); //Liquid Redsone from Venus Red gem
+mods.thermalexpansion.Crucible.addRecipe(450000, <SpaceVenus:null:10>, <liquid:pyrotheum> * 4000);  //Liquid Pyrotheum from Venus Blaze Powder
+
+// thermal expansion Pulverizer
+mods.thermalexpansion.Pulverizer.addRecipe(3000, <SpaceVenus:null:2>, <minecraft:redstone> * 8, <minecraft:diamond>, 75); //Redstone/diamond from Venus Red gems
+mods.thermalexpansion.Pulverizer.addRecipe(2500, <candycraftmod:B4>, <minecraft:sugar> * 8, <minecraft:dye:9>, 30); //Sugar and pink dye from candyland logs
