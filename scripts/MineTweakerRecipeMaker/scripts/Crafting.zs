@@ -12,6 +12,10 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<minechem:tile.chemicalDecomposer>);
+recipes.remove(<TConstruct:Smeltery>);
+recipes.remove(<StevesWorkshop:production_table_upgrade:8>);
+recipes.remove(<BetterChests:Upgrade:10>);
 recipes.remove(<Natura:Obelisk>);
 recipes.remove(<Mekanism:MachineBlock2:4>);
 recipes.remove(<Botania:travelBelt>);
@@ -53,6 +57,20 @@ recipes.remove(<BuildCraft|Factory:machineBlock>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Mekanism:CardboardBox>, [[<ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <minecraft:dragon_egg>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <ore:blockNetherStar>, <ForbiddenMagic:StarBlock>]]);
+recipes.addShaped(<Botania:specialFlower>, [[<ore:dyeWhite>, <erebus:sundew>, <ore:dyeWhite>], [null, <ore:dyeWhite>, null]]);
+recipes.addShaped(<minecraft:end_portal_frame> * 4, [[<erebus:gneiss>, <candycraftmod:B1>, <erebus:gneiss>], [<minecraft:end_stone>, <TwilightForest:item.carminite>, <minecraft:end_stone>], [<GalacticraftCore:tile.gcBlockCore:12>, <candycraftmod:B1>, <GalacticraftCore:tile.gcBlockCore:12>]]);
+recipes.addShaped(<GalacticraftCore:item.meteoricIronIngot>, [[null, <minecraft:iron_block>, null], [<ore:compressedCobblestone2x>, <GalacticraftCore:item.basicItem:2>, <ore:compressedCobblestone2x>], [null, <ore:blockIron>, null]]);
+recipes.addShaped(<Ztones:cleanDirt> * 2, [[<minecraft:rotten_flesh>, <SpaceHole:hole_basic>]]);
+recipes.addShaped(<Ztones:cleanDirt> * 2, [[<minecraft:rotten_flesh>, <SpaceHole:hole_basic>]]);
+recipes.addShaped(<minecraft:grass> * 2, [[<minecraft:vine>, <SpaceHole:hole_basic>]]);
+recipes.addShaped(<minecraft:blaze_powder> * 4, [[<ore:venusRodDust>]]);
+recipes.addShaped(<minechem:tile.chemicalDecomposer>, [[<minecraft:iron_ingot>, <minecraft:glass_pane>, <minecraft:iron_ingot>], [<candycraftmod:I0>, <minecraft:redstone>, <candycraftmod:I0>], [<minecraft:iron_ingot>, <EnderIO:itemBasicCapacitor>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<minechem:tile.chemicalDecomposer>, [[<ore:ingotHSLA>, <ore:ingotHSLA>, <ore:ingotHSLA>], [<Mekanism:GasTank:100>, <ore:blockRedstone>, <Mekanism:GasTank:100>], [<ore:ingotHSLA>, <ore:ingotHSLA>, <ore:ingotHSLA>]]);
+recipes.addShaped(<TConstruct:Smeltery>, [[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <minecraft:quartz_block>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+recipes.addShaped(<TConstruct:Smeltery>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<TConstruct:Smeltery:2>, <ore:compressedCobblestone2x>, <TConstruct:Smeltery:2>], [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+recipes.addShaped(<StevesWorkshop:production_table_upgrade:8>, [[<ore:paneGlassColorless>, <minecraft:glass_pane>, <minecraft:glass_pane>], [<EnderIO:itemBasicCapacitor>, <MekanismGenerators:SolarPanel>, <EnderIO:itemBasicCapacitor>], [<minecraft:glass_pane>, <minecraft:glass_pane>, <ore:paneGlassColorless>]]);
+recipes.addShaped(<BetterChests:Upgrade:10>, [[null, <EnderIO:itemBasicCapacitor>, null], [<MekanismGenerators:SolarPanel>, <BetterChests:Upgrade:4>, <MekanismGenerators:SolarPanel>], [null, <EnderIO:itemBasicCapacitor>, null]]);
 recipes.addShaped(<Natura:Obelisk>, [[<Natura:bloodwood>, <Natura:bloodwood>, <Natura:bloodwood>], [<Natura:bloodwood>, null, <Natura:bloodwood>], [<Natura:bloodwood>, <Natura:bloodwood>, <Natura:bloodwood>]]);
 recipes.addShaped(<Natura:soil.tainted>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<BiomesOPlenty:misc:3>, <ore:grass>, <BiomesOPlenty:misc:3>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 recipes.addShaped(<Natura:florasapling:4>, [[<RandomThings:ingredient:3>, <ore:treeSapling>, <RandomThings:ingredient:3>], [null, null, <minecraft:soul_sand>]]);
