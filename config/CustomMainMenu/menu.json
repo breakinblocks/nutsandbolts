@@ -68,7 +68,7 @@
             "height": 14,
             "imageHeight": 64,
             "imageWidth": 64,
-            "posX": -32,
+            "posX": -22,
             "posY": -35,
             "text": "",
             "texture": "nutsandbolts:menu/options-button.png",
@@ -124,7 +124,7 @@
         "nab": {
             "alignment": "bottom_right",
             "color": -1,
-            "posX": -145,
+            "posX": -105,
             "posY": -10,
             "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0"
         }
