@@ -1,0 +1,8 @@
+while(true) do
+  if fs.exists('/gate.new') then
+    shell.run('rm /gate')
+    shell.run('move /gate.new /gate')
+  end
+  shell.run('gate')
+  os.sleep(4)
+end

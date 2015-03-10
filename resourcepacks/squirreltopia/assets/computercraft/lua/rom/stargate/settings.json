@@ -1,0 +1,13 @@
+{
+  "latestVersion": 1,
+  "latestVersionLocation": "/rom/stargate/gate",
+  "hubGateList": [
+    { 
+      "name": "Foobar",
+      "comment": "Mining World Yes",
+      "address": "Erplancla Maconcor Amlos"
+    }
+  ],
+  "hubAddress": "Erplancla Maconcor Amlos"
+}
+

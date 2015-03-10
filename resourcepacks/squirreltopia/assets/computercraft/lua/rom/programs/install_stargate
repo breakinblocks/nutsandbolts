@@ -1,2 +1,9 @@
-print( "Install Stargate Program. Debug." )
-
+print( "Installing Stargate Program." )
+if fs.exists("/gate") or fs.exists("/startup") then
+  print("Make sure that the gate and startup programs are not already present on your computer.")
+else
+  shell.run("cp /rom/stargate/gate /gate")
+  shell.run("cp /rom/stargate/startup /startup")
+  print("Done installing... Running gate.")
+  shell.run("/startup")
+end
