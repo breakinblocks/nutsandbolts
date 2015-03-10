@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<TConstruct:ToolForgeBlock:10>);
 recipes.remove(<minechem:tile.chemicalDecomposer>);
 recipes.remove(<TConstruct:Smeltery>);
 recipes.remove(<StevesWorkshop:production_table_upgrade:8>);
@@ -42,6 +43,7 @@ recipes.remove(<ComputerCraft:CC-Computer:16384>);
 recipes.remove(<ComputerCraft:CC-Turtle>);
 recipes.remove(<ComputerCraft:CC-Computer>);
 recipes.remove(<BuildCraft|Factory:machineBlock>);
+recipes.remove(<Mekanism:CardboardBox>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -57,6 +59,19 @@ recipes.remove(<BuildCraft|Factory:machineBlock>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:grouperrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:walleyerawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:catfishrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:troutrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:mudfishrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tilapiarawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<ore:listAllfishraw>]]);
+recipes.addShaped(<StargateTech2:block.stargate>, [[<StargateTech2:naquadah:2>, <minecraft:nether_star>, <StargateTech2:naquadah:2>], [<ore:blueGem>, <ReactorCraft:reactorcraft_item_placer:15>, <ore:blueGem>], [<StargateTech2:naquadah:2>, <StargateTech2:naquadah:3>, <StargateTech2:naquadah:2>]]);
+recipes.addShaped(<Mekanism:Ingot:2> * 3, [[<ThermalFoundation:material:64>, <ore:ingotCopper>], [<ThermalFoundation:material:64>, <ore:ingotTin>]]);
+recipes.addShaped(<customnpcs:npcCarpentyBench>, [[<ore:crafterWood>, <minecraft:crafting_table>, <minecraft:crafting_table>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:woodStick>, null, <ore:woodStick>]]);
+recipes.addShaped(<customnpcs:npcCarpentyBench:1>, [[<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>], [null, <Railcraft:part.plate>, null], [<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>]]);
 recipes.addShaped(<Mekanism:CardboardBox>, [[<ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <minecraft:dragon_egg>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <ore:blockNetherStar>, <ForbiddenMagic:StarBlock>]]);
 recipes.addShaped(<Botania:specialFlower>, [[<ore:dyeWhite>, <erebus:sundew>, <ore:dyeWhite>], [null, <ore:dyeWhite>, null]]);
 recipes.addShaped(<minecraft:end_portal_frame> * 4, [[<erebus:gneiss>, <candycraftmod:B1>, <erebus:gneiss>], [<minecraft:end_stone>, <TwilightForest:item.carminite>, <minecraft:end_stone>], [<GalacticraftCore:tile.gcBlockCore:12>, <candycraftmod:B1>, <GalacticraftCore:tile.gcBlockCore:12>]]);
