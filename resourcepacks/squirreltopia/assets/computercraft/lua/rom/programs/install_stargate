@@ -4,6 +4,9 @@ if fs.exists("/gate") or fs.exists("/startup") then
 else
   shell.run("cp /rom/stargate/gate /gate")
   shell.run("cp /rom/stargate/startup /startup")
-  print("Done installing... Running gate.")
-  shell.run("/startup")
+  if not fs.exists("/localSettings.json") then
+    shell.run("cp /rom/stargate/localSettings.json /localSettings.json")
+  end
+  print("Done installing.")
+  print("Edit localSettings.json with your preferences and run 'startup'.")
 end

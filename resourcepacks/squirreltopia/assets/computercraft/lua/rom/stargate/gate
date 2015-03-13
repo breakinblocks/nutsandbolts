@@ -11,16 +11,11 @@ local buttonActiveColor = colors.orange
 local pageBack = "Prev Page"
 local pageFore = "Next Page"
 local resetButton = "Refresh"
-local includeHub = true
-
-local myPortals = {
---   { name="Spawn"; address="Sileston Protaset Erpulf"},
-}
 
 --internal
 local externalSettings
 local portals
-local version = 1
+local version = 2
 local monitor, touch
 local gate
 local monitorLocation
@@ -36,7 +31,6 @@ local lastPage = 1
 local namesPerPage = 1
 local pages = {}
 local gateType = 'Abstract Bus Adapter'
-local isHub = false
 
 function writeLog(text)
   print(text)
@@ -59,24 +53,31 @@ function init()
   end
   os.loadAPI('apis/json')
   
+  localSettings = json.decodeFromFile('/localSettings.json')
   externalSettings = json.decodeFromFile('/rom/stargate/settings.json')
   
-  checkVersion()
   
-  if isHub then
-    portals = externalSettings.gateList
+  checkVersion()
+end
+
+function setupGateList()
+  if localSettings.isHub then
+    portals = externalSettings.hubGateList
   else
-    if includeHub then
+    if localSettings.includeHub then
       portals = { { name = "Hub"; address = externalSettings.hubAddress } }
     else
       portals = { }
     end
   end
   
-  for i=1,#myPortals do
-    portals[#portals+1] = myPortals[i]
-  end
+  if localSettings.includeExtraGates then 
+    local extraGates = localSettings.extraGates
   
+    for i=1,#extraGates do
+      portals[#portals+1] = extraGates[i]
+    end
+  end
   monitorLocation = findSideFor('monitor')
   monitor = peripheral.wrap(monitorLocation)
   gate    = peripheral.find(gateType)
@@ -90,7 +91,7 @@ function init()
 end
 
 function checkVersion()
-  if externalSettings.latestVersion > version then
+  if localSettings.autoUpdate and externalSettings.latestVersion > version then
     writeLog("You are on version "..version.." of the stargate program.")
     writeLog("Version "..externalSettings.latestVersion.." is available.")
     writeLog("Updating...")
@@ -300,6 +301,7 @@ end
 init()
 
 if not problem then
+  setupGateList()
   refresh()
   while true do
     event, p1 = pages[curPage]:handleEvents(os.pullEvent())

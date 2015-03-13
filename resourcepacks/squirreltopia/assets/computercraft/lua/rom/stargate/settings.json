@@ -1,13 +1,52 @@
 {
-  "latestVersion": 1,
+  "latestVersion": 2,
   "latestVersionLocation": "/rom/stargate/gate",
   "hubGateList": [
+    {
+      "name": "Spawn",
+      "address": "Sileston Praurrum Ormcor"
+    },
+    {
+      "name": "The End",
+      "address": "Breiecta Gondeham Salat"
+    },
     { 
-      "name": "Foobar",
-      "comment": "Mining World Yes",
-      "address": "Erplancla Maconcor Amlos"
+      "name": "Sentrus",
+      "address": "Sileston Alomdeh Ecmig"
+    },
+    { 
+      "name": "caco",
+      "address": "Sileston Asotherp Gonac"
+    },
+    {
+      "name": "slots",
+      "address": "Sileston Deherpas Corlan"
+    },
+    { 
+      "name": "Lostlight",
+      "address": "Sileston Etormcla Tagon"
+    },
+    {
+      "name": "prerequisite",
+      "address": "Sileston Etdehur Corlos"
+    },
+    {
+      "name": "kvalek",
+      "address": "Sileston Prauslos Protis"
+    },
+    {
+      "name": "galearyan12",
+      "address": "Sileston Cladehlos Alam"
+    },
+    {
+      "name": "Jean#",
+      "address": "Sileston Usurpro Etas"
+    },
+    {
+      "name": "Metal's",
+      "address": "Sileston Macurcor Acgon"
     }
   ],
-  "hubAddress": "Erplancla Maconcor Amlos"
+  "hubAddress": "Dehsetcro Ormmacet Vaom"
 }
 
