@@ -162,3 +162,4 @@ mods/thaumcraftneiplugin-1.7.jar
 mods/thaumicenergistics-0.8.9.0b-rv2-nab.jar
 mods/ttCore-MC1.7.10-0.1.0-67.jar
 mods/twilightforest-1.7.10-2.3.4.jar
+mods/witchery-1.7.10-0.23.1.jar
