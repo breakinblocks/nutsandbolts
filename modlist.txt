@@ -33,7 +33,7 @@ mods/CosmeticArmor-1.7.10-1.0.5.B8-universal.jar
 mods/CraftHeraldry\ 1.1.3.jar
 mods/CustomMainMenu-MC1.7.10-1.1.jar
 mods/CustomNPCs_1.7.10c-2.jar
-mods/CustomThings-MC1.7.10-0.0.2-24.jar
+mods/CustomThings-MC1.7.10-0.0.2-25.jar
 mods/Decocraft-v1.12b_1.7.10.jar
 mods/DragonAPI\ 1.7.10\ V4c.jar
 mods/ElectriCraft\ 1.7.10\ V4c.jar
@@ -65,7 +65,7 @@ mods/MineTweakerRecipeMaker-1.7.10-1.1.0.11.jar
 mods/Minechem-1.7.10-5.0.5.385.jar
 mods/MmmMmmMmmMmm-1.6.jar
 mods/MobiusCore-1.2.3_1.7.10.jar
-mods/ModTweaker2-1.7.X-0.7.1.jar
+mods/ModTweaker\ 2-0.7.5.jar
 mods/Morph-Beta-0.9.1.jar
 mods/MouseTweaks-2.4.4-mc1.7.10.jar
 mods/MrCrayfishFurnitureModv3.4.7(1.7.10).jar
@@ -131,7 +131,6 @@ mods/compactmachines-1.7.10-1.17.jar
 mods/denseores-1.5.jar
 mods/dimensional-anchor-59.0.2.jar
 mods/extrautilities-1.2.2.jar
-mods/fastcraft-1.19.jar
 mods/forestry_1.7.10-3.4.0.7.jar
 mods/funky-locomotion-1.7.10-beta-5a.jar
 mods/gendustry-mc1710-1.4.8.65.jar
