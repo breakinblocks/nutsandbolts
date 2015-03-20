@@ -116,7 +116,7 @@ mods/ThermalFoundation-[1.7.10]1.0.0RC4-58.jar
 mods/TiCTooltips-mc1.7.10-1.2.3.jar
 mods/Translocator-1.7.10-1.1.1.14-universal.jar
 mods/WAILAPlugins-MC1.7.10-0.0.1-13.jar
-mods/Waila-1.5.9_1.7.10.jar
+mods/Waila-1.5.10_1.7.10.jar
 mods/WaslieCore-1.1.jar
 mods/Ztones-1.7.10-2.2.1.jar
 mods/ae2stuff-mc1710-0.1.6.14.jar
