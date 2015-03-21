@@ -9,7 +9,7 @@ mods/1.7.10/commons-codec-1.9.jar
 mods/1.7.10/commons-compress-1.8.1.jar
 mods/1.7.10\ Technomancy\ 0.10.c.jar
 mods/4Space-1.7-4.1.2.jar
-mods/AOBD-2.4.0.jar
+mods/AOBD-2.5.0.jar
 mods/Aroma1997Core-1.7.10-1.0.2.13.jar
 mods/Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar
 mods/AsieLib-1.7.10-0.3.9.jar
@@ -20,12 +20,13 @@ mods/BiblioCraft[v1.10.1][MC1.7.10].jar
 mods/BigReactors-0.4.2A2.jar
 mods/BiomesOPlenty-1.7.10-2.1.0.1067-universal.jar
 mods/BloodMagic-1.7.10-1.3.1-7.jar
-mods/Botania\ r1.5-169.jar
+mods/Botania\ r1.5-170.jar
 mods/BuildcraftAdditions-1.7.10-2.0.2.jar
 mods/CandyCraft-1.3.jar
 mods/Carpenter's\ Blocks\ v3.3.5\ -\ MC\ 1.7.10.jar
-mods/Chisel2_DEV-2.3.7.65.jar
-mods/CoFHCore-[1.7.10]3.0.0RC5-207.jar
+mods/Chisel2_DEV-2.3.7.83.jar
+mods/ChiselTones-1.7.10-1.0-1.jar
+mods/CoFHCore-[1.7.10]3.0.0RC7-211.jar
 mods/CodeChickenCore-1.7.10-1.0.4.35-universal.jar
 mods/ComputerCraft1.73.jar
 mods/CookieCore-1.7.10-1.3.1-5.jar
@@ -33,15 +34,15 @@ mods/CosmeticArmor-1.7.10-1.0.5.B8-universal.jar
 mods/CraftHeraldry\ 1.1.3.jar
 mods/CustomMainMenu-MC1.7.10-1.1.jar
 mods/CustomNPCs_1.7.10c-2.jar
-mods/CustomThings-MC1.7.10-0.0.2-25.jar
+mods/CustomThings-MC1.7.10-0.0.2-27.jar
 mods/Decocraft-v1.12b_1.7.10.jar
-mods/DragonAPI\ 1.7.10\ V4c.jar
-mods/ElectriCraft\ 1.7.10\ V4c.jar
-mods/Enchiridion\ 2-1.7.10-2.0d.jar
-mods/EnderIO-1.7.10-2.2.8.353.jar
+mods/DragonAPI\ 1.7.10\ V5b.jar
+mods/ElectriCraft\ 1.7.10\ V5a.jar
+mods/Enchiridion\ 2-1.7.10-2.0f-64.jar
+mods/EnderIO-1.7.10-2.2.8.363.jar
 mods/EnderStorage-1.7.10-1.4.5.28-universal.jar
 mods/EnderTech-1.7.10-0.3.0.364.jar
-mods/ExpandedRedstone\ 1.7.10\ V4a.jar
+mods/ExpandedRedstone\ 1.7.10\ V5a.jar
 mods/ExtraCells-1.7.10-2.2.58b88.jar
 mods/FZAddons-1.7-1.0.0.jar
 mods/Factorization-1.7.10-0.8.88.7.jar
@@ -56,8 +57,8 @@ mods/InfiniBows-1.7.10-universal-coremod-1.3.0.20.jar
 mods/InventoryTweaks-1.59-dev-152.jar
 mods/Jabba-1.2.1a_1.7.10.jar
 mods/Mantle-1.7.10-0.3.2.jar
-mods/Mekanism-1.7.10-7.1.1.127.jar
-mods/MekanismGenerators-1.7.10-7.1.1.127.jar
+mods/Mekanism-1.7.10-8.0.0.526.jar
+mods/MekanismGenerators-1.7.10-8.0.0.526.jar
 mods/MicdoodleCore-1.7-3.0.9.294.jar
 mods/MineFactoryReloaded-[1.7.10]2.8.0RC8-86.jar
 mods/MineTweaker3-1.7.10-3.0.9C.jar
@@ -89,11 +90,11 @@ mods/ProjectRed-1.7.10-4.5.14.66-Mechanical_beta.jar
 mods/ProjectRed-1.7.10-4.5.14.66-World.jar
 mods/Railcraft_1.7.10-9.5.0.0.jar
 mods/RandomThings-2.2.4.jar
-mods/ReactorCraft\ 1.7.10\ V4c.jar
-mods/RedstoneArsenal-[1.7.10]1.1.0RC4-54.jar
+mods/ReactorCraft\ 1.7.10\ V5a.jar
+mods/RedstoneArsenal-[1.7.10]1.1.0RC7-65.jar
 mods/RefinedRelocation-1.7.10-1.0.7g.jar
 mods/ResourceLoader-1.0.jar
-mods/RotaryCraft\ 1.7.10\ V4c.jar
+mods/RotaryCraft\ 1.7.10\ V5b.jar
 mods/RouterReborn-1.7.10-1.1.14-universal.jar
 mods/Sanguimancy-1.7.10-1.1.9Pre-24.jar
 mods/SimplyJetpacks-MC1.7.10-1.4.1.jar
@@ -111,16 +112,16 @@ mods/ThaumcraftGates-1.4.0.jar
 mods/ThaumicExploration-1.7.10-1.1-37.jar
 mods/ThaumicTinkerer-2.5-1.7.10-470.jar
 mods/TheErebus-0.2a.jar
-mods/ThermalExpansion-[1.7.10]4.0.0RC6-138.jar
-mods/ThermalFoundation-[1.7.10]1.0.0RC4-58.jar
+mods/ThermalExpansion-[1.7.10]4.0.0RC7-141.jar
+mods/ThermalFoundation-[1.7.10]1.0.0RC7-62.jar
 mods/TiCTooltips-mc1.7.10-1.2.3.jar
 mods/Translocator-1.7.10-1.1.1.14-universal.jar
-mods/WAILAPlugins-MC1.7.10-0.0.1-13.jar
+mods/WAILAPlugins-MC1.7.10-0.0.1-14.jar
 mods/Waila-1.5.10_1.7.10.jar
 mods/WaslieCore-1.1.jar
 mods/Ztones-1.7.10-2.2.1.jar
 mods/ae2stuff-mc1710-0.1.6.14.jar
-mods/appliedenergistics2-rv2-beta-10.jar
+mods/appliedenergistics2-rv2-beta-14.jar
 mods/bdlib-mc1710-1.6.5.52.jar
 mods/betterrecords-1.7.10-1.1.9.jar
 mods/buildcraft-6.4.3.jar
@@ -159,6 +160,6 @@ mods/railcraft/emblems
 mods/statues-1.7.10-2.1.4.jar
 mods/thaumcraftneiplugin-1.7.jar
 mods/thaumicenergistics-0.8.9.0b-rv2-nab.jar
-mods/ttCore-MC1.7.10-0.1.0-67.jar
+mods/ttCore-MC1.7.10-0.1.1-71.jar
 mods/twilightforest-1.7.10-2.3.4.jar
 mods/witchery-1.7.10-0.23.1.jar
