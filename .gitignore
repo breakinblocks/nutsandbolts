@@ -2,4 +2,5 @@ mods
 config/MapWriter*
 config/INpureProjects/logs/debug.log
 config/NEI/client.cfg
+server/
 
