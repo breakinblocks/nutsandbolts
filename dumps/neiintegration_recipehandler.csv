@@ -21,7 +21,6 @@ codechicken.nei.recipe.FuelRecipeHandler,crafting
 codechicken.nei.recipe.ProfilerRecipeHandler,crafting
 aroma1997.core.recipes.nei.ShapedAromicRecipeHandler,crafting
 aroma1997.core.recipes.nei.ShapelessAromicRecipeHandler,crafting
-buildcraftAdditions.ModIntegration.nei.DustingRecipeHandler,crafting
 factorization.nei.RecipeCrystallizer,crafting
 factorization.nei.RecipeGrinder,crafting
 factorization.nei.RecipeSlagFurnace,crafting
@@ -75,6 +74,7 @@ vazkii.botania.client.integration.nei.RecipeHandlerRunicAltar,crafting
 vazkii.botania.client.integration.nei.RecipeHandlerManaPool,crafting
 vazkii.botania.client.integration.nei.RecipeHandlerElvenTrade,crafting
 vazkii.botania.client.integration.nei.RecipeHandlerBrewery,crafting
+buildcraftAdditions.compat.nei.DustingRecipeHandler,crafting
 com.cricketcraft.chisel.compat.nei.RecipeHandlerChisel,crafting
 tconstruct.plugins.nei.RecipeHandlerDryingRack,crafting
 tconstruct.plugins.nei.RecipeHandlerToolMaterials,crafting
@@ -206,7 +206,6 @@ codechicken.nei.recipe.FuelRecipeHandler,usage
 codechicken.nei.recipe.ProfilerRecipeHandler,usage
 aroma1997.core.recipes.nei.ShapedAromicRecipeHandler,usage
 aroma1997.core.recipes.nei.ShapelessAromicRecipeHandler,usage
-buildcraftAdditions.ModIntegration.nei.DustingRecipeHandler,usage
 factorization.nei.RecipeCrystallizer,usage
 factorization.nei.RecipeGrinder,usage
 factorization.nei.RecipeSlagFurnace,usage
@@ -260,6 +259,7 @@ vazkii.botania.client.integration.nei.RecipeHandlerRunicAltar,usage
 vazkii.botania.client.integration.nei.RecipeHandlerManaPool,usage
 vazkii.botania.client.integration.nei.RecipeHandlerElvenTrade,usage
 vazkii.botania.client.integration.nei.RecipeHandlerBrewery,usage
+buildcraftAdditions.compat.nei.DustingRecipeHandler,usage
 com.cricketcraft.chisel.compat.nei.RecipeHandlerChisel,usage
 tconstruct.plugins.nei.RecipeHandlerDryingRack,usage
 tconstruct.plugins.nei.RecipeHandlerToolMaterials,usage

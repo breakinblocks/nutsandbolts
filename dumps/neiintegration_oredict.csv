@@ -127,6 +127,8 @@ blockElectrum,1xtile.thermalfoundation.storage@7,ThermalFoundation:Storage,Elect
 blockElectrumFlux,1xtile.redstonearsenal.storage@0,RedstoneArsenal:Storage,Fluxed Electrum Block,false
 blockEmerald,1xtile.blockEmerald@0,minecraft:emerald_block,Block of Emerald,false
 blockEnder,1xtile.tconstruct.metalblock@10,TConstruct:MetalBlock,Block of Solid Ender,false
+blockEnderCore,1xtile.extrautils:decorativeBlock1@11,ExtraUtilities:decorativeBlock1,Ender Core,false
+blockEnderObsidian,1xtile.extrautils:decorativeBlock1@1,ExtraUtilities:decorativeBlock1,Ender-infused Obsidian,false
 blockEnderium,1xtile.thermalfoundation.storage@12,ThermalFoundation:Storage,Enderium Block,false
 blockEnergeticAlloy,1xtile.blockIngotStorage@1,EnderIO:blockIngotStorage,Energetic Alloy Block,false
 blockFzDarkIron,1xtile.factorization.ResourceBlock@3,factorization:ResourceBlock,Block of Dark Iron,false
@@ -190,6 +192,7 @@ blockGlassPurple,1xtile.crystalStainedGlass@5,atum:tile.crystalStainedGlass,Purp
 blockGlassRed,1xtile.stainedGlass@14,minecraft:stained_glass,Red Stained Glass,false
 blockGlassRed,1xtile.mfr.stainedglass.block@14,MineFactoryReloaded:stainedglass.block,Stained Glass (Red),false
 blockGlassRed,1xtile.crystalStainedGlass@1,atum:tile.crystalStainedGlass,Red Stained Crystal Glass,false
+blockGlassSandy,1xtile.extrautils:decorativeBlock1@9,ExtraUtilities:decorativeBlock1,Sandy Glass,false
 blockGlassWhite,1xtile.stainedGlass@0,minecraft:stained_glass,White Stained Glass,false
 blockGlassWhite,1xtile.mfr.stainedglass.block@0,MineFactoryReloaded:stainedglass.block,Stained Glass (White),false
 blockGlassWhite,1xtile.crystalStainedGlass@15,atum:tile.crystalStainedGlass,White Stained Crystal Glass,false
@@ -203,6 +206,7 @@ blockGunpowder,1xtile.tsteelworks.dustblock@0,TSteelworks:dustStorage,Block of G
 blockHeeEndium,1xtile.endiumBlock@0,HardcoreEnderExpansion:endium_block,Endium Block,false
 blockHopper,1xtile.hopper@0,minecraft:hopper,Hopper,false
 blockIce,1xtile.ice@0,minecraft:ice,Ice,false
+blockIcestone,1xtile.extrautils:decorativeBlock1@3,ExtraUtilities:decorativeBlock1,Frosted Stone,false
 blockIndium,1xtile.aobd.blockIndium@0,aobd:blockIndium,Indium Block,false
 blockInvar,1xtile.thermalfoundation.storage@8,ThermalFoundation:Storage,Invar Block,false
 blockIridium,1xtile.aobd.blockIridium@0,aobd:blockIridium,Iridium Block,false
@@ -256,12 +260,13 @@ blockLimestone,1xtile.Limestone@8,TSteelworks:Limestone,Creepy Limestone Bricks,
 blockLimestone,1xtile.stone@0,atum:tile.stone,Stone,false
 blockLudicrite,1xtile.brMetal.0@4,BigReactors:BRMetalBlock,Ludicrite Block,false
 blockLumium,1xtile.thermalfoundation.storage@11,ThermalFoundation:Storage,Lumium Block,false
+blockMagicWood,1xtile.extrautils:decorativeBlock1@7,ExtraUtilities:decorativeBlock1,Border Stone (Alternate),false
 blockManyullyn,1xtile.tconstruct.metalblock@2,TConstruct:MetalBlock,Block of Manyullyn,false
 blockMarble,1xtile.chisel.marble@0,chisel:marble,Marble,false
 blockMarble,1xtile.projectred.exploration.stone@0,ProjRed|Exploration:projectred.exploration.stone,Marble,false
 blockMeat,1xtile.mfr.decorative.brick@13,MineFactoryReloaded:brick,Cooked Meat Block,false
-blockMeatRaw,1xtile.flesh@0,BiomesOPlenty:flesh,Flesh,false
 blockMeatRaw,1xtile.mfr.decorative.brick@12,MineFactoryReloaded:brick,Raw Meat Block,false
+blockMeatRaw,1xtile.flesh@0,BiomesOPlenty:flesh,Flesh,false
 blockMithril,1xtile.thermalfoundation.storage@6,ThermalFoundation:Storage,Mana Infused Block,false
 blockNetherStar,1xtile.StarBlock@0,ForbiddenMagic:StarBlock,Nether Star Block,false
 blockNickel,1xtile.thermalfoundation.storage@4,ThermalFoundation:Storage,Ferrous Block,false
@@ -441,7 +446,7 @@ bucketEnder,1xitem.thermalfoundation.bucket@2,ThermalFoundation:bucket,Resonant 
 bucketGlowstone,1xitem.thermalfoundation.bucket@1,ThermalFoundation:bucket,Energized Glowstone Bucket,false
 bucketPyrotheum,1xitem.thermalfoundation.bucket@3,ThermalFoundation:bucket,Blazing Pyrotheum Bucket,false
 bucketRedstone,1xitem.thermalfoundation.bucket@0,ThermalFoundation:bucket,Destabilized Redstone Bucket,false
-burntquartz,1xtile.extrautils:decorativeBlock1@2,ExtraUtilities:decorativeBlock1,Burnt Quartz,false
+burntQuartz,1xtile.extrautils:decorativeBlock1@2,ExtraUtilities:decorativeBlock1,Burnt Quartz,false
 cableRedNet,1xtile.mfr.cable.redstone@0,MineFactoryReloaded:cable.redstone,RedNet Cable,false
 cableRedNet,1xtile.mfr.cable.redstone@1,MineFactoryReloaded:cable.redstone,RedNet Cable,false
 cableRedNetEnergy,1xtile.mfr.cable.redstone@2,MineFactoryReloaded:cable.redstone,RedNet Energy Cable,false
@@ -807,6 +812,7 @@ crystalArdite,1xitem.aobd.crystalArdite@0,aobd:crystalArdite,Ardite Crystal,fals
 crystalCadmium,1xitem.aobd.crystalCadmium@0,aobd:crystalCadmium,Cadmium Crystal,false
 crystalCertusQuartz,1xitem.appliedenergistics2.ItemMaterial@0,appliedenergistics2:item.ItemMultiMaterial,Certus Quartz Crystal,false
 crystalCertusQuartz,1xitem.item.modingots@9,RotaryCraft:rotarycraft_item_modingots,Certus Quartz Gem,false
+crystalChargedCertusQuartz,1xitem.appliedenergistics2.ItemMaterial@1,appliedenergistics2:item.ItemMultiMaterial,Charged Certus Quartz Crystal,false
 crystalCinnabar,1xitem.thermalfoundation.material@20,ThermalFoundation:material,Cinnabar,false
 crystalCobalt,1xitem.aobd.crystalCobalt@0,aobd:crystalCobalt,Cobalt Crystal,false
 crystalCopper,1xitem.null@3,Mekanism:Crystal,Copper Crystal,false
@@ -961,32 +967,40 @@ dustAluminiumBrass,1xitem.tconstruct.Materials@42,TConstruct:materials,Aluminum 
 dustAluminum,1xitem.tconstruct.Materials@40,TConstruct:materials,Aluminum Dust,false
 dustAluminum,1xitem.dustUnknown@45,bcadditions:dust,Aluminum Dust,false
 dustAluminumBrass,1xitem.tconstruct.Materials@42,TConstruct:materials,Aluminum Brass Dust,false
+dustAluminumBrass,1xitem.dustUnknown@66,bcadditions:dust,Aluminum Brass Dust,false
+dustAlumite,1xitem.dustUnknown@67,bcadditions:dust,Alumite Dust,false
 dustAmmonium,1xitem.RawMaterials@3,ReactorCraft:reactorcraft_item_raw,Ammonium Chloride,false
 dustAmmonium,1xitem.item.modingots@56,RotaryCraft:rotarycraft_item_modingots,Ammonium Chloride Dust,false
+dustApatite,1xitem.dustUnknown@61,bcadditions:dust,Apatite Dust,false
 dustArdite,1xitem.tconstruct.Materials@38,TConstruct:materials,Ardite Dust,false
 dustArdite,1xitem.dustUnknown@46,bcadditions:dust,Ardite Dust,false
 dustAsh,1xitem.for.ash@0,Forestry:ash,Ash,false
 dustBauxite,1xitem.item.modingots@53,RotaryCraft:rotarycraft_item_modingots,Bauxite Dust,false
 dustBlizz,1xitem.thermalfoundation.material@1025,ThermalFoundation:material,Blizz Powder,false
 dustBlutonium,1xitem.ingot@7,BigReactors:BRIngot,Blutonium Dust,false
-dustBone,1xitem.dyePowder@0,minecraft:dye,Ink Sac,false
+dustBone,1xitem.dyePowder@15,minecraft:dye,Bone Meal,false
 dustBronze,1xitem.thermalfoundation.material@41,ThermalFoundation:material,Tinker's Alloy Blend,false
 dustBronze,1xitem.dustUnknown@4,bcadditions:dust,Bronze Dust,false
 dustCadmium,1xitem.aobd.dustCadmium@0,aobd:dustCadmium,Cadmium Dust,false
 dustCertusQuartz,1xitem.appliedenergistics2.ItemMaterial@2,appliedenergistics2:item.ItemMultiMaterial,Certus Quartz Dust,false
+dustCertusQuartz,1xitem.dustUnknown@65,bcadditions:dust,Certus Quartz Dust,false
 dustCharcoal,1xitem.thermalfoundation.material@3,ThermalFoundation:material,Pulverized Charcoal,false
 dustCharcoal,1xitem.railcraft.dust@3,Railcraft:dust,Charcoal Dust,false
+dustCharcoal,1xitem.dustUnknown@57,bcadditions:dust,Charcoal Dust,false
 dustCoal,1xitem.thermalfoundation.material@2,ThermalFoundation:material,Pulverized Coal,false
 dustCoal,1xitem.itemPowderIngot@0,EnderIO:itemPowderIngot,Coal Powder,false
 dustCoal,1xitem.item.powder@10,RotaryCraft:rotarycraft_item_powders,Coal Dust,false
+dustCoal,1xitem.dustUnknown@56,bcadditions:dust,Coal Dust,false
 dustCobalt,1xitem.tconstruct.Materials@39,TConstruct:materials,Cobalt Dust,false
 dustCobalt,1xitem.dustUnknown@48,bcadditions:dust,Cobalt Dust,false
+dustConductiveIron,1xitem.dustUnknown@78,bcadditions:dust,Conductive Iron Dust,false
 dustCopper,1xitem.thermalfoundation.material@32,ThermalFoundation:material,Pulverized Copper,false
 dustCopper,1xitem.null@3,Mekanism:Dust,Copper Dust,false
 dustCopper,1xitem.itemPowderIngot@3,EnderIO:itemPowderIngot,Copper Powder,false
 dustCopper,1xitem.dustUnknown@49,bcadditions:dust,Copper Dust,false
 dustCryotheum,1xitem.thermalfoundation.material@513,ThermalFoundation:material,Cryotheum Dust,false
 dustCyanite,1xitem.ingot@5,BigReactors:BRIngot,Cyanite Dust,false
+dustDarkSteel,1xitem.dustUnknown@80,bcadditions:dust,Dark Steel Dust,false
 dustDiamond,1xitem.item.crafting@1,ElectriCraft:electricraft_item_crafting,Diamond Dust,false
 dustDiamond,1xitem.null@0,Mekanism:OtherDust,Diamond Dust,false
 dustDiamond,1xitem.dustUnknown@3,bcadditions:dust,Diamond Dust,false
@@ -1013,17 +1027,25 @@ dustDirtyTin,1xitem.null@4,Mekanism:DirtyDust,Dirty Tin Dust,false
 dustDirtyTitanium,1xitem.aobd.dustDirtyTitanium@0,aobd:dustDirtyTitanium,Dirty Titanium Dust,false
 dustDirtyUranium,1xitem.aobd.dustDirtyUranium@0,aobd:dustDirtyUranium,Dirty Uranium Dust,false
 dustDirtyYellorium,1xitem.aobd.dustDirtyYellorium@0,aobd:dustDirtyYellorium,Dirty Yellorium Dust,false
+dustElectricalSteel,1xitem.dustUnknown@74,bcadditions:dust,Electrical Steel Dust,false
 dustElectrum,1xitem.thermalfoundation.material@39,ThermalFoundation:material,Electrum Blend,false
 dustElectrum,1xitem.dustUnknown@44,bcadditions:dust,Electrum Dust,false
 dustElectrumFlux,1xitem.redstonearsenal.material@0,RedstoneArsenal:material,Fluxed Electrum Blend,false
+dustEmerald,1xitem.dustUnknown@55,bcadditions:dust,Emerald Dust,false
 dustEnder,1xitem.appliedenergistics2.ItemMaterial@46,appliedenergistics2:item.ItemMultiMaterial,Ender Dust,false
 dustEnderPearl,1xitem.appliedenergistics2.ItemMaterial@46,appliedenergistics2:item.ItemMultiMaterial,Ender Dust,false
 dustEnderPearl,1xitem.itemPowderIngot@5,EnderIO:itemPowderIngot,Ender Pearl Powder,false
+dustEnderPearl,1xitem.dustUnknown@59,bcadditions:dust,Ender Pearl Dust,false
 dustEnderium,1xitem.thermalfoundation.material@44,ThermalFoundation:material,Enderium Blend,false
+dustEnderium,1xitem.dustUnknown@73,bcadditions:dust,Enderium Dust,false
+dustEnderiumBase,1xitem.dustUnknown@72,bcadditions:dust,Enderium Base Dust,false
+dustEnergeticAlloy,1xitem.dustUnknown@75,bcadditions:dust,Energetic Alloy Dust,false
 dustFlameite,1xitem.null@0,SpaceHole:null,Flameite Dust,false
 dustFluix,1xitem.appliedenergistics2.ItemMaterial@8,appliedenergistics2:item.ItemMultiMaterial,Fluix Dust,false
 dustFzDarkIron,1xitem.aobd.dustFzDarkIron@0,aobd:dustFzDarkIron,Dark Iron Dust,false
+dustFzDarkIron,1xitem.dustUnknown@82,bcadditions:dust,Dark Iron Dust,false
 dustGalena,1xitem.item.modingots@5,RotaryCraft:rotarycraft_item_modingots,Galena Dust,false
+dustGildedRedMetal,1xitem.dustUnknown@83,bcadditions:dust,Gilded Red Metal Dust,false
 dustGlowstone,1xitem.yellowDust@0,minecraft:glowstone_dust,Glowstone Dust,false
 dustGold,1xitem.thermalfoundation.material@1,ThermalFoundation:material,Pulverized Gold,false
 dustGold,1xitem.itemPowderIngot@2,EnderIO:itemPowderIngot,Gold Powder,false
@@ -1034,6 +1056,7 @@ dustGunpowder,1xitem.sulphur@0,minecraft:gunpowder,Gunpowder,false
 dustHeeEndium,1xitem.aobd.dustHeeEndium@0,aobd:dustHeeEndium,HeeEndium Dust,false
 dustIndium,1xitem.aobd.dustIndium@0,aobd:dustIndium,Indium Dust,false
 dustInvar,1xitem.thermalfoundation.material@40,ThermalFoundation:material,Invar Blend,false
+dustInvar,1xitem.dustUnknown@69,bcadditions:dust,Invar Dust,false
 dustIridium,1xitem.aobd.dustIridium@0,aobd:dustIridium,Iridium Dust,false
 dustIron,1xitem.thermalfoundation.material@0,ThermalFoundation:material,Pulverized Iron,false
 dustIron,1xitem.itemPowderIngot@1,EnderIO:itemPowderIngot,Iron Powder,false
@@ -1047,6 +1070,7 @@ dustLead,1xitem.dustUnknown@50,bcadditions:dust,Lead Dust,false
 dustLithium,1xitem.null@4,Mekanism:OtherDust,Lithium Dust,false
 dustLudicrite,1xitem.ingot@9,BigReactors:BRIngot,Ludicrite Dust,false
 dustLumium,1xitem.thermalfoundation.material@43,ThermalFoundation:material,Lumium Blend,false
+dustLumium,1xitem.dustUnknown@71,bcadditions:dust,Lumium Dust,false
 dustManyullyn,1xitem.tconstruct.Materials@41,TConstruct:materials,Manyullyn Dust,false
 dustManyullyn,1xitem.dustUnknown@47,bcadditions:dust,Manyullyn Dust,false
 dustMithril,1xitem.thermalfoundation.material@38,ThermalFoundation:material,Pulverized Mana Infused Metal,false
@@ -1054,6 +1078,7 @@ dustMithril,1xitem.dustUnknown@20,bcadditions:dust,Mithril Dust,false
 dustNaquadah,1xitem.naquadah@1,StargateTech2:naquadah,Pulverized Naquadah,false
 dustNetherQuartz,1xitem.appliedenergistics2.ItemMaterial@3,appliedenergistics2:item.ItemMultiMaterial,Nether Quartz Dust,false
 dustNetherQuartz,1xitem.item.crafting@2,ElectriCraft:electricraft_item_crafting,Quartz Dust,false
+dustNetherQuartz,1xitem.dustUnknown@60,bcadditions:dust,Nether Quartz Dust,false
 dustNetherrack,1xitem.item.powder@0,RotaryCraft:rotarycraft_item_powders,Netherrack Dust,false
 dustNickel,1xitem.thermalfoundation.material@36,ThermalFoundation:material,Pulverized Ferrous Metal,false
 dustNickel,1xitem.dustUnknown@51,bcadditions:dust,Nickel Dust,false
@@ -1063,7 +1088,12 @@ dustObsidian,1xitem.thermalfoundation.material@4,ThermalFoundation:material,Pulv
 dustObsidian,1xitem.railcraft.dust@0,Railcraft:dust,Obsidian Dust,false
 dustObsidian,1xitem.itemPowderIngot@7,EnderIO:itemPowderIngot,Obsidian Powder,false
 dustObsidian,1xitem.null@6,Mekanism:OtherDust,Obsidian Dust,false
+dustObsidian,1xitem.dustUnknown@58,bcadditions:dust,Obsidian Dust,false
 dustOsmium,1xitem.null@2,Mekanism:Dust,Osmium Dust,false
+dustOsmium,1xitem.dustUnknown@62,bcadditions:dust,Osmium Dust,false
+dustPhasedGold,1xitem.dustUnknown@76,bcadditions:dust,Phased Gold Dust,false
+dustPhasedIron,1xitem.dustUnknown@79,bcadditions:dust,Phased Iron Dust,false
+dustPigIron,1xitem.dustUnknown@68,bcadditions:dust,Pig Iron Dust,false
 dustPlastic,1xitem.mfr.plastic.raw@0,MineFactoryReloaded:plastic.raw,Raw Plastic,false
 dustPlatinum,1xitem.thermalfoundation.material@37,ThermalFoundation:material,Pulverized Shiny Metal,false
 dustPlatinum,1xitem.dustUnknown@52,bcadditions:dust,Platinum Dust,false
@@ -1074,6 +1104,7 @@ dustQuantum,1xitem.item.modingots@69,RotaryCraft:rotarycraft_item_modingots,Quan
 dustQuicklime,1xitem.RawMaterials@4,ReactorCraft:reactorcraft_item_raw,Quicklime,false
 dustRedstone,1xitem.redstone@0,minecraft:redstone,Redstone,false
 dustRedstone,1xitem.item.modingots@31,RotaryCraft:rotarycraft_item_modingots,Nether Redstone Dust,false
+dustRedstoneAlloy,1xitem.dustUnknown@77,bcadditions:dust,Redstone Alloy Dust,false
 dustRefinedObsidian,1xitem.null@5,Mekanism:OtherDust,Refined Obsidian Dust,false
 dustRutile,1xitem.aobd.dustRutile@0,aobd:dustRutile,Rutile Dust,false
 dustSalt,1xitem.saltItem@0,harvestcraft:saltItem,Salt,false
@@ -1085,11 +1116,14 @@ dustSaltpeter,1xitem.railcraft.dust@2,Railcraft:dust,Saltpeter,false
 dustSaltpeter,1xitem.itemMolecule@5,minechem:minechemMolecule,Potassium Nitrate,false
 dustSaltpeter,1xitem.item.modingots@20,RotaryCraft:rotarycraft_item_modingots,Saltpeter Dust,false
 dustSaltpeter,1xitem.item.modingots@83,RotaryCraft:rotarycraft_item_modingots,Nether Saltpeter Dust,false
+dustSaltpeter,1xitem.dustUnknown@64,bcadditions:dust,Saltpeter Dust,false
 dustSignalum,1xitem.thermalfoundation.material@42,ThermalFoundation:material,Signalum Blend,false
+dustSignalum,1xitem.dustUnknown@70,bcadditions:dust,Signalum Dust,false
 dustSilver,1xitem.thermalfoundation.material@34,ThermalFoundation:material,Pulverized Silver,false
 dustSilver,1xitem.null@5,Mekanism:Dust,Silver Dust,false
 dustSilver,1xitem.dustUnknown@53,bcadditions:dust,Silver Dust,false
 dustSoulSand,1xitem.item.powder@1,RotaryCraft:rotarycraft_item_powders,Tar Sand,false
+dustSoularium,1xitem.dustUnknown@81,bcadditions:dust,Soularium Dust,false
 dustSteel,1xitem.null@1,Mekanism:OtherDust,Steel Dust,false
 dustSteel,1xitem.dustUnknown@9,bcadditions:dust,Steel Dust,false
 dustSugar,1xitem.sugar@0,minecraft:sugar,Sugar,false
@@ -1099,6 +1133,7 @@ dustSulfur,1xitem.item.modingots@48,RotaryCraft:rotarycraft_item_modingots,Sulfu
 dustSulfur,1xitem.item.modingots@76,RotaryCraft:rotarycraft_item_modingots,Nether Sulfur Dust,false
 dustSulfur,1xitem.null@3,Mekanism:OtherDust,Sulfur Dust,false
 dustSulfur,1xitem.null@0,SpaceVenus:null,Sulfur Dust,false
+dustSulfur,1xitem.dustUnknown@63,bcadditions:dust,Sulfur Dust,false
 dustTeslatite,1xitem.item.modingots@81,RotaryCraft:rotarycraft_item_modingots,Teslatite Dust,false
 dustTin,1xitem.thermalfoundation.material@33,ThermalFoundation:material,Pulverized Tin,false
 dustTin,1xitem.null@4,Mekanism:Dust,Tin Dust,false
@@ -1132,9 +1167,9 @@ dyeBlue,1xitem.gendustry.HoneyDrop@14,gendustry:HoneyDrop,Blue Colored Honey Dro
 dyeBlue,1xitem.projectred.exploration.lilyseed@11,ProjRed|Exploration:projectred.exploration.lilyseed,Blue Deviating Lily seed,false
 dyeBlue,1xtile.erebus.flower@3,erebus:flower,Blue Petal,false
 dyeBrown,1xitem.dyePowder@3,minecraft:dye,Cocoa Beans,false
+dyeBrown,1xitem.mfr.fertilizer@0,MineFactoryReloaded:fertilizer,Industrial Fertilizer,false
 dyeBrown,1xitem.misc@6,BiomesOPlenty:misc,Brown Dye,false
 dyeBrown,1xitem.dye@12,Botania:dye,Floral Brown Powder,false
-dyeBrown,1xitem.mfr.fertilizer@0,MineFactoryReloaded:fertilizer,Industrial Fertilizer,false
 dyeBrown,1xitem.gendustry.HoneyDrop@13,gendustry:HoneyDrop,Brown Colored Honey Drop,false
 dyeBrown,1xitem.projectred.exploration.lilyseed@12,ProjRed|Exploration:projectred.exploration.lilyseed,Brown Deviating Lily seed,false
 dyeBrown,1xtile.erebus.flower@2,erebus:flower,Brown Petal,false
@@ -1334,8 +1369,6 @@ element_Zn,1xitem.itemElement@30,minechem:minechemElement,Zinc,false
 element_Zr,1xitem.itemElement@40,minechem:minechemElement,Zirconium,false
 elvenDragonstone,1xitem.manaResource@9,Botania:manaResource,Dragonstone,false
 elvenPixieDust,1xitem.manaResource@8,Botania:manaResource,Pixie Dust,false
-endercore,1xtile.extrautils:decorativeBlock1@11,ExtraUtilities:decorativeBlock1,Ender Core,false
-enderobsidian,1xtile.extrautils:decorativeBlock1@1,ExtraUtilities:decorativeBlock1,Ender-infused Obsidian,false
 eternalLifeEssence,1xitem.manaResource@5,Botania:manaResource,Gaia Spirit,false
 fenceWood,1xtile.for.fences@32767,Forestry:fences,(wildcard),true
 fenceWood,1xtile.for.fences2@32767,Forestry:fences2,(wildcard),true
@@ -1918,12 +1951,12 @@ frameWitheria,1xitem.fe.frame.frameWitheria@0,ForestryExtras:item.fe.frame.frame
 fuelCharcoal,1xitem.coal@1,minecraft:coal,Charcoal,false
 fuelCoal,1xitem.coal@0,minecraft:coal,Coal,false
 fuelCoke,1xitem.railcraft.fuel.coke@0,Railcraft:fuel.coke,Coal Coke,false
-fz.waterBucketLike,1xitem.for.waxCapsuleWater@0,Forestry:waxCapsuleWater,Water Capsule,false
+fz.waterBucketLike,1xitem.for.refractoryWater@0,Forestry:refractoryWater,Water Capsule,false
 fz.waterBucketLike,1xitem.iguana.tcon.clayBucket.Water@0,IguanaTweaksTConstruct:clayBucketWater,Water Clay Bucket,false
 fz.waterBucketLike,1xitem.bucketWater@0,minecraft:water_bucket,Water Bucket,false
 fz.waterBucketLike,1xitem.for.canWater@0,Forestry:canWater,Water Can,false
 fz.waterBucketLike,1xitem.erebus.bambucketWater@0,erebus:bambucketWater,Water Bambucket,false
-fz.waterBucketLike,1xitem.for.refractoryWater@0,Forestry:refractoryWater,Water Capsule,false
+fz.waterBucketLike,1xitem.for.waxCapsuleWater@0,Forestry:waxCapsuleWater,Water Capsule,false
 gaiaIngot,1xitem.manaResource@14,Botania:manaResource,Gaia Spirit Ingot,false
 gearBronze,1xitem.thermalfoundation.material@137,ThermalFoundation:material,Tinker's Alloy Gear,false
 gearBronze,1xitem.for.gearBronze@0,Forestry:gearBronze,Bronze Gear,false
@@ -2072,7 +2105,6 @@ holeStone,1xtile.hole_basic@3,SpaceHole:hole_basic,Make-Make Cobblestone,false
 holystone,1xtile.chisel.holystone@0,chisel:holystone,Holystone,false
 honeyDrop,1xitem.grc.honeyJar@0,Growthcraft|Bees:grc.honeyJar,Honey,false
 honeyEqualssugar,1xitem.honeyItem@0,harvestcraft:honeyItem,Honey,false
-icestone,1xtile.extrautils:decorativeBlock1@3,ExtraUtilities:decorativeBlock1,Frosted Stone,false
 ingotAlfium,1xitem.fe.item.alfium ingot@0,ForestryExtras:item.fe.item.alfium ingot,Alfium Ingot,false
 ingotAluminium,1xitem.tconstruct.Materials@11,TConstruct:materials,Aluminum Ingot,false
 ingotAluminium,1xitem.erebus.materials@43,erebus:materials,Aluminium Ingot,false
@@ -2132,6 +2164,7 @@ ingotFrozenIron,1xitem.null@2,SpacePluto:null,Frozen Iron Ingot,false
 ingotFrozenIronBlock,1xtile.pluto_block@9,SpacePluto:pluto_block,Block of Ununpentium,false
 ingotFzDarkIron,1xitem.factorization:dark_iron_ingot@0,factorization:dark_iron_ingot,Dark Iron Ingot,false
 ingotFzDarkIron,1xitem.item.modingots@71,RotaryCraft:rotarycraft_item_modingots,Dark Iron Ingot,false
+ingotGildedRedMetal,1xitem.gildedRedMetalIngot@0,bcadditions:ingotGildedRedMetal,Gilded Red Metal Ingot,false
 ingotGold,1xitem.ingotGold@0,minecraft:gold_ingot,Gold Ingot,false
 ingotGold,1xitem.item.modingots@30,RotaryCraft:rotarycraft_item_modingots,Nether Gold Ingot,false
 ingotGoshen,1xitem.fe.item.joshen ingot@0,ForestryExtras:item.fe.item.joshen ingot,Joshen Ingot,false
@@ -2242,9 +2275,7 @@ iridiumPlate,1xitem.null@1,SpaceMercury:null,Iridium Plate,false
 ironRod,1xitem.tconstruct.ToolRod@2,TConstruct:toolRod,Iron Tool Rod,false
 ironwood,1xitem.ironwoodIngot@0,TwilightForest:item.ironwoodIngot,Ironwood Ingot,false
 itemAcorn,1xitem.null@0,customthings:item,Magical Acorn,false
-itemAttractorCrystal,1xitem.itemMaterial@9,EnderIO:itemMaterial,Enticing Crystal,false
 itemBeeswax,1xitem.for.beeswax@0,Forestry:beeswax,Beeswax,false
-itemBinderComposite,1xitem.itemMaterial@2,EnderIO:itemMaterial,Binder Composite,false
 itemBioFuel,1xitem.BioFuel@0,Mekanism:BioFuel,Bio Fuel,false
 itemBlazePowder,1xitem.blazePowder@0,minecraft:blaze_powder,Blaze Powder,false
 itemBlazeRod,1xitem.blazeRod@0,minecraft:blaze_rod,Blaze Rod,false
@@ -2254,9 +2285,6 @@ itemClay,1xitem.clay@0,minecraft:clay_ball,Clay,false
 itemCoal,1xitem.coal@0,minecraft:coal,Coal,false
 itemCoal,1xitem.item.modingots@28,RotaryCraft:rotarycraft_item_modingots,Nether Coal Item,false
 itemCompressedCarbon,1xitem.CompressedCarbon@0,Mekanism:CompressedCarbon,Compressed Carbon,false
-itemConduitBinder,1xitem.itemMaterial@1,EnderIO:itemMaterial,Conduit Binder,false
-itemDarkGrindingBall,1xitem.itemMaterial@7,EnderIO:itemMaterial,Dark Steel Ball,false
-itemEnderCrystal,1xitem.itemMaterial@8,EnderIO:itemMaterial,Ender Crystal,false
 itemEnrichedAlloy,1xitem.EnrichedAlloy@0,Mekanism:EnrichedAlloy,Enriched Alloy,false
 itemEssence,1xitem.item.modingots@66,RotaryCraft:rotarycraft_item_modingots,Essence Item,false
 itemFlint,1xitem.flint@0,minecraft:flint,Flint,false
@@ -2266,9 +2294,7 @@ itemIlluminatedPanel,1xitem.appliedenergistics2.ItemPart@160,appliedenergistics2
 itemIlluminatedPanel,1xitem.appliedenergistics2.ItemPart@200,appliedenergistics2:item.ItemMultiPart,Dark Illuminated Panel,false
 itemLeather,1xitem.leather@0,minecraft:leather,Leather,false
 itemNetherStar,1xitem.netherStar@0,minecraft:nether_star,Nether Star,false
-itemPhasedIronNugget,1xitem.itemMaterial@3,EnderIO:itemMaterial,Pulsating Iron Nugget,false
 itemPollen,1xitem.for.pollen@0,Forestry:pollen,Pollen Cluster,false
-itemPulsatingCrystal,1xitem.itemMaterial@5,EnderIO:itemMaterial,Pulsating Crystal,false
 itemQuicksilver,1xitem.item.modingots@11,RotaryCraft:rotarycraft_item_modingots,Mercury Item,false
 itemQuicksilver,1xitem.ItemResource@3,Thaumcraft:ItemResource,Quicksilver,false
 itemRawRubber,1xitem.mfr.rubber.raw@0,MineFactoryReloaded:rubber.raw,Raw Rubber,false
@@ -2282,9 +2308,6 @@ itemSilicon,1xitem.item.compacts@10,RotaryCraft:rotarycraft_item_compacts,Silico
 itemSkull,1xitem.skull@32767,minecraft:skull,(wildcard),true
 itemSkull,1xtile.blockEndermanSkull@0,EnderIO:blockEndermanSkull,Enderman Head,false
 itemSulfurDust,1xitem.null@0,SpaceVenus:null,Sulfur Dust,false
-itemVibrantCrystal,1xitem.itemMaterial@6,EnderIO:itemMaterial,Vibrant Crystal,false
-itemVibrantNugget,1xitem.itemMaterial@4,EnderIO:itemMaterial,Vibrant Alloy Nugget,false
-itemWeatherCrystal,1xitem.itemMaterial@10,EnderIO:itemMaterial,Weather Crystal,false
 jetpackBody,1xitem.null@13,SpaceVenus:null,Jetpack Body,false
 jetpackThruster,1xitem.null@12,SpaceVenus:null,Jetpack Engine,false
 knightmetal,1xitem.knightMetal@0,TwilightForest:item.knightMetal,Knightmetal Ingot,false
@@ -2297,6 +2320,15 @@ leavesTree,1xtile.Darkleaves@32767,Natura:Dark Leaves,(wildcard),true
 leavesTree,1xtile.grc.bambooLeaves@0,Growthcraft|Bamboo:grc.bambooLeaves,Bamboo Leaves,false
 lexicaBotania,1xitem.lexicon@0,Botania:lexicon,Lexica Botania,false
 limestone,1xtile.chisel.limestone@0,chisel:limestone,Limestone,false
+limestone,1xtile.Limestone@0,TSteelworks:Limestone,Limestone,false
+limestone,1xtile.Limestone@1,TSteelworks:Limestone,Limestone Cobble,false
+limestone,1xtile.Limestone@2,TSteelworks:Limestone,Limestone Bricks,false
+limestone,1xtile.Limestone@3,TSteelworks:Limestone,Cracked Limestone Bricks,false
+limestone,1xtile.Limestone@4,TSteelworks:Limestone,Limestone Paver,false
+limestone,1xtile.Limestone@5,TSteelworks:Limestone,Limestone Road,false
+limestone,1xtile.Limestone@6,TSteelworks:Limestone,Fancy Limestone Bricks,false
+limestone,1xtile.Limestone@7,TSteelworks:Limestone,Chiseled Limestone Bricks,false
+limestone,1xtile.Limestone@8,TSteelworks:Limestone,Creepy Limestone Bricks,false
 listAllReplaceheavycream,1xitem.silkentofuItem@0,harvestcraft:silkentofuItem,Silken Tofu,false
 listAllReplaceheavycream,1xitem.heavycreamItem@0,harvestcraft:heavycreamItem,Heavy Cream,false
 listAllReplaceicecream,1xitem.silkentofuItem@0,harvestcraft:silkentofuItem,Silken Tofu,false
@@ -2640,7 +2672,6 @@ logWood,1xtile.erebus.logRotten@0,erebus:logRotten,Rotten Wood,false
 logWood,1xtile.erebus.logMarshwood@0,erebus:logMarshwood,Marshwood Wood,false
 logWood,1xtile.erebus.saplessLog@0,erebus:saplessLog,Sapless log,false
 logWood,1xtile.erebus.log_scorched@0,erebus:log_scorched,Scorched Wood,false
-magicinfusedwood,1xtile.extrautils:decorativeBlock1@7,ExtraUtilities:decorativeBlock1,Border Stone (Alternate),false
 manaDiamond,1xitem.manaResource@2,Botania:manaResource,Mana Diamond,false
 manaPearl,1xitem.manaResource@1,Botania:manaResource,Mana Pearl,false
 manaPetalBlack,1xitem.manaPetal@15,Botania:manaPetal,Black Mana Petal,false
@@ -2868,21 +2899,37 @@ molecule_yellowPigment,1xitem.itemMolecule@53,minechem:minechemMolecule,Potassiu
 molecule_zoisite,1xitem.itemMolecule@130,minechem:minechemMolecule,Zoisite,false
 mycelium,1xtile.mycel@0,minecraft:mycelium,Mycelium,false
 mysticFlowerBlack,1xtile.flower@15,Botania:flower,Mystical Black Flower,false
+mysticFlowerBlackDouble,1xtile.doubleFlower2@7,Botania:doubleFlower2,Tall Mystical Black Flower,false
 mysticFlowerBlue,1xtile.flower@11,Botania:flower,Mystical Blue Flower,false
+mysticFlowerBlueDouble,1xtile.doubleFlower2@3,Botania:doubleFlower2,Tall Mystical Blue Flower,false
 mysticFlowerBrown,1xtile.flower@12,Botania:flower,Mystical Brown Flower,false
+mysticFlowerBrownDouble,1xtile.doubleFlower2@4,Botania:doubleFlower2,Tall Mystical Brown Flower,false
 mysticFlowerCyan,1xtile.flower@9,Botania:flower,Mystical Cyan Flower,false
+mysticFlowerCyanDouble,1xtile.doubleFlower2@1,Botania:doubleFlower2,Tall Mystical Cyan Flower,false
 mysticFlowerGray,1xtile.flower@7,Botania:flower,Mystical Gray Flower,false
+mysticFlowerGrayDouble,1xtile.doubleFlower1@7,Botania:doubleFlower1,Tall Mystical Gray Flower,false
 mysticFlowerGreen,1xtile.flower@13,Botania:flower,Mystical Green Flower,false
+mysticFlowerGreenDouble,1xtile.doubleFlower2@5,Botania:doubleFlower2,Tall Mystical Green Flower,false
 mysticFlowerLightBlue,1xtile.flower@3,Botania:flower,Mystical Light Blue Flower,false
+mysticFlowerLightBlueDouble,1xtile.doubleFlower1@3,Botania:doubleFlower1,Tall Mystical Light Blue Flower,false
 mysticFlowerLightGray,1xtile.flower@8,Botania:flower,Mystical Light Gray Flower,false
+mysticFlowerLightGrayDouble,1xtile.doubleFlower2@0,Botania:doubleFlower2,Tall Mystical Light Gray Flower,false
 mysticFlowerLime,1xtile.flower@5,Botania:flower,Mystical Lime Flower,false
+mysticFlowerLimeDouble,1xtile.doubleFlower1@5,Botania:doubleFlower1,Tall Mystical Lime Flower,false
 mysticFlowerMagenta,1xtile.flower@2,Botania:flower,Mystical Magenta Flower,false
+mysticFlowerMagentaDouble,1xtile.doubleFlower1@2,Botania:doubleFlower1,Tall Mystical Magenta Flower,false
 mysticFlowerOrange,1xtile.flower@1,Botania:flower,Mystical Orange Flower,false
+mysticFlowerOrangeDouble,1xtile.doubleFlower1@1,Botania:doubleFlower1,Tall Mystical Orange Flower,false
 mysticFlowerPink,1xtile.flower@6,Botania:flower,Mystical Pink Flower,false
+mysticFlowerPinkDouble,1xtile.doubleFlower1@6,Botania:doubleFlower1,Tall Mystical Pink Flower,false
 mysticFlowerPurple,1xtile.flower@10,Botania:flower,Mystical Purple Flower,false
+mysticFlowerPurpleDouble,1xtile.doubleFlower2@2,Botania:doubleFlower2,Tall Mystical Purple Flower,false
 mysticFlowerRed,1xtile.flower@14,Botania:flower,Mystical Red Flower,false
+mysticFlowerRedDouble,1xtile.doubleFlower2@6,Botania:doubleFlower2,Tall Mystical Red Flower,false
 mysticFlowerWhite,1xtile.flower@0,Botania:flower,Mystical White Flower,false
+mysticFlowerWhiteDouble,1xtile.doubleFlower1@0,Botania:doubleFlower1,Tall Mystical White Flower,false
 mysticFlowerYellow,1xtile.flower@4,Botania:flower,Mystical Yellow Flower,false
+mysticFlowerYellowDouble,1xtile.doubleFlower1@4,Botania:doubleFlower1,Tall Mystical Yellow Flower,false
 netherrack,1xtile.hellrock@0,minecraft:netherrack,Netherrack,false
 netherrackRod,1xitem.tconstruct.ToolRod@7,TConstruct:toolRod,Netherrack Tool Rod,false
 nuggetAluminium,1xitem.oreberry@4,TConstruct:oreBerries,Aluminum Oreberry,false
@@ -3015,6 +3062,7 @@ oreCadmium,1xtile.Ore@2,ReactorCraft:reactorcraft_block_ore,Cadmium Ore,false
 oreCalcite,1xtile.Ore@7,ReactorCraft:reactorcraft_block_ore,Calcite,false
 oreCertusQuartz,1xtile.appliedenergistics2.OreQuartz@0,appliedenergistics2:tile.OreQuartz,Certus Quartz Ore,false
 oreCertusQuartz,1xtile.appliedenergistics2.OreQuartzCharged@0,appliedenergistics2:tile.OreQuartzCharged,Charged Certus Quartz Ore,false
+oreChargedCertusQuartz,1xtile.appliedenergistics2.OreQuartzCharged@0,appliedenergistics2:tile.OreQuartzCharged,Charged Certus Quartz Ore,false
 oreCheese,1xtile.moonBlock.0@2,GalacticraftCore:tile.moonBlock,Cheese Ore,false
 oreCinnabar,1xtile.blockCustomOre@0,Thaumcraft:blockCustomOre,Cinnabar Ore,false
 oreCoal,1xtile.oreCoal@0,minecraft:coal_ore,Coal Ore,false
@@ -3531,7 +3579,6 @@ runeWrathB,1xitem.rune@13,Botania:rune,Rune of Wrath,false
 sand,1xtile.sand@32767,minecraft:sand,(wildcard),true
 sand,1xtile.sand@0,minecraft:sand,Sand,false
 sandstone,1xtile.sandStone@32767,minecraft:sandstone,(wildcard),true
-sandyglass,1xtile.extrautils:decorativeBlock1@9,ExtraUtilities:decorativeBlock1,Sandy Glass,false
 saplingGreatwood,1xtile.blockCustomPlant@0,Thaumcraft:blockCustomPlant,Greatwood Sapling,false
 saplingSilverwood,1xtile.blockCustomPlant@1,Thaumcraft:blockCustomPlant,Silverwood Sapling,false
 saplingTree,1xtile.natura.sapling@32767,Natura:florasapling,(wildcard),true
@@ -3815,25 +3862,36 @@ steeleaf,1xitem.steeleafIngot@0,TwilightForest:item.steeleafIngot,Steeleaf,false
 stickAlfium,1xitem.fe.item.alfiumStick@0,ForestryExtras:item.fe.item.alfiumStick,Alfium Stick,false
 stickAlumite,1xitem.fe.item.alumiteStick@0,ForestryExtras:item.fe.item.alumiteStick,Alumite Stick,false
 stickArdite,1xitem.fe.item.arditeStick@0,ForestryExtras:item.fe.item.arditeStick,Ardite Stick,false
+stickBlaze,1xitem.stickBlaze@0,bcadditions:stickBlaze,Blaze Stick,false
 stickBronze,1xitem.fe.item.bronzeStick@0,ForestryExtras:item.fe.item.bronzeStick,Bronze Stick,false
 stickCoal,1xitem.fe.item.coalStick@0,ForestryExtras:item.fe.item.coalStick,Coal Stick,false
 stickCobalt,1xitem.fe.item.cobaltStick@0,ForestryExtras:item.fe.item.cobaltStick,Cobalt Stick,false
 stickCopper,1xitem.fe.item.copperStick@0,ForestryExtras:item.fe.item.copperStick,Copper Stick,false
+stickDiamond,1xitem.stickDiamond@0,bcadditions:stickDiamond,Diamond Stick,false
 stickDiamond,1xitem.fe.item.diamondStick@0,ForestryExtras:item.fe.item.diamondStick,Diamond Stick,false
 stickDraconic,1xitem.fe.item.draconicStick@0,ForestryExtras:item.fe.item.draconicStick,Draconic Stick,false
+stickEmerald,1xitem.stickEmerald@0,bcadditions:stickEmerald,Emerald Stick,false
 stickEmerald,1xitem.fe.item.emeraldStick@0,ForestryExtras:item.fe.item.emeraldStick,Emerald Stick,false
+stickEnder,1xitem.stickEnder@0,bcadditions:stickEnder,Ender Stick,false
+stickGlowstone,1xitem.stickGlowstone@0,bcadditions:stickGlowstone,Glowstone Stick,false
+stickGold,1xitem.stickGold@0,bcadditions:stickGold,Gold Stick,false
 stickGold,1xitem.fe.item.goldStick@0,ForestryExtras:item.fe.item.goldStick,Gold Stick,false
+stickIron,1xitem.stickIron@0,bcadditions:stickIron,Iron Stick,false
 stickIron,1xitem.fe.item.ironStick@0,ForestryExtras:item.fe.item.ironStick,Iron Stick,false
 stickItarius,1xitem.fe.item.itariusStick@0,ForestryExtras:item.fe.item.itariusStick,Itarius Stick,false
 stickLead,1xitem.fe.item.leadStick@0,ForestryExtras:item.fe.item.leadStick,Lead Stick,false
 stickLegendary,1xitem.fe.item.legendaryStick@0,ForestryExtras:item.fe.item.legendaryStick,Legendary Stick,false
 stickManyullyn,1xitem.fe.item.manyullynStick@0,ForestryExtras:item.fe.item.manyullynStick,Manyullyn Stick,false
 stickMutatedIron,1xitem.fe.item.mutatedIronStick@0,ForestryExtras:item.fe.item.mutatedIronStick,Mutated Iron Stick,false
+stickNetherStar,1xitem.stickNetherStar@0,bcadditions:stickNetherStar,Nether Star Stick,false
 stickObsidian,1xitem.fe.item.obsidianStick@0,ForestryExtras:item.fe.item.obsidianStick,Obsidian Stick,false
 stickObsidian,1xitem.ingredient@1,RandomThings:ingredient,Obsidian Stick,false
 stickObsidian,1xitem.tconstruct.ToolRod@6,TConstruct:toolRod,Obsidian Tool Rod,false
+stickQuartz,1xitem.stickQuartz@0,bcadditions:stickQuartz,Quartz Stick,false
+stickRedstone,1xitem.stickRedstone@0,bcadditions:stickRedstone,Redstone Stick,false
 stickReinforced,1xitem.fe.item.reinforcedStick@0,ForestryExtras:item.fe.item.reinforcedStick,Reinforced Stick,false
 stickSilver,1xitem.fe.item.silverStick@0,ForestryExtras:item.fe.item.silverStick,Silver Stick,false
+stickSlime,1xitem.stickSlime@0,bcadditions:stickSlime,Slime Stick,false
 stickSteel,1xitem.fe.item.steelStick@0,ForestryExtras:item.fe.item.steelStick,Steel Stick,false
 stickThaumium,1xitem.fe.item.thaumiumStick@0,ForestryExtras:item.fe.item.thaumiumStick,Thaumium Stick,false
 stickTin,1xitem.fe.item.tinStick@0,ForestryExtras:item.fe.item.tinStick,Tin Stick,false

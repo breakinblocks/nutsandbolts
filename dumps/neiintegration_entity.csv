@@ -119,8 +119,6 @@ ID,Name,Class Name
 118,CreeperBoss,micdoodle8.mods.galacticraft.planets.mars.entities.EntityCreeperBoss
 119,Blizz,cofh.thermalfoundation.entity.monster.EntityBlizz
 120,Villager,net.minecraft.entity.passive.EntityVillager
-121,HighGolem,toops.tsteelworks.common.entity.HighGolem
-122,SteelGolem,toops.tsteelworks.common.entity.SteelGolem
 200,EnderCrystal,chylex.hee.entity.block.EntityBlockEnderCrystal
 301,BiomesOPlenty.JungleSpider,biomesoplenty.common.entities.EntityJungleSpider
 302,BiomesOPlenty.Rosester,biomesoplenty.common.entities.EntityRosester
