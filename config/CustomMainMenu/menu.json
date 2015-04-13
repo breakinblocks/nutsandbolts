@@ -1,17 +1,5 @@
 {
     "buttons": {
-        "play": {
-            "action": {
-                "ip": "macadamia.herdofsquirrels.com",
-                "type": "connectToServer"
-            },
-            "alignment": "right_center",
-            "height": 20,
-            "posX": -125,
-            "posY": -75,
-            "text": "Join Server",
-            "width": 90
-        },
         "multiplayer": {
             "action": {
                 "gui": "multiplayer",
