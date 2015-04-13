@@ -84,14 +84,6 @@
             "posY": 0,
             "width": 100
         },
-        "hos_logo": {
-            "alignment": "top_left",
-            "height": 30,
-            "image": "nutsandbolts:menu/hos-logo.png",
-            "posX": 0,
-            "posY": 0,
-            "width": 112
-        },
         "nab_logo": {
             "alignment": "center",
             "height": 300,
