@@ -436,85 +436,82 @@ ID,Name,Localized Name,Temperature,Luminosity,Density,Viscosity,Placeable,Block 
 435,rc co2,Carbon Dioxide Gas,295,0,2,7,false,null,null
 436,rc hot co2,Hot Carbon Dioxide Gas,295,0,1,5,false,null,null
 437,rc corium,fluid.rc corium,2173,0,5000,8000,true,ReactorCraft:reactorcraft_block_coriumflowing,Reika.ReactorCraft.Blocks.BlockCoriumFlowing
-438,antivenom,Anti-Venom,295,0,1000,2000,false,null,null
-439,beetlejuice,Beetle Juice,295,0,1000,1000,false,null,null
-440,limestone.molten,Molten Limestone,1300,12,3000,6000,true,TSteelworks:molten.limestone,toops.tsteelworks.common.blocks.TSFluidBlock
-441,cement.liquid,Wet Cement,20,0,6000,6000,true,TSteelworks:liquid.cement,toops.tsteelworks.common.blocks.CementFluidBlock
-442,witchery:fluidspirit,fluid.witchery:fluidspirit,295,0,500,2000,true,witchery:spiritflowing,com.emoniph.witchery.blocks.BlockFlowingSpirit
-443,witchery:hollowtears,Hollow Tears,295,0,100,1500,true,witchery:hollowtears,com.emoniph.witchery.blocks.BlockFlowingSpirit
-444,witchery:brew,fluid.witchery:brew,295,0,100,1500,true,witchery:brew,com.emoniph.witchery.brewing.BlockBrew
-445,witchery:brewgas,fluid.witchery:brewgas,295,0,1000,1000,false,null,null
-446,witchery:brewliquid,fluid.witchery:brewliquid,295,0,1000,1000,true,witchery:brewliquid,com.emoniph.witchery.brewing.BlockBrewLiquidEffect
-447,witchery:fluiddisease,fluid.witchery:fluiddisease,295,0,50,3000,true,witchery:disease,com.emoniph.witchery.blocks.BlockDisease
-448,redstone.molten,fluid.redstone.molten,295,12,1000,3000,true,ProjRed|Compatibility:projectred.compatibility.liqredstone,mrtjp.projectred.compatibility.tconstruct.LiquidFiniteSubstance
-449,redmetal.molten,fluid.redmetal.molten,295,12,2000,4000,true,ProjRed|Compatibility:projectred.compatibility.liqcondredmetal,mrtjp.projectred.compatibility.tconstruct.LiquidFiniteSubstance
-450,ionized particles,Ionized Particles,800,15,0,1000,false,null,null
-451,iridium,Molten Iridium,295,0,1000,1000,false,null,null
-452,uranium,Molten Uranium,295,0,1000,1000,false,null,null
-453,mithril,Molten Mithril,295,0,1000,1000,false,null,null
-454,fzdarkiron,Molten Dark Iron,295,0,1000,1000,false,null,null
-455,heeendium,Molten HeeEndium,295,0,1000,1000,false,null,null
-456,cadmium,Molten Cadmium,295,0,1000,1000,false,null,null
-457,indium,Molten Indium,295,0,1000,1000,false,null,null
-458,osmium,Molten Osmium,295,0,1000,1000,false,null,null
-459,titanium,Molten Titanium,295,0,1000,1000,false,null,null
-460,rutile,Molten Rutile,295,0,1000,1000,false,null,null
-461,moltennaquadah,Molten Naquadah,800,15,120000,1000,false,null,null
-462,gaseousaeressentia,Aer Gas,295,7,-4,3000,false,null,null
-463,gaseousterraessentia,Terra Gas,295,7,-4,3000,false,null,null
-464,gaseousignisessentia,Ignis Gas,295,7,-4,3000,false,null,null
-465,gaseousaquaessentia,Aqua Gas,295,7,-4,3000,false,null,null
-466,gaseousordoessentia,Ordo Gas,295,7,-4,3000,false,null,null
-467,gaseousperditioessentia,Perditio Gas,295,7,-4,3000,false,null,null
-468,gaseousvacuosessentia,Vacuos Gas,295,7,-4,3000,false,null,null
-469,gaseousluxessentia,Lux Gas,295,7,-4,3000,false,null,null
-470,gaseoustempestasessentia,Tempestas Gas,295,7,-4,3000,false,null,null
-471,gaseousmotusessentia,Motus Gas,295,7,-4,3000,false,null,null
-472,gaseousgelumessentia,Gelum Gas,295,7,-4,3000,false,null,null
-473,gaseousvitreusessentia,Vitreus Gas,295,7,-4,3000,false,null,null
-474,gaseousvictusessentia,Victus Gas,295,7,-4,3000,false,null,null
-475,gaseousvenenumessentia,Venenum Gas,295,7,-4,3000,false,null,null
-476,gaseouspotentiaessentia,Potentia Gas,295,7,-4,3000,false,null,null
-477,gaseouspermutatioessentia,Permutatio Gas,295,7,-4,3000,false,null,null
-478,gaseousmetallumessentia,Metallum Gas,295,7,-4,3000,false,null,null
-479,gaseousmortuusessentia,Mortuus Gas,295,7,-4,3000,false,null,null
-480,gaseousvolatusessentia,Volatus Gas,295,7,-4,3000,false,null,null
-481,gaseoustenebraeessentia,Tenebrae Gas,295,7,-4,3000,false,null,null
-482,gaseousspiritusessentia,Spiritus Gas,295,7,-4,3000,false,null,null
-483,gaseoussanoessentia,Sano Gas,295,7,-4,3000,false,null,null
-484,gaseousiteressentia,Iter Gas,295,7,-4,3000,false,null,null
-485,gaseousalienisessentia,Alienis Gas,295,7,-4,3000,false,null,null
-486,gaseouspraecantatioessentia,Praecantatio Gas,295,7,-4,3000,false,null,null
-487,gaseousauramessentia,Auram Gas,295,7,-4,3000,false,null,null
-488,gaseousvitiumessentia,Vitium Gas,295,7,-4,3000,false,null,null
-489,gaseouslimusessentia,Limus Gas,295,7,-4,3000,false,null,null
-490,gaseousherbaessentia,Herba Gas,295,7,-4,3000,false,null,null
-491,gaseousarboressentia,Arbor Gas,295,7,-4,3000,false,null,null
-492,gaseousbestiaessentia,Bestia Gas,295,7,-4,3000,false,null,null
-493,gaseouscorpusessentia,Corpus Gas,295,7,-4,3000,false,null,null
-494,gaseousexanimisessentia,Exanimis Gas,295,7,-4,3000,false,null,null
-495,gaseouscognitioessentia,Cognitio Gas,295,7,-4,3000,false,null,null
-496,gaseoussensusessentia,Sensus Gas,295,7,-4,3000,false,null,null
-497,gaseoushumanusessentia,Humanus Gas,295,7,-4,3000,false,null,null
-498,gaseousmessisessentia,Messis Gas,295,7,-4,3000,false,null,null
-499,gaseousperfodioessentia,Perfodio Gas,295,7,-4,3000,false,null,null
-500,gaseousinstrumentumessentia,Instrumentum Gas,295,7,-4,3000,false,null,null
-501,gaseousmetoessentia,Meto Gas,295,7,-4,3000,false,null,null
-502,gaseoustelumessentia,Telum Gas,295,7,-4,3000,false,null,null
-503,gaseoustutamenessentia,Tutamen Gas,295,7,-4,3000,false,null,null
-504,gaseousfamesessentia,Fames Gas,295,7,-4,3000,false,null,null
-505,gaseouslucrumessentia,Lucrum Gas,295,7,-4,3000,false,null,null
-506,gaseousfabricoessentia,Fabrico Gas,295,7,-4,3000,false,null,null
-507,gaseouspannusessentia,Pannus Gas,295,7,-4,3000,false,null,null
-508,gaseousmachinaessentia,Machina Gas,295,7,-4,3000,false,null,null
-509,gaseousvinculumessentia,Vinculum Gas,295,7,-4,3000,false,null,null
-510,gaseousluxuriaessentia,Luxuria Gas,295,7,-4,3000,false,null,null
-511,gaseousinfernusessentia,Infernus Gas,295,7,-4,3000,false,null,null
-512,gaseoussuperbiaessentia,Superbia Gas,295,7,-4,3000,false,null,null
-513,gaseousgulaessentia,Gula Gas,295,7,-4,3000,false,null,null
-514,gaseousinvidiaessentia,Invidia Gas,295,7,-4,3000,false,null,null
-515,gaseousdesidiaessentia,Desidia Gas,295,7,-4,3000,false,null,null
-516,gaseousiraessentia,Ira Gas,295,7,-4,3000,false,null,null
-517,gaseoustempusessentia,Tempus Gas,295,7,-4,3000,false,null,null
-518,bioethanolgas,Ethanol Gas,100,0,-50,5,true,bcadditions:bioethanolgasBlock,buildcraftAdditions.blocks.FluidBlockBase
-519,fuelgas,Fuel Gas,120,0,-50,5,true,bcadditions:fuelgasBlock,buildcraftAdditions.blocks.FluidBlockBase
+438,limestone.molten,Molten Limestone,1300,12,3000,6000,true,TSteelworks:molten.limestone,toops.tsteelworks.common.blocks.TSFluidBlock
+439,cement.liquid,Wet Cement,20,0,6000,6000,true,TSteelworks:liquid.cement,toops.tsteelworks.common.blocks.CementFluidBlock
+440,witchery:fluidspirit,fluid.witchery:fluidspirit,295,0,500,2000,true,witchery:spiritflowing,com.emoniph.witchery.blocks.BlockFlowingSpirit
+441,witchery:hollowtears,Hollow Tears,295,0,100,1500,true,witchery:hollowtears,com.emoniph.witchery.blocks.BlockFlowingSpirit
+442,witchery:brew,fluid.witchery:brew,295,0,100,1500,true,witchery:brew,com.emoniph.witchery.brewing.BlockBrew
+443,witchery:brewgas,fluid.witchery:brewgas,295,0,1000,1000,false,null,null
+444,witchery:brewliquid,fluid.witchery:brewliquid,295,0,1000,1000,true,witchery:brewliquid,com.emoniph.witchery.brewing.BlockBrewLiquidEffect
+445,witchery:fluiddisease,fluid.witchery:fluiddisease,295,0,50,3000,true,witchery:disease,com.emoniph.witchery.blocks.BlockDisease
+446,redstone.molten,fluid.redstone.molten,295,12,1000,3000,true,ProjRed|Compatibility:projectred.compatibility.liqredstone,mrtjp.projectred.compatibility.tconstruct.LiquidFiniteSubstance
+447,redmetal.molten,fluid.redmetal.molten,295,12,2000,4000,true,ProjRed|Compatibility:projectred.compatibility.liqcondredmetal,mrtjp.projectred.compatibility.tconstruct.LiquidFiniteSubstance
+448,ionized particles,Ionized Particles,800,15,0,1000,false,null,null
+449,iridium,Molten Iridium,295,0,1000,1000,false,null,null
+450,uranium,Molten Uranium,295,0,1000,1000,false,null,null
+451,mithril,Molten Mithril,295,0,1000,1000,false,null,null
+452,fzdarkiron,Molten Dark Iron,295,0,1000,1000,false,null,null
+453,heeendium,Molten HeeEndium,295,0,1000,1000,false,null,null
+454,cadmium,Molten Cadmium,295,0,1000,1000,false,null,null
+455,indium,Molten Indium,295,0,1000,1000,false,null,null
+456,osmium,Molten Osmium,295,0,1000,1000,false,null,null
+457,titanium,Molten Titanium,295,0,1000,1000,false,null,null
+458,moltennaquadah,Molten Naquadah,800,15,120000,1000,false,null,null
+459,gaseousaeressentia,Aer Gas,295,7,-4,3000,false,null,null
+460,gaseousterraessentia,Terra Gas,295,7,-4,3000,false,null,null
+461,gaseousignisessentia,Ignis Gas,295,7,-4,3000,false,null,null
+462,gaseousaquaessentia,Aqua Gas,295,7,-4,3000,false,null,null
+463,gaseousordoessentia,Ordo Gas,295,7,-4,3000,false,null,null
+464,gaseousperditioessentia,Perditio Gas,295,7,-4,3000,false,null,null
+465,gaseousvacuosessentia,Vacuos Gas,295,7,-4,3000,false,null,null
+466,gaseousluxessentia,Lux Gas,295,7,-4,3000,false,null,null
+467,gaseoustempestasessentia,Tempestas Gas,295,7,-4,3000,false,null,null
+468,gaseousmotusessentia,Motus Gas,295,7,-4,3000,false,null,null
+469,gaseousgelumessentia,Gelum Gas,295,7,-4,3000,false,null,null
+470,gaseousvitreusessentia,Vitreus Gas,295,7,-4,3000,false,null,null
+471,gaseousvictusessentia,Victus Gas,295,7,-4,3000,false,null,null
+472,gaseousvenenumessentia,Venenum Gas,295,7,-4,3000,false,null,null
+473,gaseouspotentiaessentia,Potentia Gas,295,7,-4,3000,false,null,null
+474,gaseouspermutatioessentia,Permutatio Gas,295,7,-4,3000,false,null,null
+475,gaseousmetallumessentia,Metallum Gas,295,7,-4,3000,false,null,null
+476,gaseousmortuusessentia,Mortuus Gas,295,7,-4,3000,false,null,null
+477,gaseousvolatusessentia,Volatus Gas,295,7,-4,3000,false,null,null
+478,gaseoustenebraeessentia,Tenebrae Gas,295,7,-4,3000,false,null,null
+479,gaseousspiritusessentia,Spiritus Gas,295,7,-4,3000,false,null,null
+480,gaseoussanoessentia,Sano Gas,295,7,-4,3000,false,null,null
+481,gaseousiteressentia,Iter Gas,295,7,-4,3000,false,null,null
+482,gaseousalienisessentia,Alienis Gas,295,7,-4,3000,false,null,null
+483,gaseouspraecantatioessentia,Praecantatio Gas,295,7,-4,3000,false,null,null
+484,gaseousauramessentia,Auram Gas,295,7,-4,3000,false,null,null
+485,gaseousvitiumessentia,Vitium Gas,295,7,-4,3000,false,null,null
+486,gaseouslimusessentia,Limus Gas,295,7,-4,3000,false,null,null
+487,gaseousherbaessentia,Herba Gas,295,7,-4,3000,false,null,null
+488,gaseousarboressentia,Arbor Gas,295,7,-4,3000,false,null,null
+489,gaseousbestiaessentia,Bestia Gas,295,7,-4,3000,false,null,null
+490,gaseouscorpusessentia,Corpus Gas,295,7,-4,3000,false,null,null
+491,gaseousexanimisessentia,Exanimis Gas,295,7,-4,3000,false,null,null
+492,gaseouscognitioessentia,Cognitio Gas,295,7,-4,3000,false,null,null
+493,gaseoussensusessentia,Sensus Gas,295,7,-4,3000,false,null,null
+494,gaseoushumanusessentia,Humanus Gas,295,7,-4,3000,false,null,null
+495,gaseousmessisessentia,Messis Gas,295,7,-4,3000,false,null,null
+496,gaseousperfodioessentia,Perfodio Gas,295,7,-4,3000,false,null,null
+497,gaseousinstrumentumessentia,Instrumentum Gas,295,7,-4,3000,false,null,null
+498,gaseousmetoessentia,Meto Gas,295,7,-4,3000,false,null,null
+499,gaseoustelumessentia,Telum Gas,295,7,-4,3000,false,null,null
+500,gaseoustutamenessentia,Tutamen Gas,295,7,-4,3000,false,null,null
+501,gaseousfamesessentia,Fames Gas,295,7,-4,3000,false,null,null
+502,gaseouslucrumessentia,Lucrum Gas,295,7,-4,3000,false,null,null
+503,gaseousfabricoessentia,Fabrico Gas,295,7,-4,3000,false,null,null
+504,gaseouspannusessentia,Pannus Gas,295,7,-4,3000,false,null,null
+505,gaseousmachinaessentia,Machina Gas,295,7,-4,3000,false,null,null
+506,gaseousvinculumessentia,Vinculum Gas,295,7,-4,3000,false,null,null
+507,gaseousluxuriaessentia,Luxuria Gas,295,7,-4,3000,false,null,null
+508,gaseousinfernusessentia,Infernus Gas,295,7,-4,3000,false,null,null
+509,gaseoussuperbiaessentia,Superbia Gas,295,7,-4,3000,false,null,null
+510,gaseousgulaessentia,Gula Gas,295,7,-4,3000,false,null,null
+511,gaseousinvidiaessentia,Invidia Gas,295,7,-4,3000,false,null,null
+512,gaseousdesidiaessentia,Desidia Gas,295,7,-4,3000,false,null,null
+513,gaseousiraessentia,Ira Gas,295,7,-4,3000,false,null,null
+514,gaseoustempusessentia,Tempus Gas,295,7,-4,3000,false,null,null
+515,bioethanolgas,Ethanol Gas,100,0,-50,5,true,bcadditions:bioethanolgasBlock,buildcraftAdditions.blocks.FluidBlockBase
+516,fuelgas,Fuel Gas,120,0,-50,5,true,bcadditions:fuelgasBlock,buildcraftAdditions.blocks.FluidBlockBase

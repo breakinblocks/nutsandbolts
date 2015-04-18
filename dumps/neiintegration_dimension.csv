@@ -8,6 +8,7 @@ ID,Provider ID,Provider Class Name
 -54,-54,mattparks.mods.space.io.dimension.WorldProviderIo
 -52,-52,mattparks.mods.space.hole.dimension.WorldProviderHole
 -50,-50,mattparks.mods.space.europa.dimension.WorldProviderEuropa
+-39,-39,com.emoniph.witchery.dimension.WorldProviderMirror
 -38,-38,com.emoniph.witchery.dimension.WorldProviderTorment
 -37,-37,com.emoniph.witchery.dimension.WorldProviderDreamWorld
 -30,-30,micdoodle8.mods.galacticraft.planets.asteroids.dimension.WorldProviderAsteroids
@@ -25,4 +26,3 @@ ID,Provider ID,Provider Class Name
 23,23,com.valentin4311.candycraftmod.WorldProviderCandy
 24,24,com.valentin4311.candycraftmod.WorldProviderVoid
 42,42,tombenpotter.sanguimancy.world.WorldProviderSoulNetworkDimension
-66,66,erebus.world.WorldProviderErebus
