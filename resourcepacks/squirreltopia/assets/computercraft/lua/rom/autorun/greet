@@ -3,5 +3,5 @@ if term.isColor() then
 end
 term.setCursorPos(1,1)
 term.clear()
-term.write('SquirrelOS 1.7')
+term.write('BlockyOS 1.7')
 term.setCursorPos(1,2)
