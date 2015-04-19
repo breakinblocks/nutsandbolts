@@ -3,7 +3,7 @@ rm -rf server
 mkdir server
 cp -R config mods scripts resourcepacks resources server/
 cd server/mods
-rm journeymap-*.jar liteloader-*.jar OptiFine_*.jar mod_worldeditcui*.litemod ResourceLoader-*.jar CustomMainMenu-*.jar MouseTweaks-*.jar fastcraft-*.jar
+rm journeymap-*.jar liteloader-*.jar OptiFine_*.jar mod_worldeditcui*.litemod ResourceLoader-*.jar CustomMainMenu-*.jar MouseTweaks-*.jar
 cd ..
 zip -r server-package.zip *
 
