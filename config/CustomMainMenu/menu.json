@@ -8,7 +8,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 0,
+            "posY": -25,
             "text": "menu.multiplayer",
             "width": 90
         },
@@ -20,7 +20,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": -25,
+            "posY": -50,
             "text": "menu.singleplayer",
             "width": 90
         },
@@ -32,7 +32,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 25,
+            "posY": 0,
             "text": "fml.menu.mods",
             "width": 90
         },
@@ -43,7 +43,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 75,
+            "posY": 50,
             "text": "menu.quit",
             "width": 90
         },
