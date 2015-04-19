@@ -73,8 +73,6 @@ recipes.addShaped(<Mekanism:Ingot:2> * 3, [[<ThermalFoundation:material:64>, <or
 recipes.addShaped(<customnpcs:npcCarpentyBench>, [[<ore:crafterWood>, <minecraft:crafting_table>, <minecraft:crafting_table>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:woodStick>, null, <ore:woodStick>]]);
 recipes.addShaped(<customnpcs:npcCarpentyBench:1>, [[<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>], [null, <Railcraft:part.plate>, null], [<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>]]);
 recipes.addShaped(<Mekanism:CardboardBox>, [[<ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <minecraft:dragon_egg>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <ore:blockNetherStar>, <ForbiddenMagic:StarBlock>]]);
-recipes.addShaped(<Botania:specialFlower>, [[<ore:dyeWhite>, <erebus:sundew>, <ore:dyeWhite>], [null, <ore:dyeWhite>, null]]);
-recipes.addShaped(<minecraft:end_portal_frame> * 4, [[<erebus:gneiss>, <candycraftmod:B1>, <erebus:gneiss>], [<minecraft:end_stone>, <TwilightForest:item.carminite>, <minecraft:end_stone>], [<GalacticraftCore:tile.gcBlockCore:12>, <candycraftmod:B1>, <GalacticraftCore:tile.gcBlockCore:12>]]);
 recipes.addShaped(<GalacticraftCore:item.meteoricIronIngot>, [[null, <minecraft:iron_block>, null], [<ore:compressedCobblestone2x>, <GalacticraftCore:item.basicItem:2>, <ore:compressedCobblestone2x>], [null, <ore:blockIron>, null]]);
 recipes.addShaped(<Ztones:cleanDirt> * 2, [[<minecraft:rotten_flesh>, <SpaceHole:hole_basic>]]);
 recipes.addShaped(<Ztones:cleanDirt> * 2, [[<minecraft:rotten_flesh>, <SpaceHole:hole_basic>]]);
