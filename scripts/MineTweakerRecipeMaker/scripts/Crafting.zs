@@ -12,6 +12,13 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:6>);
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:7>);
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
+recipes.remove(<ExtraUtilities:enderQuarry>);
+recipes.remove(<StevesFactoryManager:BlockMachineManagerName>);
+recipes.remove(<magicalcrops:magicalcrops_EssenceOrb>);
+recipes.remove(<minecraft:end_portal>);
 recipes.remove(<TConstruct:ToolForgeBlock:10>);
 recipes.remove(<minechem:tile.chemicalDecomposer>);
 recipes.remove(<TConstruct:Smeltery>);
@@ -45,6 +52,7 @@ recipes.remove(<ComputerCraft:CC-Computer>);
 recipes.remove(<BuildCraft|Factory:machineBlock>);
 recipes.remove(<Mekanism:CardboardBox>);
 
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -56,9 +64,16 @@ recipes.remove(<Mekanism:CardboardBox>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[null, <magicalcrops:magicalcrops_InfusedT2Pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<Mekanism:CompressedObsidian>, <EnderIO:itemMaterial:8>, <Mekanism:CompressedObsidian>], [<ore:blockEnderCore>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ore:blockEnderCore>, <Mekanism:EnergyCube:100>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:ingotSteel>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:grouperrawItem>]]);
