@@ -12,6 +12,26 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<BetterChests:Upgrade:24>);
+recipes.remove(<bcadditions:dust:76>);
+recipes.remove(<bcadditions:dust:66>);
+recipes.remove(<bcadditions:dust:67>);
+recipes.remove(<bcadditions:dust:70>);
+recipes.remove(<bcadditions:dust:69>);
+recipes.remove(<bcadditions:dust:71>);
+recipes.remove(<bcadditions:dust:74>);
+recipes.remove(<bcadditions:dust:79>);
+recipes.remove(<bcadditions:dust:80>);
+recipes.remove(<bcadditions:dust:81>);
+recipes.remove(<bcadditions:dust:83>);
+recipes.remove(<bcadditions:dust:88>);
+recipes.remove(<bcadditions:dust:75>);
+recipes.remove(<bcadditions:dust:77>);
+recipes.remove(<bcadditions:dust:72>);
+recipes.remove(<bcadditions:dust:73>);
+recipes.remove(<MekanismGenerators:Generator:3>);
+recipes.remove(<customnpcs:npcMagicWand>);
+recipes.remove(<BetterChests:Upgrade:15>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:6>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:7>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
@@ -68,6 +88,14 @@ recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcro
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:dye:3>, [[<ore:dyeBrown>, <magicalcrops:magicalcrops_CropEssence>]]);
+recipes.addShaped(<BiomesOPlenty:misc:6>, [[<magicalcrops:magicalcrops_CropEssence:13>, null], [<magicalcrops:magicalcrops_CropEssence:13>, <magicalcrops:magicalcrops_CropEssence:13>]]);
+recipes.addShaped(<BetterChests:Upgrade:24>, [[<minecraft:feather>, <ore:gemEmerald>, <minecraft:feather>], [<ore:listAllsugar>, <BetterChests:Upgrade:4>, <ore:listAllsugar>], [<minecraft:feather>, <minecraft:golden_boots>, <minecraft:feather>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle:1>, [[<ComputerCraft:CC-Turtle>, <minecraft:diamond_pickaxe>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:ingotSteel>], [<ore:ingotSteel>, <ComputerCraft:CC-Computer>, <ore:ingotSteel>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <Railcraft:ingot>]]);
+recipes.addShaped(<BetterChests:Upgrade:15>, [[<ore:listAllegg>, <minecraft:golden_apple:1>, <ore:listAllegg>], [<minecraft:golden_carrot>, <BetterChests:Upgrade:4>, <minecraft:golden_carrot>], [<Thaumcraft:blockCustomPlant:5>, <minecraft:cake>, <Thaumcraft:blockCustomPlant:5>]]);
+recipes.addShaped(<tropicraft:ore:1> * 9, [[<tropicraft:tile.blockOre:1>]]);
+recipes.addShaped(<tropicraft:ore:3> * 9, [[<tropicraft:tile.blockOre>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[null, <magicalcrops:magicalcrops_InfusedT2Pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
