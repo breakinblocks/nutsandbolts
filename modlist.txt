@@ -2,7 +2,6 @@ mods
 mods/1.7.10
 mods/1.7.10/Baubles-1.7.10-1.0.1.10.jar
 mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.127-universal.jar
-mods/1.7.10/ForgeMultipart-1.7.10-1.1.1.321-universal.jar
 mods/1.7.10/ForgeMultipart-1.7.10-1.1.2.331-universal.jar
 mods/1.7.10/MrTJPCore-1.7.10-1.0.5.12-universal.jar
 mods/1.7.10/commons-codec-1.9.jar
@@ -20,7 +19,7 @@ mods/BiblioCraft[v1.10.2][MC1.7.10].jar
 mods/BigReactors-0.4.3A.jar
 mods/BiomesOPlenty-1.7.10-2.1.0.1237-universal.jar
 mods/BloodMagic-1.7.10-1.3.1-7.jar
-mods/Botania\ r1.6-177.jar
+mods/Botania\ r1.6-183.jar
 mods/BuildcraftAdditions-1.7.10-2.1.2.jar
 mods/CandyCraft-1.3.jar
 mods/Carpenter's\ Blocks\ v3.3.6\ -\ MC\ 1.7.10.jar
@@ -39,7 +38,7 @@ mods/Decocraft-v1.12b_1.7.10.jar
 mods/DragonAPI\ 1.7.10\ V6f.jar
 mods/ElectriCraft\ 1.7.10\ V6a.jar
 mods/Enchiridion\ 2-1.7.10-2.0f-64.jar
-mods/EnderIO-1.7.10-2.2.8.367.jar
+mods/EnderIO-1.7.10-2.3.0.375_beta.jar
 mods/EnderStorage-1.7.10-1.4.6.31-universal.jar
 mods/EnderTech-1.7.10-0.3.2.382.jar
 mods/Eureka-1.7.10-3.0.1.jar
@@ -107,8 +106,6 @@ mods/StevesAddons-1.7.10-0.10.2.jar
 mods/StevesCarts2.0.0.b18.jar
 mods/StevesFactoryManagerA93.jar
 mods/StevesWorkshop-0.5.1.jar
-mods/TCSchematics
-mods/TCSchematics/koavillage.schematic
 mods/TConstruct-1.7.10-1.8.3b.jar
 mods/TMechworks-1.7.10-0.2.14.100.jar
 mods/TSteelworks-1.7.10-1.1.0-13.jar
@@ -136,6 +133,7 @@ mods/buildcraft-compat-6.4.2.jar
 mods/carpentersblocks
 mods/compactmachines-1.7.10-1.18.jar
 mods/coroutil-1.1.2.jar
+mods/damageindicators-3.2.3.jar
 mods/denseores-1.6.1.jar
 mods/dimensional-anchor-59.0.2.jar
 mods/extrautilities-1.2.3.jar
@@ -155,6 +153,7 @@ mods/growthcraft-hops-1.7.10-2.1.0.jar
 mods/growthcraft-rice-1.7.10-2.1.0a.jar
 mods/iChunUtil-4.2.2.jar
 mods/immibis-core-59.0.8.jar
+mods/infernalmobs-1.1.9.jar
 mods/ironchest-6.0.62.742-universal.jar
 mods/journeymap-5.0.1.jar
 mods/logisticspipes-0.8.3.117.jar
@@ -164,11 +163,12 @@ mods/malisiscore-1.7.10-0.11.4.jar
 mods/malisisdoors-1.7.10-1.5.1.jar
 mods/natura-1.7.10-2.2.0.1.jar
 mods/neiaddons-mc1710-1.12.6.18.jar
+mods/obsidianboat-1.3.2.jar
 mods/railcraft
 mods/railcraft/emblems
 mods/thaumcraftneiplugin-1.7.jar
 mods/thaumicenergistics-0.8.9.3a-rv2.jar
 mods/tropicraft-6.0.3.jar
-mods/ttCore-MC1.7.10-0.1.1-75.jar
+mods/ttCore-MC1.7.10-0.1.1-76.jar
 mods/twilightforest-1.7.10-2.3.5.jar
 mods/witchery-1.7.10-0.24.1.jar
