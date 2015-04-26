@@ -2,9 +2,9 @@ item.acorn.name=Magical Acorn
 
 tile.customthings.acornyOre.name=Acorny Ore
 
-achievement.happyNuts=NUTS!!!
-achievement.happyNuts.desc=Nommed some nuts of the acorn variety.
-achievement.sadNuts=nuts :(
-achievement.sadNuts.desc=How COULD you???
+achievement.happyNuts=Nuts
+achievement.happyNuts.desc=Picked up a poisonous nut.
+achievement.sadNuts=Blammo!
+achievement.sadNuts.desc=Blasted a forest creature.
 achievement.breakNuts=Smashing
 achievement.breakNuts.desc=Break doze nuts.
