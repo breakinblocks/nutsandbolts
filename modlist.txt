@@ -170,7 +170,7 @@ mods/railcraft
 mods/railcraft/emblems
 mods/thaumcraftneiplugin-1.7.jar
 mods/thaumicenergistics-0.8.9.3a-rv2.jar
-mods/tropicraft-6.0.3.jar
+mods/tropicraft-6.0.4.jar
 mods/ttCore-MC1.7.10-0.1.1-76.jar
 mods/twilightforest-1.7.10-2.3.5.jar
 mods/witchery-1.7.10-0.24.1.jar
