@@ -12,4 +12,5 @@ BuildCraft.js
 Bibliocraft.js
 AppliedEnergistics2.js
 Tcon.js
+Buildcraft_Additions.js
 MFR.js

@@ -1,0 +1,12 @@
+print( "Installing Stargate Program." )
+if fs.exists("/gate") or fs.exists("/startup") then
+  print("Make sure that the gate and startup programs are not already present on your computer.")
+else
+  shell.run("cp /rom/stargate/gate /gate")
+  shell.run("cp /rom/stargate/startup /startup")
+  if not fs.exists("/localSettings.json") then
+    shell.run("cp /rom/stargate/localSettings.json /localSettings.json")
+  end
+  print("Done installing.")
+  print("Edit localSettings.json with your preferences and run 'startup'.")
+end

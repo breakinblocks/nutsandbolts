@@ -12,6 +12,34 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<BetterChests:Upgrade:24>);
+recipes.remove(<bcadditions:dust:76>);
+recipes.remove(<bcadditions:dust:66>);
+recipes.remove(<bcadditions:dust:67>);
+recipes.remove(<bcadditions:dust:70>);
+recipes.remove(<bcadditions:dust:69>);
+recipes.remove(<bcadditions:dust:71>);
+recipes.remove(<bcadditions:dust:74>);
+recipes.remove(<bcadditions:dust:79>);
+recipes.remove(<bcadditions:dust:80>);
+recipes.remove(<bcadditions:dust:81>);
+recipes.remove(<bcadditions:dust:83>);
+recipes.remove(<bcadditions:dust:88>);
+recipes.remove(<bcadditions:dust:75>);
+recipes.remove(<bcadditions:dust:77>);
+recipes.remove(<bcadditions:dust:72>);
+recipes.remove(<bcadditions:dust:73>);
+recipes.remove(<MekanismGenerators:Generator:3>);
+recipes.remove(<customnpcs:npcMagicWand>);
+recipes.remove(<BetterChests:Upgrade:15>);
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:6>);
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:7>);
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
+recipes.remove(<ExtraUtilities:enderQuarry>);
+recipes.remove(<StevesFactoryManager:BlockMachineManagerName>);
+recipes.remove(<magicalcrops:magicalcrops_EssenceOrb>);
+recipes.remove(<minecraft:end_portal>);
+recipes.remove(<TConstruct:ToolForgeBlock:10>);
 recipes.remove(<minechem:tile.chemicalDecomposer>);
 recipes.remove(<TConstruct:Smeltery>);
 recipes.remove(<StevesWorkshop:production_table_upgrade:8>);
@@ -42,6 +70,8 @@ recipes.remove(<ComputerCraft:CC-Computer:16384>);
 recipes.remove(<ComputerCraft:CC-Turtle>);
 recipes.remove(<ComputerCraft:CC-Computer>);
 recipes.remove(<BuildCraft|Factory:machineBlock>);
+recipes.remove(<Mekanism:CardboardBox>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -54,12 +84,38 @@ recipes.remove(<BuildCraft|Factory:machineBlock>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:dye:3>, [[<ore:dyeBrown>, <magicalcrops:magicalcrops_CropEssence>]]);
+recipes.addShaped(<BiomesOPlenty:misc:6>, [[<magicalcrops:magicalcrops_CropEssence:13>, null], [<magicalcrops:magicalcrops_CropEssence:13>, <magicalcrops:magicalcrops_CropEssence:13>]]);
+recipes.addShaped(<BetterChests:Upgrade:24>, [[<minecraft:feather>, <ore:gemEmerald>, <minecraft:feather>], [<ore:listAllsugar>, <BetterChests:Upgrade:4>, <ore:listAllsugar>], [<minecraft:feather>, <minecraft:golden_boots>, <minecraft:feather>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle:1>, [[<ComputerCraft:CC-Turtle>, <minecraft:diamond_pickaxe>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:ingotSteel>], [<ore:ingotSteel>, <ComputerCraft:CC-Computer>, <ore:ingotSteel>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <Railcraft:ingot>]]);
+recipes.addShaped(<BetterChests:Upgrade:15>, [[<ore:listAllegg>, <minecraft:golden_apple:1>, <ore:listAllegg>], [<minecraft:golden_carrot>, <BetterChests:Upgrade:4>, <minecraft:golden_carrot>], [<Thaumcraft:blockCustomPlant:5>, <minecraft:cake>, <Thaumcraft:blockCustomPlant:5>]]);
+recipes.addShaped(<tropicraft:ore:1> * 9, [[<tropicraft:tile.blockOre:1>]]);
+recipes.addShaped(<tropicraft:ore:3> * 9, [[<tropicraft:tile.blockOre>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[null, <magicalcrops:magicalcrops_InfusedT2Pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<Mekanism:CompressedObsidian>, <EnderIO:itemMaterial:8>, <Mekanism:CompressedObsidian>], [<ore:blockEnderCore>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ore:blockEnderCore>, <Mekanism:EnergyCube:100>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:ingotSteel>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:grouperrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:walleyerawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:catfishrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:troutrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:mudfishrawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tilapiarawItem>]]);
+recipes.addShaped(<minecraft:fish>, [[<ore:listAllfishraw>]]);
+recipes.addShaped(<StargateTech2:block.stargate>, [[<StargateTech2:naquadah:2>, <minecraft:nether_star>, <StargateTech2:naquadah:2>], [<ore:blueGem>, <ReactorCraft:reactorcraft_item_placer:15>, <ore:blueGem>], [<StargateTech2:naquadah:2>, <StargateTech2:naquadah:3>, <StargateTech2:naquadah:2>]]);
+recipes.addShaped(<Mekanism:Ingot:2> * 3, [[<ThermalFoundation:material:64>, <ore:ingotCopper>], [<ThermalFoundation:material:64>, <ore:ingotTin>]]);
+recipes.addShaped(<customnpcs:npcCarpentyBench>, [[<ore:crafterWood>, <minecraft:crafting_table>, <minecraft:crafting_table>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:woodStick>, null, <ore:woodStick>]]);
+recipes.addShaped(<customnpcs:npcCarpentyBench:1>, [[<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>], [null, <Railcraft:part.plate>, null], [<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>]]);
 recipes.addShaped(<Mekanism:CardboardBox>, [[<ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <minecraft:dragon_egg>, <ore:blockNetherStar>], [<ore:blockNetherStar>, <ore:blockNetherStar>, <ForbiddenMagic:StarBlock>]]);
-recipes.addShaped(<Botania:specialFlower>, [[<ore:dyeWhite>, <erebus:sundew>, <ore:dyeWhite>], [null, <ore:dyeWhite>, null]]);
-recipes.addShaped(<minecraft:end_portal_frame> * 4, [[<erebus:gneiss>, <candycraftmod:B1>, <erebus:gneiss>], [<minecraft:end_stone>, <TwilightForest:item.carminite>, <minecraft:end_stone>], [<GalacticraftCore:tile.gcBlockCore:12>, <candycraftmod:B1>, <GalacticraftCore:tile.gcBlockCore:12>]]);
 recipes.addShaped(<GalacticraftCore:item.meteoricIronIngot>, [[null, <minecraft:iron_block>, null], [<ore:compressedCobblestone2x>, <GalacticraftCore:item.basicItem:2>, <ore:compressedCobblestone2x>], [null, <ore:blockIron>, null]]);
 recipes.addShaped(<Ztones:cleanDirt> * 2, [[<minecraft:rotten_flesh>, <SpaceHole:hole_basic>]]);
 recipes.addShaped(<Ztones:cleanDirt> * 2, [[<minecraft:rotten_flesh>, <SpaceHole:hole_basic>]]);

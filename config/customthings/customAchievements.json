@@ -2,14 +2,14 @@
   [
     {
       "name": "happyNuts",
-      "page": "Squirrel-chievements",
+      "page": "Block Breakin'",
       "source": "ITEM_PICKUP",
       "required": "customthings:item;0",
       "displayItem": "customthings:item;0"
     },
     {
       "name": "sadNuts",
-      "page": "Squirrel-chievements",
+      "page": "Block Breakin'",
       "parent": "happyNuts",
       "source": "ENTITY_KILL",
       "required": "Squirrel",
@@ -18,7 +18,7 @@
     },
     {
       "name": "breakNuts",
-      "page": "Squirrel-chievements",
+      "page": "Block Breakin'",
       "parent": "happyNuts",
       "source": "BLOCK_BREAK",
       "required": "customthings:block0;0",

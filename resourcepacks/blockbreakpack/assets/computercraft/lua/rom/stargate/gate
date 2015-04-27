@@ -1,0 +1,314 @@
+-- locals
+local logs = {}
+local openTime = 5
+local textSize = 1
+local minimumNameLength = 4
+local buttonPadding = 1 --Min 1, Space before/after
+local centerPadding = 0 --Min 0, Space before/after
+
+local buttonColor = colors.lightGray
+local buttonActiveColor = colors.orange
+local pageBack = "Prev Page"
+local pageFore = "Next Page"
+local resetButton = "Refresh"
+
+--internal
+local externalSettings
+local portals
+local version = 2
+local monitor, touch
+local gate
+local monitorLocation
+local monX = 0
+local monY = 0
+local monMidL = 0
+local monMidR = 0
+local maxNameLength = 0
+local problem = false
+local names = {}
+local curPage = 1
+local lastPage = 1
+local namesPerPage = 1
+local pages = {}
+local gateType = 'Abstract Bus Adapter'
+
+function writeLog(text)
+  print(text)
+end
+
+function init()
+  if not fs.exists('apis') then
+    fs.makeDir('apis')
+  end
+  if not fs.exists('apis/touchpoint') then
+    writeLog("You don't have the touchpoint API. Beaming it down.")
+    shell.run('pastebin get pFHeia96 apis/touchpoint')
+  end
+  os.loadAPI('apis/touchpoint')
+  
+  
+  if not fs.exists('apis/json') then
+    writeLog("You don't have the JSON API. Grabboring it.")
+    shell.run("pastebin get 4nRg9CHU apis/json")
+  end
+  os.loadAPI('apis/json')
+  
+  localSettings = json.decodeFromFile('/localSettings.json')
+  externalSettings = json.decodeFromFile('/rom/stargate/settings.json')
+  
+  
+  checkVersion()
+end
+
+function setupGateList()
+  if localSettings.isHub then
+    portals = externalSettings.hubGateList
+  else
+    if localSettings.includeHub then
+      portals = { { name = "Hub"; address = externalSettings.hubAddress } }
+    else
+      portals = { }
+    end
+  end
+  
+  if localSettings.includeExtraGates then 
+    local extraGates = localSettings.extraGates
+  
+    for i=1,#extraGates do
+      portals[#portals+1] = extraGates[i]
+    end
+  end
+  monitorLocation = findSideFor('monitor')
+  monitor = peripheral.wrap(monitorLocation)
+  gate    = peripheral.find(gateType)
+  
+  if not gate then
+    problem = true
+    writeLog("No abstract bus adapter found. Are you sure it's connected correctly?")
+  end
+  
+  setupScreen()
+end
+
+function checkVersion()
+  if localSettings.autoUpdate and externalSettings.latestVersion > version then
+    writeLog("You are on version "..version.." of the stargate program.")
+    writeLog("Version "..externalSettings.latestVersion.." is available.")
+    writeLog("Updating...")
+    loc = externalSettings.latestVersionLocation
+    shell.run("cp "..loc.." /gate.new")
+    problem = true
+  end
+end
+
+function handleMonitorResize()
+  writeLog("Screen resized. Setting up screen!")
+  setupScreen()
+  refresh()
+end
+
+
+function determineLength(myString)
+  local theLength = 0
+  if string.len(myString) > maxNameLength then
+    theLength = maxNameLength + buttonPadding * 2
+  else
+    theLength = string.len(myString) + buttonPadding * 2
+  end
+ 
+  return theLength
+end
+ 
+
+function setupScreen()
+  monitor.clear()
+  monitor.setTextScale(textSize)
+  monX, monY = monitor.getSize()
+  
+  writeLog("Screen Dimensions: (x: "..monX..", y: "..monY..")")
+  
+  if (monY < 5) or (monX < (minimumNameLength * 2) + 4) then
+    monitor.setBackgroundColor(colors.red)
+    monitor.setTextColor(colors.black)
+    centerText("!!!", 3)
+    centerText("ERROR", 4)
+    centerText("VIEW COMPUTER", 5)
+    writeLog("Screen too small with current resolution, please adjust.")
+    problem = true
+  else
+    if math.floor(monX/2) == math.ceil(monX/2) then --Even
+      monMidR = monX/2 + 1
+      monMidL = monMidR - 1
+      maxNameLength = (monX - 4)/2 - (centerPadding + buttonPadding) * 2
+    else --Odd
+      monMidR = math.floor(monX/2) + 1
+      monMidL = monMidR
+      maxNameLength = (monX - 3)/2 - (centerPadding + buttonPadding) * 2
+    end
+    namesPerPage = math.ceil((monY - 4) / 2) * 2
+  end
+end
+
+function rebuildPages(p1)
+  pages[curPage]:toggleButton(resetButton)
+  refresh()
+end
+
+function doAction(buttonName)
+  local pressedButtonDesc
+  
+  writeLog("doAction("..buttonName..")")
+  
+  for k,v in ipairs(portals) do
+    if v["name"] == buttonName then
+      pressedButtonDesc = v
+      break
+    end
+  end
+  dialGate(pressedButtonDesc["address"])
+  pages[curPage]:flash(buttonName, openTime)
+end
+
+function prevPage()
+  lastPage = curPage
+  
+  pages[lastPage]:flash(pageBack, 0.125)
+ 
+  curPage = curPage - 1
+  if curPage < 1 then
+    curPage = #pages
+  end
+  pages[curPage]:draw()
+  
+end
+
+function nextPage()
+  lastPage = curPage
+  
+  pages[lastPage]:flash(pageFore, 0.125)
+ 
+  curPage = curPage + 1
+  if curPage > #pages then
+    curPage = 1
+  end
+  pages[curPage]:draw()
+end
+
+function displayError(error)
+  monitor.clear()
+  monitor.setBackgroundColor(colors.red)
+  monitor.setTextColor(colors.black)
+  centerText("!!!", 3)
+  centerText(error, 4)
+  writeLog("Error: "..error)
+end
+
+function buildPage(pN)
+  pages[pN] = touchpoint.new(monitorLocation)
+  pages[pN]:add(pageBack, prevPage, 1, 1, determineLength(pageBack), 1, buttonColor, buttonActiveColor)
+  pages[pN]:add(pageFore, nextPage, monX - determineLength(pageFore) + 1, 1, monX, 1, buttonColor, buttonActiveColor)
+  
+  if #portals > 0 then
+    local curIndex = (pN - 1) * namesPerPage + 1
+    for y = 3, monY - 2, 2 do
+      if curIndex < #portals + 1 then
+        pages[pN]:add(portals[curIndex]["name"], doAction, 2, y, monMidL - 1 - centerPadding, y, buttonColor, buttonActiveColor)
+      else
+        break
+      end
+      curIndex = curIndex + 1
+      if curIndex < #portals + 1 then
+        pages[pN]:add(portals[curIndex]["name"], doAction, monMidR + 1 + centerPadding, y, monX - 1, y, buttonColor, buttonActiveColor)
+      else
+        break
+      end
+      curIndex = curIndex + 1
+    end
+  end
+  
+  pages[pN]:add(resetButton, rebuildPages, 1, monY, determineLength(resetButton), monY, buttonColor, buttonActiveColor)
+
+end
+  
+function refresh()
+  writeLog("Refreshing stargate list.")
+  pages = {}
+  local myPage = 1
+  
+  writeLog("# stargates: "..#portals)
+  if #portals> 0 then
+    writeLog('Names/Page: '..namesPerPage)
+    while (myPage - 1) * namesPerPage < #portals do
+      writeLog('Populating Page'..myPage..'.')
+      buildPage(myPage)
+      myPage = myPage + 1
+      
+    end
+  else
+    buildPage(1)
+  end
+  
+  if curPage > #pages then
+    curPage = #pages
+  end
+  
+  writeLog('Current Page:'..curPage)
+  pages[curPage]:draw()
+end
+
+function dialGate(address)
+  writeLog('----')
+  writeLog("Dialing "..address)  
+  result = gate.sendPacket("FFFF", "action: dial", "timeout: "..openTime, "address: "..address)
+  if not result then
+    writeLog("No response from stargate. Check Abstract Bus between adapter and gate.")
+    monitor.setBackgroundColor(colors.red)
+    monitor.setTextColor(colors.black)
+    centerText("NO RESPONSE FROM STARGATE", 2)
+    centerText("CHECK ABSTRACT BUS", 3)
+    centerText("CONNECTION TO GATE", 4)
+  else
+    writeLog("Gate told to dial. Result: "..result)
+  end
+  return result
+end
+
+function closeGate()
+  writeLog("Force closing the gate.")
+  result = gate.sendPacket("FFFF", "action: disconnect")
+  writeLog("Gate told to close. Result: "..result)
+end
+
+
+function centerText(text, row)
+  local size = string.len(text)
+  offset = math.floor((monX - size) / 2) + 1
+  monitor.setCursorPos(offset, row)
+  monitor.write(text)
+end
+
+function findSideFor(typeToFind)
+  local sides = peripheral.getNames()
+  for i, side in ipairs(sides) do
+    local type = peripheral.getType(side)
+    if type == typeToFind then
+      return(side)
+    end
+  end
+end
+
+
+init()
+
+if not problem then
+  setupGateList()
+  refresh()
+  while true do
+    event, p1 = pages[curPage]:handleEvents(os.pullEvent())
+    if event == "button_click" then
+      pages[curPage].buttonList[p1].func(p1)
+    elseif event == "monitor_resize" then
+      handleMonitorResize()
+    end
+  end
+end

@@ -1,0 +1,120 @@
+ID,Unlocalised name,Class
+1,potion.moveSpeed,net.minecraft.potion.Potion
+2,potion.moveSlowdown,net.minecraft.potion.Potion
+3,potion.digSpeed,net.minecraft.potion.Potion
+4,potion.digSlowDown,net.minecraft.potion.Potion
+5,potion.damageBoost,net.minecraft.potion.PotionAttackDamage
+6,potion.heal,net.minecraft.potion.PotionHealth
+7,potion.harm,net.minecraft.potion.PotionHealth
+8,potion.jump,net.minecraft.potion.Potion
+9,potion.confusion,net.minecraft.potion.Potion
+10,potion.regeneration,net.minecraft.potion.Potion
+11,potion.resistance,net.minecraft.potion.Potion
+12,potion.fireResistance,net.minecraft.potion.Potion
+13,potion.waterBreathing,net.minecraft.potion.Potion
+14,potion.invisibility,net.minecraft.potion.Potion
+15,potion.blindness,net.minecraft.potion.Potion
+16,potion.nightVision,net.minecraft.potion.Potion
+17,potion.hunger,net.minecraft.potion.Potion
+18,potion.weakness,net.minecraft.potion.PotionAttackDamage
+19,potion.poison,net.minecraft.potion.Potion
+20,potion.wither,net.minecraft.potion.Potion
+21,potion.healthBoost,net.minecraft.potion.PotionHealthBoost
+22,potion.absorption,net.minecraft.potion.PotionAbsoption
+23,potion.saturation,net.minecraft.potion.PotionHealth
+24,potion.fluxtaint,thaumcraft.api.potions.PotionFluxTaint
+25,potion.visexhaust,thaumcraft.api.potions.PotionVisExhaust
+26,potion.infvisexhaust,thaumcraft.common.lib.potions.PotionInfectiousVisExhaust
+27,potion.unhunger,thaumcraft.common.lib.potions.PotionUnnaturalHunger
+28,potion.warpward,thaumcraft.common.lib.potions.PotionWarpWard
+29,potion.deathgaze,thaumcraft.common.lib.potions.PotionDeathGaze
+30,potion.blurred,thaumcraft.common.lib.potions.PotionBlurredVision
+31,potion.paralysis,biomesoplenty.common.potions.PotionParalysis
+32,potion.possession,biomesoplenty.common.potions.PotionPossession
+33,potion.sunscorned,thaumcraft.common.lib.potions.PotionSunScorned
+34,potion.thaumarhia,thaumcraft.common.lib.potions.PotionThaumarhia
+35,Frozen Solid,Reika.RotaryCraft.Auxiliary.FreezePotion
+50,grc.potion.tipsy,growthcraft.cellar.potion.PotionCellar
+70,potion.blood_seal,fox.spiteful.forbidden.potions.PotionBloodSeal
+90,imbue.experience,lumien.randomthings.Potions.PotionImbue
+91,imbue.fire,lumien.randomthings.Potions.PotionImbue
+92,imbue.poison,lumien.randomthings.Potions.PotionImbue
+93,imbue.spectre,lumien.randomthings.Potions.PotionImbue
+94,imbue.weakness,lumien.randomthings.Potions.PotionImbue
+95,imbue.wither,lumien.randomthings.Potions.PotionImbue
+120,botania.potion.allure,vazkii.botania.common.brew.potion.PotionAllure
+121,botania.potion.bloodthirst,vazkii.botania.common.brew.potion.PotionBloodthirst
+122,botania.potion.emptiness,vazkii.botania.common.brew.potion.PotionEmptiness
+123,botania.potion.featherFeet,vazkii.botania.common.brew.potion.PotionFeatherfeet
+124,botania.potion.soulCross,vazkii.botania.common.brew.potion.PotionSoulCross
+130,AddHeart,tombenpotter.sanguimancy.potion.PotionAddHeart
+131,RemoveHeart,tombenpotter.sanguimancy.potion.PotionRemoveHeart
+140,Radiation Sickness,Reika.ReactorCraft.Auxiliary.PotionRadiation
+145,Air Imbued,thaumic.tinkerer.common.potion.DummyPotions
+146,Earth Imbued,thaumic.tinkerer.common.potion.DummyPotions
+147,Fire Imbued,thaumic.tinkerer.common.potion.DummyPotions
+148,Wated Imbued,thaumic.tinkerer.common.potion.DummyPotions
+155,potion.binding,flaxbeard.thaumicexploration.misc.TXPotion
+156,potion.taintWithdrawl,flaxbeard.thaumicexploration.misc.TXTaintPotion
+160,witchery:potion.absorbmagic,com.emoniph.witchery.brewing.potions.PotionAbsorbMagic
+161,witchery:potion.allergydark,com.emoniph.witchery.brewing.potions.PotionDarknessAllergy
+162,witchery:potion.allergysun,com.emoniph.witchery.brewing.potions.PotionSunAllergy
+163,witchery:potion.attractprojectiles,com.emoniph.witchery.brewing.potions.PotionAttractProjectiles
+164,witchery:potion.brewingexpertise,com.emoniph.witchery.brewing.potions.PotionBrewingExpertise
+165,witchery:potion.chilled,com.emoniph.witchery.brewing.potions.PotionChilled
+166,witchery:potion.colorful,com.emoniph.witchery.brewing.potions.PotionColorful
+167,witchery:potion.diseased,com.emoniph.witchery.brewing.potions.PotionDiseased
+168,witchery:potion.doublejump,com.emoniph.witchery.brewing.potions.PotionBase
+169,witchery:potion.enderinhibition,com.emoniph.witchery.brewing.potions.PotionEnderInhibition
+170,witchery:potion.enslaved,com.emoniph.witchery.brewing.potions.PotionEnslaved
+171,witchery:potion.featherfall,com.emoniph.witchery.brewing.potions.PotionFeatherFall
+172,witchery:potion.feelnopain,com.emoniph.witchery.brewing.potions.PotionFeelNoPain
+173,witchery:potion.floating,com.emoniph.witchery.brewing.potions.PotionFloating
+174,witchery:potion.fortune,com.emoniph.witchery.brewing.potions.PotionFortune
+175,witchery:potion.gasmask,com.emoniph.witchery.brewing.potions.PotionGasMask
+176,witchery:potion.grotesque,com.emoniph.witchery.brewing.potions.PotionGrotesque
+177,witchery:potion.hellishaura,com.emoniph.witchery.brewing.potions.PotionHellishAura
+178,witchery:potion.illfitting,com.emoniph.witchery.brewing.potions.PotionIllFitting
+179,witchery:potion.insane,com.emoniph.witchery.brewing.potions.PotionInsanity
+180,witchery:potion.keepeffects,com.emoniph.witchery.brewing.potions.PotionKeepEffectsOnDeath
+181,witchery:potion.keepinventory,com.emoniph.witchery.brewing.potions.PotionKeepInventory
+182,witchery:potion.love,com.emoniph.witchery.brewing.potions.PotionLove
+183,witchery:potion.mortalcoil,com.emoniph.witchery.brewing.potions.PotionMortalCoil
+184,witchery:potion.overheating,com.emoniph.witchery.brewing.potions.PotionOverheating
+185,witchery:potion.paralysed,com.emoniph.witchery.brewing.potions.PotionParalysis
+186,witchery:potion.poisonweapons,com.emoniph.witchery.brewing.potions.PotionPoisonWeapons
+187,witchery:potion.queasy,com.emoniph.witchery.brewing.potions.PotionQueasy
+188,witchery:potion.reflectdamage,com.emoniph.witchery.brewing.potions.PotionReflectDamage
+189,witchery:potion.reflectprojectiles,com.emoniph.witchery.brewing.potions.PotionReflectProjectiles
+190,witchery:potion.reincarnate,com.emoniph.witchery.brewing.potions.PotionReincarnate
+191,witchery:potion.repellattacker,com.emoniph.witchery.brewing.potions.PotionRepellAttacker
+192,witchery:potion.resizing,com.emoniph.witchery.brewing.potions.PotionResizing
+193,witchery:potion.sinking,com.emoniph.witchery.brewing.potions.PotionSinking
+194,witchery:potion.snowtrail,com.emoniph.witchery.brewing.potions.PotionSnowTrail
+195,witchery:potion.spiked,com.emoniph.witchery.brewing.potions.PotionSpiked
+196,witchery:potion.sprouting,com.emoniph.witchery.brewing.potions.PotionSprouting
+197,witchery:potion.stoutbelly,com.emoniph.witchery.brewing.potions.PotionStoutBelly
+198,witchery:potion.swimming,com.emoniph.witchery.brewing.potions.PotionSwimming
+199,witchery:potion.volatility,com.emoniph.witchery.brewing.potions.PotionVolatility
+200,witchery:potion.wakingnightmare,com.emoniph.witchery.brewing.potions.PotionWakingNightmare
+201,witchery:potion.wolfsbane,com.emoniph.witchery.brewing.potions.PotionBase
+202,witchery:potion.worship,com.emoniph.witchery.brewing.potions.PotionWorship
+203,witchery:potion.wrappedinvine,com.emoniph.witchery.brewing.potions.PotionWrappedInVine
+210,Amphibian,WayofTime.alchemicalWizardry.common.potion.PotionAmphibian
+211,Boost,WayofTime.alchemicalWizardry.common.potion.PotionBoost
+212,Deafness,WayofTime.alchemicalWizardry.common.potion.PotionDeaf
+213,Demon Cloaking,WayofTime.alchemicalWizardry.common.potion.PotionDemonCloak
+214,Drowning,WayofTime.alchemicalWizardry.common.potion.PotionDrowning
+215,Feather Fall,WayofTime.alchemicalWizardry.common.potion.PotionFeatherFall
+216,Fire Fuse,WayofTime.alchemicalWizardry.common.potion.PotionFireFuse
+217,Flame Cloak,WayofTime.alchemicalWizardry.common.potion.PotionFlameCloak
+218,Flight,WayofTime.alchemicalWizardry.common.potion.PotionFlight
+219,Heavy Heart,WayofTime.alchemicalWizardry.common.potion.PotionHeavyHeart
+220,Ice Cloak,WayofTime.alchemicalWizardry.common.potion.PotionIceCloak
+221,Inhibit,WayofTime.alchemicalWizardry.common.potion.PotionInhibit
+222,Planar Binding,WayofTime.alchemicalWizardry.common.potion.PotionPlanarBinding
+223,Whirlwind,WayofTime.alchemicalWizardry.common.potion.PotionProjectileProtect
+224,Reciprocation,WayofTime.alchemicalWizardry.common.potion.PotionReciprocation
+225,Soul Fray,WayofTime.alchemicalWizardry.common.potion.PotionSoulFray
+226,Soul Harden,WayofTime.alchemicalWizardry.common.potion.PotionSoulHarden
+352,Delirium,minechem.potion.PotionProvider

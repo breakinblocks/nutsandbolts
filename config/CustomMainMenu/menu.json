@@ -1,17 +1,5 @@
 {
     "buttons": {
-        "play": {
-            "action": {
-                "ip": "macadamia.herdofsquirrels.com",
-                "type": "connectToServer"
-            },
-            "alignment": "right_center",
-            "height": 20,
-            "posX": -125,
-            "posY": -75,
-            "text": "Join Server",
-            "width": 90
-        },
         "multiplayer": {
             "action": {
                 "gui": "multiplayer",
@@ -20,7 +8,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 0,
+            "posY": -25,
             "text": "menu.multiplayer",
             "width": 90
         },
@@ -32,7 +20,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": -25,
+            "posY": -50,
             "text": "menu.singleplayer",
             "width": 90
         },
@@ -44,7 +32,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 25,
+            "posY": 0,
             "text": "fml.menu.mods",
             "width": 90
         },
@@ -55,7 +43,7 @@
             "alignment": "right_center",
             "height": 20,
             "posX": -125,
-            "posY": 75,
+            "posY": 50,
             "text": "menu.quit",
             "width": 90
         },
@@ -83,14 +71,6 @@
             "posX": -130,
             "posY": 0,
             "width": 100
-        },
-        "hos_logo": {
-            "alignment": "top_left",
-            "height": 30,
-            "image": "nutsandbolts:menu/hos-logo.png",
-            "posX": 0,
-            "posY": 0,
-            "width": 112
         },
         "nab_logo": {
             "alignment": "center",
@@ -126,7 +106,7 @@
             "color": -1,
             "posX": -105,
             "posY": -10,
-            "text": "\u00a7bNuts and Bolts \u00a7ev2.0.0"
+            "text": "\u00a7bNuts and Bolts \u00a7ev2.2.3"
         }
     }
 }

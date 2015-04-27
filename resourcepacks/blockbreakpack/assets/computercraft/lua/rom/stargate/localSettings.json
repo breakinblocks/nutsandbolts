@@ -1,0 +1,13 @@
+{
+  "includeExtraGates": false,
+  "extraGates": [
+    {
+      "name": "My Sweet Base",
+      "comment": "A description just for you",
+      "address": "Douchington Squirrel Alpha"
+    }
+  ],
+  "isHub": false,
+  "includeHub": true,
+  "autoUpdate": true
+}

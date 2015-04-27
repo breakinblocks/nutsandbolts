@@ -1,0 +1,12 @@
+{
+  "latestVersion": 2,
+  "latestVersionLocation": "/rom/stargate/gate",
+  "hubGateList": [
+    {
+      "name": "Spawn",
+      "address": "Sileston Irtomec Proat"
+    }
+  ],
+  "hubAddress": "Ormonest Losdehpro Etva"
+}
+
