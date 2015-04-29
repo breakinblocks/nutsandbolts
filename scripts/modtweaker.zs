@@ -29,6 +29,11 @@ mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<
 //gaia spirit infusion recipe
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>], "superbia 4, herba 64, lux 32", <Botania:manaResource:5>, 1);
 
+//Making obsidian totems in the crucible
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <ForbiddenMagic:UmbralBush>, <Botania:flower:15>, "tenebrae 8, victus 5"); //allow botania black flower instead of rose bush for umbral rose bush
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockCosmeticSolid>, <Thaumcraft:blockCosmeticSolid:1>, "exanimis 8, auram 8, alienis 10");
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockCosmeticSolid:12>, <minecraft:stonebrick>, "exanimis 8, auram 8, alienis 10");
+
 //add ores to the orechid
 
 //mods.botania.Orechid.addOre("ore:oreNaquadah", 1500);
@@ -53,3 +58,5 @@ mods.thermalexpansion.Crucible.addRecipe(450000, <SpaceVenus:null:10>, <liquid:p
 // thermal expansion Pulverizer
 mods.thermalexpansion.Pulverizer.addRecipe(3000, <SpaceVenus:null:2>, <minecraft:redstone> * 8, <minecraft:diamond>, 75); //Redstone/diamond from Venus Red gems
 mods.thermalexpansion.Pulverizer.addRecipe(2500, <candycraftmod:B4>, <minecraft:sugar> * 8, <minecraft:dye:9>, 30); //Sugar and pink dye from candyland logs
+
+
