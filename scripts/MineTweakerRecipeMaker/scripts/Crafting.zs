@@ -90,6 +90,11 @@ recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcro
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ExtraUtilities:decorativeBlock1:8>, <Mekanism:EnergyCube:100>, <ExtraUtilities:decorativeBlock1:8>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<minecraft:brown_mushroom_block>, [[<minecraft:brown_mushroom_block:8>]]);
+recipes.addShaped(<BiomesOPlenty:logs3:2> * 2, [[<ore:logWood>, <BiomesOPlenty:driedDirt>]]);
 recipes.addShaped(<Thaumcraft:ItemBaubleBlanks:1>, [[null, <ore:nuggetGold>, null], [<ore:ingotGold>, null, <ore:ingotGold>], [null, <ore:nuggetGold>, null]]);
 recipes.addShaped(<SpaceIo:io_basic:9>, [[<SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>], [<SpaceIo:io_basic:3>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpaceIo:io_basic:3>], [<SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>]]);
 recipes.addShaped(<SpaceVenus:venus_basic:12>, [[<SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>], [<SpaceVenus:venus_basic:3>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpaceVenus:venus_basic:3>], [<SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>]]);
