@@ -86,6 +86,18 @@ recipes.remove(<Mekanism:CardboardBox>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<TConstruct:ToolForgeBlock:3>, [<TConstruct:ToolForgeBlock>, <ore:blockEmerald>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:9>, [<TConstruct:ToolForgeBlock>, <ore:blockTin>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:10>, [<TConstruct:ToolForgeBlock>, <ore:blockAluminum>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:13>, [<TConstruct:ToolForgeBlock>, <ore:blockSteel>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:12>, [<TConstruct:ToolForgeBlock>, <ore:blockAlumite>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:2>, [<TConstruct:ToolForgeBlock>, <ore:blockDiamond>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:11>, [<TConstruct:ToolForgeBlock>, <ore:blockAluminumBrass>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:7>, [<TConstruct:ToolForgeBlock>, <ore:blockCopper>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:8>, [<TConstruct:ToolForgeBlock>, <ore:blockBronze>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:5>, [<ore:blockArdite>, <TConstruct:ToolForgeBlock>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:4>, [<TConstruct:ToolForgeBlock>, <ore:blockCobalt>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>, <ore:blockGold>]);
 recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>]);
 
 // ================================================================================
