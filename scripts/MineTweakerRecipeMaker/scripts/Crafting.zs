@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Thaumcraft:ItemBaubleBlanks:1>);
+recipes.remove(<customnpcs:npcAssassinHead>);
 recipes.remove(<BetterChests:Upgrade:24>);
 recipes.remove(<bcadditions:dust:76>);
 recipes.remove(<bcadditions:dust:66>);
@@ -84,10 +86,43 @@ recipes.remove(<Mekanism:CardboardBox>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<TConstruct:ToolForgeBlock:3>, [<TConstruct:ToolForgeBlock>, <ore:blockEmerald>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:9>, [<TConstruct:ToolForgeBlock>, <ore:blockTin>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:10>, [<TConstruct:ToolForgeBlock>, <ore:blockAluminum>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:13>, [<TConstruct:ToolForgeBlock>, <ore:blockSteel>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:12>, [<TConstruct:ToolForgeBlock>, <ore:blockAlumite>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:2>, [<TConstruct:ToolForgeBlock>, <ore:blockDiamond>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:11>, [<TConstruct:ToolForgeBlock>, <ore:blockAluminumBrass>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:7>, [<TConstruct:ToolForgeBlock>, <ore:blockCopper>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:8>, [<TConstruct:ToolForgeBlock>, <ore:blockBronze>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:5>, [<ore:blockArdite>, <TConstruct:ToolForgeBlock>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:4>, [<TConstruct:ToolForgeBlock>, <ore:blockCobalt>]);
+recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>, <ore:blockGold>]);
 recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<minecraft:brown_mushroom_block>, [[<minecraft:brown_mushroom_block:8>]]);
+recipes.addShaped(<BiomesOPlenty:logs3:2> * 2, [[<ore:logWood>, <BiomesOPlenty:driedDirt>]]);
+recipes.addShaped(<Thaumcraft:ItemBaubleBlanks:1>, [[null, <ore:nuggetGold>, null], [<ore:ingotGold>, null, <ore:ingotGold>], [null, <ore:nuggetGold>, null]]);
+recipes.addShaped(<SpaceIo:io_basic:9>, [[<SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>], [<SpaceIo:io_basic:3>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpaceIo:io_basic:3>], [<SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>, <SpaceIo:io_basic:3>]]);
+recipes.addShaped(<SpaceVenus:venus_basic:12>, [[<SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>], [<SpaceVenus:venus_basic:3>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpaceVenus:venus_basic:3>], [<SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>, <SpaceVenus:venus_basic:3>]]);
+recipes.addShaped(<SpaceMercury:mercury_block:11>, [[<SpaceMercury:mercury_block:3>, <SpaceMercury:mercury_block:3>, <SpaceMercury:mercury_block:3>], [<SpaceMercury:mercury_block:3>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpaceMercury:mercury_block:3>], [<SpaceMercury:mercury_block:3>, <SpaceMercury:mercury_block:3>, <SpaceMercury:mercury_block:3>]]);
+recipes.addShaped(<GalacticraftMars:tile.mars:4>, [[<SpaceHole:hole_basic:4>, <SpaceHole:hole_basic:4>, <SpaceHole:hole_basic:4>], [<SpaceHole:hole_basic:4>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpaceHole:hole_basic:4>], [<SpaceHole:hole_basic:4>, <SpaceHole:hole_basic:4>, <SpaceHole:hole_basic:4>]]);
+recipes.addShaped(<SpacePluto:pluto_block:10> * 4, [[<SpacePluto:pluto_block:3>, <SpacePluto:pluto_block:3>, <SpacePluto:pluto_block:3>], [<SpacePluto:pluto_block:3>, <magicalcrops:magicalcrops_ElementEssence:2>, <SpacePluto:pluto_block:3>], [<SpacePluto:pluto_block:3>, <SpacePluto:pluto_block:3>, <SpacePluto:pluto_block:3>]]);
+recipes.addShaped(<minecraft:vine> * 2, [[<magicalcrops:magicalcrops_ElementEssence:2>, <minecraft:vine>, <magicalcrops:magicalcrops_ElementEssence>]]);
+recipes.addShaped(<tropicraft:tile.firePit>, [[null, <minecraft:flint_and_steel>.transformDamage(4), null], [<tropicraft:bambooChute>, <tropicraft:bambooChute>, <tropicraft:bambooChute>], [<tropicraft:bambooChute>, <tropicraft:bambooChute>, <tropicraft:bambooChute>]]);
+recipes.addShaped(<tropicraft:tile.blockOre>, [[<tropicraft:ore>, <tropicraft:ore>, <tropicraft:ore>], [<tropicraft:ore>, <tropicraft:ore:3>, <tropicraft:ore>], [<tropicraft:ore>, <tropicraft:ore>, <tropicraft:ore>]]);
+recipes.addShaped(<betterrecords:urlrecord>, [[<MineFactoryReloaded:record.blank>]]);
+recipes.addShaped(<customnpcs:npcAssassinHead>, [[<ore:ingotIron>, <ore:itemLeather>, <ore:ingotIron>], [<ore:itemLeather>, null, <ore:itemLeather>]]);
+recipes.addShaped(<customnpcs:npcAssassinBoots>, [[<ore:itemLeather>, <ore:itemLeather>], [<minecraft:iron_ingot>, <ore:ingotIron>]]);
+recipes.addShaped(<customnpcs:npcAssassinLeggings>, [[<ore:ingotIron>, <minecraft:leather>, <ore:ingotIron>], [<ore:itemLeather>, null, <minecraft:leather>], [<ore:itemLeather>, null, <ore:itemLeather>]]);
+recipes.addShaped(<customnpcs:npcAssassinChest>, [[<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemLeather>, <ore:ingotIron>, <ore:itemLeather>], [<ore:ingotIron>, <ore:itemLeather>, <ore:ingotIron>]]);
+recipes.addShaped(<customnpcs:npcAssassinHead>, [[<ore:ingotIron>]]);
+recipes.addShaped(<WR-CBE|Core:obsidianStick>, [[<ore:stickObsidian>]]);
+recipes.addShaped(<EnderIO:blockEndermanSkull>, [[<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>], [<magicalcrops:magicalcrops_CropEssence:9>, <EnderIO:itemSoulVessel>.withTag({isStub:1 as byte, id:"Enderman"}), <magicalcrops:magicalcrops_CropEssence:9>], [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>]]);
 recipes.addShaped(<minecraft:dye:3>, [[<ore:dyeBrown>, <magicalcrops:magicalcrops_CropEssence>]]);
 recipes.addShaped(<BiomesOPlenty:misc:6>, [[<magicalcrops:magicalcrops_CropEssence:13>, null], [<magicalcrops:magicalcrops_CropEssence:13>, <magicalcrops:magicalcrops_CropEssence:13>]]);
 recipes.addShaped(<BetterChests:Upgrade:24>, [[<minecraft:feather>, <ore:gemEmerald>, <minecraft:feather>], [<ore:listAllsugar>, <BetterChests:Upgrade:4>, <ore:listAllsugar>], [<minecraft:feather>, <minecraft:golden_boots>, <minecraft:feather>]]);
@@ -100,7 +135,7 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeU
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[null, <magicalcrops:magicalcrops_InfusedT2Pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<Mekanism:CompressedObsidian>, <EnderIO:itemMaterial:8>, <Mekanism:CompressedObsidian>], [<ore:blockEnderCore>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
-recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ore:blockEnderCore>, <Mekanism:EnergyCube:100>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ExtraUtilities:decorativeBlock1:8>, <Mekanism:EnergyCube:100>, <ExtraUtilities:decorativeBlock1:8>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
 recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:ingotSteel>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
@@ -159,7 +194,6 @@ recipes.addShaped(<customnpcs:npcBlackBullet> * 8, [[null, <Mekanism:DirtyDust:6
 recipes.addShaped(<customnpcs:npcEmeraldBullet> * 8, [[null, <ForbiddenMagic:FMResource>, null], [<ForbiddenMagic:FMResource>, null, <ForbiddenMagic:FMResource>], [null, <ForbiddenMagic:FMResource>, null]]);
 recipes.addShaped(<customnpcs:npcBronzeBullet> * 8, [[null, <TConstruct:materials:31>, null], [<TConstruct:materials:31>, null, <TConstruct:materials:31>], [null, <TConstruct:materials:31>, null]]);
 recipes.addShaped(<customnpcs:npcDiamondBullet> * 8, [[null, <ore:diamondNugget>, null], [<Translocator:diamondNugget>, null, <ore:diamondNugget>], [null, <ore:diamondNugget>, null]]);
-recipes.addShaped(<customnpcs:npcGoldenBullet> * 8, [[null, <ore:nuggetGold>, null], [<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <ore:nuggetGold>, null]]);
 recipes.addShaped(<customnpcs:npcIronBullet> * 8, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, null, <Thaumcraft:ItemNugget>], [null, <ore:nuggetIron>, null]]);
 recipes.addShaped(<customnpcs:npcGoldenBullet> * 8, [[null, <ore:nuggetGold>, null], [<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <ore:nuggetGold>, null]]);
 recipes.addShaped(<customnpcs:npcIronBullet> * 8, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, null, <Thaumcraft:ItemNugget>], [null, <ore:nuggetIron>, null]]);
