@@ -1,4 +1,8 @@
 item.acorn.name=Magical Acorn
+item.enderiumbreakbit.name=Enderium Breakbit
+item.invarbreakbit.name=Invar Breakbit
+item.electrumbreakbit.name=Electrum Breakbit
+item.worldbreaker.name=World Breaker
 
 tile.customthings.acornyOre.name=Acorny Ore
 

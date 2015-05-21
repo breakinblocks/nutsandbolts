@@ -15,22 +15,6 @@
 recipes.remove(<Thaumcraft:ItemBaubleBlanks:1>);
 recipes.remove(<customnpcs:npcAssassinHead>);
 recipes.remove(<BetterChests:Upgrade:24>);
-recipes.remove(<bcadditions:dust:76>);
-recipes.remove(<bcadditions:dust:66>);
-recipes.remove(<bcadditions:dust:67>);
-recipes.remove(<bcadditions:dust:70>);
-recipes.remove(<bcadditions:dust:69>);
-recipes.remove(<bcadditions:dust:71>);
-recipes.remove(<bcadditions:dust:74>);
-recipes.remove(<bcadditions:dust:79>);
-recipes.remove(<bcadditions:dust:80>);
-recipes.remove(<bcadditions:dust:81>);
-recipes.remove(<bcadditions:dust:83>);
-recipes.remove(<bcadditions:dust:88>);
-recipes.remove(<bcadditions:dust:75>);
-recipes.remove(<bcadditions:dust:77>);
-recipes.remove(<bcadditions:dust:72>);
-recipes.remove(<bcadditions:dust:73>);
 recipes.remove(<MekanismGenerators:Generator:3>);
 recipes.remove(<customnpcs:npcMagicWand>);
 recipes.remove(<BetterChests:Upgrade:15>);
@@ -102,6 +86,10 @@ recipes.addShapeless(<minecraft:end_portal_frame> * 2, [<magicalcrops:magicalcro
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<RotaryCraft:rotarycraft_item_screwdriver>, [[<ore:ingotSteel>, null, null], [null, <RotaryCraft:rotarycraft_item_shaftcraft:2>, null], [null, null, <ore:plankWood>]]);
+recipes.addShaped(<candycraftmod:I16>, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:ingotIron>, <minecraft:iron_ingot>, null], [null, null, <minecraft:iron_ingot>]]);
+recipes.addShaped(<malisisdoors:item.curtain>, [[<ore:cloth>, <ore:cloth>, <ore:nuggetGold>], [<minecraft:wool>, <minecraft:wool>, <ore:nuggetGold>], [<ore:cloth>, <ore:cloth>, <ore:nuggetGold>]]);
+recipes.addShaped(<Thaumcraft:blockCosmeticSolid:12> * 8, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <Thaumcraft:ItemShard:5>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);
 recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
 recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
 recipes.addShaped(<minecraft:brown_mushroom_block>, [[<minecraft:brown_mushroom_block:8>]]);
@@ -134,8 +122,8 @@ recipes.addShaped(<tropicraft:ore:3> * 9, [[<tropicraft:tile.blockOre>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[null, <magicalcrops:magicalcrops_InfusedT2Pickaxe>, null], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
-recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<Mekanism:CompressedObsidian>, <EnderIO:itemMaterial:8>, <Mekanism:CompressedObsidian>], [<ore:blockEnderCore>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
-recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ExtraUtilities:decorativeBlock1:8>, <Mekanism:EnergyCube:100>, <ExtraUtilities:decorativeBlock1:8>], [<ExtraUtilities:enderThermicPump>, <ThermalFoundation:tool.pickaxePlatinum>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<Mekanism:CompressedObsidian>, <EnderIO:itemMaterial:8>, <Mekanism:CompressedObsidian>], [<ore:blockEnderCore>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderCore>], [<ExtraUtilities:enderThermicPump>, <BuildCraft|Factory:machineBlock>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<tropicraft:tile.blockOre>, <GalacticraftCore:tile.gcBlockCore:12>, <tropicraft:tile.blockOre>], [<ExtraUtilities:decorativeBlock1:8>, <Mekanism:EnergyCube:1>.withTag({tier:"Ultimate",electrictiy:1.28E8}), <ExtraUtilities:decorativeBlock1:8>], [<ExtraUtilities:enderThermicPump>, <BuildCraft|Factory:machineBlock>, <ExtraUtilities:enderThermicPump>]]);
 recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:ingotSteel>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
@@ -187,8 +175,7 @@ recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <TwilightForest
 recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <ExtraUtilities:decorativeBlock1:12>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:ingotSteel>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <ore:ingotSteel>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:paneGlassColorless>, null], [<ore:stone>, <minecraft:comparator>, <ore:stone>]]);
 recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearGold>, <ore:plateMeteoricIron>, <ore:gearGold>], [<atum:tile.sand>, <ore:gearDiamond>, <atum:tile.sand>], [<atum:tile.sand>, <appliedenergistics2:item.ToolNetherQuartzPickaxe>, <atum:tile.sand>]]);
-recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearDiamond>, <ore:bucketRedstone>, <ore:gearDiamond>], [<StevesCarts:CartModule:8>, <ore:gearDiamond>, <StevesCarts:CartModule:8>], [<Railcraft:machine.beta:13>, <RotaryCraft:rotarycraft_item_shaftcraft:14>, <Railcraft:machine.beta:13>]]);
-recipes.addShaped(<bcadditions:stickEmerald>, [[null, <ForbiddenMagic:FMResource>, null], [<ore:nuggetEmerald>, <ore:stickWood>, <ore:nuggetEmerald>], [null, <ForbiddenMagic:FMResource>, null]]);
+recipes.addShaped(<BuildCraft|Factory:machineBlock>, [[<ore:gearDiamond>, <ore:bucketRedstone>, <ore:gearDiamond>], [<StevesCarts:CartModule:8>, <BuildCraft|Silicon:redstoneChipset:4>, <StevesCarts:CartModule:8>], [<Railcraft:machine.beta:13>, <RotaryCraft:rotarycraft_item_shaftcraft:14>, <Railcraft:machine.beta:13>]]);
 recipes.addShaped(<customnpcs:npcGunChainsaw>, [[null, <RedstoneArsenal:material:192>, null], [<ore:sheetPlastic>, <customnpcs:npcDiamondGun>, <ore:sheetPlastic>], [null, <MineFactoryReloaded:plastic.sheet>, null]]);
 recipes.addShaped(<customnpcs:npcBlackBullet> * 8, [[null, <Mekanism:DirtyDust:6>, null], [<Mekanism:DirtyDust:6>, null, <Mekanism:DirtyDust:6>], [null, <Mekanism:DirtyDust:6>, null]]);
 recipes.addShaped(<customnpcs:npcEmeraldBullet> * 8, [[null, <ForbiddenMagic:FMResource>, null], [<ForbiddenMagic:FMResource>, null, <ForbiddenMagic:FMResource>], [null, <ForbiddenMagic:FMResource>, null]]);

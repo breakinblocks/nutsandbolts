@@ -2,6 +2,18 @@
   [
     {
       "name": "acorn"
+    },
+	{
+      "name": "enderiumbreakbit"
+    },
+	{
+      "name": "invarbreakbit"
+    },
+	{
+      "name": "electrumbreakbit"
+    },	
+	{
+      "name": "worldbreaker"
     }
   ]
 }

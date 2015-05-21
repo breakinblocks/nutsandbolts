@@ -1,6 +1,8 @@
 import mods.botania.ManaInfusion;
 import mods.bloodmagic.Alchemy;
 import mods.thaumcraft.Infusion;
+import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.Crucible;
 
 //Add oredict entries
 
@@ -54,9 +56,12 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>
 mods.thermalexpansion.Crucible.addRecipe(500000, <SpacePluto:null>, <liquid:cryotheum> * 8000); //Liquid Cryotheum from Pluto blue gem
 mods.thermalexpansion.Crucible.addRecipe(250000, <SpaceVenus:null:2>, <liquid:redstone> * 8000); //Liquid Redsone from Venus Red gem
 mods.thermalexpansion.Crucible.addRecipe(450000, <SpaceVenus:null:10>, <liquid:pyrotheum> * 4000);  //Liquid Pyrotheum from Venus Blaze Powder
-
+mods.thermalexpansion.Pulverizer.addRecipe(3000, <harvestcraft:saltItem>, <harvestcraft:saltItem> * 3, <harvestcraft:saltItem>, 80);
+mods.thermalexpansion.Pulverizer.addRecipe(3000, <Mekanism:Salt>, <Mekanism:Salt> * 3, <Mekanism:Salt>, 80);
 // thermal expansion Pulverizer
 mods.thermalexpansion.Pulverizer.addRecipe(3000, <SpaceVenus:null:2>, <minecraft:redstone> * 8, <minecraft:diamond>, 75); //Redstone/diamond from Venus Red gems
 mods.thermalexpansion.Pulverizer.addRecipe(2500, <candycraftmod:B4>, <minecraft:sugar> * 8, <minecraft:dye:9>, 30); //Sugar and pink dye from candyland logs
 
 
+//Mekanism Recipes
+mods.mekanism.Crusher.addRecipe(<Mekanism:Salt>, <Mekanism:Salt> * 4); //Salt
