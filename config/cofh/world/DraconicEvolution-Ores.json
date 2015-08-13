@@ -1,1 +1,41 @@
+{
+    "draconium": {
+        "template": "uniform",
+        "block": {
+            "name": "DraconicEvolution:draconiumOre",
+            "metadata": 0
+        },
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 30,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    
+"draconium_mars": {
+        "template": "uniform",
+        "block": {
+            "name": "DraconicEvolution:draconiumOre",
+            "metadata": 0
+        },
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 4,
+        "maxHeight": 14,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
 
+  
+}
