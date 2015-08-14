@@ -5,3 +5,4 @@ config/NEI/client.cfg
 config/Opis.cfg
 server/
 
+config/CustomMainMenu/mainmenu.json
