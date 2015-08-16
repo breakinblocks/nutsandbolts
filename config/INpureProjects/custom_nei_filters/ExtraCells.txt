@@ -1,0 +1,4 @@
+
+if (FML.isModLoaded("ExtraCells2")) {
+    NEI.override("extracells:pattern.fluid", [0]);
+}
