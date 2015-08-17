@@ -5,9 +5,9 @@
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
         },
-        "clusterSize": 8,
-        "numClusters": 2,
-        "minHeight": 1,
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 4,
         "maxHeight": 15,
         "retrogen": "true",
         "biomeRestriction": "none",
