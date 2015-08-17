@@ -89,8 +89,8 @@
         "splash-text": {
             "alignment": "center",
             "color": -256,
-            "posX": -80,
-            "posY": -90
+            "posX": -90,
+            "posY": -85
         }
     },
     "texts": {
