@@ -4,7 +4,7 @@
         "block": "dirt",
         "material": "minecraft:stone",
         "clusterSize": 32,
-        "numClusters": 20,
+        "numClusters": 12,
         "minHeight": 20,
         "maxHeight": 128,
         "retrogen": "true",
