@@ -16,6 +16,46 @@ mods.botania.ManaInfusion.addAlchemy(<Botania:manaResource> * 3, <ore:ingotMithr
 mods.botania.ManaInfusion.addInfusion(<ThermalFoundation:material:70>, <ThermalFoundation:material:69>, 1000);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:ingotSteel> 5250);
 
+//Botania mana petal nerfs
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:0>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:1>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:2>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:3>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:4>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:5>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:6>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:7>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:8>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:9>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:10>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:11>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:12>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:13>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:14>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:15>);
+
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:0>, <Botania:petal:0> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:1>, <Botania:petal:1> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:2>, <Botania:petal:2> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:3>, <Botania:petal:3> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:4>, <Botania:petal:4> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:5>, <Botania:petal:5> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:6>, <Botania:petal:6> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:7>, <Botania:petal:7> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:8>, <Botania:petal:8> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:9>, <Botania:petal:9> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:10>, <Botania:petal:10> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:11>, <Botania:petal:11> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:12>, <Botania:petal:12> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:13>, <Botania:petal:13> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:14>, <Botania:petal:14> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:15>, <Botania:petal:15> 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:16>, <Botania:petal:16> 10000);
+
+//mods.botania.ManaInfusion.removeRecipe(<Botania:specialFlower.withTag({type:"endoflame"})>);
+mods.botania.Apothecary.removeRecipe("endoflame")
+mods.botania.RuneAltar.addRecipe(<Botania:specialFlower.withTag({type:"endoflame"})>, [<Botania:rune:1>,<minecraft:blaze_rod>,<Botania:manaPetal:14>,<Botania:manaPetal:12>,<Botania:manaPetal:1>,<Botania:grassSeeds>], 5250);
+
 //using Blazing Pyrotheum gives double Incendium
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium> * 3, [<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:netherrack>, <AWWayofTime:simpleCatalyst>, <ThermalFoundation:bucket:3>], 4, 0);
 
@@ -62,3 +102,5 @@ mods.mekanism.Crusher.addRecipe(<Mekanism:Salt>, <Mekanism:Salt> * 3); //Salt
 val rcOres = <ore:rcOres>;
 rcOres.add(<ResourceCrops:BlockROre>);
 mods.botania.Orechid.addOre(<ore:rcOres>, 10000);
+
+
