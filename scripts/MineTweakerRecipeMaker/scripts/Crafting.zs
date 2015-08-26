@@ -12,6 +12,39 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ExtraUtilities:enderQuarry>);
+recipes.remove(<Mekanism:MachineBlock:4>);
+recipes.remove(<rftools:storageModuleItem:6>);
+recipes.remove(<rftools:remoteStorageBlock>);
+recipes.remove(<rftools:waterBreathingEModuleItem>);
+recipes.remove(<rftools:saturationEModuleItem>);
+recipes.remove(<rftools:speedEModuleItem>);
+recipes.remove(<rftools:hasteEModuleItem>);
+recipes.remove(<ThermalFoundation:tool.pickaxePlatinum>);
+recipes.remove(<rftools:regenerationEModuleItem>);
+recipes.remove(<rftools:matterBeamerBlock>);
+recipes.remove(<rftools:peacefulEModuleItem>);
+recipes.remove(<rftools:flightEModuleItem>);
+recipes.remove(<DraconicEvolution:wyvernLeggs>);
+recipes.remove(<DraconicEvolution:wyvernBoots>);
+recipes.remove(<DraconicEvolution:wyvernHelm>);
+recipes.remove(<DraconicEvolution:wyvernChest>);
+recipes.remove(<DraconicEvolution:wyvernSword>);
+recipes.remove(<DraconicEvolution:wyvernShovel>);
+recipes.remove(<DraconicEvolution:wyvernPickaxe>);
+recipes.remove(<DraconicEvolution:sunDial>);
+recipes.remove(<DraconicEvolution:sunDial>);
+recipes.remove(<DraconicEvolution:dissEnchanter>);
+recipes.remove(<DraconicEvolution:grinder:3>);
+recipes.remove(<DraconicEvolution:weatherController>);
+recipes.remove(<Mekanism:PartTransmitter:3>);
+recipes.remove(<Mekanism:PartTransmitter:2>);
+recipes.remove(<Mekanism:PartTransmitter:1>);
+recipes.remove(<Mekanism:PartTransmitter>);
+recipes.remove(<RouterReborn:routerbarrel:1>);
+recipes.remove(<RouterReborn:routerbarrel:2>);
+recipes.remove(<RouterReborn:routerbarrel>);
+recipes.remove(<RouterReborn:powerConverter>);
 recipes.remove(<DraconicEvolution:draconicDistructionStaff>);
 recipes.remove(<ThaumicExploration:everburnUrn>);
 recipes.remove(<rftools:spawnerBlock>);
@@ -28,7 +61,6 @@ recipes.remove(<advancedgenetics:deathenderchest>);
 recipes.remove(<advancedgenetics:autoscraper>);
 recipes.remove(<advancedgenetics:scraper>);
 recipes.remove(<RotaryCraft:rotarycraft_item_misccraft:1>);
-recipes.remove(<Aroma1997sDimension:portalFrame>);
 recipes.remove(<Aroma1997sDimension:portalIgniter>);
 recipes.remove(<advancedgenetics:homeostasistubeitem>);
 recipes.remove(<advancedgenetics:syringe>);
@@ -98,7 +130,6 @@ recipes.remove(<BuildCraft|Builders:machineBlock>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<Aroma1997sDimension:portalFrame>, [<TConstruct:decoration.multibrick:4>, <Aroma1997sDimension:portalIgniter:*>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:3>, [<TConstruct:ToolForgeBlock>, <ore:blockEmerald>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:9>, [<TConstruct:ToolForgeBlock>, <ore:blockTin>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:10>, [<TConstruct:ToolForgeBlock>, <ore:blockAluminum>]);
@@ -114,33 +145,29 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<ore:chipsetPulsating>, <ore:blockEnderCore>, <ore:chipsetPulsating>], [<ThermalExpansion:Frame:10>, <ExtraUtilities:decorativeBlock1:12>, <ThermalExpansion:Frame:10>], [<Mekanism:TeleportationCore>, <IC2:blockElectric:2>, <Mekanism:TeleportationCore>]]);
+recipes.addShaped(<Mekanism:MachineBlock:4>, [[<ore:circuitUltimate>, <ExtraUtilities:decorativeBlock1:12>, <ore:circuitUltimate>], [<LogisticsPipes:item.PipeItemsInvSysConnector>, <Mekanism:Robit:100>, <LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>], [<Mekanism:TeleportationCore>, <ThermalExpansion:Frame:2>, <Mekanism:TeleportationCore>]]);
+recipes.addShaped(<rftools:storageModuleItem:6>, [[null, <WR-CBE|Core:retherPearl>, null], [<ThermalFoundation:material:107>, <EnderIO:itemAlloy>, <ThermalFoundation:material:107>], [<minecraft:quartz>, <Mekanism:ControlCircuit>, <minecraft:quartz>]]);
+recipes.addShaped(<rftools:remoteStorageBlock>, [[<ore:nuggetLumium>, <ore:pearlEnderEye>, <ore:nuggetLumium>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <rftools:machineFrame>, <appliedenergistics2:item.ItemMultiMaterial:24>], [<ore:nuggetLumium>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:nuggetLumium>]]);
+recipes.addShaped(<rftools:waterBreathingEModuleItem>, [[null,  <rftools:syringeItem>.withTag({mobName: "Squid", level:10}), null], [<appliedenergistics2:item.ItemMultiMaterial:26>, <gendustry:GeneticsProcessor>, <appliedenergistics2:item.ItemMultiMaterial:26>], [<ore:sheetPlastic>, <MineFactoryReloaded:plastic.sheet>, <ore:sheetPlastic>]]);
+recipes.addShaped(<rftools:saturationEModuleItem>, [[null,  <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), null], [<appliedenergistics2:item.ItemMultiMaterial:26>, <gendustry:GeneticsProcessor>, <appliedenergistics2:item.ItemMultiMaterial:26>], [<ore:sheetPlastic>, <MineFactoryReloaded:plastic.sheet>, <ore:sheetPlastic>]]);
+recipes.addShaped(<rftools:speedEModuleItem>, [[null,  <rftools:syringeItem>.withTag({mobName: "Horse", level:10}), null], [<appliedenergistics2:item.ItemMultiMaterial:26>, <gendustry:GeneticsProcessor>, <appliedenergistics2:item.ItemMultiMaterial:26>], [<ore:sheetPlastic>, <MineFactoryReloaded:plastic.sheet>, <ore:sheetPlastic>]]);
+recipes.addShaped(<rftools:regenerationEModuleItem>, [[null, <rftools:syringeItem>.withTag({mobName: "Witch", level:10}), null], [<appliedenergistics2:item.ItemMultiMaterial:26>, <gendustry:GeneticsProcessor>, <appliedenergistics2:item.ItemMultiMaterial:26>], [<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>]]);
+recipes.addShaped(<rftools:hasteEModuleItem>, [[null, <ThermalFoundation:tool.pickaxePlatinum>.withTag({ench: [{level: 3 as short, id: 32 as short}]}), null], [<appliedenergistics2:item.ItemMultiMaterial:26>, <gendustry:GeneticsProcessor>, <appliedenergistics2:item.ItemMultiMaterial:26>], [<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>]]);
+recipes.addShaped(<rftools:matterBeamerBlock>, [[<ore:ingotElectrumFlux>, <ore:ingotRefinedGlowstone>, <ore:ingotElectrumFlux>], [<ore:ingotRefinedGlowstone>, <rftools:machineFrame>, <ore:ingotRefinedGlowstone>], [<ore:ingotElectrumFlux>, <ore:ingotRefinedGlowstone>, <ore:ingotElectrumFlux>]]);
+recipes.addShaped(<rftools:peacefulEModuleItem>, [[<gendustry:GeneticsProcessor>, <rftools:peaceEssenceItem>, <gendustry:GeneticsProcessor>], [<appliedenergistics2:item.ItemMultiMaterial:26>, <ExtraUtilities:mini-soul>, <appliedenergistics2:item.ItemMultiMaterial:26>], [<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>]]);
+recipes.addShaped(<DraconicEvolution:wyvernBoots>, [[<simplyjetpacks:armorPlatings:4>, <DraconicEvolution:wyvernCore>, <simplyjetpacks:armorPlatings:4>], [<GraviSuite:itemSimpleItem:2>, <RedstoneArsenal:armor.bootsFlux>, <GraviSuite:itemSimpleItem:2>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
+recipes.addShaped(<DraconicEvolution:wyvernHelm>, [[<simplyjetpacks:armorPlatings:4>, <DraconicEvolution:wyvernCore>, <simplyjetpacks:armorPlatings:4>], [<GraviSuite:itemSimpleItem:2>, <RedstoneArsenal:armor.helmetFlux>, <GraviSuite:itemSimpleItem:2>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
+recipes.addShaped(<DraconicEvolution:wyvernLeggs>, [[<simplyjetpacks:armorPlatings:4>, <DraconicEvolution:wyvernCore>, <simplyjetpacks:armorPlatings:4>], [<GraviSuite:itemSimpleItem:2>, <RedstoneArsenal:armor.legsFlux>, <GraviSuite:itemSimpleItem:2>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
+recipes.addShaped(<DraconicEvolution:wyvernChest>, [[<simplyjetpacks:armorPlatings:4>, <DraconicEvolution:wyvernCore>, <simplyjetpacks:armorPlatings:4>], [<GraviSuite:itemSimpleItem:3>, <simplyjetpacks:jetpacksEIO:5>, <GraviSuite:itemSimpleItem:3>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
+recipes.addShaped(<DraconicEvolution:grinder:3>, [[<rftools:machineFrame>, <ExtraUtilities:decorativeBlock1:12>, <rftools:machineFrame>], [<ExtraUtilities:ethericsword>, <EnderIO:blockKillerJoe>, <ExtraUtilities:ethericsword>], [<rftools:machineFrame>, <simplyjetpacks:armorPlatings:14>, <rftools:machineFrame>]]);
+recipes.addShaped(<Aroma1997sDimension:portalIgniter>, [[null, <minecraft:flint_and_steel>, null], [<ore:compressedCobblestone2x>, <ore:gemDiamond>, <ore:compressedCobblestone2x>], [null, <ore:stickObsidian>, null]]);
 recipes.addShaped(<DraconicEvolution:draconiumChest>, [[<DraconicEvolution:draconium>, <AWWayofTime:lavaCrystal:*>, <DraconicEvolution:draconium>], [<betterstorage:thaumiumChest>, <DraconicEvolution:wyvernCore:*>, <betterstorage:thaumiumChest>], [<DraconicEvolution:draconium>, <appliedenergistics2:tile.BlockCraftingUnit>, <DraconicEvolution:draconium>]]);
-recipes.addShaped(<DraconicEvolution:grinder:3>, [[<DraconicEvolution:draconium>, <ExtraUtilities:bedrockiumIngot>, <DraconicEvolution:draconium>], [<Botania:elementiumSword>, <ExtraUtilities:ethericsword:*>, <Thaumcraft:ItemSwordElemental>], [<DraconicEvolution:draconium>, <ExtraUtilities:bedrockiumIngot>, <DraconicEvolution:draconium>]]);
 recipes.addShaped(<DraconicEvolution:sunDial>, [[<AWWayofTime:bloodMagicBaseItems:30>, <DraconicEvolution:awakenedCore>, <AWWayofTime:bloodMagicBaseItems:30>], [<DraconicEvolution:wyvernCore>, <minecraft:dragon_egg>, <DraconicEvolution:wyvernCore>], [<DraconicEvolution:draconium:2>, <ThaumicTinkerer:enchanter>, <DraconicEvolution:draconium:2>]]);
 recipes.addShaped(<DraconicEvolution:weatherController>, [[<Railcraft:firestone.refined>, <DraconicEvolution:wyvernCore>, <Railcraft:firestone.refined>], [<Mekanism:ObsidianTNT>, <DraconicEvolution:teleporterMKII>, <Mekanism:ObsidianTNT>], [<DraconicEvolution:draconium>, <ThaumicTinkerer:enchanter>, <DraconicEvolution:draconium>]]);
 recipes.addShaped(<DraconicEvolution:wyvernBow>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <Thaumcraft:WandCasting:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone>]]);
-recipes.addShaped(<DraconicEvolution:wyvernLeggs>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorclothLegsGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernHelm>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorclothHelmGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernChest>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorclothChestGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernBoots>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorclothBootsGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernShovel>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorShovelGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernPickaxe>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorPickGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernSword>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorSwordGem:*>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:spectralstone:*>, <DraconicEvolution:draconiumEnergyCore>, <witchery:spectralstone:*>]]);
-recipes.addShaped(<DraconicEvolution:wyvernBoots>, [[<ore:gaiaIngot>, <DraconicEvolution:wyvernCore>, <ore:gaiaIngot>], [<AWWayofTime:bloodMagicBaseItems:30>, <ThaumicTinkerer:ichorclothBootsGem>, <AWWayofTime:bloodMagicBaseItems:30>], [<witchery:ingredient:11>, <DraconicEvolution:draconiumEnergyCore>, <witchery:ingredient:11>]]);
 recipes.addShaped(<DraconicEvolution:draconicDistructionStaff>, [[<ExtraUtilities:mini-soul>, <DraconicEvolution:awakenedCore>, <ExtraUtilities:mini-soul>], [<DraconicEvolution:draconicPickaxe:*>, <DraconicEvolution:draconicSword:*>, <DraconicEvolution:draconicShovel:*>], [<DraconicEvolution:draconicBlock>, <DraconicEvolution:draconiumEnergyCore:1>, <DraconicEvolution:draconicBlock>]]);
 recipes.addShaped(<DraconicEvolution:wyvernBow>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:tool.bowFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernShovel>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:tool.shovelFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernPickaxe>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:tool.pickaxeFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernSword>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:tool.swordFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernLeggs>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:armor.legsFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernBoots>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:armor.bootsFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernChest>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:armor.plateFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernHelm>, [[<EnderIO:itemMaterial:8>, <DraconicEvolution:wyvernCore>, <EnderIO:itemMaterial:8>], [<ore:itemSuperconductor>, <RedstoneArsenal:armor.helmetFlux:*>, <ore:itemSuperconductor>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
-recipes.addShaped(<DraconicEvolution:wyvernHelm>, [[<DraconicEvolution:draconium>, <DraconicEvolution:wyvernCore>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <IC2:itemArmorQuantumHelmet:*>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconium>]]);
-recipes.addShaped(<DraconicEvolution:wyvernBoots>, [[<DraconicEvolution:draconium>, <DraconicEvolution:wyvernCore>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <IC2:itemArmorQuantumBoots:*>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconium>]]);
-recipes.addShaped(<DraconicEvolution:wyvernLeggs>, [[<DraconicEvolution:draconium>, <DraconicEvolution:wyvernCore>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <IC2:itemArmorQuantumLegs:*>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconium>]]);
-recipes.addShaped(<DraconicEvolution:wyvernChest>, [[<DraconicEvolution:draconium>, <DraconicEvolution:wyvernCore>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <IC2:itemArmorQuantumChestplate:*>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconium>]]);
-recipes.addShaped(<DraconicEvolution:wyvernChest>, [[<DraconicEvolution:draconium>, <DraconicEvolution:wyvernCore>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <GraviSuite:graviChestPlate:1>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconium>]]);
 recipes.addShaped(<DraconicEvolution:wyvernCore>, [[<DraconicEvolution:draconium>, <DraconicEvolution:draconicCore>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconicCore>, <ore:blockNetherStar>, <DraconicEvolution:draconicCore>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconicCore>, <DraconicEvolution:draconium>]]);
 recipes.addShaped(<DraconicEvolution:draconiumEnergyCore>, [[<DraconicEvolution:draconium>, <DraconicEvolution:draconium:2>, <DraconicEvolution:draconium>], [<DraconicEvolution:draconium:2>, <DraconicEvolution:draconicCore>, <DraconicEvolution:draconium:2>], [<DraconicEvolution:draconium>, <DraconicEvolution:draconium:2>, <DraconicEvolution:draconium>]]);
 recipes.addShaped(<DraconicEvolution:draconicCore>, [[<ore:blockGold>, <DraconicEvolution:draconium>, <ore:blockGold>], [<DraconicEvolution:draconium>, <ore:blockDiamond>, <DraconicEvolution:draconium>], [<ore:blockGold>, <DraconicEvolution:draconium>, <ore:blockGold>]]);
@@ -163,7 +190,6 @@ recipes.addShaped(<advancedgenetics:autoscraper>, [[<ore:ingotSteel>, <ore:ingot
 recipes.addShaped(<advancedgenetics:scraper>, [[null, null, <ore:blockGlassHardened>], [null, <ore:stickObsidian>, null], [<ore:stickObsidian>, null, null]]);
 recipes.addShaped(<advancedgenetics:magnifier>, [[null, <RotaryCraft:rotarycraft_item_misccraft:1>], [<ore:stickObsidian>, null]]);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_misccraft:1>, [[null, <ore:gemDiamond>, null], [<ore:gemDiamond>, <ore:blockGlassHardened>, <ore:gemDiamond>], [null, <ore:gemDiamond>, null]]);
-recipes.addShaped(<Aroma1997sDimension:portalIgniter>, [[<ore:blockIron>, <Natura:natura.flintandblaze>, <ore:blockIron>], [null, <ExtraUtilities:destructionpickaxe>, null], [null, <ore:stickObsidian>, null]]);
 recipes.addShaped(<betterrecords:freqcrystal>, [[<betterrecords:freqcrystal>]]);
 recipes.addShaped(<betterrecords:urlrecord>, [[<betterrecords:urlrecord>]]);
 recipes.addShaped(<advancedgenetics:homeostasistubeitem>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ore:plateIron>, <minecraft:bed>, <ore:plateIron>]]);
@@ -178,10 +204,6 @@ recipes.addShaped(<advancedgenetics:dnaencoder>, [[<TConstruct:materials:16>, <a
 recipes.addShaped(<advancedgenetics:dnaextractor>, [[<ore:ingotSteel>, <advancedgenetics:basicdictionary>, <TConstruct:materials:16>], [<gendustry:Labware>, <ore:blockHopper>, <gendustry:Labware>], [<ore:ingotSteel>, <TConstruct:materials:16>, <ore:ingotSteel>]]);
 recipes.addShaped(<advancedgenetics:dnaanalyser>, [[<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>], [<gendustry:GeneticsProcessor>, <advancedgenetics:magnifier>, <gendustry:GeneticsProcessor>], [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
 recipes.addShaped(<advancedgenetics:basicdictionary>, [[<RandomThings:ingredient:2>, <advancedgenetics:cell>, <RandomThings:ingredient:2>], [<advancedgenetics:cell>, <gendustry:GeneTemplate>, <advancedgenetics:cell>], [<RandomThings:ingredient:2>, <advancedgenetics:cell>, <RandomThings:ingredient:2>]]);
-recipes.addShaped(<customthings:item:2> * 9, [[<ore:itemElectrumbreakbit>]]);
-recipes.addShaped(<customthings:item:3>, [[<customthings:item:2>, <ore:itemInvarbreakbit>, <ore:itemInvarbreakbit>], [<ore:itemInvarbreakbit>, <ore:itemInvarbreakbit>, <ore:itemInvarbreakbit>], [<ore:itemInvarbreakbit>, <ore:itemInvarbreakbit>, <ore:itemInvarbreakbit>]]);
-recipes.addShaped(<customthings:item:3> * 9, [[<ore:itemEnderiumbreakbit>]]);
-recipes.addShaped(<customthings:item:1>, [[<ore:itemElectrumbreakbit>, <ore:itemElectrumbreakbit>, <ore:itemElectrumbreakbit>], [<ore:itemElectrumbreakbit>, <ore:itemElectrumbreakbit>, <ore:itemElectrumbreakbit>], [<ore:itemElectrumbreakbit>, <ore:itemElectrumbreakbit>, <ore:itemElectrumbreakbit>]]);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_screwdriver>, [[<ore:ingotSteel>, null, null], [null, <RotaryCraft:rotarycraft_item_shaftcraft:2>, null], [null, null, <ore:plankWood>]]);
 recipes.addShaped(<malisisdoors:item.curtain>, [[<ore:cloth>, <ore:cloth>, <ore:nuggetGold>], [<minecraft:wool>, <minecraft:wool>, <ore:nuggetGold>], [<ore:cloth>, <ore:cloth>, <ore:nuggetGold>]]);
 recipes.addShaped(<Thaumcraft:blockCosmeticSolid:12> * 8, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <Thaumcraft:ItemShard:5>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);

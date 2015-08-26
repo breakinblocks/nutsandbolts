@@ -3,6 +3,22 @@ import mods.bloodmagic.Alchemy;
 import mods.thaumcraft.Infusion;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Crucible;
+import mods.thaumcraft.Research;
+import mods.thaumcraft.Arcane;
+
+
+//Manuscript research
+
+Research.addResearch("MeldingManuscript", "BASICS", "", 6, 6, 8, <bbtweaks:ItemMeldingManuscript>);
+game.setLocalization("en_US", "tc.research_name.MeldingManuscript", "Melding Manuscript");
+game.setLocalization("en_US", "tc.research_text.MeldingManuscript", "Arcane manuscript of melding. Share research, at a cost...");
+Research.addPrereq("MeldingManuscript", "RESEARCHDUPE", false);
+
+//Manuscript Recipe
+Arcane.addShaped("ASPECTS", <bbtweaks:ItemMeldingManuscript>, "aqua 50, terra 50, ordo 50, ignis 50, aer 50, perditio 50",
+[[null, <Thaumcraft:ItemZombieBrain>,null],
+[<Thaumcraft:ItemShard:6>, <minecraft:writable_book>, <Thaumcraft:ItemShard:6>],
+[null, <Thaumcraft:ItemZombieBrain>, null]]);
 
 //Add oredict entries
 
