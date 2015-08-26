@@ -266,7 +266,7 @@ vanilla.loot.addChestLoot("dungeonChest", <Botania:manaPetal:14>.weight(3), 1,2)
 vanilla.loot.addChestLoot("dungeonChest", <Botania:manaPetal:15>.weight(3), 1,2);
 vanilla.loot.addChestLoot("dungeonChest", <Railcraft:ingot>.weight(5), 2,4);
 vanilla.loot.addChestLoot("dungeonChest", <ForbiddenMagic:SubCollar>.weight(1), 1,1);
-vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:bootsTraveller>.weight(1), 1,1);
+vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:BootsTraveller>.weight(1), 1,1);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemPickaxeElemental>.weight(1), 1,1);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemSwordVoid>.weight(1), 1,1);
 vanilla.loot.addChestLoot("dungeonChest", <WitchingGadgets:item.WG_Cloak:1>.weight(1), 1,1);
@@ -495,7 +495,7 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <IC2:itemFluidCell>.withTag({Fl
 vanilla.loot.addChestLoot("pyramidDesertyChest", <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}).weight(8), 2, 4);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2uumatter", Amount: 1000}}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ForbiddenMagic:SubCollar>.weight(1), 1,1);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:bootsTraveller>.weight(1), 1,1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:BootsTraveller>.weight(1), 1,1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:ItemPickaxeElemental>.weight(1), 1,1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:ItemSwordVoid>.weight(1), 1,1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <WitchingGadgets:item.WG_Cloak:1>.weight(1), 1,1);
@@ -652,7 +652,7 @@ vanilla.loot.addChestLoot("strongholdCorridor", <Botania:manaPetal:13>.weight(3)
 vanilla.loot.addChestLoot("strongholdCorridor", <Botania:manaPetal:14>.weight(3), 1,2);
 vanilla.loot.addChestLoot("strongholdCorridor", <Botania:manaPetal:15>.weight(3), 1,2);
 vanilla.loot.addChestLoot("strongholdCorridor", <Railcraft:ingot>.weight(5), 2,4);
-vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:bootsTraveller>.weight(1), 1,1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:BootsTraveller>.weight(1), 1,1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemPickaxeElemental>.weight(1), 1,1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemSwordVoid>.weight(1), 1,1);
 vanilla.loot.addChestLoot("strongholdCorridor", <WitchingGadgets:item.WG_Cloak:1>.weight(1), 1,1);
