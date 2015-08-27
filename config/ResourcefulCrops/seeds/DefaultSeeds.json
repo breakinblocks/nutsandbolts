@@ -11,16 +11,6 @@
     "seedReq": {}
   },
   {
-    "name": "Fleshy",
-    "tier": 1,
-    "amount": 4,
-    "nether": false,
-    "input": "minecraft:rotten_flesh:0#0",
-    "output": "minecraft:rotten_flesh:0#8",
-    "color": "#FFA088",
-    "seedReq": {}
-  },
-  {
     "name": "Feathery",
     "tier": 1,
     "amount": 4,
@@ -36,7 +26,7 @@
     "amount": 4,
     "nether": false,
     "input": "ingotTin",
-    "output": "IC2:itemIngot:1#4",
+    "output": "ThermalFoundation:Ore:1#4",
     "color": "#879AA8",
     "seedReq": {}
   },
@@ -46,7 +36,7 @@
     "amount": 4,
     "nether": false,
     "input": "ingotCopper",
-    "output": "IC2:itemIngot:0#4",
+    "output": "ThermalFoundation:Ore#4",
     "color": "#CC6633",
     "seedReq": {}
   },
@@ -131,16 +121,6 @@
     "seedReq": {}
   },
   {
-    "name": "Boney",
-    "tier": 2,
-    "amount": 4,
-    "nether": false,
-    "input": "minecraft:bone:0#0",
-    "output": "minecraft:bone:0#4",
-    "color": "#FFF0CD",
-    "seedReq": {}
-  },
-  {
     "name": "Slimey",
     "tier": 2,
     "amount": 4,
@@ -186,17 +166,18 @@
     "amount": 4,
     "nether": false,
     "input": "ingotLead",
-    "output": "IC2:itemIngot:5#4",
+    "output": "ThermalFoundation:Ore:3#4",
     "color": "#666699",
     "seedReq": {}
   },
+  
   {
     "name": "Silver",
     "tier": 3,
     "amount": 4,
     "nether": false,
     "input": "ingotSilver",
-    "output": "IC2:itemIngot:6#4",
+    "output": "ThermalFoundation:Ore:2#4",
     "color": "#BBBDB8",
     "seedReq": {}
   },
@@ -271,7 +252,7 @@
     "seedReq": {}
   },
   {
-    "name": "Brainy",
+    "name": "Zombie",
     "tier": 3,
     "amount": 2,
     "nether": false,
@@ -288,16 +269,6 @@
     "input": "minecraft:skull:3#0",
     "output": "minecraft:skull:3#1",
     "color": "#E8BA83",
-    "seedReq": {}
-  },
-  {
-    "name": "Creepots",
-    "tier": 3,
-    "amount": 2,
-    "nether": false,
-    "input": "minecraft:skull:4#0",
-    "output": "minecraft:skull:4#1",
-    "color": "#47B24A",
     "seedReq": {}
   },
   {
@@ -420,6 +391,16 @@
     "color": "#343433",
     "seedReq": {}
   },
+    {
+    "name": "Gaianite",
+    "tier": 4,
+    "amount": 1,
+    "nether": false,
+    "input": "ResourcefulCrops:ItemMaterial#0",
+    "output": "ResourcefulCrops:ItemMaterial#4",
+    "color": "#343433",
+    "seedReq": {}
+  },
   {
     "name": "Diamond",
     "tier": 4,
@@ -446,7 +427,7 @@
     "amount": 2,
     "nether": false,
     "input": "ingotPlatinum",
-    "output": "ThermalFoundation:material:69#1",
+    "output": "ElectriCraft:electricraft_block_ore:5#1",
     "color": "#1ED0F3",
     "seedReq": {}
   },
@@ -458,6 +439,26 @@
     "input": "ingotYellorium",
     "output": "BigReactors:BRIngot:0#2",
     "color": "#8EA013",
+    "seedReq": {}
+  },
+    {
+    "name": "Uranium",
+    "tier": 4,
+    "amount": 2,
+    "nether": false,
+    "input": "IC2:blockOreUran",
+    "output": "IC2:blockOreUran:0#2",
+    "color": "#5ed230",
+    "seedReq": {}
+  },
+    {
+    "name": "Ferrous",
+    "tier": 4,
+    "amount": 2,
+    "nether": false,
+    "input": "ThermalFoundation:Ore:4",
+    "output": "ThermalFoundation:Ore:4#2",
+    "color": "#b4b27b",
     "seedReq": {}
   },
   {
@@ -478,6 +479,116 @@
     "input": "ingotCobalt",
     "output": "TConstruct:materials:3#1",
     "color": "#003CFF",
+    "seedReq": {}
+  },
+  {
+    "name": "Amber",
+    "tier": 3,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:blockCustomOre:7",
+    "output": "Thaumcraft:blockCustomOre:7#4",
+    "color": "#d2a230",
+    "seedReq": {}
+  },
+    {
+    "name": "Pitchblende",
+    "tier": 4,
+    "amount": 2,
+    "nether": false,
+    "input": "ReactorCraft:reactorcraft_block_ore:1",
+    "output": "ReactorCraft:reactorcraft_block_ore:1#2",
+    "color": "#60605e",
+    "seedReq": {}
+  },
+    {
+    "name": "Thorium",
+    "tier": 4,
+    "amount": 2,
+    "nether": false,
+    "input": "ReactorCraft:reactorcraft_block_ore:9",
+    "output": "ReactorCraft:reactorcraft_block_ore:9#2",
+    "color": "#4ee351",
+    "seedReq": {}
+  },
+    {
+    "name": "Calcite",
+    "tier": 4,
+    "amount": 2,
+    "nether": false,
+    "input": "ReactorCraft:reactorcraft_item_raw:5",
+    "output": "ReactorCraft:reactorcraft_item_raw:5#8",
+    "color": "#e3bd1d",
+    "seedReq": {}
+  },
+    {
+    "name": "Magnetite",
+    "tier": 3,
+    "amount": 2,
+    "nether": false,
+    "input": "ReactorCraft:reactorcraft_block_ore:8",
+    "output": "ReactorCraft:reactorcraft_block_ore:8#2",
+    "color": "#453a0d",
+    "seedReq": {}
+  },
+    {
+    "name": "Air",
+    "tier": 2,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:ItemShard",
+    "output": "Thaumcraft:ItemShard#2",
+    "color": "#eef00c",
+    "seedReq": {}
+  },
+   {
+    "name": "Fire",
+    "tier": 2,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:ItemShard:1",
+    "output": "Thaumcraft:ItemShard:1#2",
+    "color": "#ea3939",
+    "seedReq": {}
+  },
+   {
+    "name": "Water",
+    "tier": 2,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:ItemShard:2",
+    "output": "Thaumcraft:ItemShard:2#2",
+    "color": "#2648ee",
+    "seedReq": {}
+  },
+   {
+    "name": "Earth",
+    "tier": 2,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:ItemShard:3",
+    "output": "Thaumcraft:ItemShard:3#2",
+    "color": "#158104",
+    "seedReq": {}
+  },
+   {
+    "name": "Order",
+    "tier": 2,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:ItemShard:4",
+    "output": "Thaumcraft:ItemShard:4#2",
+    "color": "#e5ece4",
+    "seedReq": {}
+  },
+   {
+    "name": "Entropy",
+    "tier": 2,
+    "amount": 2,
+    "nether": false,
+    "input": "Thaumcraft:ItemShard:5",
+    "output": "Thaumcraft:ItemShard:5#2",
+    "color": "#6f6460",
     "seedReq": {}
   },
   {
