@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade:6>);
 recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
 recipes.remove(<DraconicEvolution:draconicCore>);
 recipes.remove(<ExtraUtilities:angelRing:3>);
@@ -152,6 +153,9 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:3>, [[<BuildCraft|Silicon:redstoneChipset:3>, <ExtraUtilities:destructionpickaxe>.withTag({ench: [{level: 1 as short, id: 35 as short}]}), <BuildCraft|Silicon:redstoneChipset:3>], [<ElectriCraft:electricraft_item_crystal>, <ExtraUtilities:enderQuarryUpgrade>, <ElectriCraft:electricraft_item_crystal>], [<BuildCraft|Silicon:redstoneChipset:3>, <ElectriCraft:electricraft_item_crystal>, <BuildCraft|Silicon:redstoneChipset:3>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:2>, [[<TConstruct:materials:26>, <ore:chipsetComp>, <TConstruct:materials:26>], [<TConstruct:materials:26>, <ExtraUtilities:enderQuarryUpgrade>, <TConstruct:materials:26>], [<TConstruct:materials:26>, <EnderIO:itemFrankenSkull:1>, <TConstruct:materials:26>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[<ExtraUtilities:nodeUpgrade>, <ganysnether:spawnerUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ThermalExpansion:augment:66>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:burntQuartz>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <ore:blockEnderObsidian>, <appliedenergistics2:item.ItemMultiMaterial:24>], [<ore:burntQuartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:burntQuartz>]]);
 recipes.addShaped(<ExtraUtilities:angelRing:3>, [[<minecraft:leather>, <ExtraUtilities:mini-soul>, <minecraft:leather>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:leather>, <ore:itemNetherStar>, <minecraft:leather>]]);
 recipes.addShaped(<ExtraUtilities:angelRing:4>, [[<minecraft:gold_ingot>, <ExtraUtilities:mini-soul>, <minecraft:gold_ingot>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:gold_ingot>, <ore:itemNetherStar>, <minecraft:gold_ingot>]]);
