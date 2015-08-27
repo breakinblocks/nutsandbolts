@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<DraconicEvolution:draconicCore>);
+recipes.remove(<ExtraUtilities:angelRing:3>);
+recipes.remove(<ExtraUtilities:angelRing:4>);
+recipes.remove(<ExtraUtilities:angelRing:2>);
+recipes.remove(<ExtraUtilities:angelRing:1>);
+recipes.remove(<ExtraUtilities:angelRing>);
 recipes.remove(<ExtraUtilities:enderQuarry>);
 recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.remove(<rftools:storageModuleItem:6>);
@@ -145,6 +151,12 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:angelRing:3>, [[<minecraft:leather>, <ExtraUtilities:mini-soul>, <minecraft:leather>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:leather>, <ore:itemNetherStar>, <minecraft:leather>]]);
+recipes.addShaped(<ExtraUtilities:angelRing:4>, [[<minecraft:gold_ingot>, <ExtraUtilities:mini-soul>, <minecraft:gold_ingot>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:gold_ingot>, <ore:itemNetherStar>, <minecraft:gold_ingot>]]);
+recipes.addShaped(<ExtraUtilities:angelRing:2>, [[<minecraft:glowstone_dust>, <ExtraUtilities:mini-soul>, <minecraft:glowstone_dust>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:glowstone_dust>, <ore:itemNetherStar>, <minecraft:glowstone_dust>]]);
+recipes.addShaped(<ExtraUtilities:angelRing:1>, [[<minecraft:feather>, <ExtraUtilities:mini-soul>, <minecraft:feather>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:feather>, <ore:itemNetherStar>, <minecraft:feather>]]);
+recipes.addShaped(<ExtraUtilities:angelRing>, [[null, <ExtraUtilities:mini-soul>, null], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [null, <ore:itemNetherStar>, null]]);
+recipes.addShaped(<bbtweaks:ItemInertCore>, [[<ore:gaiaIngot>, <bbtweaks:ItemPurifiedWill>, <ore:gaiaIngot>], [<bbtweaks:ItemPurifiedWill>, <ore:itemNetherStar>, <bbtweaks:ItemPurifiedWill>], [<ore:gaiaIngot>, <bbtweaks:ItemPurifiedWill>, <ore:gaiaIngot>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<ore:chipsetPulsating>, <ore:blockEnderCore>, <ore:chipsetPulsating>], [<ThermalExpansion:Frame:10>, <ExtraUtilities:decorativeBlock1:12>, <ThermalExpansion:Frame:10>], [<Mekanism:TeleportationCore>, <IC2:blockElectric:2>, <Mekanism:TeleportationCore>]]);
 recipes.addShaped(<Mekanism:MachineBlock:4>, [[<ore:circuitUltimate>, <ExtraUtilities:decorativeBlock1:12>, <ore:circuitUltimate>], [<LogisticsPipes:item.PipeItemsInvSysConnector>, <Mekanism:Robit:100>, <LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>], [<Mekanism:TeleportationCore>, <ThermalExpansion:Frame:2>, <Mekanism:TeleportationCore>]]);
 recipes.addShaped(<rftools:storageModuleItem:6>, [[null, <WR-CBE|Core:retherPearl>, null], [<ThermalFoundation:material:107>, <EnderIO:itemAlloy>, <ThermalFoundation:material:107>], [<minecraft:quartz>, <Mekanism:ControlCircuit>, <minecraft:quartz>]]);
@@ -186,29 +198,29 @@ recipes.addShaped(<rftools:machineFrame>, [[null, <ore:ingotElectricalSteel>, nu
 recipes.addShaped(<minecraft:iron_sword>, [[<minecraft:iron_ingot>], [<minecraft:iron_ingot>], [<ore:stickWood>]]);
 recipes.addShaped(<minecraft:iron_sword>, [[<minecraft:iron_ingot>], [<minecraft:iron_ingot>], [<ore:stickWood>]]);
 recipes.addShaped(<advancedgenetics:deathenderchest>, [[<ore:ingotEnderium>, <HardcoreEnderExpansion:death_flower>, <ore:ingotEnderium>], [<ore:ingotGold>, <minecraft:ender_chest>, <ore:ingotGold>], [<ore:ingotEnderium>, <HardcoreEnderExpansion:death_flower>, <ore:ingotEnderium>]]);
-recipes.addShaped(<advancedgenetics:autoscraper>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<IronChest:BlockIronChest:4>, <BuildCraft|Factory:blockHopper>, <advancedgenetics:scraper>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<advancedgenetics:autoscraper>, [[<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>], [<IronChest:BlockIronChest:4>, <BuildCraft|Factory:blockHopper>, <advancedgenetics:scraper>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
 recipes.addShaped(<advancedgenetics:scraper>, [[null, null, <ore:blockGlassHardened>], [null, <ore:stickObsidian>, null], [<ore:stickObsidian>, null, null]]);
 recipes.addShaped(<advancedgenetics:magnifier>, [[null, <RotaryCraft:rotarycraft_item_misccraft:1>], [<ore:stickObsidian>, null]]);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_misccraft:1>, [[null, <ore:gemDiamond>, null], [<ore:gemDiamond>, <ore:blockGlassHardened>, <ore:gemDiamond>], [null, <ore:gemDiamond>, null]]);
 recipes.addShaped(<betterrecords:freqcrystal>, [[<betterrecords:freqcrystal>]]);
 recipes.addShaped(<betterrecords:urlrecord>, [[<betterrecords:urlrecord>]]);
 recipes.addShaped(<advancedgenetics:homeostasistubeitem>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ore:plateIron>, <minecraft:bed>, <ore:plateIron>]]);
-recipes.addShaped(<advancedgenetics:syringe>, [[null, <ExtraUtilities:spike_base_diamond>, null], [<TConstruct:materials:16>, <appliedenergistics2:tile.BlockQuartzLamp>, <TConstruct:materials:16>], [<TConstruct:materials:16>, <minecraft:piston>, <TConstruct:materials:16>]]);
-recipes.addShaped(<advancedgenetics:dnatransmutator>, [[<TConstruct:materials:16>, <advancedgenetics:basicdictionary>, <TConstruct:materials:16>], [<gendustry:GeneticsProcessor>, <advancedgenetics:cell>, <gendustry:GeneticsProcessor>], [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
-recipes.addShaped(<advancedgenetics:dnaremover>, [[<TConstruct:materials:16>, <advancedgenetics:basicdictionary>, <TConstruct:materials:16>], [<LogisticsPipes:item.PipeFluidExtractor>, <advancedgenetics:cell>, <LogisticsPipes:item.PipeFluidExtractor>], [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
-recipes.addShaped(<advancedgenetics:dnacombiner>, [[<ore:ingotSteel>, <advancedgenetics:basicdictionary>, <ore:ingotSteel>], [<ganyssurface:organicMatterCompressor>, <gendustry:Labware>, <ganyssurface:organicMatterCompressor>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.addShaped(<advancedgenetics:centrifuge>, [[<gendustry:Labware>, <TConstruct:materials:16>, <gendustry:Labware>], [<TConstruct:materials:16>, <Forestry:factory:2>, <TConstruct:materials:16>], [<gendustry:Labware>, <TConstruct:materials:16>, <gendustry:Labware>]]);
-recipes.addShaped(<advancedgenetics:dnabreeder>, [[<TConstruct:materials:16>, <advancedgenetics:basicdictionary>, <TConstruct:materials:16>], [<minecraft:golden_apple>, <TConstruct:materials:16>, <minecraft:golden_apple>], [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
-recipes.addShaped(<advancedgenetics:dnasplitter>, [[<ore:ingotSteel>, <advancedgenetics:basicdictionary>, <ore:ingotSteel>], [<gendustry:Labware>, <gendustry:GeneTemplate>, <gendustry:Labware>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.addShaped(<advancedgenetics:dnaencoder>, [[<TConstruct:materials:16>, <advancedgenetics:basicdictionary>, <TConstruct:materials:16>], [<TConstruct:materials:16>, <MineFactoryReloaded:rednet.logic>, <TConstruct:materials:16>], [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
-recipes.addShaped(<advancedgenetics:dnaextractor>, [[<ore:ingotSteel>, <advancedgenetics:basicdictionary>, <TConstruct:materials:16>], [<gendustry:Labware>, <ore:blockHopper>, <gendustry:Labware>], [<ore:ingotSteel>, <TConstruct:materials:16>, <ore:ingotSteel>]]);
-recipes.addShaped(<advancedgenetics:dnaanalyser>, [[<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>], [<gendustry:GeneticsProcessor>, <advancedgenetics:magnifier>, <gendustry:GeneticsProcessor>], [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
+recipes.addShaped(<advancedgenetics:syringe>, [[null, <ExtraUtilities:spike_base_diamond>, null], [<ore:NABSteel>, <appliedenergistics2:tile.BlockQuartzLamp>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:piston>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnatransmutator>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<gendustry:GeneticsProcessor>, <advancedgenetics:cell>, <gendustry:GeneticsProcessor>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnaremover>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<LogisticsPipes:item.PipeFluidExtractor>, <advancedgenetics:cell>, <LogisticsPipes:item.PipeFluidExtractor>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnacombiner>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<ganyssurface:organicMatterCompressor>, <gendustry:Labware>, <ganyssurface:organicMatterCompressor>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:centrifuge>, [[<gendustry:Labware>, <ore:NABSteel>, <gendustry:Labware>], [<ore:NABSteel>, <Forestry:factory:2>, <ore:NABSteel>], [<gendustry:Labware>, <ore:NABSteel>, <gendustry:Labware>]]);
+recipes.addShaped(<advancedgenetics:dnabreeder>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<minecraft:golden_apple>, <ore:NABSteel>, <minecraft:golden_apple>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnasplitter>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<gendustry:Labware>, <gendustry:GeneTemplate>, <gendustry:Labware>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnaencoder>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<ore:NABSteel>, <MineFactoryReloaded:rednet.logic>, <ore:NABSteel>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnaextractor>, [[<ore:NABSteel>, <advancedgenetics:basicdictionary>, <ore:NABSteel>], [<gendustry:Labware>, <ore:blockHopper>, <gendustry:Labware>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<advancedgenetics:dnaanalyser>, [[<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>], [<gendustry:GeneticsProcessor>, <advancedgenetics:magnifier>, <gendustry:GeneticsProcessor>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
 recipes.addShaped(<advancedgenetics:basicdictionary>, [[<RandomThings:ingredient:2>, <advancedgenetics:cell>, <RandomThings:ingredient:2>], [<advancedgenetics:cell>, <gendustry:GeneTemplate>, <advancedgenetics:cell>], [<RandomThings:ingredient:2>, <advancedgenetics:cell>, <RandomThings:ingredient:2>]]);
-recipes.addShaped(<RotaryCraft:rotarycraft_item_screwdriver>, [[<ore:ingotSteel>, null, null], [null, <RotaryCraft:rotarycraft_item_shaftcraft:2>, null], [null, null, <ore:plankWood>]]);
+recipes.addShaped(<RotaryCraft:rotarycraft_item_screwdriver>, [[<ore:NABSteel>, null, null], [null, <RotaryCraft:rotarycraft_item_shaftcraft:2>, null], [null, null, <ore:plankWood>]]);
 recipes.addShaped(<malisisdoors:item.curtain>, [[<ore:cloth>, <ore:cloth>, <ore:nuggetGold>], [<minecraft:wool>, <minecraft:wool>, <ore:nuggetGold>], [<ore:cloth>, <ore:cloth>, <ore:nuggetGold>]]);
 recipes.addShaped(<Thaumcraft:blockCosmeticSolid:12> * 8, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <Thaumcraft:ItemShard:5>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
 recipes.addShaped(<minecraft:brown_mushroom_block>, [[<minecraft:brown_mushroom_block:8>]]);
 recipes.addShaped(<Thaumcraft:ItemBaubleBlanks:1>, [[null, <ore:nuggetGold>, null], [<ore:ingotGold>, null, <ore:ingotGold>], [null, <ore:nuggetGold>, null]]);
 recipes.addShaped(<betterrecords:urlrecord>, [[<MineFactoryReloaded:record.blank>]]);
@@ -220,10 +232,10 @@ recipes.addShaped(<customnpcs:npcAssassinHead>, [[<ore:ingotIron>]]);
 recipes.addShaped(<WR-CBE|Core:obsidianStick>, [[<ore:stickObsidian>]]);
 recipes.addShaped(<BetterChests:Upgrade:24>, [[<minecraft:feather>, <ore:gemEmerald>, <minecraft:feather>], [<ore:listAllsugar>, <BetterChests:Upgrade:4>, <ore:listAllsugar>], [<minecraft:feather>, <minecraft:golden_boots>, <minecraft:feather>]]);
 recipes.addShaped(<ComputerCraft:CC-Turtle:1>, [[<ComputerCraft:CC-Turtle>, <minecraft:diamond_pickaxe>]]);
-recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:ingotSteel>], [<ore:ingotSteel>, <ComputerCraft:CC-Computer>, <ore:ingotSteel>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <Railcraft:ingot>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:NABSteel>], [<ore:NABSteel>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <Railcraft:ingot>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:ingotSteel>, <ThermalExpansion:capacitor:3>, <ore:ingotSteel>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:NABSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:NABSteel>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:grouperrawItem>]]);
@@ -260,8 +272,8 @@ recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<ore:ingotEnergeticAlloy>
 recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<EnderIO:itemAlloy:1>, <TwilightForest:tile.TFTowerDevice:2>, <EnderIO:itemAlloy:1>], [<EnderIO:itemAlloy:1>, <ComputerCraft:CC-Computer:16384>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <IronChest:BlockIronChest>, <EnderIO:itemAlloy:1>]]);
 recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<EnderIO:itemAlloy:1>, <ExtraUtilities:decorativeBlock1:12>, <EnderIO:itemAlloy:1>], [<EnderIO:itemAlloy:1>, <ComputerCraft:CC-Computer:16384>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <IronChest:BlockIronChest>, <EnderIO:itemAlloy:1>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer:16384>, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>, <ore:paneGlassColorless>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <minecraft:comparator>, <EnderIO:itemAlloy:1>]]);
-recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <TwilightForest:tile.TFTowerDevice:2>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:ingotSteel>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <ore:ingotSteel>]]);
-recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:ingotSteel>, <ExtraUtilities:decorativeBlock1:12>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:ingotSteel>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <ore:ingotSteel>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <TwilightForest:tile.TFTowerDevice:2>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <ore:NABSteel>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <ore:NABSteel>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:paneGlassColorless>, null], [<ore:stone>, <minecraft:comparator>, <ore:stone>]]);
 recipes.addShaped(<customnpcs:npcGunChainsaw>, [[null, <RedstoneArsenal:material:192>, null], [<ore:sheetPlastic>, <customnpcs:npcDiamondGun>, <ore:sheetPlastic>], [null, <MineFactoryReloaded:plastic.sheet>, null]]);
 recipes.addShaped(<customnpcs:npcBlackBullet> * 8, [[null, <Mekanism:DirtyDust:6>, null], [<Mekanism:DirtyDust:6>, null, <Mekanism:DirtyDust:6>], [null, <Mekanism:DirtyDust:6>, null]]);

@@ -25,12 +25,35 @@ Arcane.addShaped("ASPECTS", <bbtweaks:ItemMeldingManuscript>, "aqua 50, terra 50
 val cheese = <ore:foodCheese>;
 cheese.add(<GalacticraftCore:item.cheeseCurd>);
 
+val nabsteel = <ore:NABSteel>;
+nabsteel.add(<Mekanism:Ingot:4>);
+nabsteel.add(<Railcraft:ingot>);
+nabsteel.add(<RotaryCraft:rotarycraft_item_modingots:47>);
+nabsteel.add(<TConstruct:materials:16>);
+
 //Base manasteel recipe removed
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 //manasteel can be made from mana infused ingots
 mods.botania.ManaInfusion.addAlchemy(<Botania:manaResource> * 3, <ore:ingotMithril>, 2000);
 mods.botania.ManaInfusion.addInfusion(<ThermalFoundation:material:70>, <ThermalFoundation:material:69>, 1000);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:ingotSteel>, 5250);
+
+//purified Wills
+mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill>, 25000);
+mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill:1>, 25000);
+mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill:2>, 25000);
+mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill:3>, 25000);
+mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill:4>, 25000);
+mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill:5>, 25000);
+
+mods.botania.ManaInfusion.addInfusion(<bbtweaks:ItemAwakenedCore>, <bbtweaks:ItemInertCore>, 75000);
+
+mods.botania.RuneAltar.addRecipe(<Botania:lokiRing>, [<Botania:manaRingGreater:1000>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <ExtraUtilities:builderswand>], 75000);
+mods.botania.RuneAltar.addRecipe(<Botania:odinRing>, [<Botania:manaRingGreater:1000>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:brewVial>.withTag({brewKey: "strength"})], 75000);
+mods.botania.RuneAltar.addRecipe(<Botania:thorRing>, [<Botania:manaRingGreater:1000>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:enderDagger>], 75000);
+mods.botania.RuneAltar.addRecipe(<Botania:infiniteFruit>, [<TConstruct:diamondApple>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:rune:10>], 75000);
+mods.botania.RuneAltar.addRecipe(<Botania:kingKey>, [<Botania:terraSword>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:manaBomb>], 100000);
+mods.botania.RuneAltar.addRecipe(<Botania:flugelEye>, [<Botania:forestEye>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <DraconicEvolution:draconiumDust>], 75000);
 
 //Botania mana petal nerfs
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:0>);
