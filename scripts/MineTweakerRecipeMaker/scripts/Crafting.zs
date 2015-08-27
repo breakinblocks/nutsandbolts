@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
 recipes.remove(<DraconicEvolution:draconicCore>);
 recipes.remove(<ExtraUtilities:angelRing:3>);
 recipes.remove(<ExtraUtilities:angelRing:4>);
@@ -151,6 +152,7 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:burntQuartz>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <ore:blockEnderObsidian>, <appliedenergistics2:item.ItemMultiMaterial:24>], [<ore:burntQuartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:burntQuartz>]]);
 recipes.addShaped(<ExtraUtilities:angelRing:3>, [[<minecraft:leather>, <ExtraUtilities:mini-soul>, <minecraft:leather>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:leather>, <ore:itemNetherStar>, <minecraft:leather>]]);
 recipes.addShaped(<ExtraUtilities:angelRing:4>, [[<minecraft:gold_ingot>, <ExtraUtilities:mini-soul>, <minecraft:gold_ingot>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:gold_ingot>, <ore:itemNetherStar>, <minecraft:gold_ingot>]]);
 recipes.addShaped(<ExtraUtilities:angelRing:2>, [[<minecraft:glowstone_dust>, <ExtraUtilities:mini-soul>, <minecraft:glowstone_dust>], [<aura:ingotAngelSteel:4>, <ThaumicExploration:discountRing>, <aura:ingotAngelSteel:4>], [<minecraft:glowstone_dust>, <ore:itemNetherStar>, <minecraft:glowstone_dust>]]);
