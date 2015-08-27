@@ -453,7 +453,7 @@
   },
     {
     "name": "Ferrous",
-    "tier": 4,
+    "tier": 3,
     "amount": 2,
     "nether": false,
     "input": "ThermalFoundation:Ore:4",
@@ -513,7 +513,7 @@
   },
     {
     "name": "Calcite",
-    "tier": 4,
+    "tier": 2,
     "amount": 2,
     "nether": false,
     "input": "ReactorCraft:reactorcraft_item_raw:5",
