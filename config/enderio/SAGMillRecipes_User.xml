@@ -422,7 +422,7 @@ found in the core file.
     
     <recipe name="Dense Certus Quartz Ore" energyCost="2000">
       <input>
-        <itemStack modID="denseores" itemName="block0" itemMeta="14" />
+        <itemStack oreDictionary="denseoreCertusQuartz" number="1" />
       </input>
       <output>
         <itemStack modID="appliedenergistics2" itemName="tile.OreQuartz" number="4" />
@@ -431,10 +431,46 @@ found in the core file.
     
     <recipe name="Dense Charged Certus Quartz Ore" energyCost="2000">
       <input>
-        <itemStack modID="denseores" itemName="block0" itemMeta="15" />
+        <itemStack modID="denseores" itemName="block1" itemMeta="3" number="1" />
       </input>
       <output>
         <itemStack modID="appliedenergistics2" itemName="tile.OreQuartzCharged" number="4" />
+      </output>
+    </recipe>
+	
+	<recipe name="Dense Yellorite Ore" energyCost="2000">
+      <input>
+        <itemStack oreDictionary="denseoreYellorite" number="1" />
+      </input>
+      <output>
+        <itemStack modID="BigReactors" itemName="YelloriteOre" number="4" />
+      </output>
+    </recipe>
+	
+	<recipe name="Dense Osmium Ore" energyCost="2000">
+      <input>
+        <itemStack oreDictionary="denseoreOsmium" number="1" />
+      </input>
+      <output>
+        <itemStack modID="Mekanism" itemName="OreBlock" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+	
+	<recipe name="Dense Ardite Ore" energyCost="2000">
+      <input>
+        <itemStack oreDictionary="denseoreArdite" number="1" />
+      </input>
+      <output>
+        <itemStack oreDictionary="oreArdite" number="4" />
+      </output>
+    </recipe>
+	
+	<recipe name="Dense Cobalt Ore" energyCost="2000">
+      <input>
+        <itemStack oreDictionary="denseoreCobalt" number="1" />
+      </input>
+      <output>
+        <itemStack oreDictionary="oreCobalt" number="4" />
       </output>
     </recipe>
 
