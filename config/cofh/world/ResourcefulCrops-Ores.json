@@ -8,10 +8,10 @@
                 "metadata": 0
             }
         ],
-        "clusterSize": 12,
-        "numClusters": 8,
-        "meanHeight": 43,
-        "maxVariance": 9,
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 39,
+        "maxHeight": 50,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -30,9 +30,9 @@
                 "metadata": 1            }
         ],
         "clusterSize": 8,
-        "numClusters": 6,
-        "meanHeight": 64,
-        "maxVariance": 30,
+        "numClusters": 4,
+        "minHeight": 40,
+        "maxHeight": 100,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

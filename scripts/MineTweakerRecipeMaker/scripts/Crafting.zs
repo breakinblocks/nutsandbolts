@@ -12,6 +12,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<DraconicEvolution:draconiumEnergyCore>);
+recipes.remove(<DraconicEvolution:wyvernCore>);
+recipes.remove(<ResourcefulCrops:ItemMaterial> * 4);
+recipes.remove(<ResourcefulCrops:ItemMaterial> * 4);
+recipes.remove(<enhancedportals:blank_portal_module>);
+recipes.remove(<cfm:ItemPackage>);
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.remove(<ResourcefulCrops:ItemSeed:49>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:6>);
 recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
 recipes.remove(<DraconicEvolution:draconicCore>);
@@ -138,6 +146,9 @@ recipes.remove(<BuildCraft|Builders:machineBlock>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:3>, [<ore:dustQuartz>]);
+recipes.addShapeless(<Cogs:newOre:1>, [<ore:oreIron>, <ore:dustBone>]);
+recipes.addShapeless(<minecraft:rotten_flesh>, [<ore:rcropShardZombie>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:3>, [<TConstruct:ToolForgeBlock>, <ore:blockEmerald>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:9>, [<TConstruct:ToolForgeBlock>, <ore:blockTin>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:10>, [<TConstruct:ToolForgeBlock>, <ore:blockAluminum>]);
@@ -153,6 +164,27 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<DraconicEvolution:wyvernSword>, [[<ore:ingotUnstable>, <IC2:itemPartIridium>, <ore:ingotUnstable>], [<DraconicEvolution:wyvernCore>, <RedstoneArsenal:tool.swordFlux>, <DraconicEvolution:wyvernCore>], [<ore:ingotUnstable>, <DraconicEvolution:draconiumEnergyCore>, <ore:ingotUnstable>]]);
+recipes.addShaped(<DraconicEvolution:wyvernShovel>, [[null, <IC2:itemPartIridium>, null], [<DraconicEvolution:wyvernCore>, <ExtraUtilities:erosionShovel>, <DraconicEvolution:wyvernCore>], [null, <DraconicEvolution:draconiumEnergyCore>, null]]);
+recipes.addShaped(<DraconicEvolution:wyvernPickaxe>, [[null, <IC2:itemPartIridium>, null], [<DraconicEvolution:wyvernCore>, <Mekanism:AtomicDisassembler:100>, <DraconicEvolution:wyvernCore>], [null, <DraconicEvolution:draconiumEnergyCore>, null]]);
+recipes.addShaped(<DraconicEvolution:wyvernChest>, [[<simplyjetpacks:armorPlatings:4>, <DraconicEvolution:wyvernCore>, <simplyjetpacks:armorPlatings:4>], [<GraviSuite:itemSimpleItem:3>, <simplyjetpacks:jetpacks:5>, <GraviSuite:itemSimpleItem:3>], [<ore:circuitUltimate>, <DraconicEvolution:draconiumEnergyCore>, <ore:circuitUltimate>]]);
+recipes.addShaped(<BuildCraft|Builders:machineBlock>, [[<ExtraUtilities:enderQuarry>]]);
+recipes.addShaped(<ResourcefulCrops:ItemMaterial> * 4, [[<ResourcefulCrops:ItemShard:2>, <ResourcefulCrops:ItemShard:2>], [<ResourcefulCrops:ItemShard:2>, <ResourcefulCrops:ItemShard:2>]]);
+recipes.addShaped(<GalacticraftCore:item.basicItem:2>, [[<ore:itemSilicon>]]);
+recipes.addShaped(<ExtraUtilities:curtains> * 12, [[<malisisdoors:item.curtain>]]);
+recipes.addShaped(<JABBA:moverDiamond>, [[null, <ore:itemNetherStar>, null], [null, <JABBA:mover>, null], [<ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:bedrockiumIngot>]]);
+recipes.addShaped(<ExtraUtilities:mini-soul>, [[<TwilightForest:item.charmOfLife2>, <ore:ingotUnstable>, <TwilightForest:item.charmOfLife2>], [<ResourcefulCrops:ItemMaterial:4>, <DraconicEvolution:dragonHeart>, <ResourcefulCrops:ItemMaterial:4>], [<TwilightForest:item.charmOfLife2>, <ore:ingotUnstable>, <TwilightForest:item.charmOfLife2>]]);
+recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [[null, <ore:itemNetherStar>], [<ExtraUtilities:builderswand>, null]]);
+recipes.addShaped(<enhancedportals:blank_portal_module>, [[null, <minecraft:gold_nugget>, null], [<minecraft:gold_nugget>, <ore:ingotGold>, <minecraft:gold_nugget>], [null, <minecraft:gold_nugget>, null]]);
+recipes.addShaped(<rftools:matterReceiverBlock>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:thermalexpansion:machineFrame>, <ore:dustRedstone>], [<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>]]);
+recipes.addShaped(<Translocator:diamondNugget>, [[<ore:nuggetDiamond>]]);
+recipes.addShaped(<minecraft:flint_and_steel>, [[<ore:ingotSteel>, <ore:itemFlint>]]);
+recipes.addShaped(<TConstruct:strangeFood> * 4, [[<ore:rcropShardSlimey>, <ore:rcropShardSlimey>, <ore:rcropShardSlimey>], [<ore:rcropShardSlimey>, <ore:gemLapis>, <ore:rcropShardSlimey>], [<ore:rcropShardSlimey>, <ore:rcropShardSlimey>, <ore:rcropShardSlimey>]]);
+recipes.addShaped(<minecraft:bone> * 3, [[null, null, <ResourcefulCrops:ItemShard:26>], [null, <ore:rcropShardSkelesprout>, null], [<ore:rcropShardSkelesprout>, null, null]]);
+recipes.addShaped(<TConstruct:materials:8>, [[null, null, <ore:rcropShardWitherwheat>], [null, <ore:rcropShardWitherwheat>, null], [<ResourcefulCrops:ItemShard:41>, null, null]]);
+recipes.addShaped(<witchery:ingredient:74>, [[<ore:dustGunpowder>, <ore:rcropShardCreepy>, <ore:dustGunpowder>], [<ore:rcropShardCreepy>, <ore:dustGunpowder>, <ore:rcropShardCreepy>], [<ore:dustGunpowder>, <ore:rcropShardCreepy>, <ore:dustGunpowder>]]);
+recipes.addShaped(<minecraft:skull:4>, [[<ore:rcropShardCreepy>, <ore:rcropShardCreepy>, <ore:rcropShardCreepy>], [<ore:rcropShardCreepy>, <minecraft:rotten_flesh>, <ore:rcropShardCreepy>], [<ore:rcropShardCreepy>, <ore:rcropShardCreepy>, <ore:rcropShardCreepy>]]);
+recipes.addShaped(<Thaumcraft:ItemZombieBrain>, [[<ResourcefulCrops:ItemShard:50>, <ore:rcropShardZombie>], [<ore:rcropShardZombie>, <ore:rcropShardZombie>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:3>, [[<BuildCraft|Silicon:redstoneChipset:3>, <ExtraUtilities:destructionpickaxe>.withTag({ench: [{level: 1 as short, id: 35 as short}]}), <BuildCraft|Silicon:redstoneChipset:3>], [<ElectriCraft:electricraft_item_crystal>, <ExtraUtilities:enderQuarryUpgrade>, <ElectriCraft:electricraft_item_crystal>], [<BuildCraft|Silicon:redstoneChipset:3>, <ElectriCraft:electricraft_item_crystal>, <BuildCraft|Silicon:redstoneChipset:3>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:2>, [[<TConstruct:materials:26>, <ore:chipsetComp>, <TConstruct:materials:26>], [<TConstruct:materials:26>, <ExtraUtilities:enderQuarryUpgrade>, <TConstruct:materials:26>], [<TConstruct:materials:26>, <EnderIO:itemFrankenSkull:1>, <TConstruct:materials:26>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[<ExtraUtilities:nodeUpgrade>, <ganysnether:spawnerUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ThermalExpansion:augment:66>, <ExtraUtilities:nodeUpgrade>]]);
@@ -196,7 +228,6 @@ recipes.addShaped(<rftools:dimensionBuilderBlock>, [[<ExtraUtilities:bedrockiumI
 recipes.addShaped(<rftools:environmentalControllerBlock>, [[<ore:ingotPhasedGold>, <ThermalExpansion:Tesseract>, <ore:ingotPhasedGold>], [<MineFactoryReloaded:laserfocus>, <rftools:machineFrame>, <MineFactoryReloaded:laserfocus>], [<ore:ingotPhasedGold>, <EnderIO:itemFrankenSkull:3>, <ore:ingotPhasedGold>]]);
 recipes.addShaped(<rftools:machineFrame>, [[null, <ore:alloyBasic>, null], [<ore:circuitBasic>, <IC2:blockMachine>, <ore:circuitBasic>], [null, <ore:alloyBasic>, null]]);
 recipes.addShaped(<rftools:matterTransmitterBlock>, [[<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>], [<ore:alloyBasic>, <ore:thermalexpansion:machineFrame>, <ore:alloyBasic>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.addShaped(<rftools:matterReceiverBlock>, [[<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>], [<ore:alloyBasic>, <ore:thermalexpansion:machineFrame>, <ore:alloyBasic>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped(<rftools:dialingDeviceBlock>, [[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>], [<minecraft:redstone_torch>, <ore:thermalexpansion:machineFrame>, <minecraft:redstone_torch>], [<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>]]);
 recipes.addShaped(<rftools:dialingDeviceBlock>, [[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>], [<minecraft:redstone_torch>, <ore:thermalexpansion:machineFrame>, <minecraft:redstone_torch>], [<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>]]);
 recipes.addShaped(<rftools:machineBase>, [[null, <minecraft:iron_ingot>, null], [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]]);

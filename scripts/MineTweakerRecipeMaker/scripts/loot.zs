@@ -271,7 +271,7 @@ vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemPickaxeElemental>.weig
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemSwordVoid>.weight(1), 1,1);
 vanilla.loot.addChestLoot("dungeonChest", <WitchingGadgets:item.WG_Cloak:1>.weight(1), 1,1);
 vanilla.loot.addChestLoot("dungeonChest", <WitchingGadgets:item.WG_Cloak:4>.weight(1), 1,1);
-
+vanilla.loot.addChestLoot("dungeonChest", <IC2:itemOreIridium>.weight(2), 1,1);
 
 //mineshaftCorridor
 vanilla.loot.removeChestLoot("mineshaftCorridor", <*>);

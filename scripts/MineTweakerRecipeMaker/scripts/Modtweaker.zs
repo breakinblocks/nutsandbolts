@@ -7,6 +7,12 @@ import mods.thaumcraft.Research;
 import mods.thaumcraft.Arcane;
 
 
+//IE
+mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:OreBlock>);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:2> * 2, <Mekanism:OreBlock>, 8000, <Mekanism:Dust:2>, 0.35);
+
+
+
 //Manuscript research
 
 Research.addResearch("MeldingManuscript", "BASICS", "", 6, 6, 8, <bbtweaks:ItemMeldingManuscript>);
@@ -73,23 +79,23 @@ mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:13>);
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:14>);
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:15>);
 
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:0>, <Botania:petal:0>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:1>, <Botania:petal:1>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:2>, <Botania:petal:2>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:3>, <Botania:petal:3>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:4>, <Botania:petal:4>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:5>, <Botania:petal:5>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:6>, <Botania:petal:6>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:7>, <Botania:petal:7>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:8>, <Botania:petal:8>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:9>, <Botania:petal:9>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:10>, <Botania:petal:10>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:11>, <Botania:petal:11>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:12>, <Botania:petal:12>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:13>, <Botania:petal:13>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:14>, <Botania:petal:14>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:15>, <Botania:petal:15>, 10000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:16>, <Botania:petal:16>, 10000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:0>, <Botania:petal:0>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:1>, <Botania:petal:1>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:2>, <Botania:petal:2>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:3>, <Botania:petal:3>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:4>, <Botania:petal:4>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:5>, <Botania:petal:5>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:6>, <Botania:petal:6>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:7>, <Botania:petal:7>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:8>, <Botania:petal:8>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:9>, <Botania:petal:9>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:10>, <Botania:petal:10>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:11>, <Botania:petal:11>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:12>, <Botania:petal:12>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:13>, <Botania:petal:13>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:14>, <Botania:petal:14>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:15>, <Botania:petal:15>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:16>, <Botania:petal:16>, 5000);
 
 //mods.botania.ManaInfusion.removeRecipe(<Botania:specialFlower.withTag({type:"endoflame"})>);
 mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}));
@@ -132,11 +138,12 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>
 //Bloodmagic blood orb takes an emerald now
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <minecraft:emerald>, 2, 5000, 50, 50); 
-
+mods.bloodmagic.Altar.removeRecipe(<minecraft:apple>);
 
 //Mekanism Recipes - Yes its an infinite loop, but its similar production and power cost to cyclic assembler with vastly less lag on the server
 mods.mekanism.Crusher.addRecipe(<Mekanism:Salt>, <Mekanism:Salt> * 3); //Salt
 
+mods.mekanism.Crusher.addRecipe(<minecraft:sand>,<EnderIO:itemMaterial>);
 
 val rcOres = <ore:rcOres>;
 rcOres.add(<ResourcefulCrops:BlockROre>);
