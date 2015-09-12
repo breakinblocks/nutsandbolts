@@ -1,0 +1,21 @@
+
+{
+    "pitchblende": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_ore",
+            "metadata": 5
+        },
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 30,
+        "maxHeight": 60,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}
