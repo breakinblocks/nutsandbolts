@@ -1,0 +1,112 @@
+{
+    "buttons": {
+        "multiplayer": {
+            "action": {
+                "gui": "multiplayer",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": -25,
+            "text": "menu.multiplayer",
+            "width": 90
+        },
+        "singleplayer": {
+            "action": {
+                "gui": "singleplayer",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": -50,
+            "text": "menu.singleplayer",
+            "width": 90
+        },
+        "mods": {
+            "action": {
+                "gui": "mods",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": 0,
+            "text": "Mods",
+            "width": 90
+        },
+        "quit": {
+            "action": {
+                "type": "quit"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": 50,
+            "text": "menu.quit",
+            "width": 90
+        },
+        "options": {
+            "action": {
+                "gui": "options",
+                "type": "openGui"
+            },
+            "alignment": "bottom_right",
+            "height": 14,
+            "imageHeight": 64,
+            "imageWidth": 64,
+            "posX": -22,
+            "posY": -35,
+            "text": "",
+            "texture": "nutsandbolts:menu/options-button.png",
+            "width": 14
+        }
+    },
+    "images": {
+        "black_bar": {
+            "alignment": "top_right",
+            "height": 2000,
+            "image": "nutsandbolts:menu/transparent-black-50.png",
+            "posX": -130,
+            "posY": 0,
+            "width": 100
+        },
+        "nab_logo": {
+            "alignment": "center",
+            "height": 300,
+            "image": "nutsandbolts:menu/nab-logo.png",
+            "posX": -200,
+            "posY": -150,
+            "width": 300
+        }
+    },
+    "other": {
+        "background": {
+            "image": "nutsandbolts:menu/background.png",
+            "mode": "fill"
+        },
+        "splash-text": {
+            "alignment": "center",
+            "color": -256,
+            "posX": -90,
+            "posY": -85
+        }
+    },
+    "texts": {
+        "mojang": {
+            "alignment": "bottom_left",
+            "color": -1,
+            "posX": 2,
+            "posY": -10,
+            "text": ""
+        },
+        "nab": {
+            "alignment": "bottom_right",
+            "color": -1,
+            "posX": -105,
+            "posY": -10,
+            "text": "\u00a7bNuts and Bolts \u00a7ev3.0.pre"
+        }
+    }
+}
