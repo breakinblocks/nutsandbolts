@@ -201,6 +201,35 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-30]
     },
+    "asteroiddilithium": {
+        "template": "uniform",
+        "block": "mo:dilithiumore",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+	    "asteroidtritanium": {
+        "template": "uniform",
+        "block": "mo:tritanium_ore",
+        "material": "GalacticraftMars:tile.asteroidsBlock",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-30]
+    },
+	
     "asteroidice": {
         "template": "uniform",
         "block": "minecraft:packed_ice",

@@ -8,17 +8,16 @@
                 "metadata": 0
             }
         ],
-        "clusterSize": 8,
-        "numClusters": 4,
+        "clusterSize": 6,
+        "numClusters": 2,
         "minHeight": 39,
         "maxHeight": 50,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            7, -28, -100
         ]
     },
 
@@ -38,7 +37,7 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1, -28, -29, -30
+            -1, -29, -30
         ]
     }
 	

@@ -277,6 +277,34 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-29]
     },
+    "marsdilithium": {
+        "template": "uniform",
+        "block": "mo:dilithiumore",
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-29,-28.-100]
+    },
+	    "marstritanium": {
+        "template": "uniform",
+        "block": "mo:tritanium_ore",
+        "material": "GalacticraftMars:tile.mars",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-29,-28]
+    },
 	"marslake": {
 	    "generator": "lake",
         "template": "surface",
