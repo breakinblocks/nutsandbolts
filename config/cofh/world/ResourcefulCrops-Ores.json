@@ -17,7 +17,7 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            7, -28, -100
+            7, -100
         ]
     },
 
@@ -37,7 +37,7 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1, -29, -30
+            -1, 
         ]
     }
 	
