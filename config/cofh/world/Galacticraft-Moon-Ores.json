@@ -55,6 +55,20 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-28]
     },
+    "moonEmerald": {
+        "template": "normal",
+        "block": "emerald_ore",
+        "material": "GalacticraftCore:tile.moonBlock",
+        "clusterSize": 1,
+        "numClusters": 3,
+        "meanHeight": 12,
+        "maxVariance": 6,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-28]
+    },
     "moonRedstone": {
         "template": "normal",
         "block": "redstone_ore",
@@ -146,7 +160,7 @@
             "metadata": 5
         },
         "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 1,
+        "clusterSize": 2,
         "numClusters": 2,
         "meanHeight": 12,
         "maxVariance": 1,
@@ -167,23 +181,6 @@
         "numClusters": 5,
         "meanHeight": 16,
         "maxVariance": 14,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
-    "moonnaquadah": {
-        "template": "normal",
-        "block": {
-            "name": "StargateTech2:block.naquadah",
-            "metadata": 0
-        },
-        "material": "GalacticraftCore:tile.moonBlock",
-        "clusterSize": 2,
-        "numClusters": 2,
-        "meanHeight": 4,
-        "maxVariance": 4,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
