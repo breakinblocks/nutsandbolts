@@ -55,10 +55,15 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-28]
     },
-	
 	    "moonTopaz": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:2",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 2,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftCore:tile.moonBlock",
         "clusterSize": 8,
         "numClusters": 3,
@@ -72,7 +77,13 @@
     },
 	    "moonChimerite": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:1",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 1,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftCore:tile.moonBlock",
         "clusterSize": 3,
         "numClusters": 3,
@@ -100,7 +111,13 @@
     },
 	    "moonMoonstone": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:3",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 3,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftCore:tile.moonBlock",
         "clusterSize": 4,
         "numClusters": 1,

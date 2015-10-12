@@ -243,11 +243,11 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-29]
     },
-    "marsardite": {
+    "marscobalt": {
         "template": "uniform",
         "block": {
             "name": "TConstruct:SearedBrick",
-            "metadata": 2
+            "metadata": 1
         },
         "material": "GalacticraftMars:tile.mars",
         "clusterSize": 2,
@@ -272,7 +272,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-29,-28.-100]
+        "dimensions": [-29,-28,-100]
     },
 	    "marstritanium": {
         "template": "uniform",
@@ -290,7 +290,13 @@
     },
 		"marsgainite": {
         "template": "uniform",
-        "block": "ResourcefulCrops:BlockROre:1",
+        "block": [
+            {
+                "name": "ResourcefulCrops:BlockROre",
+                "metadata": 1,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftMars:tile.mars",
         "clusterSize": 6,
         "numClusters": 2,
@@ -316,9 +322,15 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-29]
     },	
-	    "moonTopaz": {
+	    "marsTopaz": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:2",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 2,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftMars:tile.mars",
         "clusterSize": 8,
         "numClusters": 3,
@@ -328,11 +340,17 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-29]
+        "dimensions": [-28]
     },
-	    "moonChimerite": {
+	    "marsChimerite": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:1",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 1,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftMars:tile.mars",
         "clusterSize": 3,
         "numClusters": 3,
@@ -342,9 +360,9 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-29]
+        "dimensions": [-28]
     },
-	    "moonVinteum": {
+	    "marsVinteum": {
         "template": "normal",
         "block": "arsmagica2:vinteumOre",
         "material": "GalacticraftMars:tile.mars",
@@ -356,11 +374,17 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-29]
+        "dimensions": [-28]
     },
-	    "moonMoonstone": {
+	    "marsmarsstone": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:3",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 3,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftMars:tile.mars",
         "clusterSize": 4,
         "numClusters": 1,
@@ -370,7 +394,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
-        "dimensions": [-29]
+        "dimensions": [-28]
     },
 
 	"marslake": {
@@ -378,7 +402,13 @@
         "template": "surface",
         "block": "ThermalFoundation:FluidRedstone",
 		"useMaterial": "true",
-		"outlineBlock": "minecraft:stained_hardened_clay:14",
+		"outlineBlock": [
+            {
+                "name": "stained_hardened_clay",
+                "metadata": 14,
+                "weight": 100
+            }
+		],
         "material": "GalacticraftMars:tile.mars",
         "clusterSize": 24,		
         "numClusters": 2,

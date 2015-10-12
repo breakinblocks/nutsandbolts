@@ -37,7 +37,7 @@
     "asteroidGold": {
         "template": "normal",
         "block": "gold_ore",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -72,7 +72,7 @@
     "asteroidDiamond": {
         "template": "uniform",
         "block": "diamond_ore",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -118,7 +118,7 @@
                 "weight": 8
             }
         ],
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -156,7 +156,7 @@
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
         },
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -194,7 +194,7 @@
             "name": "ElectriCraft:electricraft_block_ore",
             "metadata": 5
         },
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -241,7 +241,7 @@
                 "weight": 10
             }
         ],
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -279,7 +279,7 @@
             "name": "ThermalFoundation:Ore",
             "metadata": 4
         },
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -314,7 +314,7 @@
     "asteroidnetherquartz": {
         "template": "uniform",
         "block": "minecraft:quartz_ore",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -349,7 +349,7 @@
     "asteroidglowstone": {
         "template": "uniform",
         "block": "minecraft:glowstone",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -384,7 +384,7 @@
     "asteroidsoulsand": {
         "template": "uniform",
         "block": "minecraft:soul_sand",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -419,7 +419,7 @@
     "asteroiddilithium": {
         "template": "uniform",
         "block": "mo:dilithium)ore",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -454,7 +454,7 @@
 	    "asteroidtritanium": {
         "template": "uniform",
         "block": "mo:tritanium_ore",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -488,8 +488,14 @@
     },
 		    "asteroidTopaz": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:2",
-[
+                "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 2,
+                "weight": 100
+            }
+		],
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -523,8 +529,14 @@
     },
 	    "asteroidChimerite": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:1",
-[
+                "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 1,
+                "weight": 100
+            }
+		],
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -559,7 +571,7 @@
 	    "asteroidVinteum": {
         "template": "normal",
         "block": "arsmagica2:vinteumOre",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -593,8 +605,14 @@
     },
 	    "asteroidasteroidmoonstone": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:3",
-[
+                "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 3,
+                "weight": 100
+            }
+		],
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -628,8 +646,14 @@
     },
 		"asteroidasteroidsunstone": {
         "template": "normal",
-        "block": "arsmagica2:vinteumOre:4",
-[
+                "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "metadata": 4,
+                "weight": 100
+            }
+		],
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -664,7 +688,7 @@
     "asteroidEmerald": {
         "template": "normal",
         "block": "emerald_ore",
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -702,7 +726,7 @@
             "name": "ElectriCraft:electricraft_block_ore",
             "metadata": 5
         },
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -740,7 +764,7 @@
             "name": "Mekanism:OreBlock",
             "metadata": 0
         },
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
@@ -786,7 +810,7 @@
                 "weight": 0
             }
         ],
-[
+        "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
                 "metadata": 1,
