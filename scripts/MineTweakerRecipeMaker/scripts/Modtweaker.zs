@@ -28,6 +28,12 @@ Arcane.addShaped("ASPECTS", <bbtweaks:ItemMeldingManuscript>, "aqua 50, terra 50
 
 //Add oredict entries
 
+val ir = <ore:oreIridium>;
+
+ir.remove(<RotaryCraft:rotarycraft_item_modingots:7>);
+ir.remove(<RotaryCraft:rotarycraft_item_modingots:70>);
+
+
 val cheese = <ore:foodCheese>;
 cheese.add(<GalacticraftCore:item.cheeseCurd>);
 
@@ -54,12 +60,6 @@ mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancie
 
 mods.botania.ManaInfusion.addInfusion(<bbtweaks:ItemAwakenedCore>, <bbtweaks:ItemInertCore>, 75000);
 
-mods.botania.RuneAltar.addRecipe(<Botania:lokiRing>, [<Botania:manaRingGreater:1000>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <ExtraUtilities:builderswand>], 75000);
-mods.botania.RuneAltar.addRecipe(<Botania:odinRing>, [<Botania:manaRingGreater:1000>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:brewVial>.withTag({brewKey: "strength"})], 75000);
-mods.botania.RuneAltar.addRecipe(<Botania:thorRing>, [<Botania:manaRingGreater:1000>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:enderDagger>], 75000);
-mods.botania.RuneAltar.addRecipe(<Botania:infiniteFruit>, [<TConstruct:diamondApple>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:rune:10>], 75000);
-mods.botania.RuneAltar.addRecipe(<Botania:kingKey>, [<Botania:terraSword>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:manaBomb>], 100000);
-mods.botania.RuneAltar.addRecipe(<Botania:flugelEye>, [<Botania:forestEye>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <DraconicEvolution:draconiumDust>], 75000);
 
 //Botania mana petal nerfs
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:0>);

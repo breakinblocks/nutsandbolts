@@ -1,14 +1,4 @@
 
-//Gany's Nether
-vanilla.loot.removeChestLoot("ganysnether.undertaker", <minecraft:stick>);
-vanilla.loot.removeChestLoot("ganysnether.undertaker", <minecraft:stick>);
-vanilla.loot.removeChestLoot("ganysnether.undertaker", <minecraft:torch>);
-vanilla.loot.removeChestLoot("ganysnether.undertaker", <minecraft:rotten_flesh>);
-vanilla.loot.removeChestLoot("ganysnether.undertaker", <minecraft:wheat_seeds>);
-vanilla.loot.addChestLoot("ganysnether.undertaker", <AWWayofTime:blankSlate>.weight(10), 1, 4);
-vanilla.loot.addChestLoot("ganysnether.undertaker", <AWWayofTime:reinforcedSlate>.weight(2), 1, 4);
-
-
 
 //Bonus Chest
 vanilla.loot.removeChestLoot("bonusChest", <*>);
@@ -18,9 +8,7 @@ vanilla.loot.addChestLoot("bonusChest", <ResourcefulCrops:ItemMaterial:2>.weight
 vanilla.loot.addChestLoot("bonusChest", <BigReactors:BRIngot:1>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("bonusChest", <Botania:manaResource>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("bonusChest", <Thaumcraft:ItemBucketDeath>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("bonusChest", <HardcoreEnderExpansion:bucket_ender_goo>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <RotaryCraft:rotarycraft_item_bucket:2>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("bonusChest", <betterstorage:bucketSlime>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <Forestry:bucketSeedoil>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("bonusChest", <Automagy:bucketVishroom>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("bonusChest", <RandomThings:ingredient:6>.weight(1), 1, 2);
@@ -37,7 +25,6 @@ vanilla.loot.addChestLoot("bonusChest", <MineFactoryReloaded:rubberwood.sapling>
 vanilla.loot.addChestLoot("bonusChest", <Natura:florasapling:4>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("bonusChest", <ExtraUtilities:builderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <Thaumcraft:blockJar:3>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("bonusChest", <BetterChests:Upgrade:14>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <RotaryCraft:rotarycraft_item_gearunits:8>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("bonusChest", <harvestcraft:raspberrytrifleItem>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("bonusChest", <harvestcraft:peppermintItem>.weight(5), 1, 2);
@@ -72,7 +59,6 @@ vanilla.loot.addChestLoot("bonusChest", <minecraft:log>.weight(5), 20, 32);
 vanilla.loot.addChestLoot("bonusChest", <minecraft:apple>.weight(7), 2, 3);
 vanilla.loot.addChestLoot("bonusChest", <minecraft:cake>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("bonusChest", <Botania:blackLotus>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("bonusChest", <HardcoreEnderExpansion:knowledge_note>.weight(5), 1, 5);
 vanilla.loot.addChestLoot("bonusChest", <Thaumcraft:ItemResource:9>.weight(3), 3, 5);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:1>.weight(5), 4, 16);
@@ -122,9 +108,7 @@ vanilla.loot.addChestLoot("dungeonChest", <ResourcefulCrops:ItemMaterial:2>.weig
 vanilla.loot.addChestLoot("dungeonChest", <BigReactors:BRIngot:1>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("dungeonChest", <Botania:manaResource>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:ItemBucketDeath>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <HardcoreEnderExpansion:bucket_ender_goo>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <RotaryCraft:rotarycraft_item_bucket:2>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("dungeonChest", <betterstorage:bucketSlime>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Forestry:bucketSeedoil>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <Automagy:bucketVishroom>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <RandomThings:ingredient:6>.weight(1), 1, 2);
@@ -141,7 +125,6 @@ vanilla.loot.addChestLoot("dungeonChest", <MineFactoryReloaded:rubberwood.saplin
 vanilla.loot.addChestLoot("dungeonChest", <Natura:florasapling:4>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:builderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Thaumcraft:blockJar:3>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("dungeonChest", <BetterChests:Upgrade:14>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <RotaryCraft:rotarycraft_item_gearunits:8>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <harvestcraft:raspberrytrifleItem>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <harvestcraft:peppermintItem>.weight(5), 1, 2);
@@ -231,8 +214,6 @@ vanilla.loot.addChestLoot("dungeonChest", <minecraft:record_strad>.weight(2), 1,
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:record_wait>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:diamond>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <RandomThings:whitestone>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <HardcoreEnderExpansion:temple_caller>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <HardcoreEnderExpansion:knowledge_note>.weight(6), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <TConstruct:heartCanister>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemAlloy:6>.weight(10), 1, 3);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:quartz>.weight(15), 4, 8);
@@ -281,9 +262,7 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <ResourcefulCrops:ItemMaterial:2>
 vanilla.loot.addChestLoot("mineshaftCorridor", <BigReactors:BRIngot:1>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:manaResource>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Thaumcraft:ItemBucketDeath>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:bucket_ender_goo>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <RotaryCraft:rotarycraft_item_bucket:2>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("mineshaftCorridor", <betterstorage:bucketSlime>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Forestry:bucketSeedoil>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Automagy:bucketVishroom>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <RandomThings:ingredient:6>.weight(1), 1, 2);
@@ -300,7 +279,6 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <MineFactoryReloaded:rubberwood.s
 vanilla.loot.addChestLoot("mineshaftCorridor", <Natura:florasapling:4>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:builderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Thaumcraft:blockJar:3>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("mineshaftCorridor", <BetterChests:Upgrade:14>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <RotaryCraft:rotarycraft_item_gearunits:8>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <harvestcraft:raspberrytrifleItem>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <harvestcraft:peppermintItem>.weight(5), 1, 2);
@@ -348,9 +326,6 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:overgrowthSeed>.weight(2
 vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:blackLotus>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Ztones:splatAxe>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <TravellersGear:simpleGear:6>.weight(6), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:adventurers_diary>.weight(4), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:temple_caller>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:knowledge_note>.weight(6), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:AuraCrystal>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:AuraCrystal:1>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:AuraCrystal:2>.weight(5), 4, 16);
@@ -447,9 +422,7 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <ResourcefulCrops:ItemMaterial:
 vanilla.loot.addChestLoot("pyramidDesertyChest", <BigReactors:BRIngot:1>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:manaResource>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:ItemBucketDeath>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <HardcoreEnderExpansion:bucket_ender_goo>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <RotaryCraft:rotarycraft_item_bucket:2>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <betterstorage:bucketSlime>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Forestry:bucketSeedoil>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Automagy:bucketVishroom>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <RandomThings:ingredient:6>.weight(1), 1, 2);
@@ -466,7 +439,6 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <MineFactoryReloaded:rubberwood
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Natura:florasapling:4>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:builderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:blockJar:3>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <BetterChests:Upgrade:14>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <RotaryCraft:rotarycraft_item_gearunits:8>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <harvestcraft:raspberrytrifleItem>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <harvestcraft:peppermintItem>.weight(5), 1, 2);
@@ -544,9 +516,7 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <ResourcefulCrops:ItemMaterial:2
 vanilla.loot.addChestLoot("pyramidJungleChest", <BigReactors:BRIngot:1>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:manaResource>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("pyramidJungleChest", <Thaumcraft:ItemBucketDeath>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleChest", <HardcoreEnderExpansion:bucket_ender_goo>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <RotaryCraft:rotarycraft_item_bucket:2>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("pyramidJungleChest", <betterstorage:bucketSlime>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <Forestry:bucketSeedoil>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <Automagy:bucketVishroom>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <RandomThings:ingredient:6>.weight(1), 1, 2);
@@ -563,7 +533,6 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <MineFactoryReloaded:rubberwood.
 vanilla.loot.addChestLoot("pyramidJungleChest", <Natura:florasapling:4>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:builderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <Thaumcraft:blockJar:3>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("pyramidJungleChest", <BetterChests:Upgrade:14>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <RotaryCraft:rotarycraft_item_gearunits:8>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <harvestcraft:raspberrytrifleItem>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <harvestcraft:peppermintItem>.weight(5), 1, 2);
@@ -663,9 +632,7 @@ vanilla.loot.addChestLoot("strongholdCorridor", <ResourcefulCrops:ItemMaterial:2
 vanilla.loot.addChestLoot("strongholdCorridor", <BigReactors:BRIngot:1>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("strongholdCorridor", <Botania:manaResource>.weight(5), 2, 4);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemBucketDeath>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("strongholdCorridor", <HardcoreEnderExpansion:bucket_ender_goo>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <RotaryCraft:rotarycraft_item_bucket:2>.weight(5), 2, 4);
-vanilla.loot.addChestLoot("strongholdCorridor", <betterstorage:bucketSlime>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Forestry:bucketSeedoil>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <Automagy:bucketVishroom>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <RandomThings:ingredient:6>.weight(1), 1, 2);
@@ -682,7 +649,6 @@ vanilla.loot.addChestLoot("strongholdCorridor", <MineFactoryReloaded:rubberwood.
 vanilla.loot.addChestLoot("strongholdCorridor", <Natura:florasapling:4>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:builderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:blockJar:3>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("strongholdCorridor", <BetterChests:Upgrade:14>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <RotaryCraft:rotarycraft_item_gearunits:8>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <harvestcraft:raspberrytrifleItem>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <harvestcraft:peppermintItem>.weight(5), 1, 2);
@@ -769,5 +735,3 @@ vanilla.loot.addChestLoot("villageBlacksmith", <TConstruct:oreBerries:5>.weight(
 vanilla.loot.addChestLoot("villageBlacksmith", <IguanaTweaksTConstruct:clayBucketsTinkers:10>.weight(2), 1,1);
 vanilla.loot.addChestLoot("villageBlacksmith", <minecraft:obsidian>.weight(5), 1,2);
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:consumerBlockfurnace>.weight(3), 1,1);
-
-
