@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Recipes marked as "default" will be reset every time the game launches.
+If you wish to disable a recipe change its status to "ignored"
+If you want to add a custom recipe, mark it as "custom". If you mark it as default, it will be deleted!!
+If you alter a default recipe don't forget to also mark it as "custom"
+
+The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+-->
+
+<MAGMATICCENTRIFUGE>
+	<recipe status="default">
+		<input1>minecraft:glowstone_dust 1 0</input1>
+		<input2>minecraft:netherrack 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:redstone 4 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:magma_cream 1 0</input1>
+		<input2>minecraft:magma_cream 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:blaze_powder 2 0</output1>
+		<output2>minecraft:slime_ball 2 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>ganysnether:glowingReedItem 1 0</input1>
+		<input2>ganysnether:glowingReedItem 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:glowstone_dust 2 0</output1>
+		<output2>minecraft:sugar 2 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>ganysnether:glowingReedItem 1 0</input1>
+		<input2>minecraft:potion 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:reeds 1 0</output1>
+		<output2>minecraft:glass_bottle 1 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>ganysnether:quarzBerry 1 0</input1>
+		<input2>minecraft:glass_bottle 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:potion 1 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>ganysnether:spectreWheatItem 1 0</input1>
+		<input2>"gemDiamond"</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>ganysnether:spookyFlour 1 0</output1>
+		<output2>minecraft:diamond 1 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:glowstone 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:glowstone_dust 4 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:gravel 1 0</input1>
+		<input2>minecraft:gravel 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:flint 2 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:ender_eye 1 0</input1>
+		<input2>minecraft:ender_eye 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:blaze_powder 2 0</output1>
+		<output2>minecraft:ender_pearl 2 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:sand 1 0</input1>
+		<input2>minecraft:sand 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:glass 2 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>"blockGlass"</input1>
+		<input2>"blockGlass"</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:sand 2 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:wool 1 32767</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:string 6 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:rotten_flesh 1 0</input1>
+		<input2>minecraft:rotten_flesh 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:leather 1 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:soul_sand 1 0</input1>
+		<input2>minecraft:soul_sand 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>ganysnether:soulGlass 2 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:bucket 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:iron_ingot 3 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:arrow 1 0</input1>
+		<input2>minecraft:arrow 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:flint 2 0</output1>
+		<output2>minecraft:stick 2 0</output2>
+		<output3>minecraft:feather 2 0</output3>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:coal 1 0</input1>
+		<input2>minecraft:blaze_powder 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:gunpowder 1 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:pumpkin 1 0</input1>
+		<input2>minecraft:pumpkin 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:pumpkin_seeds 12 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:melon 1 0</input1>
+		<input2>minecraft:melon 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:melon_seeds 3 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:sandstone 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:sand 4 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:dirt 1 0</input1>
+		<input2>minecraft:dye 1 15</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:grass 1 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:vine 1 0</input1>
+		<input2>minecraft:vine 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:string 2 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:iron_horse_armor 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:iron_ingot 6 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:golden_horse_armor 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:gold_ingot 6 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:diamond_horse_armor 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:diamond 6 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:bookshelf 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:planks 6 0</output1>
+		<output2>minecraft:book 3 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:leather 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:string 3 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:monster_egg 1 32767</input1>
+		<input2>"gemQuartz"</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:spawn_egg 1 60</output1>
+		<output2>minecraft:cobblestone 1 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:quartz_block 1 0</input1>
+		<input2>minecraft:quartz_block 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:fire 6 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:dye 1 2</input1>
+		<input2>minecraft:dye 1 2</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:slime_ball 1 0</output1>
+	</recipe>
+
+	<recipe status="default">
+		<input1>minecraft:wheat 1 0</input1>
+		<input2>minecraft:flint 1 0</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>ganysnether:flour 1 0</output1>
+		<output2>minecraft:flint 1 0</output2>
+	</recipe>
+
+	<recipe status="default">
+		<input1>"dyeBlack"</input1>
+		<input2>minecraft:wool 1 4</input2>
+		<lavaAmount>100</lavaAmount>
+		<output1>minecraft:sponge 1 0</output1>
+	</recipe>
+
+</MAGMATICCENTRIFUGE>

@@ -1,5 +1,7 @@
 #OpenPeripheral user-friendly names
 #class_name	user_name
+com.rwtema.extrautils.tileentity.enderconstructor.TileEnderConstructor	ender_crafting
+dan200.computercraft.shared.turtle.blocks.TileTurtle	miningturtle01
 net.minecraft.block.BlockJukebox$TileEntityJukebox	record_player
 net.minecraft.tileentity.TileEntityBeacon	beacon
 net.minecraft.tileentity.TileEntityBrewingStand	brewing_stand

@@ -1,0 +1,22 @@
+#Define blacklisted seeds here: <mod>:<seedname>:<seedmeta>
+#You can get these values from NEI
+#Blacklisted seeds will not be able to planted on crops
+#For example: AgriCraft:seedDandelion
+AgriCraft:nuggetQuartz
+AgriCraft:seedAurigold
+AgriCraft:seedCinderpearl
+AgriCraft:seedCuprosia
+AgriCraft:seedDiamahlia
+AgriCraft:seedEmeryllis
+AgriCraft:seedFerranium
+AgriCraft:seedJaslumine
+AgriCraft:seedLapender
+AgriCraft:seedNitorWart
+AgriCraft:seedSilverweed
+AgriCraft:seedRedstodendron
+AgriCraft:seedQuartzanthemum
+AgriCraft:seedPlombean
+AgriCraft:seedPlatiolus
+AgriCraft:seedPetinia
+AgriCraft:seedOsmonium
+AgriCraft:seedNiccissus

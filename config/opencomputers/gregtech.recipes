@@ -10,7 +10,10 @@
 # - gt_chemical     : Chemical Recipe
 # - gt_cnc          : CNC-Machine Recipe
 # - gt_cutter       : Cutter Recipe
+# - gt_fluidCanner  : Fluid Canner Recipe
+# - gt_formingPress : Forming Press Recipe
 # - gt_lathe        : Lathe Machine Recipe
+# - gt_laserEngraver: Laser Engraver Recipe
 # - gt_wiremill     : Wiremill Recipe
 #
 # For these types, there a few more options for inputs and outputs. A full
@@ -315,7 +318,7 @@ powerDistributor {
 serverRack {
   input: [[craftingToolScrewdriver, "oc:wlanCard", craftingToolWrench]
           ["ic2.reactorVentDiamond", chest, "ic2.reactorVentDiamond"]
-          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   # 32731 = Activity Detector
@@ -323,7 +326,7 @@ redstone {
           [{item="gt.metaitem.01", subID=32731}, {block="gt.blockcasings", subID=2}, "oc:redstoneCard1"]
           ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]]
 }
-switch {
+relay {
   input: [["", "oc:lanCard", ""]
           ["oc:cable", {block="gt.blockcasings", subID=2}, "oc:cable"]
           ["oc:materialCircuitBoardPrinted", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]
