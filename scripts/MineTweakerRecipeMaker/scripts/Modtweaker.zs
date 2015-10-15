@@ -5,7 +5,8 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Crucible;
 import mods.thaumcraft.Research;
 import mods.thaumcraft.Arcane;
-
+import mods.minechem.Decomposer;
+import mods.minechem.Synthesiser;
 
 //IE
 mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:OreBlock>);
@@ -148,5 +149,36 @@ mods.mekanism.Crusher.addRecipe(<minecraft:sand>,<EnderIO:itemMaterial>);
 val rcOres = <ore:rcOres>;
 rcOres.add(<ResourcefulCrops:BlockROre>);
 mods.botania.Orechid.addOre(<ore:rcOres>, 10000);
+
+//Minechem
+val Iri = <ore:element_Ir>;
+var Fe = <minechem:minechemElement:26>;
+
+//Minechem Decomposer
+mods.minechem.Decomposer.removeRecipe(<ore:orePlatinum>);
+mods.minechem.Decomposer.addRecipe(<ore:orePlatinum>,1,[[<ore:element_Ir>*2],[<ore:element_Pt>*80]]);
+//Because most of the rock below the surface is just igneous rock, the reddish tint is from the surface dust.
+mods.minechem.Decomposer.addRecipe(<GalacticraftMars:tile.mars:6>,1,[[<minechem:minechemMolecule:165>*8]]);
+mods.minechem.Decomposer.addRecipe(<GalacticraftMars:tile.mars:5>,1,[[<minechem:minechemMolecule:165>*8]]);
+mods.minechem.Decomposer.addRecipe(<ore:oreTritanium>,1,[[<ore:element_Ir>*48 , <ore:element_Ti>*144]]);
+mods.minechem.Decomposer.addRecipe(<ore:dustLithium>,1,[[<ore:element_Li>*8]]);
+mods.minechem.Decomposer.addRecipe(<ore:gemDilithium>,1,[[<ore:element_Li>*32]]);
+mods.minechem.Decomposer.addRecipe(<ore:oreCinnabar>,1,[[<ore:element_Hg>*32, <ore:element_S>*16]]);
+mods.minechem.Decomposer.addRecipe(<ore:oreDesh>,1,[[<ore:element_Fe>*512, <minechem:minechemMolecule:69>*2]]);
+mods.minechem.Decomposer.addRecipe(<GalacticraftMars:item.null:2>,1,[[<ore:element_Fe>*256, <minechem:minechemMolecule:69>*1]]);
+mods.minechem.Decomposer.addRecipe(<GalacticraftCore:item.meteoricIronIngot>,1,[[<ore:element_Fe>*512, <minechem:minechemMolecule>*7]]);
+
+//Minechem Synthesiser
+mods.minechem.Synthesiser.addRecipe([Iri*16], <IC2:itemOreIridium>, false, 20000);
+mods.minechem.Synthesiser.addRecipe([<ore:element_Ti>*24,<ore:element_Ti>*16,<ore:element_Ti>*24],<ore:ingotTritanium>,true,32000);
+mods.minechem.Synthesiser.addRecipe([<ore:element_Li>*8],<ore:dustLithium>,false,60);
+mods.minechem.Synthesiser.addRecipe([<ore:element_Fr>*1,<ore:element_Be>*7,<ore:element_Es>*1],<ResourcefulCrops:ItemMaterial:0>*32,true,64000);
+mods.minechem.Synthesiser.addRecipe([<ore:element_Li>*16,<ore:element_Li>*16],<ore:gemDilithium>*1,true,8800);
+mods.minechem.Synthesiser.addRecipe([<minechem:minechemElement:120>*16],<ore:ingotDesh>*1,false,64000);
+mods.minechem.Synthesiser.addRecipe([<ore:element_Hg>*16],<ore:quicksilver>*1,false,6400);
+//Desh Ingots causes crashes, hence raw desh
+mods.minechem.Synthesiser.addRecipe([Fe*32,Fe*32,Fe*32,Fe*32,<minechem:minechemMolecule:69>*1,Fe*32,Fe*32,Fe*32,Fe*32],<GalacticraftMars:item.null>*1,true,128000);
+mods.minechem.Synthesiser.addRecipe([<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<minechem:minechemMolecule:7>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64],<GalacticraftCore:item.meteoricIronIngot>*1,true,128000);
+
 
 
