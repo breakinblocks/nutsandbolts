@@ -135,11 +135,6 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:4>, [<TConstruct:ToolForgeBlock>
 recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>, <ore:blockGold>]);
 
 //Botania
-recipes.addShapeless(<Botania:lokiRing>, [<Botania:manaRingGreater>.withTag({mana:2000000}), <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <ExtraUtilities:builderswand>]);
-recipes.addShapeless(<Botania:odinRing>, [<Botania:manaRingGreater>.withTag({mana:2000000}), <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:brewVial>.withTag({brewKey: "strength"})]);
-recipes.addShapeless(<Botania:thorRing>, [<Botania:manaRingGreater>.withTag({mana:2000000}), <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:enderDagger>]);
-recipes.addShapeless(<Botania:infiniteFruit>, [<TConstruct:diamondApple>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:rune:10>]);
-recipes.addShapeless(<Botania:kingKey>, [<Botania:terraSword>, <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <Botania:manaBomb>]);
 
 
 
