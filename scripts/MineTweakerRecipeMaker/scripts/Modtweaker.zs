@@ -63,46 +63,12 @@ mods.botania.ManaInfusion.addInfusion(<bbtweaks:ItemAwakenedCore>, <bbtweaks:Ite
 
 
 //Botania mana petal nerfs
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:0>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:1>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:2>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:3>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:4>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:5>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:6>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:7>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:8>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:9>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:10>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:11>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:12>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:13>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:14>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:15>);
-
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:0>, <Botania:petal:0>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:1>, <Botania:petal:1>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:2>, <Botania:petal:2>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:3>, <Botania:petal:3>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:4>, <Botania:petal:4>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:5>, <Botania:petal:5>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:6>, <Botania:petal:6>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:7>, <Botania:petal:7>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:8>, <Botania:petal:8>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:9>, <Botania:petal:9>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:10>, <Botania:petal:10>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:11>, <Botania:petal:11>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:12>, <Botania:petal:12>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:13>, <Botania:petal:13>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:14>, <Botania:petal:14>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:15>, <Botania:petal:15>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:16>, <Botania:petal:16>, 5000);
 
 //mods.botania.ManaInfusion.removeRecipe(<Botania:specialFlower.withTag({type:"endoflame"})>);
-mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}));
-mods.botania.Apothecary.addRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}), [<Botania:rune:1>,<minecraft:blaze_rod>,<Botania:manaPetal:14>,<Botania:manaPetal:12>,<Botania:manaPetal:1>,<Botania:grassSeeds>]);
+//mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}));
+//mods.botania.Apothecary.addRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}), [<Botania:rune:1>,<Botania:manaPetal:14>,<Botania:manaPetal:12>,<Botania:manaPetal:1>,<Botania:manaPetal:14>]);
 
-mods.botania.RuneAltar.addRecipe(<Botania:dice>, [<Botania:manaRingGreater>.withTag({mana:2000000}), <bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <ExtraUtilities:unstableingot:1>], 50000);
+mods.botania.RuneAltar.addRecipe(<Botania:dice>, [<bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <ExtraUtilities:unstableingot:1>], 50000);
 
 
 //using Blazing Pyrotheum gives double Incendium
@@ -137,6 +103,8 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>
 
 // thermal expansion Magma Crucible!
 // thermal expansion Pulverizer
+
+mods.thermalexpansion.Crucible.addRecipe(1000, <bbtweaks:ItemTarBall>, <liquid:oil> * 100);
 
 
 //Bloodmagic blood orb takes an emerald now
@@ -179,6 +147,8 @@ mods.minechem.Synthesiser.addRecipe([<ore:element_Fr>*1,<ore:element_Be>*7,<ore:
 mods.minechem.Synthesiser.addRecipe([<ore:element_Li>*16,<ore:element_Li>*16],<ore:gemDilithium>*1,true,8800);
 mods.minechem.Synthesiser.addRecipe([<minechem:minechemElement:120>*16],<ore:ingotDesh>*1,false,64000);
 mods.minechem.Synthesiser.addRecipe([<ore:element_Hg>*16],<ore:quicksilver>*1,false,6400);
+mods.minechem.Synthesiser.addRecipe([<minechem:minechemElement:6>*8,<minechem:minechemElement:1>*16],<bbtweaks:ItemTarBall>,false,1000);
+
 //Desh Ingots causes crashes, hence raw desh
 mods.minechem.Synthesiser.addRecipe([Fe*32,Fe*32,Fe*32,Fe*32,<minechem:minechemMolecule:69>*1,Fe*32,Fe*32,Fe*32,Fe*32],<GalacticraftMars:item.null>*1,true,128000);
 mods.minechem.Synthesiser.addRecipe([<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<minechem:minechemMolecule:7>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64],<GalacticraftCore:item.meteoricIronIngot>*1,true,128000);
