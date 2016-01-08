@@ -1,0 +1,20 @@
+import mods.thaumcraft.Aspects;
+ 
+Aspects.add(<BiomesOPlenty:ash:*>,"ignis 2, permutatio 1, perditio 2");
+Aspects.add(<BiomesOPlenty:hell_blood>,"victus 20, perditio 5, potentia 5");
+Aspects.add(<BiomesOPlenty:bopBucket>,"metallum 4, fames 2");
+Aspects.add(<BiomesOPlenty:grave>,"terra 5, mortuus 5, perditio 2");
+Aspects.add(<BiomesOPlenty:flesh:*>,"victus 10, corpus 15");
+Aspects.add(<BiomesOPlenty:honey>,"limus 2, sano 1, fames 2");
+Aspects.add(<BiomesOPlenty:hive:*>,"alienis 5, bestia 2, fabrico 4");
+Aspects.add(<BiomesOPlenty:honeyBlock>,"fames 5, lucrum 5, meto 15");
+Aspects.add(<BiomesOPlenty:mud>,"terra 2, aqua 2, limus 1");
+Aspects.add(<BiomesOPlenty:mudBricks>,"terra 3, aqua 1, ignis 1");
+Aspects.add(<BiomesOPlenty:stoneSingleSlab>,"terra 1, aqua 1");
+Aspects.add(<BiomesOPlenty:mudBricksStairs>,"terra 1, perditio 1");
+Aspects.add(<BiomesOPlenty:flowerVine:*>,"herba 2, sensus 1, motus 1");
+Aspects.add(<BiomesOPlenty:ivy>,"herba 2, motus 1");
+Aspects.add(<BiomesOPlenty:flowers:*>,"herba 1, sensus 1");
+Aspects.add(<BiomesOPlenty:flowers2:*>,"herba 1, sensus 1");
+Aspects.add(<BiomesOPlenty:poison>,"venenum 10");
+Aspects.add(<CraftHeraldry:itemHeraldry>,"cognitio 5, fabrico 2, humanus 1");
