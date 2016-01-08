@@ -13,6 +13,7 @@ com.rwtema.extrautils.tileentity.TileEntityDrum	drum
 com.rwtema.extrautils.tileentity.enderconstructor.TileEnderConstructor	ender_crafting
 cpw.mods.ironchest.TileEntityCrystalChest	crystal
 crazypants.enderio.conduit.TileConduitBundle	blockconduitbundletileentity
+crazypants.enderio.machine.capbank.TileCapBank	tile_blockcapacitorbank_name
 dan200.computercraft.shared.turtle.blocks.TileTurtle	miningturtle01
 dan200.computercraft.shared.turtle.blocks.TileTurtleAdvanced	steve
 mcjty.rftools.blocks.teleporter.DialingDeviceTileEntity	dialingdevicetileentity
