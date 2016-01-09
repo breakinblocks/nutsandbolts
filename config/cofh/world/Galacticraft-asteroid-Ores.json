@@ -70,7 +70,7 @@
         "dimensions": [-30]
     },
     "asteroidDiamond": {
-        "template": "uniform",
+        "template": "normal",
         "block": "diamond_ore",
         "material": [
             {
@@ -105,7 +105,7 @@
         "dimensions": [-30]
     },
     "asteroidcertusquartz": {
-        "template": "uniform",
+        "template": "normal",
         "block": [
             {
                 "name": "appliedenergistics2:tile.OreQuartz",
@@ -151,7 +151,7 @@
         "dimensions": [-30]
     },
 	"asteroidyellorite": {
-        "template": "uniform",
+        "template": "normal",
         "block": {
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
@@ -274,7 +274,7 @@
         "dimensions": [-30]
     },
     "asteroidnickel": {
-        "template": "uniform",
+        "template": "normal",
         "block": {
             "name": "ThermalFoundation:Ore",
             "metadata": 4
@@ -312,7 +312,7 @@
         "dimensions": [-30]
     },
     "asteroidnetherquartz": {
-        "template": "uniform",
+        "template": "normal",
         "block": "minecraft:quartz_ore",
         "material": [
             {
@@ -346,43 +346,9 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-30]
     },
-    "asteroidglowstone": {
-        "template": "uniform",
-        "block": "minecraft:glowstone",
-        "material": [
-            {
-                "name": "GalacticraftMars:tile.asteroidsBlock",
-                "metadata": 1,
-                "weight": 100
-            },
-            {
-                "name": "GalacticraftMars:tile.asteroidsBlock",
-                "metadata": 0,
-                "weight": 100
-            },
-            {
-                "name": "GalacticraftMars:tile.denseIce",
-                "metadata": 1,
-                "weight": 100
-            },
-            {
-                "name": "minecraft:dirt",
-                "metadata": 0,
-                "weight": 100
-            }
-        ],
-        "clusterSize": 8,
-        "numClusters": 1,
-        "minHeight": 1,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-30]
-    },
+
     "asteroidsoulsand": {
-        "template": "uniform",
+        "template": "normal",
         "block": "minecraft:soul_sand",
         "material": [
             {
@@ -416,9 +382,10 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-30]
     },
+
     "asteroiddilithium": {
-        "template": "uniform",
-        "block": "mo:dilithium)ore",
+        "template": "normal",
+        "block": "mo:dilithium_ore",
         "material": [
             {
                 "name": "GalacticraftMars:tile.asteroidsBlock",
@@ -444,7 +411,7 @@
         "clusterSize": 8,
         "numClusters": 1,
         "meanHeight": 64,
-        "maxVariance": 60,,
+        "maxVariance": 60,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
@@ -452,7 +419,7 @@
         "dimensions": [-30]
     },
 	    "asteroidtritanium": {
-        "template": "uniform",
+        "template": "normal",
         "block": "mo:tritanium_ore",
         "material": [
             {
@@ -844,7 +811,7 @@
     },
 
     "asteroidice": {
-        "template": "uniform",
+        "template": "normal",
         "block": "minecraft:packed_ice",
         "material": "GalacticraftMars:tile.asteroidsBlock",
         "clusterSize": 16,

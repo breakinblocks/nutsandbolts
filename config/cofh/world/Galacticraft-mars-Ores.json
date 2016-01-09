@@ -322,60 +322,6 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [-29]
     },	
-	    "marsTopaz": {
-        "template": "normal",
-        "block": [
-            {
-                "name": "arsmagica2:vinteumOre",
-                "metadata": 2,
-                "weight": 100
-            }
-		],
-        "material": "GalacticraftMars:tile.mars",
-        "clusterSize": 8,
-        "numClusters": 3,
-        "meanHeight": 40,
-        "maxVariance": 18,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
-	    "marsChimerite": {
-        "template": "normal",
-        "block": [
-            {
-                "name": "arsmagica2:vinteumOre",
-                "metadata": 1,
-                "weight": 100
-            }
-		],
-        "material": "GalacticraftMars:tile.mars",
-        "clusterSize": 3,
-        "numClusters": 3,
-        "meanHeight": 30,
-        "maxVariance": 18,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
-	    "marsVinteum": {
-        "template": "normal",
-        "block": "arsmagica2:vinteumOre",
-        "material": "GalacticraftMars:tile.mars",
-        "clusterSize": 4,
-        "numClusters": 3,
-        "meanHeight": 20,
-        "maxVariance": 6,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [-28]
-    },
 	    "marsmarsstone": {
         "template": "normal",
         "block": [

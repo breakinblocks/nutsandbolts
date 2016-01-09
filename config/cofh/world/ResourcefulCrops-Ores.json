@@ -1,43 +1,42 @@
 {
 
-	    "gaianite": {
+	"gaianite": {
         "template": "uniform",
-        "block": [
-            {
+        "block": [{
                 "name": "ResourcefulCrops:BlockROre",
-                "metadata": 0
+                "metadata":"0"
             }
         ],
         "clusterSize": 6,
         "numClusters": 2,
         "minHeight": 39,
         "maxHeight": 50,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            7, -100
+            7, -100, 28, 29, 30
         ]
     },
 
-	    "nethergaianite": {
+	"nethergaianite": {
         "template": "uniform",
-        "block": [
-            {
+        "block": [{
                 "name": "ResourcefulCrops:BlockROre",
-                "metadata": 1            }
+                "metadata":"1"
+            }
         ],
         "clusterSize": 8,
         "numClusters": 4,
         "minHeight": 40,
         "maxHeight": 100,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1, 
+            -1
         ]
     }
 	
