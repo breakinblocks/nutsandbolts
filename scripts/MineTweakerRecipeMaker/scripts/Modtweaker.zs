@@ -44,6 +44,16 @@ nabsteel.add(<Railcraft:ingot>);
 nabsteel.add(<RotaryCraft:rotarycraft_item_modingots:47>);
 nabsteel.add(<TConstruct:materials:16>);
 
+//Fix MagicBees Recipes
+mods.botania.Apothecary.removeRecipe("hibeescus");
+mods.botania.Apothecary.removeRecipe("hiveacynth");
+mods.botania.Apothecary.removeRecipe("beegonia");
+
+mods.botania.Apothecary.addRecipe("hibeescus", [<ore:petalOrange>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalRed>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:runeAirB>, <ore:runeSummerB>, <ore:runeEnvyB>, <ore:runeGreedB>, <ore:runePrideB>, <ore:redstoneRoot>]);
+mods.botania.Apothecary.addRecipe("hiveacynth", [<ore:petalLightBlue>, <ore:petalCyan>, <ore:petalCyan>, <ore:petalBlue>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:redstoneRoot>]);
+mods.botania.Apothecary.addRecipe("beegonia", [<ore:petalWhite>, <ore:petalYellow>, <ore:petalYellow>, <ore:petalYellow>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>]);
+
+
 //Base manasteel recipe removed
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 //manasteel can be made from mana infused ingots
