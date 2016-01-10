@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:53>);
+recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
+recipes.remove(<appliedenergistics2:tile.BlockController>);
+recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
+recipes.remove(<appliedenergistics2:tile.BlockChest>);
+recipes.remove(<appliedenergistics2:tile.BlockVibrationChamber>);
 recipes.remove(<AgriCraft:seedAnalyzer>);
 recipes.remove(<AgriCraft:cropsItem>);
 recipes.remove(<ae2stuff:Wireless>);
@@ -155,6 +161,10 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:53>, [[<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:tile.BlockCraftingUnit>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<IC2:itemPartIridium>, <ore:chipsetDiamond>, <IC2:itemPartIridium>], [<appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:item.ItemMultiMaterial:23>], [<appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:oc:apu2>, <appliedenergistics2:tile.BlockDenseEnergyCell>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<ore:ingotIron>, <appliedenergistics2:item.ItemMultiPart:380>, <ore:ingotIron>], [<ore:crystalFluix>, <appliedenergistics2:tile.BlockVibrationChamber>, <ore:crystalFluix>], [<ore:ingotIron>, <IronChest:BlockIronChest>, <ore:ingotIron>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockVibrationChamber>, [[<ore:barsIron>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:barsIron>], [<appliedenergistics2:item.ItemMultiPart:16>, <ExtraUtilities:generator:1>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:ingotIron>, <ore:compressedSteel>, <ore:ingotIron>]]);
 recipes.addShaped(<AgriCraft:seedAnalyzer>, [[null, <minechem:minechemOpticalMicroscopeLens:2>, null], [<ore:slabWood>, null, <ore:slabWood>], [<ore:slabWood>, <Forestry:impregnatedCasing>, <ore:slabWood>]]);
 recipes.addShaped(<AgriCraft:cropsItem> * 8, [[<ImmersiveEngineering:material>, <ImmersiveEngineering:material>], [<ImmersiveEngineering:material>, <ImmersiveEngineering:material>]]);
 recipes.addShaped(<AgriCraft:cropsItem>, [[<ore:woodStick>, <ore:woodStick>], [<minecraft:stick>, <ore:woodStick>]]);
