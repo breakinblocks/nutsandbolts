@@ -12,6 +12,17 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<EnderIO:blockWirelessCharger>);
+recipes.remove(<EnderIO:blockPoweredSpawner>);
+recipes.remove(<EnderIO:blockTransceiver>);
+recipes.remove(<MineFactoryReloaded:plastic.sheet>);
+recipes.remove(<EnderIO:blockFarmStation>);
+recipes.remove(<enderioaddons:blockAfarm>);
+recipes.remove(<EnderIO:blockEnchanter>);
+recipes.remove(<EnderIO:itemBasicCapacitor:2>);
+recipes.remove(<EnderIO:itemBasicCapacitor:1>);
+recipes.remove(<EnderIO:itemMachinePart>);
+recipes.remove(<EnderIO:itemMaterial:2>);
 recipes.remove(<dimensionalPockets:dimensionalPocket>);
 recipes.remove(<dimensionalPockets:dimensionalPocket>);
 recipes.remove(<BigReactors:BRMultiblockGlass>);
@@ -178,6 +189,15 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:blockWirelessCharger>, [[<ore:ingotElectricalSteel>, <EnderIO:itemFrankenSkull:3>, <ore:ingotElectricalSteel>], [<EnderIO:itemBasicCapacitor:2>, <ore:oc:wlanCard>, <EnderIO:itemBasicCapacitor:2>], [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<MineFactoryReloaded:plastic.sheet> * 2, [[null, <MineFactoryReloaded:plastic.raw>, null], [<MineFactoryReloaded:plastic.raw>, <Mekanism:Polyethene>, <MineFactoryReloaded:plastic.raw>], [null, <MineFactoryReloaded:plastic.raw>, null]]);
+recipes.addShaped(<EnderIO:blockFarmStation>, [[<ore:sheetPlastic>, <ThermalFoundation:tool.hoePlatinum>, <ore:sheetPlastic>], [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>, <EnderIO:itemFrankenSkull:1>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<enderioaddons:blockAfarm>, [[<AgriCraft:cropsItem>, <AgriCraft:seedAnalyzer>, <AgriCraft:cropsItem>], [<AgriCraft:cropsItem>, <EnderIO:blockFarmStation>, <AgriCraft:cropsItem>], [<AgriCraft:cropsItem>, <AgriCraft:cropsItem>, <AgriCraft:cropsItem>]]);
+recipes.addShaped(<EnderIO:blockEnchanter>, [[<ResourcefulCrops:ItemMaterial:2>, <minecraft:enchanting_table>, <ResourcefulCrops:ItemMaterial:2>], [<ExtraTiC:largeplate:142>, <ore:blockEnderCore>, <ExtraTiC:largeplate:142>], [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]]);
+recipes.addShaped(<EnderIO:itemBasicCapacitor:2>, [[<ore:itemVibrantNugget>, <ore:nuggetEnderium>, <ore:itemVibrantNugget>], [<EnderIO:itemBasicCapacitor:1>, <ore:itemVibrantCrystal>, <EnderIO:itemBasicCapacitor:1>], [<ore:itemVibrantNugget>, <ore:nuggetEnderium>, <ore:itemVibrantNugget>]]);
+recipes.addShaped(<EnderIO:itemBasicCapacitor:1>, [[<ore:ingotEnergeticAlloy>, <ore:ingotGraphite>, <ore:ingotEnergeticAlloy>], [<EnderIO:itemBasicCapacitor>, <ore:dustElectrotine>, <EnderIO:itemBasicCapacitor>], [<ore:ingotEnergeticAlloy>, <ore:ingotGraphite>, <ore:ingotEnergeticAlloy>]]);
+recipes.addShaped(<EnderIO:itemMachinePart>, [[<ore:NABSteel>, <ProjRed|Core:projectred.core.part>, <ore:NABSteel>], [<ThermalExpansion:material>, <EnderIO:itemBasicCapacitor>, <ThermalExpansion:material>], [<ore:NABSteel>, <ProjRed|Core:projectred.core.part>, <ore:NABSteel>]]);
+recipes.addShaped(<EnderIO:itemMaterial:2> * 4, [[<ore:sand>, <ore:dustElectrotine>, <ore:sand>], [<ore:sand>, <Mekanism:Polyethene>, <ore:sand>], [<ore:sand>, <ore:dustElectrotine>, <ore:sand>]]);
 recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<EMT:EMTItems:5>, <arsmagica2:manaFocus>, <EMT:EMTItems:5>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<EMT:EMTItems:5>, <ore:blockEnderCore>, <EMT:EMTItems:5>]]);
 recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<ExtraTiC:largeplate:147>, <arsmagica2:manaFocus>, <ExtraTiC:largeplate:147>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<ExtraTiC:largeplate:147>, <ore:blockEnderCore>, <ExtraTiC:largeplate:147>]]);
 recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<ore:compressedMeteoricIron>, <arsmagica2:manaFocus>, <ore:compressedMeteoricIron>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<ore:compressedMeteoricIron>, <ore:blockEnderCore>, <ore:compressedMeteoricIron>]]);
