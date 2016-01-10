@@ -327,3 +327,14 @@ recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <TwilightForest:t
 recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <ore:NABSteel>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:paneGlassColorless>, null], [<ore:stone>, <minecraft:comparator>, <ore:stone>]]);
 recipes.addShaped(<minecraft:soul_sand>, [[null, <ore:blockSand>, null], [<ore:blockSand>, <ore:blockSand>, <ore:blockSand>], [null, <minecraft:netherrack>, null]]);
+
+
+
+// ===============Tinkers stuff
+//
+recipes.removeShapeless(<Railcraft:brick.bloodstained:2>);
+recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:beef>]);
+recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:rotten_flesh>);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:brick.bloodstained:2>, <liquid:blood>*100, 300, <Railcraft:brick.bloodstained:2>);
+
