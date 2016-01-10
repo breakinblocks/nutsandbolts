@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<AgriCraft:seedAnalyzer>);
 recipes.remove(<AgriCraft:cropsItem>);
 recipes.remove(<ae2stuff:Wireless>);
 recipes.remove(<ae2stuff:Inscriber>);
@@ -154,6 +155,7 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<AgriCraft:seedAnalyzer>, [[null, <minechem:minechemOpticalMicroscopeLens:2>, null], [<ore:slabWood>, null, <ore:slabWood>], [<ore:slabWood>, <Forestry:impregnatedCasing>, <ore:slabWood>]]);
 recipes.addShaped(<AgriCraft:cropsItem> * 8, [[<ImmersiveEngineering:material>, <ImmersiveEngineering:material>], [<ImmersiveEngineering:material>, <ImmersiveEngineering:material>]]);
 recipes.addShaped(<AgriCraft:cropsItem>, [[<ore:woodStick>, <ore:woodStick>], [<minecraft:stick>, <ore:woodStick>]]);
 recipes.addShaped(<ae2stuff:Wireless>, [[null, <OpenComputers:item:25>, null], [<appliedenergistics2:item.ItemMultiMaterial:42>, <appliedenergistics2:item.ItemMultiMaterial:41>, <appliedenergistics2:item.ItemMultiMaterial:42>], [<minecraft:ender_pearl>, <appliedenergistics2:item.ItemMultiMaterial:42>, <minecraft:ender_pearl>]]);
