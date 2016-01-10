@@ -12,6 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<EnderStorage:enderChest:4096>);
+recipes.remove(<EnderStorage:enderChest>);
+recipes.remove(<ExtraUtilities:golden_bag>);
 recipes.remove(<EnderIO:blockWirelessCharger>);
 recipes.remove(<EnderIO:blockPoweredSpawner>);
 recipes.remove(<EnderIO:blockTransceiver>);
@@ -189,6 +192,12 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<Mekanism:Ingot:4>, <ExtraUtilities:golden_bag>, <Mekanism:Ingot:4>]]);
+recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<Thaumcraft:ItemResource:2>, <ExtraUtilities:golden_bag>, <Thaumcraft:ItemResource:2>]]);
+recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<ore:ingotManasteel>, <ExtraUtilities:golden_bag>, <ore:ingotManasteel>]]);
+recipes.addShaped(<EnderStorage:enderChest>, [[<GalacticraftCore:item.basicItem:9>, <ExtraUtilities:enderCollector>, <GalacticraftCore:item.basicItem:9>], [<GalacticraftCore:item.basicItem:9>, <BuildCraft|Silicon:redstoneChipset:3>, <GalacticraftCore:item.basicItem:9>], [<TConstruct:materials:25>, <ExtraUtilities:golden_bag>, <TConstruct:materials:25>]]);
+recipes.addShaped(<EnderStorage:enderChest>, [[<EMT:EMTItems:5>, <ExtraUtilities:enderCollector>, <EMT:EMTItems:5>], [<EMT:EMTItems:5>, <Botania:manaResource:2>, <EMT:EMTItems:5>], [<TConstruct:materials:25>, <ExtraUtilities:golden_bag>, <TConstruct:materials:25>]]);
+recipes.addShaped(<ExtraUtilities:golden_bag>, [[<ore:blockCloth>, <ThermalExpansion:satchel:1>, <ore:blockCloth>], [<ore:ingotGold>, <ExtraUtilities:decorativeBlock1:8>, <ore:ingotGold>], [<ore:blockCloth>, <ore:ingotGold>, <ore:blockCloth>]]);
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [[<ore:ingotElectricalSteel>, <EnderIO:itemFrankenSkull:3>, <ore:ingotElectricalSteel>], [<EnderIO:itemBasicCapacitor:2>, <ore:oc:wlanCard>, <EnderIO:itemBasicCapacitor:2>], [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped(<MineFactoryReloaded:plastic.sheet> * 2, [[null, <MineFactoryReloaded:plastic.raw>, null], [<MineFactoryReloaded:plastic.raw>, <Mekanism:Polyethene>, <MineFactoryReloaded:plastic.raw>], [null, <MineFactoryReloaded:plastic.raw>, null]]);
 recipes.addShaped(<EnderIO:blockFarmStation>, [[<ore:sheetPlastic>, <ThermalFoundation:tool.hoePlatinum>, <ore:sheetPlastic>], [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>, <EnderIO:itemFrankenSkull:1>, <ore:ingotElectricalSteel>]]);
