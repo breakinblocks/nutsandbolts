@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<BuildCraft|Factory:miningWellBlock>);
+recipes.remove(<BuildCraft|Builders:builderBlock>);
+recipes.remove(<BuildCraft|Factory:floodGateBlock>);
+recipes.remove(<BuildCraft|Factory:floodGateBlock>);
+recipes.remove(<BuildCraft|Factory:pumpBlock>);
+recipes.remove(<BuildCraft|Builders:fillerBlock>);
 recipes.remove(<arsmagica2:crystal_wrench>);
 recipes.remove(<arsmagica2:CraftingAltar>);
 recipes.remove(<arsmagica2:blockLectern>);
@@ -166,6 +172,12 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<Railcraft:ingot>, <GekosLasers:tier3_laser_mining>, <ore:NABSteel>], [<Railcraft:ingot>, <IC2:blockMachine>, <ore:NABSteel>], [<ore:gearDiamond>, <EnderIO:blockBuffer>, <ore:gearDiamond>]]);
+recipes.addShaped(<BuildCraft|Builders:builderBlock>, [[<BuildCraft|Silicon:laserBlock>, <ComputerCraft:CC-TurtleAdvanced>, <BuildCraft|Silicon:laserBlock>], [null, <BuildCraft|Builders:fillerBlock>, null], [<BuildCraft|Silicon:laserBlock>, null, <BuildCraft|Silicon:laserBlock>]]);
+recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<IC2:upgradeModule:5>], [<BuildCraft|Factory:floodGateBlock>]]);
+recipes.addShaped(<BuildCraft|Factory:floodGateBlock>, [[<IC2:upgradeModule:5>], [<BuildCraft|Factory:pumpBlock>]]);
+recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<Railcraft:ingot>, <extracells:certustank>, <Railcraft:ingot>], [<BuildCraft|Transport:pipeWaterproof>, <BuildCraft|Core:diamondGearItem>, <BuildCraft|Transport:pipeWaterproof>], [<Railcraft:ingot>, <ThermalDynamics:ThermalDynamics_16:3>, <Railcraft:ingot>]]);
+recipes.addShaped(<BuildCraft|Builders:fillerBlock>, [[null, <BuildCraft|Core:markerBlock>, null], [null, <IC2:blockMachine>, null], [<ore:gearElectrum>, <EnderIO:blockBuffer>, <ore:gearElectrum>]]);
 recipes.addShaped(<arsmagica2:crystal_wrench>, [[null, null, <arsmagica2:manaFocus>], [null, <minecraft:quartz>, null], [<minecraft:quartz>, null, null]]);
 recipes.addShaped(<arsmagica2:CraftingAltar>, [[<Botania:livingrock>, <minecraft:diamond>, <Botania:livingrock>], [<arsmagica2:itemOre:4>, <arsmagica2:itemOre:3>, <arsmagica2:itemOre:4>], [<Botania:livingrock>, <minecraft:diamond>, <Botania:livingrock>]]);
 recipes.addShaped(<arsmagica2:blockLectern>, [[<ore:slabWood>, <Thaumcraft:blockCosmeticSlabWood>, <Thaumcraft:blockCosmeticSlabWood>], [<arsmagica2:itemOre:4>, <arsmagica2:planksWitchwood>, <arsmagica2:itemOre:4>], [<Thaumcraft:blockCosmeticSlabWood>, <ExtraUtilities:decorativeBlock1:2>, <Thaumcraft:blockCosmeticSlabWood>]]);
