@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<dimensionalPockets:dimensionalPocket>);
+recipes.remove(<dimensionalPockets:dimensionalPocket>);
 recipes.remove(<BigReactors:BRMultiblockGlass>);
 recipes.remove(<BigReactors:BRReactorPart:1>);
 recipes.remove(<BigReactors:YelloriumFuelRod>);
@@ -176,6 +178,11 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<EMT:EMTItems:5>, <arsmagica2:manaFocus>, <EMT:EMTItems:5>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<EMT:EMTItems:5>, <ore:blockEnderCore>, <EMT:EMTItems:5>]]);
+recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<ExtraTiC:largeplate:147>, <arsmagica2:manaFocus>, <ExtraTiC:largeplate:147>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<ExtraTiC:largeplate:147>, <ore:blockEnderCore>, <ExtraTiC:largeplate:147>]]);
+recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<ore:compressedMeteoricIron>, <arsmagica2:manaFocus>, <ore:compressedMeteoricIron>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<ore:compressedMeteoricIron>, <ore:blockEnderCore>, <ore:compressedMeteoricIron>]]);
+recipes.addShaped(<ComputerCraft:CC-Computer>, [[<EnderIO:itemAlloy>, <EnderIO:itemAlloy>, <EnderIO:itemAlloy>], [<EnderIO:itemAlloy>, <ore:paneGlassColorless>, <EnderIO:itemAlloy>], [<ore:oc:materialCircuitBoardPrinted>, <ore:chipsetDiamond>, <ore:oc:materialCircuitBoardPrinted>]]);
+recipes.addShaped(<ComputerCraft:CC-Computer:16384>, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>, <ore:paneGlassColorless>, <ore:ingotEnergeticAlloy>], [<ore:oc:materialCircuitBoardPrinted>, <ore:chipsetDiamond>, <ore:oc:materialCircuitBoardPrinted>]]);
 recipes.addShaped(<BigReactors:BRMultiblockGlass> * 2, [[<ore:blockGlassHardened>, <ore:reactorCasing>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<BigReactors:BRReactorPart:1>, [[<BuildCraft|Silicon:redstoneChipset:6>, <IC2:itemPartIridium>, <BuildCraft|Silicon:redstoneChipset:6>], [<EnderIO:itemAlloy:6>, <OpenComputers:screen1>, <EnderIO:itemAlloy:6>], [<EnderIO:itemAlloy:6>, <BigReactors:BRReactorPart>, <EnderIO:itemAlloy:6>]]);
 recipes.addShaped(<BigReactors:YelloriumFuelRod>, [[<ore:blockGraphite>, <ore:blockGlassHardened>, <ore:blockGraphite>], [<ThermalExpansion:Glass:1>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "aobdyellorium", Amount:1000}}), <ore:blockGlassHardened>], [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]]);
@@ -363,10 +370,8 @@ recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<ore:ingotEnergeticAlloy>
 recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<ore:ingotEnergeticAlloy>, <ExtraUtilities:decorativeBlock1:12>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <ComputerCraft:CC-Computer:16384>, <ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>, <IronChest:BlockIronChest>, <ore:ingotEnergeticAlloy>]]);
 recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<EnderIO:itemAlloy:1>, <TwilightForest:tile.TFTowerDevice:2>, <EnderIO:itemAlloy:1>], [<EnderIO:itemAlloy:1>, <ComputerCraft:CC-Computer:16384>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <IronChest:BlockIronChest>, <EnderIO:itemAlloy:1>]]);
 recipes.addShaped(<ComputerCraft:CC-TurtleAdvanced>, [[<EnderIO:itemAlloy:1>, <ExtraUtilities:decorativeBlock1:12>, <EnderIO:itemAlloy:1>], [<EnderIO:itemAlloy:1>, <ComputerCraft:CC-Computer:16384>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <IronChest:BlockIronChest>, <EnderIO:itemAlloy:1>]]);
-recipes.addShaped(<ComputerCraft:CC-Computer:16384>, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>, <ore:paneGlassColorless>, <EnderIO:itemAlloy:1>], [<ore:ingotEnergeticAlloy>, <minecraft:comparator>, <EnderIO:itemAlloy:1>]]);
 recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <TwilightForest:tile.TFTowerDevice:2>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <ore:NABSteel>]]);
 recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <ore:NABSteel>]]);
-recipes.addShaped(<ComputerCraft:CC-Computer>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:paneGlassColorless>, null], [<ore:stone>, <minecraft:comparator>, <ore:stone>]]);
 recipes.addShaped(<minecraft:soul_sand>, [[null, <ore:blockSand>, null], [<ore:blockSand>, <ore:blockSand>, <ore:blockSand>], [null, <minecraft:netherrack>, null]]);
 
 
