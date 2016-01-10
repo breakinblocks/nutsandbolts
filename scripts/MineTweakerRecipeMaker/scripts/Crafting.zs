@@ -12,6 +12,10 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<BigReactors:BRMultiblockGlass>);
+recipes.remove(<BigReactors:BRReactorPart:1>);
+recipes.remove(<BigReactors:YelloriumFuelRod>);
+recipes.remove(<BigReactors:BRIngot:2>);
 recipes.remove(<BuildCraft|Factory:miningWellBlock>);
 recipes.remove(<BuildCraft|Builders:builderBlock>);
 recipes.remove(<BuildCraft|Factory:floodGateBlock>);
@@ -172,6 +176,10 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<BigReactors:BRMultiblockGlass> * 2, [[<ore:blockGlassHardened>, <ore:reactorCasing>, <ore:blockGlassHardened>]]);
+recipes.addShaped(<BigReactors:BRReactorPart:1>, [[<BuildCraft|Silicon:redstoneChipset:6>, <IC2:itemPartIridium>, <BuildCraft|Silicon:redstoneChipset:6>], [<EnderIO:itemAlloy:6>, <OpenComputers:screen1>, <EnderIO:itemAlloy:6>], [<EnderIO:itemAlloy:6>, <BigReactors:BRReactorPart>, <EnderIO:itemAlloy:6>]]);
+recipes.addShaped(<BigReactors:YelloriumFuelRod>, [[<ore:blockGraphite>, <ore:blockGlassHardened>, <ore:blockGraphite>], [<ThermalExpansion:Glass:1>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "aobdyellorium", Amount:1000}}), <ore:blockGlassHardened>], [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]]);
+recipes.addShaped(<IC2:itemShardIridium> * 9, [[<IC2:itemOreIridium>]]);
 recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<Railcraft:ingot>, <GekosLasers:tier3_laser_mining>, <ore:NABSteel>], [<Railcraft:ingot>, <IC2:blockMachine>, <ore:NABSteel>], [<ore:gearDiamond>, <EnderIO:blockBuffer>, <ore:gearDiamond>]]);
 recipes.addShaped(<BuildCraft|Builders:builderBlock>, [[<BuildCraft|Silicon:laserBlock>, <ComputerCraft:CC-TurtleAdvanced>, <BuildCraft|Silicon:laserBlock>], [null, <BuildCraft|Builders:fillerBlock>, null], [<BuildCraft|Silicon:laserBlock>, null, <BuildCraft|Silicon:laserBlock>]]);
 recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<IC2:upgradeModule:5>], [<BuildCraft|Factory:floodGateBlock>]]);
@@ -370,4 +378,4 @@ recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>,
 recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
 mods.tconstruct.Smeltery.removeMelting(<minecraft:rotten_flesh>);
 mods.tconstruct.Smeltery.addMelting(<Railcraft:brick.bloodstained:2>, <liquid:blood>*100, 300, <Railcraft:brick.bloodstained:2>);
-
+furnace.addRecipe(<BigReactors:BRIngot:2>, <IC2:itemPartCarbonFibre>, 0.5);
