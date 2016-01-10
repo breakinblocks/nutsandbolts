@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<AgriCraft:cropsItem>);
 recipes.remove(<ae2stuff:Wireless>);
 recipes.remove(<ae2stuff:Inscriber>);
 recipes.remove(<ae2stuff:Grower>);
@@ -153,6 +154,8 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<AgriCraft:cropsItem> * 8, [[<ImmersiveEngineering:material>, <ImmersiveEngineering:material>], [<ImmersiveEngineering:material>, <ImmersiveEngineering:material>]]);
+recipes.addShaped(<AgriCraft:cropsItem>, [[<ore:woodStick>, <ore:woodStick>], [<minecraft:stick>, <ore:woodStick>]]);
 recipes.addShaped(<ae2stuff:Wireless>, [[null, <OpenComputers:item:25>, null], [<appliedenergistics2:item.ItemMultiMaterial:42>, <appliedenergistics2:item.ItemMultiMaterial:41>, <appliedenergistics2:item.ItemMultiMaterial:42>], [<minecraft:ender_pearl>, <appliedenergistics2:item.ItemMultiMaterial:42>, <minecraft:ender_pearl>]]);
 recipes.addShaped(<ae2stuff:Inscriber>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<appliedenergistics2:tile.BlockInscriber>, <appliedenergistics2:tile.BlockCraftingUnit:1>, <appliedenergistics2:tile.BlockInscriber>], [null, <appliedenergistics2:tile.BlockEnergyAcceptor>, null]]);
 recipes.addShaped(<ae2stuff:Grower>, [[<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>, <appliedenergistics2:item.ItemMultiPart:76>, <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>], [<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>, <appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>], [<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>, <appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>]]);
