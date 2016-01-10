@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<arsmagica2:crystal_wrench>);
+recipes.remove(<arsmagica2:CraftingAltar>);
+recipes.remove(<arsmagica2:blockLectern>);
+recipes.remove(<arsmagica2:rune:1>);
+recipes.remove(<arsmagica2:rune:1>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:53>);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
 recipes.remove(<appliedenergistics2:tile.BlockController>);
@@ -161,6 +166,10 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<arsmagica2:crystal_wrench>, [[null, null, <arsmagica2:manaFocus>], [null, <minecraft:quartz>, null], [<minecraft:quartz>, null, null]]);
+recipes.addShaped(<arsmagica2:CraftingAltar>, [[<Botania:livingrock>, <minecraft:diamond>, <Botania:livingrock>], [<arsmagica2:itemOre:4>, <arsmagica2:itemOre:3>, <arsmagica2:itemOre:4>], [<Botania:livingrock>, <minecraft:diamond>, <Botania:livingrock>]]);
+recipes.addShaped(<arsmagica2:blockLectern>, [[<ore:slabWood>, <Thaumcraft:blockCosmeticSlabWood>, <Thaumcraft:blockCosmeticSlabWood>], [<arsmagica2:itemOre:4>, <arsmagica2:planksWitchwood>, <arsmagica2:itemOre:4>], [<Thaumcraft:blockCosmeticSlabWood>, <ExtraUtilities:decorativeBlock1:2>, <Thaumcraft:blockCosmeticSlabWood>]]);
+recipes.addShaped(<arsmagica2:rune:1> * 2, [[null, <ore:livingrock>, null], [<ore:livingrock>, <ore:oc:materialAcid>, <ore:livingrock>], [null, <ore:livingrock>, null]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:53>, [[<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:tile.BlockCraftingUnit>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<IC2:itemPartIridium>, <ore:chipsetDiamond>, <IC2:itemPartIridium>], [<appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:item.ItemMultiMaterial:23>], [<appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:oc:apu2>, <appliedenergistics2:tile.BlockDenseEnergyCell>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<ore:ingotIron>, <appliedenergistics2:item.ItemMultiPart:380>, <ore:ingotIron>], [<ore:crystalFluix>, <appliedenergistics2:tile.BlockVibrationChamber>, <ore:crystalFluix>], [<ore:ingotIron>, <IronChest:BlockIronChest>, <ore:ingotIron>]]);
