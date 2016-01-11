@@ -4,16 +4,14 @@ import mods.minechem.Chemicals;
 
 //=====Non Minechem Additions===========================================================================================================
 //Blood Magic
-recipes.addShapeless(<TConstruct:buckets:16>, [<AWWayofTime:bucketLife>]);
-recipes.addShapeless(<TConstruct:buckets:16>, [<BiomesOPlenty:bopBucket>]);
-mods.thermalexpansion.Crucible.addRecipe(5000, <AWWayofTime:blankSlate>, <liquid:blood> * 1000);
-mods.thermalexpansion.Crucible.addRecipe(14000, <AWWayofTime:reinforcedSlate>, <liquid:blood> * 3000);
-mods.thermalexpansion.Crucible.addRecipe(35000, <AWWayofTime:imbuedSlate>, <liquid:blood> * 8000);
-mods.thermalexpansion.Crucible.addRecipe(110000, <AWWayofTime:demonicSlate>, <liquid:blood> * 23000);
-mods.tconstruct.Smeltery.addMelting(<AWWayofTime:blankSlate>, <liquid:blood> * 1000, 200,<AWWayofTime:largeBloodStoneBrick>);
-mods.tconstruct.Smeltery.addMelting(<AWWayofTime:reinforcedSlate>, <liquid:blood> * 3000, 500,<AWWayofTime:largeBloodStoneBrick>);
-mods.tconstruct.Smeltery.addMelting(<AWWayofTime:imbuedSlate>, <liquid:blood> * 8000, 1300,<AWWayofTime:largeBloodStoneBrick>);
-mods.tconstruct.Smeltery.addMelting(<AWWayofTime:demonicSlate>, <liquid:blood> * 23000, 2300,<AWWayofTime:largeBloodStoneBrick>);
+mods.thermalexpansion.Crucible.addRecipe(5000, <AWWayofTime:blankSlate>, <liquid:hell_blood> * 3000);
+mods.thermalexpansion.Crucible.addRecipe(14000, <AWWayofTime:reinforcedSlate>, <liquid:hell_blood> * 9000);
+mods.thermalexpansion.Crucible.addRecipe(35000, <AWWayofTime:imbuedSlate>, <liquid:hell_blood> * 24000);
+mods.thermalexpansion.Crucible.addRecipe(110000, <AWWayofTime:demonicSlate>, <liquid:hell_blood> * 69000);
+mods.tconstruct.Smeltery.addMelting(<AWWayofTime:blankSlate>, <liquid:hell_blood> * 3000, 200,<AWWayofTime:largeBloodStoneBrick>);
+mods.tconstruct.Smeltery.addMelting(<AWWayofTime:reinforcedSlate>, <liquid:hell_blood> * 9000, 500,<AWWayofTime:largeBloodStoneBrick>);
+mods.tconstruct.Smeltery.addMelting(<AWWayofTime:imbuedSlate>, <liquid:hell_blood> * 24000, 1300,<AWWayofTime:largeBloodStoneBrick>);
+mods.tconstruct.Smeltery.addMelting(<AWWayofTime:demonicSlate>, <liquid:hell_blood> * 69000, 2300,<AWWayofTime:largeBloodStoneBrick>);
 
 //=====Minechem Reference===============================================================================================================
 val Iri = <ore:element_Ir>; var Fe = <ore:element_Fe>; var C = <ore:element_C>; var H = <ore:element_H>; var O = <ore:element_O>; var S = <ore:element_S>; var Na = <ore:element_Na>; var K = <ore:element_K>; var Cl = <ore:element_Cl>; var P = <ore:element_P>; var F = <ore:element_F>; var Al = <ore:element_Al>; var Si = <ore:element_Si>;
@@ -29,12 +27,13 @@ Chemicals.addMolecule("Nesosilicate Al2 Si O5",182,"Solid",[Al*2,Si*1,O*5]);
 
 
 //=====Minechem Blood Magic=============================================================================================================
-Decomposer.addFluid(<liquid:blood>*1000,[BPlasma*3, RBC*1]);
+Decomposer.addFluid(<liquid:hell_blood>*3000,[BPlasma*3, RBC*1]);
+Decomposer.addFluid(<liquid:blood>*500,[BPlasma*3, RBC*1]);
 
-Decomposer.addRecipe(<AWWayofTime:blankSlate>, 0.5,[[BPlasma*3, RBC*1]]);
-Decomposer.addRecipe(<AWWayofTime:reinforcedSlate>, 0.5,[[BPlasma*3*3, RBC*1*3]]);
-Decomposer.addRecipe(<AWWayofTime:imbuedSlate>, 0.5,[[BPlasma*3*8, RBC*1*8]]);
-Decomposer.addRecipe(<AWWayofTime:demonicSlate>, 0.5,[[BPlasma*3*23, RBC*1*23]]);
+Decomposer.addRecipe(<AWWayofTime:blankSlate>, 1,[[BPlasma*3, RBC*1]]);
+Decomposer.addRecipe(<AWWayofTime:reinforcedSlate>, 1,[[BPlasma*3*3, RBC*1*3]]);
+Decomposer.addRecipe(<AWWayofTime:imbuedSlate>, 1,[[BPlasma*3*8, RBC*1*8]]);
+Decomposer.addRecipe(<AWWayofTime:demonicSlate>, 1,[[BPlasma*3*23, RBC*1*23]]);
 
 //=====Minechem Botania=================================================================================================================
 
@@ -45,8 +44,8 @@ Decomposer.addRecipe(<arsmagica2:itemOre:5>,1,[[NeosiliAlSiO*16, F*16, OH*8],[Ne
 //=====Minechem Rotarycraft & Reactorcraft==============================================================================================
 //Decomposer.addRecipe(<RotaryCraft:rotarycraft_item_ethanol>, 1,[[<minechem:minechemMolecule:62>*8]]);
 //The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-//The above line is nothing but reik.a being a dick.
-Decomposer.addRecipe(<RotaryCraft:rotarycraft_item_ethanol>, 1,[[<minechem:minechemMolecule:62>*8]]);
+//Decomposer.addRecipe(<RotaryCraft:rotarycraft_item_ethanol>, 1,[[<minechem:minechemMolecule:62>*8]]);
+//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
 
 
 //=====Minechem Misc====================================================================================================================
