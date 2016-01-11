@@ -12,6 +12,17 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ExtraUtilities:spike_base_gold>);
+recipes.remove(<ExtraUtilities:spike_base_diamond>);
+recipes.remove(<ExtraUtilities:spike_base>);
+recipes.remove(<ExtraUtilities:spike_base_wood>);
+recipes.remove(<ExtraUtilities:watering_can:1>);
+recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
+recipes.remove(<ExtraUtilities:enderThermicPump>);
+recipes.remove(<ExtraUtilities:generator:5>);
+recipes.remove(<ExtraUtilities:generator:2>);
+recipes.remove(<ExtraUtilities:generator:1>);
+recipes.remove(<ExtraUtilities:generator>);
 recipes.remove(<EnderStorage:enderChest:4096>);
 recipes.remove(<EnderStorage:enderChest>);
 recipes.remove(<ExtraUtilities:golden_bag>);
@@ -47,6 +58,7 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:53>);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
 recipes.remove(<appliedenergistics2:tile.BlockController>);
 recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
+recipes.remove(<ExtraUtilities:drum>);
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
 recipes.remove(<appliedenergistics2:tile.BlockVibrationChamber>);
 recipes.remove(<AgriCraft:seedAnalyzer>);
@@ -192,6 +204,14 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:NABSteel>, <Forestry:mouldyWheat>, null], [<ore:NABSteel>, <ore:stoneBowl>, <BiomesOPlenty:misc:11>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
+recipes.addShaped(<ExtraUtilities:drum>, [[<ore:NABSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:cauldron>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:NABSteel>]]);
+recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<ore:gemLapis>, <ore:gemDiamond>, <ore:gemLapis>], [<ore:NABSteel>, <ThermalFoundation:tool.pickaxeInvar>, <ore:NABSteel>], [<ore:gemLapis>, <ore:NABSteel>, <ore:gemLapis>]]);
+recipes.addShaped(<ExtraUtilities:enderThermicPump>, [[<ore:NABSteel>, <ExtraUtilities:enderCollector>, <ore:NABSteel>], [<ore:burntQuartz>, <extracells:certustank>, <ore:burntQuartz>], [<ore:blockEnderObsidian>, <ImmersiveEngineering:metalDevice2:6>, <ore:blockEnderObsidian>]]);
+recipes.addShaped(<ExtraUtilities:generator:5>, [[<minecraft:iron_bars>, <harvestcraft:presser>, <minecraft:iron_bars>], [<ProjRed|Core:projectred.core.part:56>, <cookingbook:cookingoven>, <ProjRed|Core:projectred.core.part:56>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
+recipes.addShaped(<ExtraUtilities:generator:2>, [[<ore:ingotVulcanite>, <ore:ingotVulcanite>, <ore:ingotVulcanite>], [<ore:ingotVulcanite>, <ThermalExpansion:Tank:2>, <ore:ingotVulcanite>], [<ore:blockObsidian>, <RotaryCraft:rotarycraft_item_machine:45>, <ore:blockObsidian>]]);
+recipes.addShaped(<ExtraUtilities:generator:1>, [[<ImmersiveEngineering:metal:7>, <ImmersiveEngineering:metal:7>, <ImmersiveEngineering:metal:7>], [<ImmersiveEngineering:metal:7>, <minecraft:iron_block>, <ImmersiveEngineering:metal:7>], [<minecraft:redstone>, <RotaryCraft:rotarycraft_item_machine:45>, <minecraft:redstone>]]);
+recipes.addShaped(<ExtraUtilities:generator>, [[<TConstruct:Smeltery:4>, <TConstruct:Smeltery:4>, <TConstruct:Smeltery:4>], [<ore:ingotIron>, <ore:dustElectrotine>, <ore:ingotIron>], [<ore:ingotIron>, <RotaryCraft:rotarycraft_item_machine:45>, <ore:ingotIron>]]);
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<Mekanism:Ingot:4>, <ExtraUtilities:golden_bag>, <Mekanism:Ingot:4>]]);
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<Thaumcraft:ItemResource:2>, <ExtraUtilities:golden_bag>, <Thaumcraft:ItemResource:2>]]);
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<ore:ingotManasteel>, <ExtraUtilities:golden_bag>, <ore:ingotManasteel>]]);
@@ -385,7 +405,6 @@ recipes.addShaped(<TConstruct:Smeltery>, [[<TConstruct:Smeltery:2>, <TConstruct:
 recipes.addShaped(<StevesWorkshop:production_table_upgrade:8>, [[<ore:paneGlassColorless>, <minecraft:glass_pane>, <minecraft:glass_pane>], [<EnderIO:itemBasicCapacitor>, <MekanismGenerators:SolarPanel>, <EnderIO:itemBasicCapacitor>], [<minecraft:glass_pane>, <minecraft:glass_pane>, <ore:paneGlassColorless>]]);
 recipes.addShaped(<Natura:Obelisk>, [[<Natura:bloodwood>, <Natura:bloodwood>, <Natura:bloodwood>], [<Natura:bloodwood>, null, <Natura:bloodwood>], [<Natura:bloodwood>, <Natura:bloodwood>, <Natura:bloodwood>]]);
 recipes.addShaped(<Natura:florasapling:4>, [[<RandomThings:ingredient:3>, <ore:treeSapling>, <RandomThings:ingredient:3>], [null, null, <minecraft:soul_sand>]]);
-recipes.addShaped(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <OpenBlocks:filledbucket>, <minecraft:potion:8229>], [<ExtraUtilities:chandelier>, <TwilightForest:item.ironwoodSword>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <Natura:Obelisk>, <ExtraUtilities:chandelier>]]);
 recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:blockSteel>, <ore:blockRedstone>, <ore:blockSteel>], [<ore:battery>, <Mekanism:ElectrolyticCore>, <ore:battery>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
 recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:alloyBasic>, <ore:compressedIron>, <ore:alloyBasic>], [<ore:alloyAdvanced>, <Mekanism:ElectrolyticCore>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
 recipes.addShaped(<Botania:travelBelt>, [[<ore:itemLeather>, <ore:runeAirB>, <ore:itemLeather>], [null, <ore:runeManaB>, null], [<ore:itemLeather>, <Botania:rune:2>, <minecraft:leather>]]);
@@ -413,3 +432,14 @@ recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>,
 mods.tconstruct.Smeltery.removeMelting(<minecraft:rotten_flesh>);
 mods.tconstruct.Smeltery.addMelting(<Railcraft:brick.bloodstained:2>, <liquid:blood>*100, 300, <Railcraft:brick.bloodstained:2>);
 furnace.addRecipe(<BigReactors:BRIngot:2>, <IC2:itemPartCarbonFibre>, 0.5);
+
+
+
+
+// =====================QED Crafting
+recipes.addShaped(<ExtraUtilities:spike_base_wood>, [[null, <ExtraUtilities:decorativeBlock1:8>, null], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:ethericsword>, <ExtraUtilities:decorativeBlock1:8>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamond_sword>, null], [<minecraft:diamond_sword>, <minecraft:diamond_block>, <minecraft:diamond_sword>], [<minecraft:diamond_block>, <ExtraUtilities:spike_base_gold>, <minecraft:diamond_block>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ExtraUtilities:decorativeBlock1:8>, <minecraft:golden_sword>], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:spike_base>, <ExtraUtilities:decorativeBlock1:8>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, null, <minecraft:iron_block>]]);
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <OpenBlocks:filledbucket>, <minecraft:potion:8229>], [<ExtraUtilities:chandelier>, <TwilightForest:item.ironwoodSword>,<ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <Natura:Obelisk>, <ExtraUtilities:chandelier>]]);
+
