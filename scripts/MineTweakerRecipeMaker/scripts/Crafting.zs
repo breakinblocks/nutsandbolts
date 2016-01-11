@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<EnderIO:blockCapBank:3>);
+recipes.remove(<EnderIO:blockCapBank:2>);
+recipes.remove(<ImmersiveEngineering:metalDevice:3>);
+recipes.remove(<EnderIO:blockCapBank:1>);
+recipes.remove(<ImmersiveEngineering:metalDevice:1>);
 recipes.remove(<Botania:lens:7>);
 recipes.remove(<Botania:spreader>);
 recipes.remove(<Botania:lavaPendant>);
@@ -210,6 +215,12 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [[<ImmersiveEngineering:metal:20>, <OpenComputers:item:26>, <ImmersiveEngineering:metal:20>], [<ThermalFoundation:material:76>, <ImmersiveEngineering:metalDevice:3>, <ThermalFoundation:material:76>], [<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:storage:10>, <ImmersiveEngineering:metal:20>]]);
+recipes.addShaped(<EnderIO:blockCapBank:3>, [[<ElectriCraft:electricraft_item_wire:23>, <OpenComputers:item:26>, <ElectriCraft:electricraft_item_wire:23>], [<EnderIO:blockCapBank:2>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:2>], [<EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:2>]]);
+recipes.addShaped(<EnderIO:blockCapBank:2>, [[<EnderIO:itemAlloy>, <BuildCraft|Silicon:redstoneChipset:5>, <EnderIO:itemAlloy>], [<EnderIO:blockCapBank:1>, <EnderIO:itemAlloy>, <EnderIO:blockCapBank:1>], [<EnderIO:itemAlloy:1>, <EnderIO:itemAlloy:1>, <EnderIO:itemAlloy:1>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:3>, [[<ore:ingotNaturalAluminum>, <ImmersiveEngineering:storage:9>, <ore:ingotNaturalAluminum>], [<ore:ingotNaturalAluminum>, <ImmersiveEngineering:metalDevice:1>, <ore:ingotNaturalAluminum>], [<ore:ingotNaturalAluminum>, <ore:blockRedstone>, <ore:ingotNaturalAluminum>]]);
+recipes.addShaped(<EnderIO:blockCapBank:1>, [[<ProjRed|Core:projectred.core.part:55>, <EnderIO:itemAlloy>, <ProjRed|Core:projectred.core.part:10>], [<EnderIO:itemAlloy>, <OpenComputers:capacitor>, <EnderIO:itemAlloy>], [<EnderIO:itemBasicCapacitor>, <EnderIO:itemAlloy>, <EnderIO:itemBasicCapacitor>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:1>, [[<ore:ingotElectrotineAlloy>, <ore:NABSteel>, <ore:ingotRedAlloy>], [<ore:NABSteel>, <ore:oc:capacitor>, <ore:NABSteel>], [<ore:plankTreatedWood>, <ore:NABSteel>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<Botania:lens:7>, [[null, <ore:manaDiamond>, null], [<ore:dustElectrotine>, <Botania:lens>, <ore:dustElectrotine>], [<ore:craftingPiston>, <Botania:manasteelPick>, <ore:craftingPiston>]]);
 recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:11>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
 recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:12>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
