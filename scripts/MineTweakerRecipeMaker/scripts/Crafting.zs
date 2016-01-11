@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<gendustry:PowerModule>);
 recipes.remove(<ExtraUtilities:spike_base_gold>);
 recipes.remove(<ExtraUtilities:spike_base_diamond>);
 recipes.remove(<ExtraUtilities:spike_base>);
@@ -204,6 +205,7 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<gendustry:PowerModule>, [[<ElectriCraft:electricraft_item_wire:23>, <ProjRed|Core:projectred.core.part:59>, <ElectriCraft:electricraft_item_wire:23>], [<ElectriCraft:electricraft_item_wire:23>, <gendustry:GeneticsProcessor>, <ElectriCraft:electricraft_item_wire:23>], [<ore:gearBronze>, <ore:gearEnderium>, <ore:gearBronze>]]);
 recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:NABSteel>, <Forestry:mouldyWheat>, null], [<ore:NABSteel>, <ore:stoneBowl>, <BiomesOPlenty:misc:11>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
 recipes.addShaped(<ExtraUtilities:drum>, [[<ore:NABSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:cauldron>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:NABSteel>]]);
 recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<ore:gemLapis>, <ore:gemDiamond>, <ore:gemLapis>], [<ore:NABSteel>, <ThermalFoundation:tool.pickaxeInvar>, <ore:NABSteel>], [<ore:gemLapis>, <ore:NABSteel>, <ore:gemLapis>]]);
