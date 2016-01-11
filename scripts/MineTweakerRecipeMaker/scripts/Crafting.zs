@@ -12,6 +12,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Railcraft:machine.alpha:12>);
+recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
+recipes.remove(<Metallurgy:nether.dust:10>);
+recipes.remove(<Metallurgy:fantasy.dust:3>);
+recipes.remove(<Metallurgy:nether.dust:10>);
+recipes.remove(<Metallurgy:base.dust:5>);
+recipes.remove(<Metallurgy:base.dust:7>);
+recipes.remove(<Mekanism:MachineBlock:8>);
 recipes.remove(<EnderIO:blockCapBank:3>);
 recipes.remove(<EnderIO:blockCapBank:2>);
 recipes.remove(<ImmersiveEngineering:metalDevice:3>);
@@ -215,6 +223,9 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Railcraft:machine.alpha:12> * 4, [[<ExtraUtilities:cobblestone_compressed:1>, <minecraft:brick>, <ExtraUtilities:cobblestone_compressed:1>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<ExtraUtilities:cobblestone_compressed:1>, <minecraft:brick>, <ExtraUtilities:cobblestone_compressed:1>]]);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2> * 2, [[<TConstruct:materials:2>, <ore:ingotBrick>, <TConstruct:materials:2>], [<ore:ingotBrick>, <minecraft:magma_cream>, <ore:ingotBrick>], [<TConstruct:materials:2>, <ore:ingotBrick>, <TConstruct:materials:2>]]);
+recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:NABSteel>, <RotaryCraft:rotarycraft_item_machine:45>, <ore:NABSteel>], [<ThermalExpansion:material>, <ore:ingotOsmium>, <ThermalExpansion:material>], [<ore:NABSteel>, <RotaryCraft:rotarycraft_item_machine:45>, <ore:NABSteel>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [[<ImmersiveEngineering:metal:20>, <OpenComputers:item:26>, <ImmersiveEngineering:metal:20>], [<ThermalFoundation:material:76>, <ImmersiveEngineering:metalDevice:3>, <ThermalFoundation:material:76>], [<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:storage:10>, <ImmersiveEngineering:metal:20>]]);
 recipes.addShaped(<EnderIO:blockCapBank:3>, [[<ElectriCraft:electricraft_item_wire:23>, <OpenComputers:item:26>, <ElectriCraft:electricraft_item_wire:23>], [<EnderIO:blockCapBank:2>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:2>], [<EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:2>]]);
 recipes.addShaped(<EnderIO:blockCapBank:2>, [[<EnderIO:itemAlloy>, <BuildCraft|Silicon:redstoneChipset:5>, <EnderIO:itemAlloy>], [<EnderIO:blockCapBank:1>, <EnderIO:itemAlloy>, <EnderIO:blockCapBank:1>], [<EnderIO:itemAlloy:1>, <EnderIO:itemAlloy:1>, <EnderIO:itemAlloy:1>]]);
