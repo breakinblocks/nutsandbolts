@@ -2,21 +2,21 @@
 #You can get these values from NEI
 #Blacklisted seeds will not be able to planted on crops
 #For example: AgriCraft:seedDandelion
-AgriCraft:nuggetQuartz
-AgriCraft:seedAurigold
-AgriCraft:seedCinderpearl
-AgriCraft:seedCuprosia
-AgriCraft:seedDiamahlia
-AgriCraft:seedEmeryllis
-AgriCraft:seedFerranium
-AgriCraft:seedJaslumine
-AgriCraft:seedLapender
-AgriCraft:seedNitorWart
-AgriCraft:seedSilverweed
-AgriCraft:seedRedstodendron
-AgriCraft:seedQuartzanthemum
-AgriCraft:seedPlombean
-AgriCraft:seedPlatiolus
-AgriCraft:seedPetinia
-AgriCraft:seedOsmonium
-AgriCraft:seedNiccissus
+AgriCraft:nuggetQuartz:0
+AgriCraft:seedAurigold:0
+AgriCraft:seedCinderpearl:0
+AgriCraft:seedCuprosia:0
+AgriCraft:seedDiamahlia:0
+AgriCraft:seedEmeryllis:0
+AgriCraft:seedFerranium:0
+AgriCraft:seedJaslumine:0
+AgriCraft:seedLapender:0
+AgriCraft:seedNitorWart:0
+AgriCraft:seedSilverweed:0
+AgriCraft:seedRedstodendron:0
+AgriCraft:seedQuartzanthemum:0
+AgriCraft:seedPlombean:0
+AgriCraft:seedPlatiolus:0
+AgriCraft:seedPetinia:0
+AgriCraft:seedOsmonium:0
+AgriCraft:seedNiccissus:0

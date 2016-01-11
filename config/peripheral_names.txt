@@ -1,7 +1,27 @@
 #OpenPeripheral user-friendly names
 #class_name	user_name
+Reika.RotaryCraft.TileEntities.Transmission.TileEntityAdvancedGear	cvt_unit
+appeng.parts.layers.LayerIPipeConnection_TileCableBus	aemultipart
+appeng.tile.networking.TileController	tilecontroller
+blusunrize.immersiveengineering.common.blocks.metal.TileEntityArcFurnace	iearcfurnace
+blusunrize.immersiveengineering.common.blocks.metal.TileEntityCapacitorHV	immersiveengineering_capacitorhv
+blusunrize.immersiveengineering.common.blocks.metal.TileEntityRefinery	ierefinery
+cofh.thermaldynamics.duct.fluid.TileFluidDuct	thermaldynamics_fluidduct
+cofh.thermalexpansion.block.machine.TileExtruder	tile_thermalexpansion_machine_extruder_name
+com.InfinityRaider.AgriCraft.tileentity.TileEntityPeripheral	container_agricraft_seedanalyzer
+com.rwtema.extrautils.tileentity.TileEntityDrum	drum
 com.rwtema.extrautils.tileentity.enderconstructor.TileEnderConstructor	ender_crafting
+cpw.mods.ironchest.TileEntityCrystalChest	crystal
+crazypants.enderio.conduit.TileConduitBundle	blockconduitbundletileentity
+crazypants.enderio.machine.capbank.TileCapBank	tile_blockcapacitorbank_name
 dan200.computercraft.shared.turtle.blocks.TileTurtle	miningturtle01
+dan200.computercraft.shared.turtle.blocks.TileTurtleAdvanced	steve
+mcjty.rftools.blocks.teleporter.DialingDeviceTileEntity	dialingdevicetileentity
+mcjty.rftools.blocks.teleporter.MatterTransmitterTileEntity	mattertransmittertileentity
+mcp.mobius.betterbarrels.common.blocks.TileEntityBarrel	mcp_mobius_betterbarrel
+mekanism.common.tile.TileEntityEnrichmentChamber	enrichment_chamber
+mekanism.common.tile.TileEntityMetallurgicInfuser	metallurgic_infuser
+mods.immibis.chunkloader.TileChunkLoader	tilechunkloader
 net.minecraft.block.BlockJukebox$TileEntityJukebox	record_player
 net.minecraft.tileentity.TileEntityBeacon	beacon
 net.minecraft.tileentity.TileEntityBrewingStand	brewing_stand
@@ -18,3 +38,9 @@ net.minecraft.tileentity.TileEntityHopper	hopper
 net.minecraft.tileentity.TileEntityNote	note_block
 net.minecraft.tileentity.TileEntitySign	sign
 net.minecraft.tileentity.TileEntitySkull	skull
+noppes.npcs.blocks.tiles.TileCrate	tile_npccrate_name
+openperipheral.addons.glasses.TileEntityGlassesBridge	openperipheral_bridge
+openperipheral.addons.selector.TileEntitySelector	openperipheral_selector
+pl.asie.computronics.tile.TileChatBox	peripheral
+pl.asie.computronics.tile.TileIronNote	peripheral
+shedar.mods.ic2.nuclearcontrol.tileentities.TileEntityAdvancedInfoPanel	block_statusdisplay

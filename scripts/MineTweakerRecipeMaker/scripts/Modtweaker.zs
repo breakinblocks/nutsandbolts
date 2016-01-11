@@ -43,13 +43,81 @@ nabsteel.add(<Mekanism:Ingot:4>);
 nabsteel.add(<Railcraft:ingot>);
 nabsteel.add(<RotaryCraft:rotarycraft_item_modingots:47>);
 nabsteel.add(<TConstruct:materials:16>);
+nabsteel.add(<IC2:itemIngot:3>);
+nabsteel.add(<ImmersiveEngineering:metal:7>);
+
+val hardsteel = <ore:HSteel>;
+hardsteel.add(<Railcraft:ingot>);
+hardsteel.add(<ImmersiveEngineering:metal:7>);
+
+//Botania
+
+# - Ore Dictionary
+# -- Remove botania dye
+val dyeWhite = <ore:dyeWhite>;
+val dyeOrange = <ore:dyeOrange>;
+val dyeMagenta = <ore:dyeMagenta>;
+val dyeLightBlue = <ore:dyeLightBlue>;
+val dyeYellow = <ore:dyeYellow>;
+val dyeLime = <ore:dyeLime>;
+val dyePink = <ore:dyePink>;
+val dyeGray = <ore:dyeGray>;
+val dyeLightGray = <ore:dyeLightGray>;
+val dyeCyan = <ore:dyeCyan>;
+val dyePurple = <ore:dyePurple>;
+val dyeBlue = <ore:dyeBlue>;
+val dyeBrown = <ore:dyeBrown>;
+val dyeGreen = <ore:dyeGreen>;
+val dyeRed = <ore:dyeRed>;
+val dyeBlack = <ore:dyeBlack>;
+dyeWhite.remove(<Botania:dye>);
+dyeOrange.remove(<Botania:dye:1>);
+dyeMagenta.remove(<Botania:dye:2>);
+dyeLightBlue.remove(<Botania:dye:3>);
+dyeYellow.remove(<Botania:dye:4>);
+dyeLime.remove(<Botania:dye:5>);
+dyePink.remove(<Botania:dye:6>);
+dyeGray.remove(<Botania:dye:7>);
+dyeLightGray.remove(<Botania:dye:8>);
+dyeCyan.remove(<Botania:dye:9>);
+dyePurple.remove(<Botania:dye:10>);
+dyeBlue.remove(<Botania:dye:11>);
+dyeBrown.remove(<Botania:dye:12>);
+dyeGreen.remove(<Botania:dye:13>);
+dyeRed.remove(<Botania:dye:14>);
+dyeBlack.remove(<Botania:dye:15>);
+
+# -- Mystical Flowers Unified
+val flower = <ore:flowerMystical>;
+flower.add(<Botania:flower:*>);
+
+# -- Mystical Petals Unified
+val petal = <ore:petalMystical>;
+petal.add(<Botania:petal:*>);
+
+
+//Fix MagicBees Recipes
+mods.botania.Apothecary.removeRecipe("hibeescus");
+mods.botania.Apothecary.removeRecipe("hiveacynth");
+mods.botania.Apothecary.removeRecipe("beegonia");
+
+mods.botania.Apothecary.addRecipe("hibeescus", [<ore:petalOrange>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalMagenta>, <ore:petalRed>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:runeAirB>, <ore:runeSummerB>, <ore:runeEnvyB>, <ore:runeGreedB>, <ore:runePrideB>, <ore:redstoneRoot>]);
+mods.botania.Apothecary.addRecipe("hiveacynth", [<ore:petalLightBlue>, <ore:petalCyan>, <ore:petalCyan>, <ore:petalBlue>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:redstoneRoot>]);
+mods.botania.Apothecary.addRecipe("beegonia", [<ore:petalWhite>, <ore:petalYellow>, <ore:petalYellow>, <ore:petalYellow>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>]);
+
 
 //Base manasteel recipe removed
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 //manasteel can be made from mana infused ingots
 mods.botania.ManaInfusion.addAlchemy(<Botania:manaResource> * 3, <ore:ingotMithril>, 2000);
 mods.botania.ManaInfusion.addInfusion(<ThermalFoundation:material:70>, <ThermalFoundation:material:69>, 1000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:ingotSteel>, 5250);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:NABSteel>, 5250);
+
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource:23>);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource:23>,<appliedenergistics2:item.ItemMultiMaterial:2>,1000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource:23>,<appliedenergistics2:item.ItemMultiMaterial:3>,650);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource:23>*5,<Botania:fertilizer>,4000);
+
 
 //purified Wills
 mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancientWill>, 25000);
@@ -63,47 +131,26 @@ mods.botania.ManaInfusion.addInfusion(<bbtweaks:ItemAwakenedCore>, <bbtweaks:Ite
 
 
 //Botania mana petal nerfs
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:0>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:1>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:2>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:3>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:4>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:5>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:6>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:7>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:8>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:9>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:10>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:11>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:12>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:13>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:14>);
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaPetal:15>);
-
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:0>, <Botania:petal:0>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:1>, <Botania:petal:1>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:2>, <Botania:petal:2>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:3>, <Botania:petal:3>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:4>, <Botania:petal:4>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:5>, <Botania:petal:5>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:6>, <Botania:petal:6>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:7>, <Botania:petal:7>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:8>, <Botania:petal:8>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:9>, <Botania:petal:9>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:10>, <Botania:petal:10>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:11>, <Botania:petal:11>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:12>, <Botania:petal:12>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:13>, <Botania:petal:13>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:14>, <Botania:petal:14>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:15>, <Botania:petal:15>, 5000);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaPetal:16>, <Botania:petal:16>, 5000);
 
 //mods.botania.ManaInfusion.removeRecipe(<Botania:specialFlower.withTag({type:"endoflame"})>);
-mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}));
-mods.botania.RuneAltar.addRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}), [<Botania:rune:1>,<minecraft:blaze_rod>,<Botania:manaPetal:14>,<Botania:manaPetal:12>,<Botania:manaPetal:1>,<Botania:grassSeeds>], 5250);
+//mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}));
+//mods.botania.Apothecary.addRecipe(<Botania:specialFlower>.withTag({type: "endoflame"}), [<Botania:rune:1>,<Botania:manaPetal:14>,<Botania:manaPetal:12>,<Botania:manaPetal:1>,<Botania:manaPetal:14>]);
+
+mods.botania.RuneAltar.addRecipe(<Botania:dice>, [<bbtweaks:ItemAwakenedCore>, <Botania:rune:8>, <Botania:rune:15>, <ExtraUtilities:unstableingot:1>], 50000);
+
 
 //using Blazing Pyrotheum gives double Incendium
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium> * 3, [<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:netherrack>, <AWWayofTime:simpleCatalyst>, <ThermalFoundation:bucket:3>], 4, 0);
+
+
+//Thaumcraft
+val shardBalance = <ore:shardBalance>;
+shardBalance.add(<Thaumcraft:ItemShard:6>);
+
+<ore:nuggetManasteel>.remove(<ForbiddenMagic:FMResource:2>);
+<ore:nuggetElvenElementium>.remove(<ForbiddenMagic:FMResource:4>);
+mods.thaumcraft.Arcane.addShapeless("RESEARCH", <minecraft:fire_charge>*3, "ignis 10", [<ore:coal>, <ore:dustGunpowder>, <ore:shardFire>]);
+
 
 //nether star infusion recipe
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>], "superbia 4, lux 16, alienis 4", <minecraft:nether_star>, 1);
@@ -134,6 +181,8 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>
 
 // thermal expansion Magma Crucible!
 // thermal expansion Pulverizer
+
+mods.thermalexpansion.Crucible.addRecipe(1000, <bbtweaks:ItemTarBall>, <liquid:oil> * 100);
 
 
 //Bloodmagic blood orb takes an emerald now
@@ -176,6 +225,8 @@ mods.minechem.Synthesiser.addRecipe([<ore:element_Fr>*1,<ore:element_Be>*7,<ore:
 mods.minechem.Synthesiser.addRecipe([<ore:element_Li>*16,<ore:element_Li>*16],<ore:gemDilithium>*1,true,8800);
 mods.minechem.Synthesiser.addRecipe([<minechem:minechemElement:120>*16],<ore:ingotDesh>*1,false,64000);
 mods.minechem.Synthesiser.addRecipe([<ore:element_Hg>*16],<ore:quicksilver>*1,false,6400);
+mods.minechem.Synthesiser.addRecipe([<minechem:minechemElement:6>*8,<minechem:minechemElement:1>*16],<bbtweaks:ItemTarBall>,false,1000);
+
 //Desh Ingots causes crashes, hence raw desh
 mods.minechem.Synthesiser.addRecipe([Fe*32,Fe*32,Fe*32,Fe*32,<minechem:minechemMolecule:69>*1,Fe*32,Fe*32,Fe*32,Fe*32],<GalacticraftMars:item.null>*1,true,128000);
 mods.minechem.Synthesiser.addRecipe([<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<minechem:minechemMolecule:7>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64],<GalacticraftCore:item.meteoricIronIngot>*1,true,128000);
