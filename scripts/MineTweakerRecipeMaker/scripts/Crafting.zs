@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Botania:lens:7>);
+recipes.remove(<Botania:spreader>);
+recipes.remove(<Botania:lavaPendant>);
+recipes.remove(<Botania:altar>);
+recipes.remove(<Botania:pool>);
 recipes.remove(<gendustry:PowerModule>);
 recipes.remove(<ExtraUtilities:spike_base_gold>);
 recipes.remove(<ExtraUtilities:spike_base_diamond>);
@@ -205,6 +210,25 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Botania:lens:7>, [[null, <ore:manaDiamond>, null], [<ore:dustElectrotine>, <Botania:lens>, <ore:dustElectrotine>], [<ore:craftingPiston>, <Botania:manasteelPick>, <ore:craftingPiston>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:11>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:12>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:13>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:14>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:15>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:8>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:10>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:7>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:6>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:5>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:3>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:4>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:2>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <Botania:petal:1>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:ingotElectrum>, <ore:petalWhite>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+recipes.addShaped(<Botania:lavaPendant>, [[<ore:runeSummerB>, <ore:manaString>, null], [<TConstruct:bowstring:2>, null, <TConstruct:bowstring:2>], [<ore:ingotManasteel>, <TConstruct:bowstring:2>, <ore:runeFireB>]]);
+recipes.addShaped(<Botania:altar>, [[null, <Botania:fertilizer>, null], [<ore:compressedCobblestone2x>, <TConstruct:SearedSlab:1>, <ore:compressedCobblestone2x>], [<ore:stoneMossy>, <ore:stoneMossy>, <ore:stoneMossy>]]);
+recipes.addShaped(<Botania:pool>, [[<ore:gemQuartz>, null, <ore:gemQuartz>], [<Botania:livingrock0Slab>, <arsmagica2:lesserManaPotion>, <Botania:livingrock0Slab>], [<Botania:livingrock0Slab>, <Botania:livingrock0Slab>, <Botania:livingrock0Slab>]]);
 recipes.addShaped(<gendustry:PowerModule>, [[<ElectriCraft:electricraft_item_wire:23>, <ProjRed|Core:projectred.core.part:59>, <ElectriCraft:electricraft_item_wire:23>], [<ElectriCraft:electricraft_item_wire:23>, <gendustry:GeneticsProcessor>, <ElectriCraft:electricraft_item_wire:23>], [<ore:gearBronze>, <ore:gearEnderium>, <ore:gearBronze>]]);
 recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:NABSteel>, <Forestry:mouldyWheat>, null], [<ore:NABSteel>, <ore:stoneBowl>, <BiomesOPlenty:misc:11>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
 recipes.addShaped(<ExtraUtilities:drum>, [[<ore:NABSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:cauldron>, <ore:NABSteel>], [<ore:NABSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:NABSteel>]]);
