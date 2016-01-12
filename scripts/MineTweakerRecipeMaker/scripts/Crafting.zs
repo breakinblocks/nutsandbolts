@@ -12,30 +12,6 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:5>);
-recipes.remove(<Mekanism:FactoryInstaller:2>);
-recipes.remove(<Mekanism:FactoryInstaller:1>);
-recipes.remove(<Mekanism:FactoryInstaller>);
 recipes.remove(<powersuits:powerArmorComponent:19>);
 recipes.remove(<powersuits:powerArmorComponent:15>);
 recipes.remove(<powersuits:powerArmorComponent:7>);
