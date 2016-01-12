@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ThermalExpansion:Cell:1>);
+recipes.remove(<ThermalExpansion:Frame:5>);
+recipes.remove(<ThermalExpansion:Frame:9>);
+recipes.remove(<ThermalExpansion:Frame:8>);
+recipes.remove(<ThermalExpansion:Frame:6>);
 recipes.remove(<ThermalExpansion:Frame:10>);
 recipes.remove(<ThermalExpansion:Frame:3>);
 recipes.remove(<ThermalExpansion:Frame:2>);
@@ -229,6 +234,10 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ProjRed|Core:projectred.core.part:56>, null], [<Mekanism:Ingot:4>, <ThermalExpansion:Frame:4>, <Mekanism:Ingot:4>], [<ore:NABSteel>, <ThermalExpansion:material:3>, <ore:NABSteel>]]);
+recipes.addShaped(<ThermalExpansion:Frame:5>, [[null, <ore:chipsetQuartz>, null], [<ore:gearInvar>, <ThermalExpansion:Cell:1>, <ore:gearInvar>], [null, <ThermalExpansion:material:3>, null]]);
+recipes.addShaped(<ThermalExpansion:Frame:9>, [[<ElectriCraft:electricraft_item_wire:23>, <ore:ingotEnderium>, <ElectriCraft:electricraft_item_wire:23>], [<ore:ingotEnderium>, <ThermalExpansion:Frame:7>, <ore:ingotEnderium>], [<ElectriCraft:electricraft_item_wire:23>, <ore:ingotEnderium>, <ElectriCraft:electricraft_item_wire:23>]]);
+recipes.addShaped(<ThermalExpansion:Frame:6>, [[<ore:blockGlassHardened>, <ore:ingotElectrumFlux>, <ore:blockGlassHardened>], [<RedstoneArsenal:material:32>, <ElectriCraft:electricraft_item_crystal>, <ore:ingotElectrumFlux>], [<ore:blockGlassHardened>, <ore:ingotElectrumFlux>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<ThermalExpansion:Frame:3>, [[<ElectriCraft:electricraft_item_wire:23>, <GekosLasers:energizedLaserite>, <ElectriCraft:electricraft_item_wire:23>], [<ThermalFoundation:material:140>, <ThermalExpansion:Frame:2>, <ThermalFoundation:material:140>], [<ore:NABSteel>, <Mekanism:Ingot:4>, <ore:NABSteel>]]);
 recipes.addShaped(<ThermalExpansion:Frame:2>, [[<Mekanism:Ingot:4>, <BuildCraft|Silicon:redstoneChipset:4>, <Mekanism:Ingot:4>], [<ThermalExpansion:Glass>, <OpenComputers:item:25>, <ThermalExpansion:Glass>], [<Mekanism:Ingot:4>, <ThermalFoundation:material:138>, <Mekanism:Ingot:4>]]);
 recipes.addShaped(<ThermalExpansion:Frame:1>, [[<ore:glass>, <ore:oc:capacitor>, <ore:glass>], [<ore:ingotElectrum>, <Mekanism:BasicBlock:8>, <ore:ingotElectrum>], [<ore:glass>, <ore:gearElectrum>, <ore:glass>]]);
