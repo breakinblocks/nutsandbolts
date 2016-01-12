@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ThermalExpansion:Dynamo:1>);
 recipes.remove(<ThermalExpansion:Cell:1>);
 recipes.remove(<ThermalExpansion:Frame:5>);
 recipes.remove(<ThermalExpansion:Frame:9>);
@@ -193,6 +194,7 @@ recipes.remove(<BuildCraft|Builders:machineBlock>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<IC2:blockGenerator:1>, [[<ThermalExpansion:Tank:2>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -234,6 +236,8 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<IC2:blockGenerator:1>, [[<ProjRed|Core:projectred.core.part:55>, <RotaryCraft:rotarycraft_item_machine:74>, <ProjRed|Core:projectred.core.part:10>], [<IC2:itemCellEmpty>, <IC2:itemCasing:4>, <IC2:itemCellEmpty>], [<IC2:itemCasing:4>, <IC2:blockGenerator>, <IC2:itemCasing:4>]]);
+recipes.addShaped(<ThermalExpansion:Dynamo:1>, [[null, <ore:ingotElectrotineAlloy>, null], [<ore:ingotVulcanite>, <ore:ingotRedAlloy>, <ore:ingotVulcanite>], [<ore:gearInvar>, <ThermalExpansion:Tank:2>, <ore:gearInvar>]]);
 recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ProjRed|Core:projectred.core.part:56>, null], [<Mekanism:Ingot:4>, <ThermalExpansion:Frame:4>, <Mekanism:Ingot:4>], [<ore:NABSteel>, <ThermalExpansion:material:3>, <ore:NABSteel>]]);
 recipes.addShaped(<ThermalExpansion:Frame:5>, [[null, <ore:chipsetQuartz>, null], [<ore:gearInvar>, <ThermalExpansion:Cell:1>, <ore:gearInvar>], [null, <ThermalExpansion:material:3>, null]]);
 recipes.addShaped(<ThermalExpansion:Frame:9>, [[<ElectriCraft:electricraft_item_wire:23>, <ore:ingotEnderium>, <ElectriCraft:electricraft_item_wire:23>], [<ore:ingotEnderium>, <ThermalExpansion:Frame:7>, <ore:ingotEnderium>], [<ElectriCraft:electricraft_item_wire:23>, <ore:ingotEnderium>, <ElectriCraft:electricraft_item_wire:23>]]);
