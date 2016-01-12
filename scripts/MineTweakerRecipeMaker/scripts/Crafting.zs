@@ -12,6 +12,10 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ThermalDynamics:ThermalDynamics_0:7>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_0:4>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_0:5>);
+recipes.remove(<ThermalDynamics:ThermalDynamics_0:3>);
 recipes.remove(<ThermalExpansion:Dynamo:1>);
 recipes.remove(<ThermalExpansion:Cell:1>);
 recipes.remove(<ThermalExpansion:Frame:5>);
@@ -236,6 +240,9 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:7>, [[<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:4>, <ore:blockGlassHardened>], [<ThermalDynamics:ThermalDynamics_0:4>, <ore:chipsetPulsating>, <ThermalDynamics:ThermalDynamics_0:4>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:4>, <ore:blockGlassHardened>]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:5> * 6, [[<ore:ingotEnderium>, <ThermalDynamics:ThermalDynamics_0:3>, <ore:ingotEnderium>], [<ThermalDynamics:ThermalDynamics_0:3>, <ore:dustBasalz>, <ThermalDynamics:ThermalDynamics_0:3>], [<ore:ingotEnderium>, <ThermalDynamics:ThermalDynamics_0:3>, <ore:ingotEnderium>]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:3> * 6, [[<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:1>, <ore:blockGlassHardened>], [<ThermalDynamics:ThermalDynamics_0:1>, <ore:ingotElectrumFlux>, <ThermalDynamics:ThermalDynamics_0:1>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:1>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<IC2:blockGenerator:1>, [[<ProjRed|Core:projectred.core.part:55>, <RotaryCraft:rotarycraft_item_machine:74>, <ProjRed|Core:projectred.core.part:10>], [<IC2:itemCellEmpty>, <IC2:itemCasing:4>, <IC2:itemCellEmpty>], [<IC2:itemCasing:4>, <IC2:blockGenerator>, <IC2:itemCasing:4>]]);
 recipes.addShaped(<ThermalExpansion:Dynamo:1>, [[null, <ore:ingotElectrotineAlloy>, null], [<ore:ingotVulcanite>, <ore:ingotRedAlloy>, <ore:ingotVulcanite>], [<ore:gearInvar>, <ThermalExpansion:Tank:2>, <ore:gearInvar>]]);
 recipes.addShaped(<ThermalExpansion:Cell:1>, [[null, <ProjRed|Core:projectred.core.part:56>, null], [<Mekanism:Ingot:4>, <ThermalExpansion:Frame:4>, <Mekanism:Ingot:4>], [<ore:NABSteel>, <ThermalExpansion:material:3>, <ore:NABSteel>]]);

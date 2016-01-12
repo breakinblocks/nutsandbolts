@@ -39,7 +39,7 @@ cheese.add(<GalacticraftCore:item.cheeseCurd>);
 val nabsteel = <ore:NABSteel>;
 nabsteel.add(<Mekanism:Ingot:4>);
 nabsteel.add(<Railcraft:ingot>);
-nabsteel.add(<RotaryCraft:rotarycraft_item_modingots:47>);
+//nabsteel.add(<RotaryCraft:rotarycraft_item_modingots:47>);
 nabsteel.add(<TConstruct:materials:16>);
 nabsteel.add(<IC2:itemIngot:3>);
 nabsteel.add(<ImmersiveEngineering:metal:7>);
@@ -181,6 +181,8 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>
 // thermal expansion Pulverizer
 
 mods.thermalexpansion.Crucible.addRecipe(1000, <bbtweaks:ItemTarBall>, <liquid:oil> * 100);
+mods.thermalexpansion.Transposer.addFillRecipe(400000, <ThermalFoundation:material:38>, <ThermalFoundation:material:516>, <liquid:mana> * 100);
+
 
 
 //Bloodmagic blood orb takes an emerald now
