@@ -12,6 +12,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<powersuits:powerArmorComponent:19>);
+recipes.remove(<powersuits:powerArmorComponent:15>);
+recipes.remove(<powersuits:powerArmorComponent:7>);
+recipes.remove(<powersuits:powerArmorComponent:6>);
+recipes.remove(<powersuits:powerArmorComponent:5>);
+recipes.remove(<powersuits:powerArmorComponent:11>);
+recipes.remove(<powersuits:tile.tinkerTable>);
+recipes.remove(<powersuits:powerArmorComponent>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:7>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:4>);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:5>);
@@ -240,6 +248,17 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<powersuits:powerArmorComponent:19>, [[<mo:isolinear_circuit>, <ore:oc:materialCircuitBoardPrinted>, <mo:isolinear_circuit>], [<ore:componentSolenoid>, <ore:componentSolenoid>, <ore:componentSolenoid>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:17>, [[<powersuits:powerArmorComponent>, <Mekanism:Ingot:4>, <powersuits:powerArmorComponent>], [<EnderIO:blockSolarPanel:1>, <ProjRed|Core:projectred.core.part:58>, <EnderIO:blockSolarPanel:1>], [<powersuits:powerArmorComponent>, <Mekanism:Ingot:4>, <powersuits:powerArmorComponent>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:8>, [[<ore:blockCloth>, <ore:blockCloth>, <ore:blockCloth>], [<minecraft:string>, null, <minecraft:string>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:15>, [[null, <IC2:itemPartCarbonMesh>, null], [<ore:slimeball>, <ProjRed|Core:projectred.core.part:58>, <ore:slimeball>], [null, <ore:slimeball>, null]]);
+recipes.addShaped(<powersuits:powerArmorComponent:7>, [[<ore:componentWiring>, <BuildCraft|Silicon:redstoneChipset:6>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalExpansion:Cell:4>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ore:NABSteel>, <ore:componentWiring>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:6>, [[<ore:componentWiring>, <BuildCraft|Silicon:redstoneChipset:6>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalExpansion:Cell:3>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ore:NABSteel>, <ore:componentWiring>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:5>, [[<ore:componentWiring>, <BuildCraft|Silicon:redstoneChipset:6>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalExpansion:Cell:2>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ore:NABSteel>, <ore:componentWiring>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:11>, [[<ore:componentSolenoid>, <ore:ingotEnderium>, <ore:componentSolenoid>], [<ore:ingotEnderium>, <ore:chipsetDiamond>, <ore:ingotEnderium>], [<ore:componentSolenoid>, <ore:ingotEnderium>, <ore:componentSolenoid>]]);
+recipes.addShaped(<powersuits:tile.tinkerTable>, [[null, <ore:chipsetEmerald>, null], [<ore:componentWiring>, <ore:oc:case3>, <ore:componentWiring>], [<ore:blockSteel>, <ore:oc:hologram1>, <ore:blockSteel>]]);
+recipes.addShaped(<powersuits:powerArmorComponent> * 4, [[<ore:blockCloth>, <IC2:itemCable>, <ore:blockCloth>], [<IC2:itemCable>, <ImmersiveEngineering:coil:1>, <IC2:itemCable>], [<ore:blockCloth>, <IC2:itemCable>, <ore:blockCloth>]]);
+recipes.addShaped(<IC2:blockAlloy>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <IC2:itemPartAlloy>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:7>, [[<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:4>, <ore:blockGlassHardened>], [<ThermalDynamics:ThermalDynamics_0:4>, <ore:chipsetPulsating>, <ThermalDynamics:ThermalDynamics_0:4>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:4>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:5> * 6, [[<ore:ingotEnderium>, <ThermalDynamics:ThermalDynamics_0:3>, <ore:ingotEnderium>], [<ThermalDynamics:ThermalDynamics_0:3>, <ore:dustBasalz>, <ThermalDynamics:ThermalDynamics_0:3>], [<ore:ingotEnderium>, <ThermalDynamics:ThermalDynamics_0:3>, <ore:ingotEnderium>]]);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:3> * 6, [[<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:1>, <ore:blockGlassHardened>], [<ThermalDynamics:ThermalDynamics_0:1>, <ore:ingotElectrumFlux>, <ThermalDynamics:ThermalDynamics_0:1>], [<ore:blockGlassHardened>, <ThermalDynamics:ThermalDynamics_0:1>, <ore:blockGlassHardened>]]);
