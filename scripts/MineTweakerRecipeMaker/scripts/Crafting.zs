@@ -12,6 +12,30 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:FactoryInstaller:2>);
+recipes.remove(<Mekanism:FactoryInstaller:1>);
+recipes.remove(<Mekanism:FactoryInstaller>);
 recipes.remove(<powersuits:powerArmorComponent:19>);
 recipes.remove(<powersuits:powerArmorComponent:15>);
 recipes.remove(<powersuits:powerArmorComponent:7>);
@@ -248,6 +272,9 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Mekanism:FactoryInstaller>, [[<Mekanism:Ingot:4>, <ThermalFoundation:material:135>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <OpenComputers:item:29>, <Mekanism:Ingot:4>], [<Mekanism:ControlCircuit:1>, <BuildCraft|Silicon:redstoneChipset:5>, <Mekanism:ControlCircuit:1>]]);
+recipes.addShaped(<Mekanism:FactoryInstaller:1>, [[<Mekanism:Ingot:3>, <ThermalFoundation:material:138>, <Mekanism:Ingot:3>], [<Mekanism:ReinforcedAlloy>, <OpenComputers:item:42>, <Mekanism:ReinforcedAlloy>], [<Mekanism:ControlCircuit:2>, <BuildCraft|Silicon:redstoneChipset:3>, <Mekanism:ControlCircuit:2>]]);
+recipes.addShaped(<Mekanism:FactoryInstaller:2>, [[<ore:ingotRefinedObsidian>, <ore:gearEnderium>, <ore:ingotRefinedObsidian>], [<ore:alloyUltimate>, <ore:oc:cpu3>, <ore:alloyUltimate>], [<ore:circuitUltimate>, <ore:chipsetPulsating>, <ore:circuitUltimate>]]);
 recipes.addShaped(<powersuits:powerArmorComponent:19>, [[<mo:isolinear_circuit>, <ore:oc:materialCircuitBoardPrinted>, <mo:isolinear_circuit>], [<ore:componentSolenoid>, <ore:componentSolenoid>, <ore:componentSolenoid>]]);
 recipes.addShaped(<powersuits:powerArmorComponent:17>, [[<powersuits:powerArmorComponent>, <Mekanism:Ingot:4>, <powersuits:powerArmorComponent>], [<EnderIO:blockSolarPanel:1>, <ProjRed|Core:projectred.core.part:58>, <EnderIO:blockSolarPanel:1>], [<powersuits:powerArmorComponent>, <Mekanism:Ingot:4>, <powersuits:powerArmorComponent>]]);
 recipes.addShaped(<powersuits:powerArmorComponent:8>, [[<ore:blockCloth>, <ore:blockCloth>, <ore:blockCloth>], [<minecraft:string>, null, <minecraft:string>]]);
