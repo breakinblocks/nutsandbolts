@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ThermalExpansion:Frame:10>);
+recipes.remove(<ThermalExpansion:Frame:3>);
+recipes.remove(<ThermalExpansion:Frame:2>);
+recipes.remove(<ThermalExpansion:Frame:1>);
+recipes.remove(<ThermalExpansion:Frame>);
+recipes.remove(<ImmersiveEngineering:metalDevice:14>);
 recipes.remove(<Railcraft:machine.alpha:12>);
 recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
 recipes.remove(<Metallurgy:nether.dust:10>);
@@ -223,6 +229,11 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ThermalExpansion:Frame:3>, [[<ElectriCraft:electricraft_item_wire:23>, <GekosLasers:energizedLaserite>, <ElectriCraft:electricraft_item_wire:23>], [<ThermalFoundation:material:140>, <ThermalExpansion:Frame:2>, <ThermalFoundation:material:140>], [<ore:NABSteel>, <Mekanism:Ingot:4>, <ore:NABSteel>]]);
+recipes.addShaped(<ThermalExpansion:Frame:2>, [[<Mekanism:Ingot:4>, <BuildCraft|Silicon:redstoneChipset:4>, <Mekanism:Ingot:4>], [<ThermalExpansion:Glass>, <OpenComputers:item:25>, <ThermalExpansion:Glass>], [<Mekanism:Ingot:4>, <ThermalFoundation:material:138>, <Mekanism:Ingot:4>]]);
+recipes.addShaped(<ThermalExpansion:Frame:1>, [[<ore:glass>, <ore:oc:capacitor>, <ore:glass>], [<ore:ingotElectrum>, <Mekanism:BasicBlock:8>, <ore:ingotElectrum>], [<ore:glass>, <ore:gearElectrum>, <ore:glass>]]);
+recipes.addShaped(<ThermalExpansion:Frame>, [[<ore:ingotInvar>, <ore:alloyBasic>, <ore:ingotInvar>], [<ThermalExpansion:material>, <Mekanism:BasicBlock:8>, <ThermalExpansion:material>], [<ore:ingotInvar>, <ore:gearTin>, <ore:ingotInvar>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:14>, [[<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:toolupgrade:1>, <ImmersiveEngineering:metalDecoration:1>], [<ImmersiveEngineering:metalDecoration:1>, <RotaryCraft:rotarycraft_item_machine:112>, <ImmersiveEngineering:metalDecoration:1>], [<ImmersiveEngineering:metalDecoration:7>, <Redstonic:HeavyDrillHead>, <ImmersiveEngineering:metalDecoration:7>]]);
 recipes.addShaped(<Railcraft:machine.alpha:12> * 4, [[<ExtraUtilities:cobblestone_compressed:1>, <minecraft:brick>, <ExtraUtilities:cobblestone_compressed:1>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<ExtraUtilities:cobblestone_compressed:1>, <minecraft:brick>, <ExtraUtilities:cobblestone_compressed:1>]]);
 recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2> * 2, [[<TConstruct:materials:2>, <ore:ingotBrick>, <TConstruct:materials:2>], [<ore:ingotBrick>, <minecraft:magma_cream>, <ore:ingotBrick>], [<TConstruct:materials:2>, <ore:ingotBrick>, <TConstruct:materials:2>]]);
 recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:NABSteel>, <RotaryCraft:rotarycraft_item_machine:45>, <ore:NABSteel>], [<ThermalExpansion:material>, <ore:ingotOsmium>, <ThermalExpansion:material>], [<ore:NABSteel>, <RotaryCraft:rotarycraft_item_machine:45>, <ore:NABSteel>]]);
@@ -423,8 +434,6 @@ recipes.addShaped(<betterrecords:urlrecord>, [[<betterrecords:urlrecord>]]);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_screwdriver>, [[<ore:NABSteel>, null, null], [null, <RotaryCraft:rotarycraft_item_shaftcraft:2>, null], [null, null, <ore:plankWood>]]);
 recipes.addShaped(<malisisdoors:item.curtain_black>, [[<ore:cloth>, <ore:cloth>, <ore:nuggetGold>], [<minecraft:wool>, <minecraft:wool>, <ore:nuggetGold>], [<ore:cloth>, <ore:cloth>, <ore:nuggetGold>]]);
 recipes.addShaped(<Thaumcraft:blockCosmeticSolid:12> * 8, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <Thaumcraft:ItemShard:5>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<Railcraft:ingot>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<Railcraft:ingot>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
 recipes.addShaped(<minecraft:brown_mushroom_block>, [[<minecraft:brown_mushroom_block:8>]]);
 recipes.addShaped(<Thaumcraft:ItemBaubleBlanks:1>, [[null, <ore:nuggetGold>, null], [<ore:ingotGold>, null, <ore:ingotGold>], [null, <ore:nuggetGold>, null]]);
 recipes.addShaped(<betterrecords:urlrecord>, [[<MineFactoryReloaded:record.blank>]]);
@@ -433,7 +442,7 @@ recipes.addShaped(<ComputerCraft:CC-Turtle:1>, [[<ComputerCraft:CC-Turtle>, <min
 recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:NABSteel>], [<ore:NABSteel>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <Railcraft:ingot>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:NABSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:NABSteel>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:NABSteel>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:NABSteel>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:tunarawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:snapperrawItem>]]);
 recipes.addShaped(<minecraft:fish>, [[<harvestcraft:grouperrawItem>]]);
