@@ -111,6 +111,14 @@ mods.botania.ManaInfusion.addAlchemy(<Botania:manaResource> * 3, <ore:ingotMithr
 mods.botania.ManaInfusion.addInfusion(<ThermalFoundation:material:70>, <ThermalFoundation:material:69>, 1000);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:NABSteel>, 5250);
 
+//Dimensional Pocket
+mods.botania.RuneAltar.addRecipe(<dimensionalPockets:dimensionalPocket> *2,[<dimensionalPockets:endCrystal>, <dimensionalPockets:netherCrystal>, <ThermalFoundation:material:76>, 
+<ThermalFoundation:material:76>, <ThermalFoundation:material:76>, <ThermalFoundation:material:76>, <rftools:infusedDiamondItem>, <rftools:infusedDiamondItem>,  <Botania:spawnerMover>], 50000);
+
+//Ender Chest
+mods.botania.RuneAltar.addRecipe(<EnderStorage:enderChest>,[<minecraft:wool>, <minecraft:ender_chest>, <Botania:manaResource:8>], 25000);
+
+
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource:23>);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource:23>,<appliedenergistics2:item.ItemMultiMaterial:2>,1000);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource:23>,<appliedenergistics2:item.ItemMultiMaterial:3>,650);
@@ -154,7 +162,17 @@ mods.thaumcraft.Arcane.addShapeless("RESEARCH", <minecraft:fire_charge>*3, "igni
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>], "superbia 4, lux 16, alienis 4", <minecraft:nether_star>, 1);
 
 //gaia spirit infusion recipe
-mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>], "superbia 4, herba 64, lux 32", <Botania:manaResource:5>, 4);
+mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, 
+<Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>], "superbia 4, herba 64, lux 32", <Botania:manaResource:5>, 4);
+
+//Dimensional pocket
+mods.thaumcraft.Infusion.addRecipe("INFUSION", <Thaumcraft:FocusPortableHole>, [<dimensionalPockets:endCrystal>, <dimensionalPockets:netherCrystal>],  "superbia 4, potentia 32, praecantatio 24", 
+ <dimensionalPockets:dimensionalPocket>, 2);
+
+
+//Ender Chest
+mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:ender_chest>, [<Thaumcraft:ItemShard:6>, <minecraft:wool>, <Thaumcraft:blockCustomPlant:3>],  "alienis 8, vacuos 16, praecantatio 10 ", <EnderStorage:enderChest>, 2);
+
 
 //Making obsidian totems in the crucible
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <ForbiddenMagic:UmbralBush>, <Botania:flower:15>, "tenebrae 8, victus 5"); //allow botania black flower instead of rose bush for umbral rose bush
@@ -189,6 +207,10 @@ mods.thermalexpansion.Transposer.addFillRecipe(400000, <ThermalFoundation:materi
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <minecraft:emerald>, 2, 5000, 50, 50); 
 mods.bloodmagic.Altar.removeRecipe(<minecraft:apple>);
+
+
+mods.bloodmagic.Binding.addRecipe(<minecraft:ender_chest>,<EnderStorage:enderChest>);
+
 
 //Mekanism Recipes - Yes its an infinite loop, but its similar production and power cost to cyclic assembler with vastly less lag on the server
 mods.mekanism.Crusher.addRecipe(<Mekanism:Salt>, <Mekanism:Salt> * 3); //Salt

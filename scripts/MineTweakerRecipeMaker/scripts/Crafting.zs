@@ -81,7 +81,6 @@ recipes.remove(<EnderIO:itemBasicCapacitor:1>);
 recipes.remove(<EnderIO:itemMachinePart>);
 recipes.remove(<EnderIO:itemMaterial:2>);
 recipes.remove(<dimensionalPockets:dimensionalPocket>);
-recipes.remove(<dimensionalPockets:dimensionalPocket>);
 recipes.remove(<BigReactors:BRMultiblockGlass>);
 recipes.remove(<BigReactors:BRReactorPart:1>);
 recipes.remove(<BigReactors:YelloriumFuelRod>);
@@ -244,6 +243,8 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderStorage:enderChest>, [[<ore:ingotEnderium>, <ExtraUtilities:enderCollector>, <ore:ingotEnderium>], [<ore:ingotSoularium>, <minecraft:ender_chest>, <ore:ingotSoularium>], [<ore:ingotEnderium>, <ThermalExpansion:material:16>, <ore:ingotEnderium>]]);
+recipes.addShaped(<dimensionalPockets:dimensionalPocket> * 2, [[<ore:blockEnderObsidian>, <dimensionalPockets:netherCrystal>, <ore:blockEnderObsidian>], [<rftools:infusedDiamondItem>, <ThermalExpansion:Frame:11>, <rftools:infusedDiamondItem>], [<ore:blockEnderObsidian>, <dimensionalPockets:endCrystal>, <ore:blockEnderObsidian>]]);
 recipes.addShaped(<Mekanism:PartTransmitter>, [[<ore:NABSteel>, <ThermalDynamics:ThermalDynamics_0>, <ore:NABSteel>]]);
 recipes.addShaped(<Mekanism:FactoryInstaller>, [[<Mekanism:Ingot:4>, <ThermalFoundation:material:135>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <OpenComputers:item:29>, <Mekanism:Ingot:4>], [<Mekanism:ControlCircuit:1>, <BuildCraft|Silicon:redstoneChipset:5>, <Mekanism:ControlCircuit:1>]]);
 recipes.addShaped(<Mekanism:FactoryInstaller:1>, [[<Mekanism:Ingot:3>, <ThermalFoundation:material:138>, <Mekanism:Ingot:3>], [<Mekanism:ReinforcedAlloy>, <OpenComputers:item:42>, <Mekanism:ReinforcedAlloy>], [<Mekanism:ControlCircuit:2>, <BuildCraft|Silicon:redstoneChipset:3>, <Mekanism:ControlCircuit:2>]]);
@@ -312,8 +313,6 @@ recipes.addShaped(<ExtraUtilities:generator>, [[<TConstruct:Smeltery:4>, <TConst
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<Mekanism:Ingot:4>, <ExtraUtilities:golden_bag>, <Mekanism:Ingot:4>]]);
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<Thaumcraft:ItemResource:2>, <ExtraUtilities:golden_bag>, <Thaumcraft:ItemResource:2>]]);
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:blockCloth>, <ExtraUtilities:enderCollector>, <ore:blockCloth>], [<ore:itemBlazeRod>, <OpenBlocks:tank>, <ore:itemBlazeRod>], [<ore:ingotManasteel>, <ExtraUtilities:golden_bag>, <ore:ingotManasteel>]]);
-recipes.addShaped(<EnderStorage:enderChest>, [[<GalacticraftCore:item.basicItem:9>, <ExtraUtilities:enderCollector>, <GalacticraftCore:item.basicItem:9>], [<GalacticraftCore:item.basicItem:9>, <BuildCraft|Silicon:redstoneChipset:3>, <GalacticraftCore:item.basicItem:9>], [<TConstruct:materials:25>, <ExtraUtilities:golden_bag>, <TConstruct:materials:25>]]);
-recipes.addShaped(<EnderStorage:enderChest>, [[<EMT:EMTItems:5>, <ExtraUtilities:enderCollector>, <EMT:EMTItems:5>], [<EMT:EMTItems:5>, <Botania:manaResource:2>, <EMT:EMTItems:5>], [<TConstruct:materials:25>, <ExtraUtilities:golden_bag>, <TConstruct:materials:25>]]);
 recipes.addShaped(<ExtraUtilities:golden_bag>, [[<ore:blockCloth>, <ThermalExpansion:satchel:1>, <ore:blockCloth>], [<ore:ingotGold>, <ExtraUtilities:decorativeBlock1:8>, <ore:ingotGold>], [<ore:blockCloth>, <ore:ingotGold>, <ore:blockCloth>]]);
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [[<ore:ingotElectricalSteel>, <EnderIO:itemFrankenSkull:3>, <ore:ingotElectricalSteel>], [<EnderIO:itemBasicCapacitor:2>, <ore:oc:wlanCard>, <EnderIO:itemBasicCapacitor:2>], [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped(<MineFactoryReloaded:plastic.sheet> * 2, [[null, <MineFactoryReloaded:plastic.raw>, null], [<MineFactoryReloaded:plastic.raw>, <Mekanism:Polyethene>, <MineFactoryReloaded:plastic.raw>], [null, <MineFactoryReloaded:plastic.raw>, null]]);
@@ -324,9 +323,6 @@ recipes.addShaped(<EnderIO:itemBasicCapacitor:2>, [[<ore:itemVibrantNugget>, <or
 recipes.addShaped(<EnderIO:itemBasicCapacitor:1>, [[<ore:ingotEnergeticAlloy>, <ore:ingotGraphite>, <ore:ingotEnergeticAlloy>], [<EnderIO:itemBasicCapacitor>, <ore:dustElectrotine>, <EnderIO:itemBasicCapacitor>], [<ore:ingotEnergeticAlloy>, <ore:ingotGraphite>, <ore:ingotEnergeticAlloy>]]);
 recipes.addShaped(<EnderIO:itemMachinePart>, [[<ore:NABSteel>, <ProjRed|Core:projectred.core.part>, <ore:NABSteel>], [<ThermalExpansion:material>, <EnderIO:itemBasicCapacitor>, <ThermalExpansion:material>], [<ore:NABSteel>, <ProjRed|Core:projectred.core.part>, <ore:NABSteel>]]);
 recipes.addShaped(<EnderIO:itemMaterial:2> * 4, [[<ore:sand>, <ore:dustElectrotine>, <ore:sand>], [<ore:sand>, <Mekanism:Polyethene>, <ore:sand>], [<ore:sand>, <ore:dustElectrotine>, <ore:sand>]]);
-recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<EMT:EMTItems:5>, <arsmagica2:manaFocus>, <EMT:EMTItems:5>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<EMT:EMTItems:5>, <ore:blockEnderCore>, <EMT:EMTItems:5>]]);
-recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<ExtraTiC:largeplate:147>, <arsmagica2:manaFocus>, <ExtraTiC:largeplate:147>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<ExtraTiC:largeplate:147>, <ore:blockEnderCore>, <ExtraTiC:largeplate:147>]]);
-recipes.addShaped(<dimensionalPockets:dimensionalPocket>, [[<ore:compressedMeteoricIron>, <arsmagica2:manaFocus>, <ore:compressedMeteoricIron>], [<rftools:dimensionalShardItem>, <dimensionalPockets:netherCrystal>, <rftools:dimensionalShardItem>], [<ore:compressedMeteoricIron>, <ore:blockEnderCore>, <ore:compressedMeteoricIron>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer>, [[<EnderIO:itemAlloy>, <EnderIO:itemAlloy>, <EnderIO:itemAlloy>], [<EnderIO:itemAlloy>, <ore:paneGlassColorless>, <EnderIO:itemAlloy>], [<ore:oc:materialCircuitBoardPrinted>, <ore:chipsetDiamond>, <ore:oc:materialCircuitBoardPrinted>]]);
 recipes.addShaped(<ComputerCraft:CC-Computer:16384>, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>, <ore:paneGlassColorless>, <ore:ingotEnergeticAlloy>], [<ore:oc:materialCircuitBoardPrinted>, <ore:chipsetDiamond>, <ore:oc:materialCircuitBoardPrinted>]]);
 recipes.addShaped(<BigReactors:BRMultiblockGlass> * 2, [[<ore:blockGlassHardened>, <ore:reactorCasing>, <ore:blockGlassHardened>]]);
