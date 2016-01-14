@@ -136,4 +136,14 @@ recipes.addShapeless(<TConstruct:CraftedSoil:1>, [<ore:gravel>, <ore:itemClay>, 
 <ProjRed|Exploration:projectred.exploration.peridotleggings>.maxDamage = 16;
 <ProjRed|Exploration:projectred.exploration.peridotboots>.maxDamage = 16;
 
+#Uncrafting Table
+recipes.remove(<TwilightForest:tile.TFUncraftingTable>);
 
+val entry = <ore:blockMeatRaw>;
+entry.remove(<BiomesOPlenty:flesh>);
+
+
+recipes.removeShapeless(<Railcraft:brick.bloodstained:2>);
+recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:beef>]);
+recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:brick.bloodstained:2>, <liquid:blood>*100, 300, <Railcraft:brick.bloodstained:2>);

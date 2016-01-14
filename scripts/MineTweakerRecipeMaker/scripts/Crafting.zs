@@ -12,6 +12,10 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Mystcraft:BlockInkMixer>);
+recipes.remove(<Mystcraft:vial>);
+recipes.remove(<EnderIO:blockSolarPanel>);
+recipes.remove(<EnderIO:blockSolarPanel:1>);
 recipes.remove(<powersuits:powerArmorComponent:19>);
 recipes.remove(<powersuits:powerArmorComponent:15>);
 recipes.remove(<powersuits:powerArmorComponent:7>);
@@ -243,6 +247,10 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Mystcraft:BlockInkMixer>, [[null, <Botania:enderEyeBlock>, null], [<arsmagica2:everstone>, <arsmagica2:manaBattery>, <arsmagica2:everstone>], [<ExtraUtilities:decorativeBlock1:8>, <Mystcraft:vial>, <ExtraUtilities:decorativeBlock1:8>]]);
+recipes.addShaped(<Mystcraft:vial>, [[null, <Thaumcraft:ItemResource:4>, null], [<ore:rcropShardInky>, <ore:manaPearl>, <ore:rcropShardInky>], [<ore:rcropShardInky>, <witchery:ingredient:32>, <ore:rcropShardInky>]]);
+recipes.addShaped(<EnderIO:blockSolarPanel>, [[<BuildCraft|Silicon:redstoneChipset:2>, <EnderIO:itemMaterial:6>, <BuildCraft|Silicon:redstoneChipset:2>], [<ThermalFoundation:material:71>, <ExtraUtilities:decorativeBlock2:5>, <ThermalFoundation:material:71>], [<EnderIO:itemAlloy>, <minecraft:daylight_detector>, <EnderIO:itemAlloy>]]);
+recipes.addShaped(<EnderIO:blockSolarPanel:1>, [[<ore:ingotVibrantAlloy>, <EnderIO:blockSolarPanel>, <ore:ingotVibrantAlloy>], [<EnderIO:blockSolarPanel>, <EnderIO:itemBasicCapacitor:2>, <EnderIO:blockSolarPanel>], [<ProjRed|Core:projectred.core.part:59>, <EnderIO:blockSolarPanel>, <ProjRed|Core:projectred.core.part:59>]]);
 recipes.addShaped(<EnderStorage:enderChest>, [[<ore:ingotEnderium>, <ExtraUtilities:enderCollector>, <ore:ingotEnderium>], [<ore:ingotSoularium>, <minecraft:ender_chest>, <ore:ingotSoularium>], [<ore:ingotEnderium>, <ThermalExpansion:material:16>, <ore:ingotEnderium>]]);
 recipes.addShaped(<dimensionalPockets:dimensionalPocket> * 2, [[<ore:blockEnderObsidian>, <dimensionalPockets:netherCrystal>, <ore:blockEnderObsidian>], [<rftools:infusedDiamondItem>, <ThermalExpansion:Frame:11>, <rftools:infusedDiamondItem>], [<ore:blockEnderObsidian>, <dimensionalPockets:endCrystal>, <ore:blockEnderObsidian>]]);
 recipes.addShaped(<Mekanism:PartTransmitter>, [[<ore:NABSteel>, <ThermalDynamics:ThermalDynamics_0>, <ore:NABSteel>]]);

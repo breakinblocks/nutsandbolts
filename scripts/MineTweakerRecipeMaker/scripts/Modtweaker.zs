@@ -135,6 +135,9 @@ mods.botania.ManaInfusion.addAlchemy(<bbtweaks:ItemPurifiedWill>, <Botania:ancie
 
 mods.botania.ManaInfusion.addInfusion(<bbtweaks:ItemAwakenedCore>, <bbtweaks:ItemInertCore>, 75000);
 
+//botania make gold oreberries
+mods.botania.ManaInfusion.addInfusion(<TConstruct:oreBerries:1>*2,<minecraft:gold_nugget>,1500);
+
 
 //Botania mana petal nerfs
 
@@ -171,7 +174,7 @@ mods.thaumcraft.Infusion.addRecipe("INFUSION", <Thaumcraft:FocusPortableHole>, [
 
 
 //Ender Chest
-mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:ender_chest>, [<Thaumcraft:ItemShard:6>, <minecraft:wool>, <Thaumcraft:blockCustomPlant:3>],  "alienis 8, vacuos 16, praecantatio 10 ", <EnderStorage:enderChest>, 2);
+mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:ender_chest>, [<Thaumcraft:ItemShard:6>, <minecraft:wool>, <Thaumcraft:blockCustomPlant:3>],  "tenebrae 18, iter 6, vacuos 12", <EnderStorage:enderChest>, 2);
 
 
 //Making obsidian totems in the crucible
