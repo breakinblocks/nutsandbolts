@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<arsmagica2:essenceRefiner>);
+recipes.remove(<arsmagica2:blockArcaneReconstructor>);
 recipes.remove(<ImmersiveEngineering:metalMultiblock>);
 recipes.remove(<MekanismGenerators:Generator>);
 recipes.remove(<Mystcraft:BlockInkMixer>);
@@ -249,6 +251,8 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<arsmagica2:blockArcaneReconstructor>, [[<arsmagica2:itemFocus>, <arsmagica2:essence>, <arsmagica2:itemFocus>], [<arsmagica2:magicWall>, <arsmagica2:itemOre:2>, <arsmagica2:magicWall>], [<arsmagica2:everstone>, <ExtraUtilities:decorativeBlock1:11>, <arsmagica2:everstone>]]);
+recipes.addShaped(<arsmagica2:essenceRefiner>, [[<arsmagica2:everstone>, <ore:gemDiamond>, <arsmagica2:everstone>], [<ore:blockEnderObsidian>, <ore:arcaneAsh>, <ore:blockEnderObsidian>], [<ore:plankTreatedWood>, <ore:logWood>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<ImmersiveEngineering:metalMultiblock>, [[<ore:fenceSteel>, <ElectriCraft:electricraft_item_wire:23>, <ore:fenceSteel>], [<ImmersiveEngineering:storage:10>, <ImmersiveEngineering:metalDevice:7>, <ImmersiveEngineering:storage:10>], [<ore:blockConductiveIron>, <ore:thermalexpansion:machineFrame>, <ore:blockConductiveIron>]]);
 recipes.addShaped(<MekanismGenerators:Generator>, [[null, <ore:ingotVulcanite>, null], [<ThermalExpansion:material>, <ore:ingotOsmium>, <ThermalExpansion:material>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
 recipes.addShaped(<Mystcraft:BlockInkMixer>, [[null, <Botania:enderEyeBlock>, null], [<arsmagica2:everstone>, <arsmagica2:manaBattery>, <arsmagica2:everstone>], [<ExtraUtilities:decorativeBlock1:8>, <Mystcraft:vial>, <ExtraUtilities:decorativeBlock1:8>]]);
