@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ImmersiveEngineering:metalMultiblock>);
+recipes.remove(<MekanismGenerators:Generator>);
 recipes.remove(<Mystcraft:BlockInkMixer>);
 recipes.remove(<Mystcraft:vial>);
 recipes.remove(<EnderIO:blockSolarPanel>);
@@ -247,6 +249,8 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ImmersiveEngineering:metalMultiblock>, [[<ore:fenceSteel>, <ElectriCraft:electricraft_item_wire:23>, <ore:fenceSteel>], [<ImmersiveEngineering:storage:10>, <ImmersiveEngineering:metalDevice:7>, <ImmersiveEngineering:storage:10>], [<ore:blockConductiveIron>, <ore:thermalexpansion:machineFrame>, <ore:blockConductiveIron>]]);
+recipes.addShaped(<MekanismGenerators:Generator>, [[null, <ore:ingotVulcanite>, null], [<ThermalExpansion:material>, <ore:ingotOsmium>, <ThermalExpansion:material>], [<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>]]);
 recipes.addShaped(<Mystcraft:BlockInkMixer>, [[null, <Botania:enderEyeBlock>, null], [<arsmagica2:everstone>, <arsmagica2:manaBattery>, <arsmagica2:everstone>], [<ExtraUtilities:decorativeBlock1:8>, <Mystcraft:vial>, <ExtraUtilities:decorativeBlock1:8>]]);
 recipes.addShaped(<Mystcraft:vial>, [[null, <Thaumcraft:ItemResource:4>, null], [<ore:rcropShardInky>, <ore:manaPearl>, <ore:rcropShardInky>], [<ore:rcropShardInky>, <witchery:ingredient:32>, <ore:rcropShardInky>]]);
 recipes.addShaped(<EnderIO:blockSolarPanel>, [[<BuildCraft|Silicon:redstoneChipset:2>, <EnderIO:itemMaterial:6>, <BuildCraft|Silicon:redstoneChipset:2>], [<ThermalFoundation:material:71>, <ExtraUtilities:decorativeBlock2:5>, <ThermalFoundation:material:71>], [<EnderIO:itemAlloy>, <minecraft:daylight_detector>, <EnderIO:itemAlloy>]]);
