@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ImmersiveEngineering:metalDevice2:3>);
+recipes.remove(<ImmersiveEngineering:metalDevice2:4>);
 recipes.remove(<arsmagica2:essenceRefiner>);
 recipes.remove(<arsmagica2:blockArcaneReconstructor>);
 recipes.remove(<ImmersiveEngineering:metalMultiblock>);
@@ -251,6 +253,8 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ImmersiveEngineering:metalDevice2:3> * 2, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:NABSteel>, <appliedenergistics2:tile.BlockQuartzGlass>], [<appliedenergistics2:tile.BlockQuartzGlass>, <ExtraUtilities:chandelier>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:NABSteel>, <ImmersiveEngineering:material:11>, <ore:NABSteel>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice2:4> * 2, [[<ore:NABSteel>, <ore:NABSteel>, <ore:NABSteel>], [<appliedenergistics2:tile.BlockQuartzGlass>, <ExtraUtilities:chandelier>, <ImmersiveEngineering:storage:8>], [<ore:NABSteel>, <ImmersiveEngineering:material:11>, <ore:NABSteel>]]);
 recipes.addShaped(<arsmagica2:blockArcaneReconstructor>, [[<arsmagica2:itemFocus>, <arsmagica2:essence>, <arsmagica2:itemFocus>], [<arsmagica2:magicWall>, <arsmagica2:itemOre:2>, <arsmagica2:magicWall>], [<arsmagica2:everstone>, <ExtraUtilities:decorativeBlock1:11>, <arsmagica2:everstone>]]);
 recipes.addShaped(<arsmagica2:essenceRefiner>, [[<arsmagica2:everstone>, <ore:gemDiamond>, <arsmagica2:everstone>], [<ore:blockEnderObsidian>, <ore:arcaneAsh>, <ore:blockEnderObsidian>], [<ore:plankTreatedWood>, <ore:logWood>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<ImmersiveEngineering:metalMultiblock>, [[<ore:fenceSteel>, <ElectriCraft:electricraft_item_wire:23>, <ore:fenceSteel>], [<ImmersiveEngineering:storage:10>, <ImmersiveEngineering:metalDevice:7>, <ImmersiveEngineering:storage:10>], [<ore:blockConductiveIron>, <ore:thermalexpansion:machineFrame>, <ore:blockConductiveIron>]]);
