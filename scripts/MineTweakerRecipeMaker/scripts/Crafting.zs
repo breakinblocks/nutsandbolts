@@ -11,7 +11,11 @@
 //
 
 // ================================================================================
+
+
 //#MARKER REMOVE
+recipes.remove(<Botania:fertilizer>);
+recipes.remove(<AWWayofTime:masterStone>);
 recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
 recipes.remove(<OpenBlocks:generic>);
 recipes.remove(<ImmersiveEngineering:metalDevice2:3>);
@@ -232,7 +236,6 @@ recipes.addShapeless(<chisel:diorite> * 4, [<Botania:stone:10>, <Botania:stone:1
 recipes.addShapeless(<ImmersiveEngineering:metal:15> * 2, [<ore:crushedIron>, <ore:crushedNickel>]);
 recipes.addShapeless(<minecraft:dirt> * 4, [<GalacticraftCore:tile.moonBlock:3>, <GalacticraftCore:tile.moonBlock:3>, <GalacticraftCore:tile.moonBlock:3>, <GalacticraftCore:tile.moonBlock:3>]);
 recipes.addShapeless(<ProjRed|Exploration:projectred.exploration.stone:3>, [<ore:basalt>]);
-recipes.addShapeless(<technom:basalt>, [<ProjRed|Exploration:projectred.exploration.stone:3>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:3>, [<ore:dustQuartz>]);
 recipes.addShapeless(<minecraft:rotten_flesh>, [<ore:rcropShardZombie>]);
 recipes.addShapeless(<TConstruct:ToolForgeBlock:3>, [<TConstruct:ToolForgeBlock>, <ore:blockEmerald>]);
@@ -255,6 +258,14 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<aura:auraNodepumpCreative>, [[<ThaumicTinkerer:kamiResource:2>, <aura:prismWhite>, <ThaumicTinkerer:kamiResource:2>], [<aura:ingotAngelSteel:5>, <aura:auraNodepump>, <aura:ingotAngelSteel:5>], [<aura:prismWhite>, <Botania:storage:1>, <aura:prismWhite>]]);
+recipes.addShaped(<Thaumcraft:WandCasting:2000>.withTag({aqua: 100000, terra: 100000, ignis: 100000, cap: "orichalcum", rod: "neutronium", order: 100000, perditio: 100000 }), [[<ExtraUtilities:pureLove>, <ThaumicTinkerer:kamiResource:5>, <ExtraUtilities:pureLove>], [<ThaumicTinkerer:kamiResource:5>, <Thaumcraft:ItemEldritchObject:3>, <ThaumicTinkerer:kamiResource:5>], [<ExtraUtilities:pureLove>, <ThaumicTinkerer:kamiResource:5>, <ExtraUtilities:pureLove>]]);
+recipes.addShaped(<BuildCraft|Core:engineBlock:3>, [[<ore:gearDiamond>, <ProjRed|Core:projectred.core.part:58>, <ore:gearDiamond>], [<ore:gearSignalum>, <Forestry:engine:4>, <ore:gearSignalum>], [<RotaryCraft:rotarycraft_item_shaftcraft:3>, <ore:gearDiamond>, <RotaryCraft:rotarycraft_item_shaftcraft:3>]]);
+recipes.addShaped(<Automagy:blockCreativeJar:3>, [[<Botania:laputaShard>, <Thaumcraft:ItemEldritchObject:3>, <Botania:laputaShard>], [<Thaumcraft:blockEssentiaReservoir>, <ThaumicExploration:trashJar>, <Thaumcraft:blockEssentiaReservoir>], [<ThaumicTinkerer:kamiResource:2>, <ResourcefulCrops:ItemStone:3>, <ThaumicTinkerer:kamiResource:2>]]);
+recipes.addShaped(<ThermalExpansion:Cell>, [[<ore:blockRed_aurum>, <ElectriCraft:electricraft_item_rfbattery>, <ore:blockRed_aurum>], [<ElectriCraft:electricraft_item_rfbattery>, <appliedenergistics2:tile.BlockCreativeEnergyCell>, <ElectriCraft:electricraft_item_rfbattery>], [<ore:blockRed_aurum>, <ElectriCraft:electricraft_item_rfbattery>, <ore:blockRed_aurum>]]);
+recipes.addShaped(<bbtweaks:ItemfragileActivator>, [[null, <AWWayofTime:blankSlate>, null], [<AWWayofTime:blankSlate>, <ore:gemEmerald>, <AWWayofTime:blankSlate>], [null, <AWWayofTime:blankSlate>, null]]);
+recipes.addShaped(<Botania:fertilizer> * 2, [[<witchery:ingredient:153>, <ore:dustBone>], [<ore:dyeRed>, <ore:dyeYellow>]]);
+recipes.addShaped(<AWWayofTime:masterStone>, [[<AWWayofTime:ritualStone>, <ore:blockObsidian>, <AWWayofTime:ritualStone>], [<ore:blockObsidian>, <ore:ingotQuicksilver>, <ore:blockObsidian>], [<AWWayofTime:ritualStone>, <ore:blockObsidian>, <AWWayofTime:ritualStone>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>, [[<ore:NABSteel>, <ore:craftingPiston>, <ore:NABSteel>], [<ore:crystalPureFluix>, null, <ore:NABSteel>], [<ore:NABSteel>, <ore:craftingPiston>, <ore:NABSteel>]]);
 recipes.addShaped(<runicdungeons:item.magicchalk>, [[null, null, <ore:runeGreedB>], [null, <witchery:chalkotherwhere>, null], [<AWWayofTime:magicales>, null, null]]);
 recipes.addShaped(<OpenBlocks:generic>, [[<ImmersiveEngineering:material:3>, <ore:treatedStick>, <ore:itemLeather>], [<ore:treatedStick>, <ImmersiveEngineering:material:3>, <ore:itemLeather>], [<ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]]);
@@ -559,4 +570,5 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base_gold>, [[null, <m
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, null, <minecraft:iron_block>]]);
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <OpenBlocks:filledbucket>, <minecraft:potion:8229>], [<ExtraUtilities:chandelier>, <TwilightForest:item.ironwoodSword>,<ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <Natura:Obelisk>, <ExtraUtilities:chandelier>]]);
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderThermicPump>, [[<ore:NABSteel>, <ExtraUtilities:enderCollector>, <ore:NABSteel>], [<ore:burntQuartz>, <extracells:certustank>, <ore:burntQuartz>],[<ore:blockEnderObsidian>, <ImmersiveEngineering:metalDevice2:6>, <ore:blockEnderObsidian>]]);
+mods.extraUtils.QED.addShapedRecipe(<ThermalExpansion:Tank>, [[<ExtraUtilities:pureLove>, <ExtraUtilities:drum:1>, <ExtraUtilities:pureLove>], [<RotaryCraft:rotarycraft_item_machine:126>, <Botania:pool:1>, <RotaryCraft:rotarycraft_item_machine:126>], [<ExtraUtilities:pureLove>, <ExtraUtilities:drum:1>, <ExtraUtilities:pureLove>]]);
 

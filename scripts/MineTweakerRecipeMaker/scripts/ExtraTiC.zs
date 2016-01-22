@@ -13,3 +13,5 @@ mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:funStuffIngot:2>, <liquid:red.a
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toolrod:173>, <liquid:red.aurum.molten>, <TConstruct:metalPattern:1>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:pickaxeHead:173>, <liquid:red.aurum.molten>, <TConstruct:metalPattern:2>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:blaze_powder>, <liquid:prometheum.molten> * 64, <minecraft:redstone>, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(<ExtraUtilities:pureLove>, <liquid:mana> * 1152, <ForbiddenMagic:StarBlock>, true, 20);
+

@@ -43,7 +43,7 @@ Decomposer.addRecipe(<Botania:livingrock>, 0.8, [[Silica*8]]);
 Decomposer.addRecipe(<Botania:livingwood>, 0.8, [[<ore:molecule_cellulose>*8]]);
 Decomposer.addRecipe(<ore:ingotManasteel>, 0.8, [[Fe*16,Mnd*3]]);
 Decomposer.addRecipe(<ore:manaPearl>, 0.8, [[<ore:element_Es>*1, Mnd*6]]);
-Decomposer.addRecipe(<ore:manaDiamond>, 0.8 [[<ore:molecule_fullrene>*3, Mnd*9]]);
+Decomposer.addRecipe(<ore:manaDiamond>, 0.8, [[<ore:molecule_fullrene>*3, Mnd*9]]);
 
 //=====Minechem Ars Magica==============================================================================================================
 Decomposer.addFluid(<liquid:liquidessence>*1000,[Water*8, Mnd*4]); // A very dilute solution of mana and water
@@ -64,10 +64,11 @@ var HF = <ReactorCraft:reactorcraft_item_raw>; Decomposer.addRecipe(HF, 1,[[Hydr
 Decomposer.addRecipe(<ore:dustAmmonium>, 1,[[Ammonium*8, Cl*8]]);
 Decomposer.addRecipe(<ore:dustQuicklime>, 1,[[Calcium_oxide*8]]);
 Decomposer.addRecipe(<ore:gemMagnetite>, 0.8,[[IroniiiOxide*16]]);
+Decomposer.addRecipe(<ReactorCraft:reactorcraft_block_ore:8>, 1,[[IroniiiOxide*36, Silica*2]]);
 Decomposer.addRecipe(<ore:ingotCadmium>, 1,[[Cd*16]]); Decomposer.addRecipe(<ore:oreCadmium>,1,[[Cd*48]]);
 Decomposer.addRecipe(<ore:ingotIndium>, 1,[[In*16]]); Decomposer.addRecipe(<ore:oreIndium>,1,[[In*48]]);
 var Ferromagnetic = <ReactorCraft:reactorcraft_item_crafting:10>; Decomposer.addRecipe(Ferromagnetic, 0.8, [[Fe*32, C*16, IroniiiOxide*16]]);
-var TungstenCarbide = <ReactorCraft:reactorcraft_item_crafting:17>; Decomposer.addRecipe(TungstenCarbide, 1, [[W*16, C*16]]);
+var TungstenCarbide = <ReactorCraft:reactorcraft_item_crafting:17>; Decomposer.addRecipe(TungstenCarbide, 1, [[W*36, C*16]]);
 var W_Cs_1 = <ReactorCraft:reactorcraft_item_waste>; Decomposer.addRecipe(W_Cs_1, 0.8,[[Cs*16]]);var W_Xe = <ReactorCraft:reactorcraft_item_waste:1>; Decomposer.addRecipe(W_Xe, 0.8,[[Xe*16]]);var W_Zr = <ReactorCraft:reactorcraft_item_waste:2>; Decomposer.addRecipe(W_Zr, 0.8,[[Zr*16]]);var W_Mo = <ReactorCraft:reactorcraft_item_waste:3>; Decomposer.addRecipe(W_Mo, 0.8,[[Mo*16]]);var W_Cs_2 = <ReactorCraft:reactorcraft_item_waste:4>; Decomposer.addRecipe(W_Cs_2, 0.8,[[Cs*16]]);var W_Tc = <ReactorCraft:reactorcraft_item_waste:5>; Decomposer.addRecipe(W_Tc, 0.8,[[Tc*16]]);var W_Sr = <ReactorCraft:reactorcraft_item_waste:6>; Decomposer.addRecipe(W_Sr, 0.8,[[Sr*16]]);var W_I_1 = <ReactorCraft:reactorcraft_item_waste:7>; Decomposer.addRecipe(W_I_1, 0.8,[[I*16]]);var W_Pm = <ReactorCraft:reactorcraft_item_waste:8>; Decomposer.addRecipe(W_Pm, 0.8,[[Pm*16]]);var W_I_2 = <ReactorCraft:reactorcraft_item_waste:9>; Decomposer.addRecipe(W_I_2, 0.8,[[I*16]]);var W_Sm = <ReactorCraft:reactorcraft_item_waste:10>; Decomposer.addRecipe(W_Sm, 0.8,[[Sm*16]]);var W_Ru = <ReactorCraft:reactorcraft_item_waste:11>; Decomposer.addRecipe(W_Ru, 0.8,[[Ru*16]]);var W_Kr = <ReactorCraft:reactorcraft_item_waste:12>; Decomposer.addRecipe(W_Kr, 0.8,[[Kr*16]]);var W_Pd = <ReactorCraft:reactorcraft_item_waste:13>; Decomposer.addRecipe(W_Pd, 0.8,[[Pd*16]]);var W_Se = <ReactorCraft:reactorcraft_item_waste:14>; Decomposer.addRecipe(W_Se, 0.8,[[Se*16]]);var W_Gd = <ReactorCraft:reactorcraft_item_waste:15>; Decomposer.addRecipe(W_Gd, 0.8,[[Gd*16]]);var W_Sb = <ReactorCraft:reactorcraft_item_waste:16>; Decomposer.addRecipe(W_Sb, 0.8,[[Sb*16]]);var W_Sn = <ReactorCraft:reactorcraft_item_waste:17>; Decomposer.addRecipe(W_Sn, 0.8,[[Sn*16]]);
 
 //=====Minechem Metallurgy==============================================================================================================

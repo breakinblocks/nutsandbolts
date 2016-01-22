@@ -10,3 +10,4 @@ mods.buildcraft.AssemblyTable.addRecipe(<EnderIO:blockPoweredSpawner>, 50000, [<
 //mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Frame:10>, 125000, [<ore:ingotEnderium> *4, <ore:blockGlassHardened> * 4, <ThermalExpansion:Frame:3>]);
 mods.buildcraft.AssemblyTable.addRecipe(<ThermalExpansion:Frame:10>, 125000, [<ThermalExpansion:Glass> *4, <ThermalFoundation:material:76> * 4, <ThermalExpansion:Frame:3>]);
 
+mods.buildcraft.AssemblyTable.addRecipe(<appliedenergistics2:tile.BlockCreativeEnergyCell>, 500000000, [<IC2:itemPartIridium> * 16, <appliedenergistics2:tile.BlockDenseEnergyCell> *4, <appliedenergistics2:item.ItemMultiMaterial:9> * 8, <EnderIO:blockSolarPanel:1> * 16, <RotaryCraft:rotarycraft_item_upgrade:7>, <appliedenergistics2:item.ItemMultiMaterial:47>, <MekanismGenerators:Hohlraum:1>.withTag({stored: {amounts: 10, gasName: "fusionFuelDT"}})]);
