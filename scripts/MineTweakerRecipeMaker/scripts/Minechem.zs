@@ -76,7 +76,6 @@ var W_Cs_1 = <ReactorCraft:reactorcraft_item_waste>; Decomposer.addRecipe(W_Cs_1
 //=====Minechem Misc====================================================================================================================
 Decomposer.removeRecipe(<BiomesOPlenty:gems:3>); Decomposer.removeRecipe(<BiomesOPlenty:gemOre:6>); Decomposer.removeRecipe(<BiomesOPlenty:gemOre:7>); Synthesiser.removeRecipe(<BiomesOPlenty:gems:3>);
 Decomposer.removeRecipe(<ore:orePlatinum>);
-
 Decomposer.addRecipe(<BiomesOPlenty:gems:3>,1,[[NeosiliAlSiO*16, F*16, OH*8],[NeosiliAlSiO*16, F*8, OH*16]]); Decomposer.addRecipe(<BiomesOPlenty:gemOre:7>,1,[[NeosiliAlSiO*16*9, F*16*9, OH*8*9],[NeosiliAlSiO*16*9, F*8*9, OH*16*9]]);
 Decomposer.addRecipe(<BiomesOPlenty:gemOre:6>,1,[[NeosiliAlSiO*16*3, F*16*3, OH*8*3],[NeosiliAlSiO*16*3, F*8*3, OH*16*3]]);
 
@@ -91,12 +90,13 @@ Decomposer.addRecipe(<ore:oreDesh>,1,[[<ore:element_Fe>*512, <minechem:minechemM
 Decomposer.addRecipe(<GalacticraftMars:item.null:2>,1,[[<ore:element_Fe>*256, <minechem:minechemMolecule:69>*1]]);
 Decomposer.addRecipe(<GalacticraftCore:item.meteoricIronIngot>,1,[[<ore:element_Fe>*512, <minechem:minechemMolecule>*7]]);
 
-Synthesiser.addRecipe([Iri*16], <IC2:itemOreIridium>, false, 20000);
+//Synthesiser.addRecipe([Iri*16], <IC2:itemOreIridium>, false, 20000);
 Synthesiser.addRecipe([<ore:element_Ti>*24,<ore:element_Ti>*16,<ore:element_Ti>*24],<ore:ingotTritanium>,true,32000);
 Synthesiser.addRecipe([<ore:element_Li>*8],<ore:dustLithium>,false,60);
 Synthesiser.addRecipe([<ore:element_Fr>*1,<ore:element_Be>*7,<ore:element_Es>*1],<ResourcefulCrops:ItemMaterial:0>*32,true,64000);
 Synthesiser.addRecipe([<ore:element_Li>*16,<ore:element_Li>*16],<ore:gemDilithium>*1,true,8800);
-Synthesiser.addRecipe([<minechem:minechemElement:120>*16],<ore:ingotDesh>*1,false,64000);
+//Synthesiser.addRecipe([<minechem:minechemElement:120>*16],<ore:ingotDesh>*1,false,64000);
 Synthesiser.addRecipe([<ore:element_Hg>*16],<ore:quicksilver>*1,false,6400);
 Synthesiser.addRecipe([Fe*32,Fe*32,Fe*32,Fe*32,<minechem:minechemMolecule:69>*1,Fe*32,Fe*32,Fe*32,Fe*32],<GalacticraftMars:item.null>*1,true,128000);
 Synthesiser.addRecipe([<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<minechem:minechemMolecule:7>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64,<ore:element_Fe>*64],<GalacticraftCore:item.meteoricIronIngot>*1,true,128000);
+Synthesiser.addRecipe([<minechem:minechemElement:14>*8], <EnderIO:itemMaterial>, false, 1000);
