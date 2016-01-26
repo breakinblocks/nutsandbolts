@@ -14,6 +14,9 @@
 
 
 //#MARKER REMOVE
+recipes.remove(<EnderIO:blockBuffer>);
+recipes.remove(<ResourcefulCrops:ItemSeed:16>);
+recipes.remove(<Metallurgy:platinum.hoe>);
 recipes.remove(<rftools:shapeCardItem:7>);
 recipes.remove(<rftools:shapeCardItem:6>);
 recipes.remove(<rftools:shapeCardItem:5>);
@@ -225,6 +228,8 @@ recipes.remove(<BuildCraft|Builders:machineBlock>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<ThermalFoundation:Ore:4> * 2, [[<ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>], [<ResourcefulCrops:ItemShard:44>, null, <ResourcefulCrops:ItemShard:44>], [<ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>]]);
+recipes.removeShaped(<ThermalFoundation:Ore:3> * 4, [[<ResourcefulCrops:ItemShard:16>, <ResourcefulCrops:ItemShard:16>, <ResourcefulCrops:ItemShard:16>], [<ore:rcropShardLead>, null, <ResourcefulCrops:ItemShard:16>], [<ore:rcropShardLead>, <ore:rcropShardLead>, <ResourcefulCrops:ItemShard:16>]]);
 recipes.removeShaped(<IC2:blockGenerator:1>, [[<ThermalExpansion:Tank:2>]]);
 
 // ================================================================================
@@ -267,6 +272,34 @@ recipes.addShapeless(<TConstruct:ToolForgeBlock:1>, [<TConstruct:ToolForgeBlock>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<powersuits:powerArmorComponent:21>, [[<ore:dustCryotheum>, <ore:dustCryotheum>, <ore:dustCryotheum>], [<ore:bucketCryotheum>, <ore:bucketCryotheum>, <ore:bucketCryotheum>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:20>, [[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>], [<IC2:blockRubber>, <BuildCraft|Transport:pipeWaterproof>, <IC2:blockRubber>], [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:18>, [[<ore:componentSolenoid>, <ore:ingotElectrum>, <ore:componentSolenoid>], [<ore:componentSolenoid>, <ore:ingotElectrum>, <ore:componentSolenoid>], [<ore:componentSolenoid>, <ore:ingotElectrum>, <ore:componentSolenoid>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:16>, [[<ore:componentCarbonMyofiber>, <ore:dustCoal>, <ore:componentCarbonMyofiber>], [<ore:componentCarbonMyofiber>, <ore:componentMyofiberGel>, <ore:componentCarbonMyofiber>], [<ore:componentCarbonMyofiber>, <ore:componentMyofiberGel>, <ore:componentCarbonMyofiber>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:14>, [[<powersuits:powerArmorComponent>, null, null], [<ThermalFoundation:material:71>, <Mekanism:ControlCircuit:1>, null], [<ThermalFoundation:material:71>, <ThermalFoundation:material:71>, <powersuits:powerArmorComponent>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:13>, [[<IC2:itemPartCarbonMesh>, <ThermalFoundation:bucket:6>, <IC2:itemPartCarbonMesh>]]);
+recipes.addShaped(<powersuits:item.powerArmorBoots>, [[<ore:ingotInvar>, null, <ore:ingotInvar>], [<ThermalFoundation:material:72>, <powersuits:powerArmorComponent>, <ThermalFoundation:material:72>]]);
+recipes.addShaped(<powersuits:item.powerArmorLeggings>, [[<ore:ingotInvar>, <ThermalFoundation:material:72>, <ore:ingotInvar>], [<ThermalFoundation:material:72>, <powersuits:powerArmorComponent>, <ThermalFoundation:material:72>], [<ore:ingotInvar>, null, <ThermalFoundation:material:72>]]);
+recipes.addShaped(<powersuits:item.powerArmorChestplate>, [[<ore:ingotInvar>, <powersuits:powerArmorComponent>, <ore:ingotInvar>], [<ThermalFoundation:material:72>, <ThermalFoundation:material:72>, <ThermalFoundation:material:72>], [<ore:ingotInvar>, <ThermalFoundation:material:72>, <ThermalFoundation:material:72>]]);
+recipes.addShaped(<powersuits:item.powerArmorHelmet>, [[<ore:ingotInvar>, <ThermalFoundation:material:72>, <ore:ingotInvar>], [<powersuits:powerArmorComponent>, null, <powersuits:powerArmorComponent>]]);
+recipes.addShaped(<powersuits:item.powerFist>, [[null, <ore:componentWiring>, null], [<ore:componentWiring>, <ore:ingotInvar>, null], [null, <ore:ingotInvar>, <ore:componentWiring>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:11>, [[<powersuits:powerArmorComponent:1>, <GekosLasers:laserRelay>, <powersuits:powerArmorComponent:1>], [<powersuits:powerArmorComponent:12>, <ThermalFoundation:material:140>, <powersuits:powerArmorComponent:12>], [<powersuits:powerArmorComponent:1>, <OpenComputers:hologram2>, <powersuits:powerArmorComponent:1>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:12>, [[<ore:gemLapis>, <ore:oc:circuitChip2>, <ore:dyeYellow>], [<ore:blockGlassColorless>, <ore:componentWiring>, <minecraft:glass>], [<ore:dyeRed>, <ore:blockGlassColorless>, <ore:dyeGreen>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:10>, [[<GekosLasers:laserite>, <GekosLasers:laserite>], [<ThermalFoundation:material:140>, <GekosLasers:laserite>], [<GekosLasers:laserite>, <GekosLasers:laserite>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:9>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], [<ThermalFoundation:material:136>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:4>, [[null, <powersuits:powerArmorComponent:11>, <powersuits:powerArmorComponent:1>], [<RedstoneArsenal:material:32>, <Mekanism:Ingot:3>, null], [<powersuits:powerArmorComponent>, <powersuits:powerArmorComponent:11>, <powersuits:powerArmorComponent:1>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:3>, [[null, <ThermalExpansion:Glass>, <ThermalExpansion:Glass>], [<ThermalExpansion:Glass>, <IC2:itemPartAlloy>, <powersuits:powerArmorComponent:1>], [<ThermalExpansion:Glass>, null, null]]);
+recipes.addShaped(<powersuits:powerArmorComponent:1>, [[<ore:componentWiring>, <ThermalFoundation:material:74>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalFoundation:material:74>, <powersuits:powerArmorComponent>], [<powersuits:powerArmorComponent>, <ThermalFoundation:material:74>, <powersuits:powerArmorComponent>]]);
+recipes.addShaped(<powersuits:powerArmorComponent:2>, [[null, <BuildCraft|Silicon:redstoneChipset:2>, null], [<ore:componentWiring>, <ore:circuitAdvanced>, <ore:componentWiring>], [<ore:componentSolenoid>, <ore:componentSolenoid>, <ore:componentSolenoid>]]);
+recipes.addShaped(<ThermalFoundation:material:68> * 4, [[<ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>], [<ResourcefulCrops:ItemShard:44>, null, <ResourcefulCrops:ItemShard:44>], [<ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>, <ResourcefulCrops:ItemShard:44>]]);
+recipes.addShaped(<EnderIO:blockBuffer>, [[<ore:ingotIron>, <minecraft:iron_ingot>, <ore:ingotIron>], [<ore:ingotIron>, <ExtraUtilities:chestMini>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped(<ThermalFoundation:material:67> * 4, [[<ResourcefulCrops:ItemShard:16>, <ResourcefulCrops:ItemShard:16>, <ResourcefulCrops:ItemShard:16>], [<ore:rcropShardLead>, null, <ResourcefulCrops:ItemShard:16>], [<ore:rcropShardLead>, <ore:rcropShardLead>, <ResourcefulCrops:ItemShard:16>]]);
+recipes.addShaped(<minecraft:egg> * 8, [[<ResourcefulCrops:ItemShard:3>, null, <ore:rcropShardFeathery>], [null, <ResourcefulCrops:ItemShard:3>, null], [<ore:rcropShardFeathery>, null, <ore:rcropShardFeathery>]]);
+recipes.addShaped(<ResourcefulCrops:ItemSeed:16> * 2, [[<ore:oreLead>, <ResourcefulCrops:ItemMaterial:3>, <ore:oreLead>], [<ResourcefulCrops:ItemMaterial:3>, <ore:listAllseed>, <ResourcefulCrops:ItemMaterial:3>], [<ore:oreLead>, <ResourcefulCrops:ItemMaterial:3>, <ore:oreLead>]]);
+recipes.addShaped(<BuildCraft|Core:engineBlock:3>, [[<ThermalDynamics:ThermalDynamics_0:6>, <ExtraUtilities:generator.8:7>, <ThermalDynamics:ThermalDynamics_0:6>], [<RotaryCraft:rotarycraft_item_upgrade:3>, <ReactorCraft:reactorcraft_block_injectormulti:5>, <RotaryCraft:rotarycraft_item_upgrade:3>], [<ElectriCraft:electricraft_item_crystal:3>, <Forestry:engine:4>, <ElectriCraft:electricraft_item_crystal:3>]]);
+var page = <Mystcraft:page>.withTag({linkpanel: {properties: ["Intra Linking"]}});
+recipes.addShaped(page, [[<Mystcraft:linkbook>]]);
+recipes.addShaped(<Metallurgy:platinum.hoe>, [[<ThermalFoundation:tool.hoePlatinum>]]);
 recipes.addShaped(<minecraft:iron_ingot>, [[<minecraft:iron_ingot:1>]]);
 recipes.addShaped(<rftools:shapeCardItem:7>, [[<rftools:infusedDiamondItem>, <IC2:itemDensePlates:8>, <rftools:infusedDiamondItem>], [<IC2:itemDensePlates:8>, <rftools:shapeCardItem:5>, <IC2:itemDensePlates:8>], [<rftools:infusedDiamondItem>, <ExtraUtilities:enderQuarryUpgrade:5>, <rftools:infusedDiamondItem>]]);
 recipes.addShaped(<rftools:shapeCardItem:4>, [[<rftools:infusedDiamondItem>, <IC2:itemDensePlates:8>, <rftools:infusedDiamondItem>], [<IC2:itemDensePlates:8>, <rftools:shapeCardItem:2>, <IC2:itemDensePlates:8>], [<rftools:infusedDiamondItem>, <ExtraUtilities:enderQuarryUpgrade:5>, <rftools:infusedDiamondItem>]]);
@@ -281,7 +314,6 @@ recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>, [[<ore:crystalCertusQ
 recipes.addShaped(<Mekanism:CardboardBox>, [[<ThermalExpansion:material:513>, <EMT:EMTItems:11>, <ThermalExpansion:material:513>], [<EMT:EMTItems:11>, <Mekanism:Polyethene:2>, <EMT:EMTItems:11>], [<ThermalExpansion:material:513>, <EMT:EMTItems:11>, <ThermalExpansion:material:513>]]);
 recipes.addShaped(<aura:auraNodepumpCreative>, [[<ThaumicTinkerer:kamiResource:2>, <aura:prismWhite>, <ThaumicTinkerer:kamiResource:2>], [<aura:ingotAngelSteel:5>, <aura:auraNodepump>, <aura:ingotAngelSteel:5>], [<aura:prismWhite>, <Botania:storage:1>, <aura:prismWhite>]]);
 recipes.addShaped(<Thaumcraft:WandCasting:2000>.withTag({aqua: 100000, terra: 100000, ignis: 100000, cap: "orichalcum", rod: "neutronium", order: 100000, perditio: 100000 }), [[<ExtraUtilities:pureLove>, <ThaumicTinkerer:kamiResource:5>, <ExtraUtilities:pureLove>], [<ThaumicTinkerer:kamiResource:5>, <Thaumcraft:ItemEldritchObject:3>, <ThaumicTinkerer:kamiResource:5>], [<ExtraUtilities:pureLove>, <ThaumicTinkerer:kamiResource:5>, <ExtraUtilities:pureLove>]]);
-recipes.addShaped(<BuildCraft|Core:engineBlock:3>, [[<ore:gearDiamond>, <ProjRed|Core:projectred.core.part:58>, <ore:gearDiamond>], [<ore:gearSignalum>, <Forestry:engine:4>, <ore:gearSignalum>], [<RotaryCraft:rotarycraft_item_shaftcraft:3>, <ore:gearDiamond>, <RotaryCraft:rotarycraft_item_shaftcraft:3>]]);
 recipes.addShaped(<Automagy:blockCreativeJar:3>, [[<Botania:laputaShard>, <Thaumcraft:ItemEldritchObject:3>, <Botania:laputaShard>], [<Thaumcraft:blockEssentiaReservoir>, <ThaumicExploration:trashJar>, <Thaumcraft:blockEssentiaReservoir>], [<ThaumicTinkerer:kamiResource:2>, <ResourcefulCrops:ItemStone:3>, <ThaumicTinkerer:kamiResource:2>]]);
 recipes.addShaped(<ThermalExpansion:Cell>, [[<ore:blockRed_aurum>, <ElectriCraft:electricraft_item_rfbattery>, <ore:blockRed_aurum>], [<ElectriCraft:electricraft_item_rfbattery>, <appliedenergistics2:tile.BlockCreativeEnergyCell>, <ElectriCraft:electricraft_item_rfbattery>], [<ore:blockRed_aurum>, <ElectriCraft:electricraft_item_rfbattery>, <ore:blockRed_aurum>]]);
 recipes.addShaped(<bbtweaks:ItemfragileActivator>, [[null, <AWWayofTime:blankSlate>, null], [<AWWayofTime:blankSlate>, <ore:gemEmerald>, <AWWayofTime:blankSlate>], [null, <AWWayofTime:blankSlate>, null]]);
@@ -313,7 +345,6 @@ recipes.addShaped(<powersuits:powerArmorComponent:15>, [[null, <IC2:itemPartCarb
 recipes.addShaped(<powersuits:powerArmorComponent:7>, [[<ore:componentWiring>, <BuildCraft|Silicon:redstoneChipset:6>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalExpansion:Cell:4>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ore:NABSteel>, <ore:componentWiring>]]);
 recipes.addShaped(<powersuits:powerArmorComponent:6>, [[<ore:componentWiring>, <BuildCraft|Silicon:redstoneChipset:6>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalExpansion:Cell:3>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ore:NABSteel>, <ore:componentWiring>]]);
 recipes.addShaped(<powersuits:powerArmorComponent:5>, [[<ore:componentWiring>, <BuildCraft|Silicon:redstoneChipset:6>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ThermalExpansion:Cell:2>, <ore:componentWiring>], [<powersuits:powerArmorComponent>, <ore:NABSteel>, <ore:componentWiring>]]);
-recipes.addShaped(<powersuits:powerArmorComponent:11>, [[<ore:componentSolenoid>, <ore:ingotEnderium>, <ore:componentSolenoid>], [<ore:ingotEnderium>, <ore:chipsetDiamond>, <ore:ingotEnderium>], [<ore:componentSolenoid>, <ore:ingotEnderium>, <ore:componentSolenoid>]]);
 recipes.addShaped(<powersuits:tile.tinkerTable>, [[null, <ore:chipsetEmerald>, null], [<ore:componentWiring>, <ore:oc:case3>, <ore:componentWiring>], [<ore:blockSteel>, <ore:oc:hologram1>, <ore:blockSteel>]]);
 recipes.addShaped(<powersuits:powerArmorComponent> * 4, [[<ore:blockCloth>, <IC2:itemCable>, <ore:blockCloth>], [<IC2:itemCable>, <ImmersiveEngineering:coil:1>, <IC2:itemCable>], [<ore:blockCloth>, <IC2:itemCable>, <ore:blockCloth>]]);
 recipes.addShaped(<IC2:blockAlloy>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <IC2:itemPartAlloy>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
@@ -384,13 +415,13 @@ recipes.addShaped(<ComputerCraft:CC-Computer>, [[<EnderIO:itemAlloy>, <EnderIO:i
 recipes.addShaped(<ComputerCraft:CC-Computer:16384>, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<ore:ingotEnergeticAlloy>, <ore:paneGlassColorless>, <ore:ingotEnergeticAlloy>], [<ore:oc:materialCircuitBoardPrinted>, <ore:chipsetDiamond>, <ore:oc:materialCircuitBoardPrinted>]]);
 recipes.addShaped(<BigReactors:BRMultiblockGlass> * 2, [[<ore:blockGlassHardened>, <ore:reactorCasing>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<BigReactors:BRReactorPart:1>, [[<BuildCraft|Silicon:redstoneChipset:6>, <IC2:itemPartIridium>, <BuildCraft|Silicon:redstoneChipset:6>], [<EnderIO:itemAlloy:6>, <OpenComputers:screen1>, <EnderIO:itemAlloy:6>], [<EnderIO:itemAlloy:6>, <BigReactors:BRReactorPart>, <EnderIO:itemAlloy:6>]]);
-recipes.addShaped(<BigReactors:YelloriumFuelRod>, [[<ore:blockGraphite>, <ore:blockGlassHardened>, <ore:blockGraphite>], [<ThermalExpansion:Glass:1>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "aobdyellorium", Amount:1000}}), <ore:blockGlassHardened>], [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]]);
+recipes.addShaped(<BigReactors:YelloriumFuelRod>, [[<ore:blockGraphite>, <ore:blockGlassHardened>, <ore:blockGraphite>], [<ore:blockGlassHardened>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "yellorium", Amount:1000}}), <ore:blockGlassHardened>], [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<IC2:itemShardIridium> * 9, [[<IC2:itemOreIridium>]]);
-recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<Railcraft:ingot>, <GekosLasers:tier3_laser_mining>, <ore:NABSteel>], [<Railcraft:ingot>, <IC2:blockMachine>, <ore:NABSteel>], [<ore:gearDiamond>, <EnderIO:blockBuffer>, <ore:gearDiamond>]]);
+recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<ore:NABSteel>, <GekosLasers:tier3_laser_mining>, <ore:NABSteel>], [<ore:NABSteel>, <IC2:blockMachine>, <ore:NABSteel>], [<ore:gearDiamond>, <EnderIO:blockBuffer>, <ore:gearDiamond>]]);
 recipes.addShaped(<BuildCraft|Builders:builderBlock>, [[<BuildCraft|Silicon:laserBlock>, <ComputerCraft:CC-TurtleAdvanced>, <BuildCraft|Silicon:laserBlock>], [null, <BuildCraft|Builders:fillerBlock>, null], [<BuildCraft|Silicon:laserBlock>, null, <BuildCraft|Silicon:laserBlock>]]);
 recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<IC2:upgradeModule:5>], [<BuildCraft|Factory:floodGateBlock>]]);
 recipes.addShaped(<BuildCraft|Factory:floodGateBlock>, [[<IC2:upgradeModule:5>], [<BuildCraft|Factory:pumpBlock>]]);
-recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<Railcraft:ingot>, <extracells:certustank>, <Railcraft:ingot>], [<BuildCraft|Transport:pipeWaterproof>, <BuildCraft|Core:diamondGearItem>, <BuildCraft|Transport:pipeWaterproof>], [<Railcraft:ingot>, <ThermalDynamics:ThermalDynamics_16:3>, <Railcraft:ingot>]]);
+recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<ore:NABSteel>, <extracells:certustank>, <ore:NABSteel>], [<BuildCraft|Transport:pipeWaterproof>, <BuildCraft|Core:diamondGearItem>, <BuildCraft|Transport:pipeWaterproof>], [<ore:NABSteel>, <ThermalDynamics:ThermalDynamics_16:3>, <ore:NABSteel>]]);
 recipes.addShaped(<BuildCraft|Builders:fillerBlock>, [[null, <BuildCraft|Core:markerBlock>, null], [null, <IC2:blockMachine>, null], [<ore:gearElectrum>, <EnderIO:blockBuffer>, <ore:gearElectrum>]]);
 recipes.addShaped(<arsmagica2:crystal_wrench>, [[null, null, <arsmagica2:manaFocus>], [null, <minecraft:quartz>, null], [<minecraft:quartz>, null, null]]);
 recipes.addShaped(<arsmagica2:CraftingAltar>, [[<Botania:livingrock>, <minecraft:diamond>, <Botania:livingrock>], [<arsmagica2:itemOre:4>, <arsmagica2:itemOre:3>, <arsmagica2:itemOre:4>], [<Botania:livingrock>, <minecraft:diamond>, <Botania:livingrock>]]);
@@ -528,7 +559,7 @@ recipes.addShaped(<Thaumcraft:ItemBaubleBlanks:1>, [[null, <ore:nuggetGold>, nul
 recipes.addShaped(<betterrecords:urlrecord>, [[<MineFactoryReloaded:record.blank>]]);
 recipes.addShaped(<WR-CBE|Core:obsidianStick>, [[<ore:stickObsidian>]]);
 recipes.addShaped(<ComputerCraft:CC-Turtle:1>, [[<ComputerCraft:CC-Turtle>, <minecraft:diamond_pickaxe>]]);
-recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:NABSteel>], [<ore:NABSteel>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <Railcraft:ingot>]]);
+recipes.addShaped(<ComputerCraft:CC-Turtle>, [[<ore:NABSteel>, <ExtraUtilities:decorativeBlock1:12>, <ore:NABSteel>], [<ore:NABSteel>, <ComputerCraft:CC-Computer>, <ore:NABSteel>], [<ore:NABSteel>, <IronChest:BlockIronChest>, <ore:NABSteel>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<ExtraUtilities:nodeUpgrade>, <RotaryCraft:rotarycraft_item_bedpick>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:7>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ExtraUtilities:nodeUpgrade>, <RedstoneArsenal:tool.pickaxeFlux>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:enderQuarryUpgrade:6>, <ExtraUtilities:nodeUpgrade>], [<ExtraUtilities:nodeUpgrade>, <ExtraUtilities:endConstructor:2>, <ExtraUtilities:nodeUpgrade>]]);
 recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:NABSteel>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:NABSteel>], [<minecraft:piston>, <EnderIO:itemMachinePart>, <minecraft:piston>], [<ore:NABSteel>, <ThermalExpansion:capacitor:3>, <ore:NABSteel>]]);
@@ -576,7 +607,8 @@ recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>,
 recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
 mods.tconstruct.Smeltery.removeMelting(<minecraft:rotten_flesh>);
 mods.tconstruct.Smeltery.addMelting(<Railcraft:brick.bloodstained:2>, <liquid:blood>*100, 300, <Railcraft:brick.bloodstained:2>);
-furnace.addRecipe(<BigReactors:BRIngot:2>, <IC2:itemPartCarbonFibre>, 0.5);
+furnace.remove(<BigReactors:BRIngot:2>);
+furnace.addRecipe(<BigReactors:BRIngot:2>*4, <IC2:itemPartCarbonFibre>, 0.5);
 
 
 
