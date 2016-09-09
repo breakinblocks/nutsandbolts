@@ -1,0 +1,139 @@
+{
+    "fcoal": {
+        "template": "fractal",
+        "block": "coal_ore",
+        "clusterSize": 9,
+        "numClusters": 230,
+        "chunkChance": 75,
+        "minHeight": 45,
+        "veinHeight": 6,
+        "veinDiameter": 70,
+        "verticalDensity": 85,
+        "horizontalDensity": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "firon": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": "iron_ore",
+        "clusterSize": 8,
+        "numClusters": 150,
+        "chunkChance": 130,
+        "minHeight": 0,
+        "veinHeight": 80,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": ["SANDY", "DRY"], "rarity": 3},
+            {"type": "name", "entry": "Forest", "rarity": 3},
+            {"type": "name", "entry": "MushroomIsland", "rarity": 50}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "fgold": {
+        "template": "fractal",
+        "block": "gold_ore",
+        "clusterSize": 8,
+        "numClusters": 95,
+        "chunkChance": 140,
+        "minHeight": 0,
+        "veinHeight": 80,
+        "veinDiameter": 60,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN", "rarity": 7},
+            {"type": "dictionary", "entry": "RIVER", "rarity": 30},
+            {"type": "name", "entry": "MushroomIsland", "rarity": 50}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "fredstone": {
+        "template": "fractal",
+        "block": "redstone_ore",
+        "clusterSize": 12,
+        "numClusters": 100,
+        "chunkChance": 190,
+        "minHeight": 0,
+        "veinHeight": 12,
+        "veinDiameter": 160,
+        "verticalDensity": 20,
+        "horizontalDensity": 5,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": ["WET", "SWAMP"], "rarity": 5},
+            {"type": "name", "entry": "MushroomIsland", "rarity": 50}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "fdiamond": {
+        "template": "fractal",
+        "block": "diamond_ore",
+        "clusterSize": 7,
+        "numClusters": 70,
+        "chunkChance": 330,
+        "minHeight": 0,
+        "veinHeight": 70,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "DENSE", "rarity": 8},
+            {"type": "name", "entry": "MushroomIsland", "rarity": 50}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "flapis": {
+        "template": "fractal",
+        "block": "lapis_ore",
+        "clusterSize": 6,
+        "numClusters": 100,
+        "chunkChance": 225,
+        "minHeight": 0,
+        "veinHeight": 50,
+        "veinDiameter": 70,
+        "verticalDensity": 20,
+        "horizontalDensity": 10,
+        "retrogen": "dalse",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "OCEAN", "rarity": 7},
+            {"type": "name", "entry": "MushroomIsland", "rarity": 50}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

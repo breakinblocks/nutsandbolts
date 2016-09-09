@@ -9,7 +9,26 @@
         "numClusters": 5,
         "meanHeight": 16,
         "maxVariance": 14,
-        "retrogen": "true",
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "highosmium": {
+        "template": "normal",
+        "block": {
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        },
+        "clusterSize": 8,
+        "numClusters": 5,
+        "meanHeight": 116,
+        "maxVariance": 41,
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -18,4 +37,6 @@
             1
         ]
     }
+
+
 }
