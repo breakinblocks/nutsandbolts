@@ -1,0 +1,1915 @@
+[
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraft",
+	"requiredQuest":"",
+	"posX":0,
+	"posY":6,
+	"icon":
+	{
+		"id":280
+	},
+	"questName":"Craft Stick",
+	"uniqueName":"craftStick"
+},
+{
+	"questClass":"seia.vanillamagic.quest.portablecraftingtable.QuestPortableCraftingTable",
+	"requiredQuest":"craftStick",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":58
+	},
+	"questName":"Portable Crafting Table",
+	"uniqueName":"portableCraftingTable"
+},
+{
+	"questClass":"seia.vanillamagic.machine.autocrafting.QuestAutocrafting",
+	"requiredQuest":"portableCraftingTable",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":58
+	},
+	"questName":"Autocrafting !!!",
+	"uniqueName":"autocrafting"
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"craftStick",
+	"posX":0,
+	"posY":-2,
+	"questName":"Flint and Steel Clone",
+	"spellID":0
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraft",
+	"requiredQuest":"craftStick",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Craft Cauldron",
+	"uniqueName":"craftCauldron"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestMineBlock",
+	"requiredQuest":"craftCauldron",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":73
+	},
+	"questName":"Mine Redstone",
+	"uniqueName":"mineRedstone",
+	"blocksToBeMineClass":"seia.vanillamagic.integration.CustomOre",
+	"blocksToBeMineList":"customOreRedstone"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"mineRedstone",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 1",
+	"uniqueName":"buildAltarTier1",
+	"tier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier1",
+	"posX":-2,
+	"posY":1,
+	"questName":"Craft Gunpowder",
+	"uniqueName":"craftGunpowder",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sugar_cane",
+		"id":338
+	},
+	{
+		"just_to_know_what_it_is":"coal",
+		"id":263
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"gunpowder",
+		"id":289
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftGunpowder",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Sugar",
+	"uniqueName":"craftSugar",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sugar_cane",
+		"id":338
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sugar",
+		"id":353
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSugar",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Dirt",
+	"uniqueName":"craftDirt",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sand",
+		"id":12
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"dirt",
+		"id":3
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftDirt",
+	"posX":0,
+	"posY":-2,
+	"questName":"Craft Sand",
+	"uniqueName":"craftSand",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"cobblestone",
+		"id":4
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sand",
+		"id":12
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftDirt",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Cobblestone",
+	"uniqueName":"craftCobblestone",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"dirt",
+		"id":3
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"cobblestone",
+		"id":4
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftCobblestone",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Gravel",
+	"uniqueName":"craftGravel",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"cobblestone",
+		"id":4,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"gravel",
+		"id":13
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier1",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Leather",
+	"uniqueName":"craftLeather",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"rotten_flesh",
+		"id":367
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"leather",
+		"id":334
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftLeather",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Clay",
+	"uniqueName":"craftClay",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"suger",
+		"id":353
+	},
+	{
+		"just_to_know_what_it_is":"gunpowder",
+		"id":289
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"clay_ball",
+		"id":337
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSand",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Glass",
+	"uniqueName":"craftGlass",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sand",
+		"id":12
+	},
+	{
+		"just_to_know_what_it_is":"coal",
+		"id":263
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"glass",
+		"id":20
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftGlass",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Snow",
+	"uniqueName":"craftSnow",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"ice",
+		"id":79
+	},
+	{
+		"just_to_know_what_it_is":"water_bucket",
+		"id":326
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"snow_block",
+		"id":80
+	},
+	{
+		"just_to_know_what_it_is":"bucket",
+		"id":325
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSnow",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Ice",
+	"uniqueName":"craftIce",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"snow_block",
+		"id":80
+	},
+	{
+		"id":326
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"ice",
+		"id":79
+	},
+	{
+		"just_to_know_what_it_is":"bucket",
+		"id":325
+	}],
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"buildAltarTier1",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 2",
+	"uniqueName":"buildAltarTier2",
+	"tier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier2",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Iron Ore",
+	"uniqueName":"craftIronOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"stackSize":10
+	},
+	{
+		"just_to_know_what_it_is":"cobblestone",
+		"id":4,
+		"stackSize":10
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"iron_ore",
+		"id":15
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier2",
+	"posX":-2,
+	"posY":1,
+	"questName":"Craft Cactus",
+	"uniqueName":"craftCactus",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"cactus",
+		"id":81
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftCactus",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Oak Sapling from Cactus",
+	"uniqueName":"craftSapling0",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"cactus",
+		"id":81,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling0",
+	"posX":0,
+	"posY":2,
+	"questName":"Craft Spruce Sapling",
+	"uniqueName":"craftSapling1",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":1
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling1",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Birch Sapling",
+	"uniqueName":"craftSapling2",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":1
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":2
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling2",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Jungle Sapling",
+	"uniqueName":"craftSapling3",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":3
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling3",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Acacia Sapling",
+	"uniqueName":"craftSapling4",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":3
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":4
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling4",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Dark Oak Sapling",
+	"uniqueName":"craftSapling5",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":4
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":5
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling5",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Oak Sapling from Dark Oak",
+	"uniqueName":"craftSapling6",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"meta":5
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSapling0",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Pumpkin",
+	"uniqueName":"craftPumpkin",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sapling",
+		"id":6,
+		"stackSize":3
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"pumpkin",
+		"id":86
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftPumpkin",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Melon Block",
+	"uniqueName":"craftMelonBlock",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"pumpkin",
+		"id":86,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"melon_block",
+		"id":103
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftMelonBlock",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Vine",
+	"uniqueName":"craftVine",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"melon_block",
+		"id":103,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"vine",
+		"id":106
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftVine",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Lily Pad",
+	"uniqueName":"craftLiyPad",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"vine",
+		"id":106,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"water_lily",
+		"id":111
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftLiyPad",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Slime Ball",
+	"uniqueName":"craftSlimeBall",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"magma_cream",
+		"id":378,
+		"stackSize":8
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"slime_ball",
+		"id":341
+	}],
+	"requiredAltarTier":2,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"buildAltarTier2",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 3",
+	"uniqueName":"buildAltarTier3",
+	"tier":3
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestSmeltOnAltar",
+	"requiredQuest":"buildAltarTier3",
+	"posX":-2,
+	"posY":1,
+	"icon":
+	{
+		"id":61
+	},
+	"questName":"Smelt on Altar",
+	"uniqueName":"smeltOnAltar",
+	"requiredAltarTier":1,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.machine.quarry.QuestQuarry",
+	"requiredQuest":"smeltOnAltar",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Quarry !!!",
+	"uniqueName":"quarry",
+	"mustHaveMainHand":
+	{
+		"id":369
+	}
+},
+{
+	"questClass":"seia.vanillamagic.quest.fulltreecut.QuestFullTreeCut",
+	"requiredQuest":"quarry",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":279
+	},
+	"questName":"Full Tree Cut",
+	"uniqueName":"fullTreeCut"
+},
+{
+	"questClass":"seia.vanillamagic.machine.farm.QuestMachineFarm",
+	"requiredQuest":"fullTreeCut",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Automatic Farm",
+	"uniqueName":"machineFarm",
+	"mustHaveOffHand":
+	{
+		"id":295
+	},
+	"mustHaveMainHand":
+	{
+		"id":369
+	},
+	"radius":4
+},
+{
+	"questClass":"seia.vanillamagic.machine.speedy.QuestSpeedy",
+	"requiredQuest":"machineFarm",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":288
+	},
+	"questName":"Speedy",
+	"uniqueName":"speedy"
+},
+{
+	"questClass":"seia.vanillamagic.items.thecrystalofmothernature.QuestMotherNatureCrystal",
+	"requiredQuest":"speedy",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":399
+	},
+	"questName":"The Crystal of Mother Nature",
+	"uniqueName":"motherNatureCrystal"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier3",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Gold Ingot",
+	"uniqueName":"craftGoldIngot",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"iron_ingot",
+		"id":265,
+		"stackSize":8
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"gold_ingot",
+		"id":266
+	}],
+	"requiredAltarTier":3,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"buildAltarTier3",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 4",
+	"uniqueName":"buildAltarTier4",
+	"tier":4
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier4",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Rotten Flesh",
+	"uniqueName":"craftRottenFlesh",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"leather",
+		"id":334
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"rotten_flesh",
+		"id":367
+	}],
+	"requiredAltarTier":4,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftRottenFlesh",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft String",
+	"uniqueName":"craftString",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"rotten_flesh",
+		"id":367,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"string",
+		"id":287
+	}],
+	"requiredAltarTier":4,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftString",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Spider Eye",
+	"uniqueName":"craftSpiderEye",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"string",
+		"id":287,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"spider_eye",
+		"id":375
+	}],
+	"requiredAltarTier":4,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSpiderEye",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Bone",
+	"uniqueName":"craftBone",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"spider_eye",
+		"id":375,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"bone",
+		"id":352
+	}],
+	"requiredAltarTier":4,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftBone",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Arrow",
+	"uniqueName":"craftArrow",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"bone",
+		"id":352,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"arrow",
+		"id":262
+	}],
+	"requiredAltarTier":4,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestArrowMachineGun",
+	"requiredQuest":"craftArrow",
+	"posX":0,
+	"posY":-2,
+	"icon":
+	{
+		"id":262
+	},
+	"questName":"Arrow Machine Gun",
+	"uniqueName":"arrowMachineGun"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftArrow",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Ender Pearl",
+	"uniqueName":"craftEnderPearl",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"arrow",
+		"id":262,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"ender_pearl",
+		"id":368
+	}],
+	"requiredAltarTier":4,
+	"wandTier":1
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"buildAltarTier4",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 5",
+	"uniqueName":"buildAltarTier5",
+	"tier":5
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier5",
+	"posX":-2,
+	"posY":1,
+	"questName":"Craft Glowstone Dust",
+	"uniqueName":"craftGlowstoneDust",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"redstone_dust",
+		"id":55,
+		"stackSize":2
+	},
+	{
+		"just_to_know_what_it_is":"coal",
+		"id":263,
+		"stackSize":2
+	},
+	{
+		"just_to_know_what_it_is":"lapis_block",
+		"id":22
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"glowstone_dust",
+		"id":348
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftGlowstoneDust",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Netherrack",
+	"uniqueName":"craftNetherrack",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"stone",
+		"id":1
+	},
+	{
+		"just_to_know_what_it_is":"coal",
+		"id":263,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"netherrack",
+		"id":87
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftNetherrack",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Soul Sand",
+	"uniqueName":"craftSoulSand",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"sand",
+		"id":12
+	},
+	{
+		"just_to_know_what_it_is":"coal",
+		"id":263,
+		"stackSize":2
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"soul_sand",
+		"id":88
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftSoulSand",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Magma Block",
+	"uniqueName":"craftMagmaBlock",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"netherrack",
+		"id":87
+	},
+	{
+		"just_to_know_what_it_is":"magma_cream",
+		"id":378
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"magma_block",
+		"id":213
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftMagmaBlock",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Nether Wart",
+	"uniqueName":"craftNetherWart",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"gunpowder",
+		"id":289
+	},
+	{
+		"just_to_know_what_it_is":"magma_cream",
+		"id":378
+	},
+	{
+		"just_to_know_what_it_is":"sugar",
+		"id":353
+	},
+	{
+		"just_to_know_what_it_is":"redstone_dust",
+		"id":55
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"nether_wart",
+		"id":372
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftNetherWart",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Ghast Tear",
+	"uniqueName":"craftGhastTear",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"gunpowder",
+		"id":289,
+		"stackSize":4
+	},
+	{
+		"just_to_know_what_it_is":"blaze_powder",
+		"id":377,
+		"stackSize":4
+	},
+	{
+		"just_to_know_what_it_is":"lava_bucket",
+		"id":327
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"ghast_tear",
+		"id":370
+	},
+	{
+		"just_to_know_what_it_is":"bucket",
+		"id":325
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestPick",
+	"requiredQuest":"buildAltarTier5",
+	"posX":0,
+	"posY":2,
+	"questName":"Pick Blaze Rod",
+	"uniqueName":"pickBlazeRod",
+	"whatToPick":
+	{
+		"id":369
+	}
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestMoveBlock",
+	"requiredQuest":"pickBlazeRod",
+	"posX":-2,
+	"posY":1,
+	"questName":"Move block by book",
+	"uniqueName":"questMoveBlock",
+	"requiredStackOffHand":
+	{
+		"id":340
+	},
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCaptureEntity",
+	"requiredQuest":"questMoveBlock",
+	"posX":-2,
+	"posY":0,
+	"questName":"Capture Entity",
+	"uniqueName":"captureEntity",
+	"requiredStackOffHand":
+	{
+		"id":340
+	},
+	"wandTier":3
+},
+{
+	"questClass":"seia.vanillamagic.items.enchantedbucket.QuestEnchantedBucket",
+	"requiredQuest":"captureEntity",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":325
+	},
+	"questName":"Enchanted Bucket",
+	"uniqueName":"enchantedBucket"
+},
+{
+	"questClass":"seia.vanillamagic.items.liquidsuppressioncrystal.QuestLiquidSuppressionCrystal",
+	"requiredQuest":"enchantedBucket",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":399
+	},
+	"questName":"Liquid Suppression Crystal",
+	"uniqueName":"liquidSuppressionCrystal"
+},
+{
+	"questClass":"seia.vanillamagic.items.potionedcrystal.QuestPotionedCrystal",
+	"requiredQuest":"liquidSuppressionCrystal",
+	"posX":-2,
+	"posY":0,
+	"icon":
+	{
+		"id":373
+	},
+	"questName":"Potioned Crystal",
+	"uniqueName":"potionedCrystal"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"pickBlazeRod",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Wither Skeleton Skull",
+	"uniqueName":"craftWitherSkeletonSkull",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"coal_block",
+		"id":173
+	},
+	{
+		"just_to_know_what_it_is":"skull",
+		"id":397
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"skull",
+		"id":397,
+		"meta":1
+	}],
+	"requiredAltarTier":5,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.items.accelerationcrystal.QuestAccelerationCrystal",
+	"requiredQuest":"craftWitherSkeletonSkull",
+	"posX":2,
+	"posY":0,
+	"icon":
+	{
+		"id":399
+	},
+	"questName":"Acceleration Crystal",
+	"uniqueName":"accelerationCrystal"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"pickBlazeRod",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 6",
+	"uniqueName":"buildAltarTier6",
+	"tier":6
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier6",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Diamond",
+	"uniqueName":"craftDiamond",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"gold_ingot",
+		"id":266,
+		"stackSize":8
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"diamond",
+		"id":264
+	}],
+	"requiredAltarTier":6,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestBuildAltar",
+	"requiredQuest":"buildAltarTier6",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Build Altar Tier 7",
+	"uniqueName":"buildAltarTier7",
+	"tier":7
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier7",
+	"posX":-2,
+	"posY":1,
+	"questName":"Craft Gold Ore",
+	"uniqueName":"craftGoldOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"iron_ore",
+		"id":15,
+		"stackSize":16
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"gold_ore",
+		"id":14
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftGoldOre",
+	"posX":0,
+	"posY":2,
+	"questName":"Craft Coal Ore",
+	"uniqueName":"craftCoalOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"gold_ore",
+		"id":14
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"coal_ore",
+		"id":16,
+		"stackSize":4
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftGoldOre",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Redstone Ore",
+	"uniqueName":"craftRedstoneOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"gold_ore",
+		"id":14,
+		"stackSize":16
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"redstone_ore",
+		"id":73
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftRedstoneOre",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Lapis Ore",
+	"uniqueName":"craftLapisOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"redstone_ore",
+		"id":73,
+		"stackSize":16
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"lapis_ore",
+		"id":21
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftLapisOre",
+	"posX":-2,
+	"posY":0,
+	"questName":"Craft Diamond Ore",
+	"uniqueName":"craftDiamondOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"lapis_ore",
+		"id":21,
+		"stackSize":16
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"diamond_ore",
+		"id":56
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestOreMultiplier",
+	"requiredQuest":"craftDiamondOre",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":380
+	},
+	"questName":"Ore Doubling",
+	"uniqueName":"oreDoubling",
+	"multiplier":2,
+	"wandTier":3
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"buildAltarTier7",
+	"posX":2,
+	"posY":1,
+	"questName":"Craft Emerald",
+	"uniqueName":"craftEmerald",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"diamond",
+		"id":264,
+		"stackSize":8
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"emerald",
+		"id":388
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftEmerald",
+	"posX":0,
+	"posY":2,
+	"questName":"Craft Emerald Ore",
+	"uniqueName":"craftEmeraldOre",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"diamond_ore",
+		"id":56,
+		"stackSize":8
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"emerald_ore",
+		"id":129
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftEmerald",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Nether Star",
+	"uniqueName":"craftNetherStar",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"emerald_ore",
+		"id":133,
+		"stackSize":4
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"emerald_ore",
+		"id":399
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestItemMagnet",
+	"requiredQuest":"craftNetherStar",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":399
+	},
+	"questName":"Item Magnet",
+	"uniqueName":"itemMagnet"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraftOnAltar",
+	"requiredQuest":"craftNetherStar",
+	"posX":2,
+	"posY":0,
+	"questName":"Craft Dragon Egg",
+	"uniqueName":"craftDragonEgg",
+	"ingredients":
+	[{
+		"just_to_know_what_it_is":"nether_star",
+		"id":399,
+		"stackSize":4
+	}],
+	"result":
+	[{
+		"just_to_know_what_it_is":"dragon_egg",
+		"id":122
+	}],
+	"requiredAltarTier":7,
+	"wandTier":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraft",
+	"requiredQuest":"craftStick",
+	"posX":2,
+	"posY":0,
+	"icon":
+	{
+		"id":340
+	},
+	"questName":"Craft Book",
+	"uniqueName":"craftBook"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraft",
+	"requiredQuest":"craftBook",
+	"posX":2,
+	"posY":0,
+	"icon":
+	{
+		"id":47
+	},
+	"questName":"Craft Bookshelf",
+	"uniqueName":"craftBookshelf"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestMineBlock",
+	"requiredQuest":"craftBookshelf",
+	"posX":2,
+	"posY":0,
+	"icon":
+	{
+		"id":264
+	},
+	"questName":"Mine Diamond",
+	"uniqueName":"mineDiamond",
+	"blocksToBeMineClass":"seia.vanillamagic.integration.CustomOre",
+	"blocksToBeMineList":"customOreDiamond"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestMineBlock",
+	"requiredQuest":"mineDiamond",
+	"posX":2,
+	"posY":0,
+	"icon":
+	{
+		"id":49
+	},
+	"questName":"Mine Obsidian",
+	"uniqueName":"mineObsidian",
+	"blocksToBeMineClass":"seia.vanillamagic.integration.CustomOre",
+	"blocksToBeMineList":"customObsidian"
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestCraft",
+	"requiredQuest":"mineObsidian",
+	"posX":2,
+	"posY":0,
+	"icon":
+	{
+		"id":116
+	},
+	"questName":"Craft Enchanting Table",
+	"uniqueName":"craftEnchantingTable"
+},
+{
+	"questClass":"seia.vanillamagic.chunkloader.QuestChunkLoader",
+	"requiredQuest":"craftEnchantingTable",
+	"posX":0,
+	"posY":2,
+	"icon":
+	{
+		"id":116
+	},
+	"questName":"Build ChunkLoader",
+	"uniqueName":"chunkLoader"
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellFlintAndSteel",
+	"posX":0,
+	"posY":-2,
+	"questName":"Feel like Blaze",
+	"spellID":1,
+	"additionalRequiredQuests":
+	{
+		"quest_1":"pickBlazeRod"
+	}
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellSmallFireball",
+	"posX":0,
+	"posY":-2,
+	"questName":"Fus-Ro-Dah !!!",
+	"spellID":6
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSmallFireball",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Chicken",
+	"spellID":100
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonChicken",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Pig",
+	"spellID":101
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonPig",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Cow",
+	"spellID":102
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonCow",
+	"posX":0,
+	"posY":2,
+	"questName":"Summon Mooshroom",
+	"spellID":103
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonCow",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Sheep",
+	"spellID":104
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonSheep",
+	"posX":0,
+	"posY":2,
+	"questName":"Summon Wolf",
+	"spellID":105
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonSheep",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Rabbit",
+	"spellID":106
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonRabbit",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Horse",
+	"spellID":107
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonHorse",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Villager",
+	"spellID":108
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonChicken",
+	"posX":0,
+	"posY":-2,
+	"questName":"Summon Zombie",
+	"spellID":200
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonZombie",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Creeper",
+	"spellID":201
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonCreeper",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Skeleton",
+	"spellID":202
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonSkeleton",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Spider",
+	"spellID":207
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonSpider",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Enderman",
+	"spellID":206
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonEnderman",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Polar Bear",
+	"spellID":212
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonPolarBear",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Slime",
+	"spellID":208
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonSlime",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Witch",
+	"spellID":209
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonWitch",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Spider Jockey",
+	"spellID":217
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonZombie",
+	"posX":0,
+	"posY":-2,
+	"questName":"Summon Pigman",
+	"spellID":210
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonPigman",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Blaze",
+	"spellID":203
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonBlaze",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Magma Cube",
+	"spellID":204
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonMagmaCube",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Ghast",
+	"spellID":205
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonPigman",
+	"posX":0,
+	"posY":-2,
+	"questName":"Summon Silverfish",
+	"spellID":214
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonSilverfish",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Guardian",
+	"spellID":211
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonGuardian",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Shulker",
+	"spellID":213
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonShulker",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Wither",
+	"spellID":215
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellOnBlock",
+	"requiredQuest":"spellSummonWither",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Giant",
+	"spellID":216
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestSummonHorde",
+	"requiredQuest":"spellSummonSilverfish",
+	"posX":0,
+	"posY":-2,
+	"questName":"Summon Horde Lvl: 1",
+	"uniqueName":"summonHordeLvl1",
+	"level":1,
+	"requiredLeftHand":
+	{
+		"id":426
+	},
+	"additionalRequiredQuests":
+	{
+		"quest_1":"spellSummonGiant"
+	}
+},
+{
+	"questClass":"seia.vanillamagic.quest.QuestSummonHorde",
+	"requiredQuest":"summonHordeLvl1",
+	"posX":-2,
+	"posY":0,
+	"questName":"Summon Horde Lvl: 10",
+	"uniqueName":"summonHordeLvl10",
+	"level":10,
+	"requiredLeftHand":
+	{
+		"id":426,
+		"stackSize":2
+	}
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellSmallFireball",
+	"posX":2,
+	"posY":0,
+	"questName":"Feel like Ghast",
+	"spellID":2
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellLargeFireball",
+	"posX":0,
+	"posY":2,
+	"questName":"Thunder !!!",
+	"spellID":5
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellSummonLightningBolt",
+	"posX":2,
+	"posY":0,
+	"questName":"Pull Entity to Player",
+	"spellID":10
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellPullEntityToPlayer",
+	"posX":2,
+	"posY":0,
+	"questName":"Freeze Water 3x3",
+	"spellID":11
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellFreezeWater3x3",
+	"posX":2,
+	"posY":0,
+	"questName":"Move in air",
+	"spellID":9
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellLargeFireball",
+	"posX":0,
+	"posY":-2,
+	"questName":"Teleportation !!!",
+	"spellID":3
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellTeleport",
+	"posX":2,
+	"posY":0,
+	"questName":"Teleport to Nether",
+	"spellID":7
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellTeleportToNether",
+	"posX":2,
+	"posY":0,
+	"questName":"Teleport to End",
+	"spellID":8
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellLargeFireball",
+	"posX":2,
+	"posY":0,
+	"questName":"Meteor !!!",
+	"spellID":4
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellSummonMeteor",
+	"posX":2,
+	"posY":0,
+	"questName":"Make rain",
+	"spellID":12
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellWeatherRain",
+	"posX":2,
+	"posY":0,
+	"questName":"Clear weather",
+	"spellID":13
+},
+{
+	"questClass":"seia.vanillamagic.quest.spell.QuestCastSpellInAir",
+	"requiredQuest":"spellWeatherClear",
+	"posX":2,
+	"posY":0,
+	"questName":"Make thunderstorm",
+	"spellID":14
+}
+]

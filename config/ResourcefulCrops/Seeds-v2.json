@@ -1,0 +1,530 @@
+{
+  "0": {
+    "name": "Inky",
+    "tier": 1,
+    "amount": 4,
+    "input": "dyeBlack",
+    "output": {
+      "name": "minecraft:dye",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#161616"
+  },
+  "1": {
+    "name": "Fleshy",
+    "tier": 1,
+    "amount": 4,
+    "input": "minecraft:rotten_flesh:0#0",
+    "output": {
+      "name": "minecraft:rotten_flesh",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#FFA088"
+  },
+  "2": {
+    "name": "Feathery",
+    "tier": 1,
+    "amount": 4,
+    "input": "minecraft:feather:0#0",
+    "output": {
+      "name": "minecraft:feather",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#D0CBC7"
+  },
+  "3": {
+    "name": "Tin",
+    "tier": 2,
+    "amount": 4,
+    "input": "ingotTin",
+    "output": {
+      "name": "ic2:ingot",
+      "amount": 4,
+      "meta": 6
+    },
+    "color": "#879AA8"
+  },
+  "4": {
+    "name": "Copper",
+    "tier": 2,
+    "amount": 4,
+    "input": "ingotCopper",
+    "output": {
+      "name": "immersiveengineering:metal",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#CC6633"
+  },
+  "5": {
+    "name": "Aluminum",
+    "tier": 2,
+    "amount": 4,
+    "input": "ingotAluminum",
+    "output": {
+      "name": "immersiveengineering:metal",
+      "amount": 4,
+      "meta": 1
+    },
+    "color": "#C6CE82"
+  },
+  "6": {
+    "name": "Zinc",
+    "tier": 2,
+    "amount": 4,
+    "input": "ingotZinc",
+    "output": {
+      "name": "fp:ItemErze",
+      "amount": 4,
+      "meta": 1
+    },
+    "color": "#C0B0B6"
+  },
+  "7": {
+    "name": "Coal",
+    "tier": 2,
+    "amount": 4,
+    "input": "minecraft:coal:0#0",
+    "output": {
+      "name": "minecraft:coal",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#2D2C2F"
+  },
+  "8": {
+    "name": "Charcoal",
+    "tier": 2,
+    "amount": 4,
+    "input": "minecraft:coal:1#0",
+    "output": {
+      "name": "minecraft:coal",
+      "amount": 4,
+      "meta": 1
+    },
+    "color": "#2D2C2F"
+  },
+  "9": {
+    "name": "Leathery",
+    "tier": 2,
+    "amount": 4,
+    "input": "minecraft:leather:0#0",
+    "output": {
+      "name": "minecraft:leather",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#FF4411"
+  },
+  "10": {
+    "name": "Stringy",
+    "tier": 2,
+    "amount": 4,
+    "input": "minecraft:string:0#0",
+    "output": {
+      "name": "minecraft:string",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#F1FFD2"
+  },
+  "11": {
+    "name": "Boney",
+    "tier": 2,
+    "amount": 4,
+    "input": "minecraft:bone:0#0",
+    "output": {
+      "name": "minecraft:bone",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#FFF0CD"
+  },
+  "12": {
+    "name": "Slimey",
+    "tier": 2,
+    "amount": 4,
+    "input": "minecraft:slime_ball:0#0",
+    "output": {
+      "name": "minecraft:slime_ball",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#3EFF77"
+  },
+  "13": {
+    "name": "Blaze",
+    "tier": 3,
+    "amount": 4,
+    "input": "minecraft:blaze_rod:0#0",
+    "output": {
+      "name": "minecraft:blaze_rod",
+      "amount": 2,
+      "meta": 0
+    },
+    "color": "#FFD742"
+  },
+  "14": {
+    "name": "Iron",
+    "tier": 3,
+    "amount": 4,
+    "input": "ingotIron",
+    "output": {
+      "name": "minecraft:iron_ingot",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#9F9CA0"
+  },
+  "15": {
+    "name": "Gold",
+    "tier": 3,
+    "amount": 4,
+    "input": "ingotGold",
+    "output": {
+      "name": "minecraft:gold_ingot",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#FFFF00"
+  },
+  "16": {
+    "name": "Lead",
+    "tier": 3,
+    "amount": 4,
+    "input": "ingotLead",
+    "output": {
+      "name": "immersiveengineering:metal",
+      "amount": 4,
+      "meta": 2
+    },
+    "color": "#666699"
+  },
+  "17": {
+    "name": "Silver",
+    "tier": 3,
+    "amount": 4,
+    "input": "ingotSilver",
+    "output": {
+      "name": "immersiveengineering:metal",
+      "amount": 4,
+      "meta": 3
+    },
+    "color": "#BBBDB8"
+  },
+  "18": {
+    "name": "Nickel",
+    "tier": 3,
+    "amount": 4,
+    "input": "ingotNickel",
+    "output": {
+      "name": "immersiveengineering:metal",
+      "amount": 4,
+      "meta": 4
+    },
+    "color": "#CCCCCC"
+  },
+  "19": {
+    "name": "Ender",
+    "tier": 3,
+    "amount": 4,
+    "input": "minecraft:ender_pearl:0#0",
+    "output": {
+      "name": "minecraft:ender_pearl",
+      "amount": 2,
+      "meta": 0
+    },
+    "color": "#486461"
+  },
+  "20": {
+    "name": "Teary",
+    "tier": 3,
+    "amount": 4,
+    "input": "minecraft:ghast_tear:0#0",
+    "output": {
+      "name": "minecraft:ghast_tear",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#D4FFF1"
+  },
+  "21": {
+    "name": "Creepy",
+    "tier": 3,
+    "amount": 4,
+    "input": "minecraft:gunpowder:0#0",
+    "output": {
+      "name": "minecraft:gunpowder",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#00FF21"
+  },
+  "22": {
+    "name": "Skelesprout",
+    "tier": 3,
+    "amount": 2,
+    "input": "minecraft:skull:0#0",
+    "output": {
+      "name": "minecraft:skull",
+      "amount": 1,
+      "meta": 0
+    },
+    "color": "#9FA49B"
+  },
+  "23": {
+    "name": "Brainy",
+    "tier": 3,
+    "amount": 2,
+    "input": "minecraft:skull:2#0",
+    "output": {
+      "name": "minecraft:skull",
+      "amount": 1,
+      "meta": 2
+    },
+    "color": "#316932"
+  },
+  "24": {
+    "name": "Mindful",
+    "tier": 3,
+    "amount": 2,
+    "input": "minecraft:skull:3#0",
+    "output": {
+      "name": "minecraft:skull",
+      "amount": 1,
+      "meta": 3
+    },
+    "color": "#E8BA83"
+  },
+  "25": {
+    "name": "Creepots",
+    "tier": 3,
+    "amount": 2,
+    "input": "minecraft:skull:4#0",
+    "output": {
+      "name": "minecraft:skull",
+      "amount": 1,
+      "meta": 4
+    },
+    "color": "#47B24A"
+  },
+  "26": {
+    "name": "Glowstone",
+    "tier": 3,
+    "amount": 4,
+    "input": "dustGlowstone",
+    "output": {
+      "name": "minecraft:glowstone_dust",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#E9FF54"
+  },
+  "27": {
+    "name": "Redstone",
+    "tier": 3,
+    "amount": 4,
+    "input": "dustRedstone",
+    "output": {
+      "name": "minecraft:redstone",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#9F0D00"
+  },
+  "28": {
+    "name": "Sulfur",
+    "tier": 3,
+    "amount": 4,
+    "input": "dustSulfur",
+    "output": {
+      "name": "ic2:dust",
+      "amount": 8,
+      "meta": 16
+    },
+    "color": "#D4BE55"
+  },
+  "29": {
+    "name": "Lapis",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemLapis",
+    "output": {
+      "name": "minecraft:dye",
+      "amount": 8,
+      "meta": 4
+    },
+    "color": "#3F47CE"
+  },
+  "30": {
+    "name": "Quartz",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemQuartz",
+    "output": {
+      "name": "minecraft:quartz",
+      "amount": 4,
+      "meta": 0
+    },
+    "color": "#FFFFFF"
+  },
+  "31": {
+    "name": "Ruby",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemRuby",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 1
+    },
+    "color": "#D43037"
+  },
+  "32": {
+    "name": "Peridot",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemPeridot",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 2
+    },
+    "color": "#82D46C"
+  },
+  "33": {
+    "name": "Topaz",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemTopaz",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 3
+    },
+    "color": "#D48F65"
+  },
+  "34": {
+    "name": "Tanzanite",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemTanzanite",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 4
+    },
+    "color": "#2A0760"
+  },
+  "35": {
+    "name": "Malachite",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemMalachite",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 5
+    },
+    "color": "#3BFFE2"
+  },
+  "36": {
+    "name": "Sapphire",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemSapphire",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 6
+    },
+    "color": "#586AD4"
+  },
+  "37": {
+    "name": "Amber",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemAmber",
+    "output": {
+      "name": "biomesoplenty:gem",
+      "amount": 8,
+      "meta": 7
+    },
+    "color": "#D4793C"
+  },
+  "38": {
+    "name": "Apatite",
+    "tier": 3,
+    "amount": 4,
+    "input": "gemApatite",
+    "output": {
+      "name": "forestry:apatite",
+      "amount": 8,
+      "meta": 0
+    },
+    "color": "#79BCD4"
+  },
+  "39": {
+    "name": "Witherwheat",
+    "tier": 4,
+    "amount": 2,
+    "input": "minecraft:skull:1#0",
+    "output": {
+      "name": "minecraft:skull",
+      "amount": 1,
+      "meta": 1
+    },
+    "color": "#343433"
+  },
+  "40": {
+    "name": "Diamond",
+    "tier": 4,
+    "amount": 2,
+    "input": "gemDiamond",
+    "output": {
+      "name": "minecraft:diamond",
+      "amount": 1,
+      "meta": 0
+    },
+    "color": "#3AF2EF"
+  },
+  "41": {
+    "name": "Emerald",
+    "tier": 4,
+    "amount": 2,
+    "input": "gemEmerald",
+    "output": {
+      "name": "minecraft:emerald",
+      "amount": 1,
+      "meta": 0
+    },
+    "color": "#57F26F"
+  },
+  "42": {
+    "name": "Cobalt",
+    "tier": 4,
+    "amount": 2,
+    "input": "ingotCobalt",
+    "output": {
+      "name": "tconstruct:ingots",
+      "amount": 1,
+      "meta": 0
+    },
+    "color": "#003CFF"
+  },
+  "43": {
+    "name": "Ardite",
+    "tier": 4,
+    "amount": 2,
+    "input": "ingotArdite",
+    "output": {
+      "name": "tconstruct:ingots",
+      "amount": 1,
+      "meta": 1
+    },
+    "color": "#FF6600"
+  }
+}

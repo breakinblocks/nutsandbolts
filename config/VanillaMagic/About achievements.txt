@@ -1,0 +1,91 @@
+Source:
+https://github.com/Sejoslaw/VanillaMagic/tree/master/VanillaMagic/src/main/resources
+
+
+Basic template:
+
+{
+	"questClass":"",
+	"requiredQuest":"",
+	"posX":,
+	"posY":,
+	"icon":
+	{
+		"id":,
+		"stackSize":,	default: 1
+		"meta":		default: 0
+	},
+	"questName":"",
+	"uniqueName":""
+}
+
+
+
+What is what:
+
+questClass - It MUST be a full path to some kind of Quest class. For instance: "seia.vanillamagic.quest.QuestCraft". I assume that You don't know these strings so please look carefuly at the default config.
+
+requiredQuest - a "uniqueName" of the Quest that should be achieved before this Quest will be available. For instance: for "Portable Crafting Table" it will be "craftStick".
+
+posX - Position on the X coordinate of the achievement. If "requiredQuest" is not empty, than it will be the X position from the "requiredQuest". It's something like that:
+this.posX = requiredQuest.posX + value
+If "requiredQuest" is empty than:
+this.posX = 0 + value
+For instance: for "Portable Crafting Table" it will be:
+this.posX = "craftStick".posX + (-2) = 0 + (-2) = -2
+
+posY - Similar to posX
+For instance: for "Portable Crafting Table" it will be:
+this.posY = "craftStick".posY + 0 = 6 + 0 = 6
+
+icon - As You probably see it it different from the others. That is because it is the ItemStack. ItemStack needs 3 things: item / block ID, size of the stack and metadata of the item.
+For instance: for "Craft Stick" I could write:
+"icon":
+{
+	"id":280,
+	"stackSize":1,
+	"meta":0
+}
+OR shortly
+"icon":
+{
+	"id":280
+}
+
+questName - name of the Quest. For instance: "Portable Crafting Table".
+
+uniqueName - the unique name that MUST be different for each Quest. For instance: for "Craft Stick" it is simply "craftStick" but for "Feel like Blaze" it is "spellSmallFireball".
+
+
+Which other aliases You may find ?
+
+
+spellID - the unique value for each spell.
+
+ingredients - an ItemStack array of items needed for crafting.
+
+result - an ItemStack array of items that will be created when the crafting is finished.
+
+requiredAltarTier - tier which Altar should have for doing stuff.
+
+wandTier - it may be confusing but it is the unique value of the Wand:
+Stick - 1
+Blaze Rod - 2
+Nether Star - 3
+End Rod - 4
+
+tier - Altar tier
+
+mustHaveMainHand / mustHaveOffHand - the ItemStack which should Player hold in the selected hand when activating machine.
+
+radius - radius on which Quest / Machine can operate.
+
+whatToPick - the ItemStack which Player should pick from the ground.
+
+requiredStackOffHand - similar to "mustHaveOffHand" but used more common for spells.
+
+blocksToBeMine OR (blocksToBeMineClass AND blocksToBeMineList) - this is basically two posibilities for giving the lists. For instance:
+1)
+blocksToBeMine - should be created as a list of Block IDs
+2) "blocksToBeMineClass":"seia.vanillamagic.integration.CustomOre",
+"blocksToBeMineList":"customOreDiamond"

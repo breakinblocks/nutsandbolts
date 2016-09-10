@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<commands>
+    <clear>
+        <ores>
+            <block>minecraft:coal_ore</block>
+            <block>minecraft:iron_ore</block>
+            <block>minecraft:gold_ore</block>
+            <block>minecraft:lapis_ore</block>
+            <block>minecraft:redstone_ore</block>
+            <block>minecraft:diamond_ore</block>
+            <block>minecraft:emerald_ore</block>
+        </ores>
+        <name_here>
+            <block>minecraft:dirt</block>
+            <block>minecraft:clay</block>
+            <block>minecraft:sand</block>
+        </name_here>
+    </clear>
+    <count>
+        <ores>
+            <block>minecraft:coal_ore</block>
+            <block>minecraft:iron_ore</block>
+            <block>minecraft:gold_ore</block>
+            <block>minecraft:lapis_ore</block>
+            <block>minecraft:redstone_ore</block>
+            <block>minecraft:diamond_ore</block>
+            <block>minecraft:emerald_ore</block>
+        </ores>
+    </count>
+    <spawn/>
+</commands>
