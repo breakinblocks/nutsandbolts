@@ -1,4 +1,4 @@
 # nutsandbolts
-Nuts and Bolts
+Nuts and Bolts v4 for Minecraft 1.10.2
 
-## A Minecraft Pack
+## An all inclusive Minecraft Pack supported for and by the community.
