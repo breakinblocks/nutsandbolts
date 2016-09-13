@@ -24,7 +24,7 @@
     "checkLight": true,
     "checkRedstone": false,
     "spawnAmount": 4,
-    "cooldown": 10
+    "cooldown": 15
   },
   "3": {
     "minKills": 256,
@@ -33,7 +33,7 @@
     "checkLight": true,
     "checkRedstone": false,
     "spawnAmount": 4,
-    "cooldown": 5
+    "cooldown": 12
   },
   "4": {
     "minKills": 512,
@@ -42,7 +42,7 @@
     "checkLight": true,
     "checkRedstone": false,
     "spawnAmount": 4,
-    "cooldown": 5
+    "cooldown": 10
   },
   "5": {
     "minKills": 1024,
@@ -51,6 +51,6 @@
     "checkLight": false,
     "checkRedstone": true,
     "spawnAmount": 6,
-    "cooldown": 2
+    "cooldown": 5
   }
 }
