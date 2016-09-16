@@ -52,47 +52,47 @@
       veinsPerChunk: 10
       minYHeight: 10
       maxYHeight: 60
-      shouldSpawn: false
+      shouldSpawn: true
     }
     {
       blockName: tile.techreborn.ore
       blockNiceName: Lead
       meta: 12
-      veinSize: 6
-      veinsPerChunk: 16
-      minYHeight: 20
-      maxYHeight: 60
+      veinSize: 5
+      veinsPerChunk: 10
+      minYHeight: 34
+      maxYHeight: 22
       shouldSpawn: true
     }
     {
       blockName: tile.techreborn.ore
       blockNiceName: Silver
       meta: 13
-      veinSize: 6
-      veinsPerChunk: 16
-      minYHeight: 20
-      maxYHeight: 60
-      shouldSpawn: false
+      veinSize: 9
+      veinsPerChunk: 5
+      minYHeight: 18
+      maxYHeight: 30
+      shouldSpawn: true
     }
     {
       blockName: tile.techreborn.ore2
       blockNiceName: Copper
       meta: 0
-      veinSize: 8
-      veinsPerChunk: 16
-      minYHeight: 20
-      maxYHeight: 60
-      shouldSpawn: false
+      veinSize: 11
+      veinsPerChunk: 6
+      minYHeight: 50
+      maxYHeight: 64
+      shouldSpawn: true
     }
     {
       blockName: tile.techreborn.ore2
       blockNiceName: Tin
       meta: 1
-      veinSize: 8
-      veinsPerChunk: 16
-      minYHeight: 20
-      maxYHeight: 60
-      shouldSpawn: false
+      veinSize: 10
+      veinsPerChunk: 6
+      minYHeight: 30
+      maxYHeight: 42
+      shouldSpawn: true
     }
   ]
   neatherOres:
