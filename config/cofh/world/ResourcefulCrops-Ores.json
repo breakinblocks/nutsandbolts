@@ -11,12 +11,12 @@
         "numClusters": 5,
         "minHeight": 39,
         "maxHeight": 50,
-        "retrogen": "false",
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            7, -100, 28, 29, 30
+            0,1,4, -100, 28, 29, 30
         ]
     },
 
@@ -56,7 +56,7 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0, 1, 4
         ]
     },
 
