@@ -1,4 +1,4 @@
-# Muts and Bolts
+# Nuts and Bolts
 Welcome to Nuts and Bolts, the 1.7.10 all inclusive pack supported by the community.
 ## What is Nuts and Bolts (NAB)?
 With so many Kitchen sink packs out there, what sets Nuts and Bolts apart from the rest?
