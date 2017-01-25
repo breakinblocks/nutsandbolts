@@ -1,5 +1,14 @@
 # Nuts and Bolts
 Welcome to Nuts and Bolts, the 1.7.10 all inclusive pack supported by the community.
+
+All pack distribution is moving to the curse client although it may continue to be avaialble on technic and as a direct MultMC Download
+upon request in our discord server@http://bit.ly/bbdiscord
+
+Community feedback and suggestions are always welcome and taken seriously as a core part of this pack's design. If you find issues or want to suggest improvements, create an issue here on our github or join our discord to discuss directly with the pack creators and maintainers.
+
+
+
+
 ## What is Nuts and Bolts (NAB)?
 With so many Kitchen sink packs out there, what sets Nuts and Bolts apart from the rest?
 
