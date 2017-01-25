@@ -1,0 +1,4 @@
+
+if (FML.isModLoaded("bcadditions")) {
+    NEI.override("minechem:fluid.element.*", [0]);
+}
