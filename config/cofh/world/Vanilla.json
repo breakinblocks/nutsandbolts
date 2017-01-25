@@ -32,7 +32,7 @@
         "block": "coal_ore",
         "material": "minecraft:stone",
         "clusterSize": 10,
-        "numClusters": 12,
+        "numClusters": 8,
         "minHeight": 12,
         "maxHeight": 220,
         "retrogen": "false",

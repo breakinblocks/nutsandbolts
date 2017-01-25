@@ -80,14 +80,6 @@ abstractBusCard {
   input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
           ["", "oc:materialCard", ""]]
 }
-dataCard2 {
-  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
-          ["", "oc:dataCard1", ""]]
-}
-dataCard3 {
-  input: [[gemDiamond, "oc:cpu2", "oc:ram5"]
-          ["", "oc:dataCard2", ""]]
-}
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
           ["", "oc:materialCard", ""]]
@@ -109,7 +101,7 @@ redstoneCard1 {
           ["", "oc:materialCard", ""]]
 }
 redstoneCard2 {
-  input: [[blockRedstone, "oc:circuitChip2", materialEnderPearl]
+  input: [[blockRedstone, "oc:circuitChip2", enderPearl]
           ["", "oc:redstoneCard1", ""]]
 }
 lanCard {
@@ -117,7 +109,7 @@ lanCard {
           ["", "oc:materialCard", ""]]
 }
 wlanCard {
-  input: [[materialEnderPearl, "oc:circuitChip2", ""]
+  input: [[enderPearl, "oc:circuitChip2", ""]
           ["", "oc:lanCard", ""]]
 }
 linkedCard {
@@ -138,9 +130,9 @@ batteryUpgrade2 {
           [ingotGold, "oc:capacitor", ingotGold]]
 }
 batteryUpgrade3 {
-  input: [[gemDiamond, "oc:capacitor", gemDiamond]
+  input: [[diamond, "oc:capacitor", diamond]
           ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
-          [gemDiamond, "oc:capacitor", gemDiamond]]
+          [diamond, "oc:capacitor", diamond]]
 }
 craftingUpgrade {
   input: [[ingotIron, craftingPiston, ingotIron]
@@ -178,17 +170,21 @@ signUpgrade {
           [ingotIron, pistonStickyBase, ingotIron]]
 }
 solarGeneratorUpgrade {
-  input: [[blockGlass, blockGlass, blockGlass]
+  input: [[glass, glass, glass]
           ["oc:circuitChip3", "oc:generatorUpgrade", "oc:circuitChip3"]]
 }
-tradingUpgrade {
-  input: [["oc:circuitChip2", chest, "oc:circuitChip2"]
-          [emerald, "oc:circuitChip2", emerald]
-          [dropper, "oc:materialCircuitBoardPrinted", craftingPiston]]
-}
 
+nuggetIron {
+  type: shapeless
+  input: ingotIron
+  output: 9
+}
 cuttingWire {
   input: [[stickWood, nuggetIron, stickWood]]
+}
+acid {
+  type: shapeless
+  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
 }
 disk {
   input: [["", nuggetIron, ""]
@@ -227,18 +223,13 @@ chip2 {
 }
 chip3 {
   input: [[yellowDust, comparator, yellowDust]
-          ["oc:circuitChip2", gemDiamond, "oc:circuitChip2"]
+          ["oc:circuitChip2", diamond, "oc:circuitChip2"]
           [yellowDust, comparator, yellowDust]]
 }
 alu {
   input: [[diode, torchRedstoneActive, diode]
           ["oc:materialTransistor", "oc:materialTransistor", "oc:materialTransistor"]
           [nuggetIron, redstone, nuggetIron]]
-}
-apu2 {
-  input: [[gemDiamond, "oc:circuitChip2", gemDiamond]
-          ["oc:cpu3", "oc:componentBus2", "oc:graphicsCard2"]
-          [gemDiamond, "oc:circuitChip2", gemDiamond]]
 }
 componentBus1 {
   input: [[nuggetIron, redstone, nuggetIron]
@@ -251,9 +242,9 @@ componentBus2 {
           [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
 }
 componentBus3 {
-  input: [[gemDiamond, "oc:ram5", gemDiamond]
+  input: [[diamond, "oc:ram5", diamond]
           ["oc:circuitChip3", "oc:componentBus2", ""]
-          [gemDiamond, "oc:materialCircuitBoardPrinted", gemDiamond]]
+          [diamond, "oc:materialCircuitBoardPrinted", diamond]]
 }
 cpu1 {
   input: [[nuggetIron, redstone, nuggetIron]
@@ -266,9 +257,9 @@ cpu2 {
           [nuggetGold, "oc:ram3", nuggetGold]]
 }
 cpu3 {
-  input: [[gemDiamond, "oc:ram5", gemDiamond]
+  input: [[diamond, "oc:ram5", diamond]
           ["oc:circuitChip3", "oc:cpu2", "oc:circuitChip3"]
-          [gemDiamond, "oc:ram5", gemDiamond]]
+          [diamond, "oc:ram5", diamond]]
 }
 cu {
   input: [[nuggetGold, torchRedstoneActive, nuggetGold]
@@ -296,9 +287,9 @@ card {
 }
 
 interweb {
-  input: [[string, materialEnderPearl, string]
-          [materialEnderPearl, string, materialEnderPearl]
-          [string, materialEnderPearl, string]]
+  input: [[string, enderPearl, string]
+          [enderPearl, string, enderPearl]
+          [string, enderPearl, string]]
 }
 
 adapter {
@@ -333,9 +324,9 @@ case2 {
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
 case3 {
-  input: [[gemDiamond, "oc:circuitChip3", gemDiamond]
+  input: [[diamond, "oc:circuitChip3", diamond]
           ["oc:circuitChip3", "oc:case2", "oc:circuitChip3"]
-          [gemDiamond, "oc:materialCircuitBoardPrinted", gemDiamond]]
+          [diamond, "oc:materialCircuitBoardPrinted", diamond]]
 }
 diskDrive {
   input: [[ingotIron, "oc:circuitChip1", ingotIron]
@@ -346,16 +337,6 @@ geolyzer {
   input: [[ingotGold, "oc:analyzer", ingotGold]
           [eyeOfEnder, "oc:circuitChip2", eyeOfEnder]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
-}
-hologram1 {
-  input: [["oc:circuitChip2", paneGlass, "oc:circuitChip2"]
-          ["oc:materialCircuitBoardPrinted", gemDiamond, "oc:materialCircuitBoardPrinted"]
-          [obsidian, yellowDust, obsidian]]
-}
-hologram2 {
-  input: [["oc:circuitChip3", blockGlass, "oc:circuitChip3"]
-          ["oc:materialCircuitBoardPrinted", blockDiamond, "oc:materialCircuitBoardPrinted"]
-          [obsidian, blazePowder, obsidian]]
 }
 keyboard {
   input: [["oc:materialButtonGroup", "oc:materialButtonGroup", "oc:materialButtonGroup"]
@@ -371,25 +352,25 @@ powerDistributor {
           ["oc:cable", "oc:circuitChip1", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
-rack {
+serverRack {
   input: [["oc:circuitChip3", "oc:wlanCard", "oc:circuitChip3"]
           [fenceIron, chest, fenceIron]
-          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   input: [[ingotIron, "oc:circuitChip3", ingotIron]
           [blockRedstone, "oc:redstoneCard1", blockRedstone]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
-relay {
+switch {
   input: [[ingotIron, "oc:cable", ingotIron]
           ["oc:cable", "oc:lanCard", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 screen1 {
-  input: [[ingotIron, ingotIron, blockGlass]
-          [redstone, "oc:materialTransistor", blockGlass]
-          [ingotIron, ingotIron, blockGlass]]
+  input: [[ingotIron, ingotIron, glass]
+          [redstone, "oc:materialTransistor", glass]
+          [ingotIron, ingotIron, glass]]
 }
 screen2 {
   input: [[ingotGold, dyeRed, ingotGold]

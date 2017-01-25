@@ -10,10 +10,7 @@
 # - gt_chemical     : Chemical Recipe
 # - gt_cnc          : CNC-Machine Recipe
 # - gt_cutter       : Cutter Recipe
-# - gt_fluidCanner  : Fluid Canner Recipe
-# - gt_formingPress : Forming Press Recipe
 # - gt_lathe        : Lathe Machine Recipe
-# - gt_laserEngraver: Laser Engraver Recipe
 # - gt_wiremill     : Wiremill Recipe
 #
 # For these types, there a few more options for inputs and outputs. A full
@@ -126,7 +123,7 @@ lanCard {
 }
 wlanCard {
   input: [[screwTitanium , "oc:circuitChip3" , screwTitanium]
-          [materialEnderPearl, "oc:lanCard", materialEnderPearl]
+          [enderPearl, "oc:lanCard", enderPearl]
           [screwTitanium , craftingToolScrewdriver, screwTitanium]]
 }
 
@@ -162,6 +159,10 @@ solarGeneratorUpgrade {
 cuttingWire {
   input: [[stickWood, ingotTin, stickWood]
           ["", craftingToolWireCutter, ""]]
+}
+acid {
+  type: shapeless
+  output: 0
 }
 disk {
   input: [["", plateAluminium, ""]
@@ -285,12 +286,12 @@ case1 {
 }
 case2 {
   input: [[screwStainlessSteel , "oc:materialCircuitBoardPrinted", craftingToolWrench]
-          [{item="ic2.reactorVentGold", subID=1}, "oc:case1", {item="ic2.reactorVentGold", subID=1}]
+          ["ic2.reactorVentGold", "oc:case1", "ic2.reactorVentGold"]
           [screwStainlessSteel, "oc:circuitChip2", craftingToolScrewdriver]]
 }
 case3 {
   input: [[screwTitanium , "oc:materialCircuitBoardPrinted", craftingToolWrench]
-          [{item="ic2.reactorVentDiamond", subID=1}, "oc:case2", {item="ic2.reactorVentDiamond", subID=1}]
+          ["ic2.reactorVentDiamond", "oc:case2", "ic2.reactorVentDiamond"]
           [screwTitanium, "oc:circuitChip3", craftingToolScrewdriver]]
 }
 diskDrive {
@@ -311,10 +312,10 @@ powerDistributor {
           [{item="ic2.blockElectric", subID=7}, {block="gt.blockcasings", subID=2}, circuitMaster]
           ["oc:materialCircuitBoardPrinted", plateAluminium, craftingToolWrench]]
 }
-rack {
+serverRack {
   input: [[craftingToolScrewdriver, "oc:wlanCard", craftingToolWrench]
-          [{item="ic2.reactorVentDiamond", subID=1}, chest, {item="ic2.reactorVentDiamond", subID=1}]
-          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["ic2.reactorVentDiamond", chest, "ic2.reactorVentDiamond"]
+          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   # 32731 = Activity Detector
@@ -322,14 +323,14 @@ redstone {
           [{item="gt.metaitem.01", subID=32731}, {block="gt.blockcasings", subID=2}, "oc:redstoneCard1"]
           ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]]
 }
-relay {
+switch {
   input: [["", "oc:lanCard", ""]
           ["oc:cable", {block="gt.blockcasings", subID=2}, "oc:cable"]
           ["oc:materialCircuitBoardPrinted", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]
 }
 screen1 {
   input: [[plateAluminium, plateAluminium, craftingToolWrench]
-          [redstone, "oc:materialTransistor", paneGlass]
+          [redstone, "oc:materialTransistor", thinGlass]
           [plateAluminium, plateAluminium, craftingToolScrewdriver]]
 }
 screen2 {
