@@ -142,6 +142,7 @@ RecurrentComplex-0.9.7.1.1.jar
 RedstoneArsenal-[1.7.10]1.1.2-92.jar
 Redstonic-v1.4.11.jar
 RefinedRelocation-mc1.7.10-1.1.28.jar
+Reika
 ResourcefulCrops-1.7.10-1.0.0-26.jar
 ResourceLoader-MC1.7.10-1.3.jar
 rftools-4.23.jar
